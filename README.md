@@ -9,7 +9,7 @@ This work has been inspired by [RestKit](https://github.com/RestKit/RestKit), bu
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking) to perform all network operations.
 * [HTMLDocument](https://github.com/stklieme/HTMLDocument) to extract data using XPath.
 
-Those two projects really deserve attention on their own, make sure to visit their page and understand their APIs, as ObjectiveScrap will mostly provide a unified facade to their APIs.
+Those two projects really deserve attention on their own, make sure to visit their page and understand their APIs, as WebHere will mostly provide a unified facade to their APIs.
 
 ## Features
 
@@ -27,7 +27,7 @@ Those two projects really deserve attention on their own, make sure to visit the
 ## Installation
 
 * Preferred way is by using [CocoaPod](http://cocoapods.org/) (_Work In Progress_).
-* You should be able to add ObjectiveScrap to you source tree. If you are using git, consider using a `git submodule`
+* You should be able to add WebHere to you source tree. If you are using git, consider using a `git submodule`
 
 ## Dependencies
 

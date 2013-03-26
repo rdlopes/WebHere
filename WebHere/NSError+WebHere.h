@@ -1,4 +1,4 @@
-// NSError+ObjectiveScrap.h
+// NSError+WebHere.h
 //
 // Copyright (c) 2013 Rui D Lopes
 //

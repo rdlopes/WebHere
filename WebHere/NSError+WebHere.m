@@ -1,4 +1,4 @@
-// NSError+ObjectiveScrap.m
+// NSError+WebHere.m
 //
 // Copyright (c) 2013 Rui D Lopes
 //
@@ -24,7 +24,7 @@
 
 NSString *const WHErrorDomain = @"com.rdlopes.webhere";
 
-@implementation NSError (ObjectiveScrap)
+@implementation NSError (WebHere)
 
 + (instancetype)errorWithCode:(WHErrorCode)errorCode
 {
