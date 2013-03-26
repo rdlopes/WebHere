@@ -1,5 +1,5 @@
-// WebHere.h
-//
+// WHUnmatchedPerson.m
+// 
 // Copyright (c) 2013 Rui D Lopes
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -8,10 +8,10 @@
 // to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 // copies of the Software, and to permit persons to whom the Software is
 // furnished to do so, subject to the following conditions:
-//
+// 
 // The above copyright notice and this permission notice shall be included in
 // all copies or substantial portions of the Software.
-//
+// 
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 // FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -20,29 +20,17 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "WHClient.h"
+#import "WHUnmatchedPerson.h"
 
-#import "WHObject.h"
-#import "WHObjectFactory.h"
+@implementation WHUnmatchedPerson
 
-#import "WHRequest.h"
-#import "WHLink.h"
-#import "WHForm.h"
+- (BOOL)matches:(HTMLDocument *)webPage fromRequest:(WHRequest *)request
+{
+    return NO;
+}
 
-#import "NSObject+Runtime.h"
-#import "NSObject+GCD.h"
-#import "NSError+WebHere.h"
+- (void)buildWithHTMLPage:(HTMLDocument *)webPage fromRequest:(WHRequest *)request error:(NSError *__autoreleasing *)error
+{
+}
 
-#import "HTMLDocument.h"
-#import "HTMLDocument+WebHere.h"
-#import "HTMLNode.h"
-#import "HTMLNode+XPath.h"
-
-// For logging purpose
-#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#ifdef DEBUG
-#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#elif
-#define DLog(...)
-#endif
-
+@end

@@ -1,4 +1,4 @@
-// WebHere.h
+// WHPerson.m
 //
 // Copyright (c) 2013 Rui D Lopes
 //
@@ -20,29 +20,29 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "WHClient.h"
+#import "WHPerson.h"
 
-#import "WHObject.h"
-#import "WHObjectFactory.h"
+@implementation WHPerson
+@synthesize URL = _URL;
 
-#import "WHRequest.h"
-#import "WHLink.h"
-#import "WHForm.h"
+- (BOOL)matches:(HTMLDocument *)webPage fromRequest:(WHRequest *)request
+{
+    // should have an age
+    return [webPage.body nodeWithAttribute:@"id" valueMatches:@"age"].integerValue;
+}
 
-#import "NSObject+Runtime.h"
-#import "NSObject+GCD.h"
-#import "NSError+WebHere.h"
+- (void)buildWithHTMLPage:(HTMLDocument *)webPage fromRequest:(WHRequest *)request error:(NSError *__autoreleasing *)error
+{
+    self.fullName = webPage.title;
+    self.age = [webPage.body nodeWithAttribute:@"id" valueMatches:@"age"].integerValue;
+    self.city = [webPage.body nodeWithAttribute:@"id" valueMatches:@"city"].stringValue;
+    self.country = [webPage.body nodeWithAttribute:@"id" valueMatches:@"country"].stringValue;
+}
 
-#import "HTMLDocument.h"
-#import "HTMLDocument+WebHere.h"
-#import "HTMLNode.h"
-#import "HTMLNode+XPath.h"
+- (NSString *)description
+{
+    return [NSString stringWithFormat:@"[%@ - %@ | %ld y/o | %@ - %@ | from %@]",
+            [super description], self.fullName, (unsigned long)self.age, self.city, self.country, self.URL];
+}
 
-// For logging purpose
-#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#ifdef DEBUG
-#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#elif
-#define DLog(...)
-#endif
-
+@end

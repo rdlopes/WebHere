@@ -1,4 +1,4 @@
-// WebHere.h
+// WHHTMLRequestOperation.h
 //
 // Copyright (c) 2013 Rui D Lopes
 //
@@ -20,29 +20,16 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "WHClient.h"
-
-#import "WHObject.h"
-#import "WHObjectFactory.h"
-
-#import "WHRequest.h"
-#import "WHLink.h"
-#import "WHForm.h"
-
-#import "NSObject+Runtime.h"
-#import "NSObject+GCD.h"
-#import "NSError+WebHere.h"
-
+#import <AFNetworking/AFNetworking.h>
 #import "HTMLDocument.h"
-#import "HTMLDocument+WebHere.h"
-#import "HTMLNode.h"
-#import "HTMLNode+XPath.h"
+#import "WHRequest.h"
 
-// For logging purpose
-#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#ifdef DEBUG
-#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#elif
-#define DLog(...)
-#endif
+@interface WHHTMLRequestOperation : AFHTTPRequestOperation
 
+@property(readonly, nonatomic, strong) HTMLDocument *responseHTMLPage;
+
++ (instancetype)HTMLRequestOperationWithRequest:(NSURLRequest *)urlRequest
+                                        success:(void (^)(NSURLRequest *request, NSHTTPURLResponse *response, HTMLDocument *page))success
+                                        failure:(void (^)(NSURLRequest *request, NSHTTPURLResponse *response, NSError *error, HTMLDocument *page))failure;
+
+@end

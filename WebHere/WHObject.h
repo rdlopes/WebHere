@@ -1,4 +1,4 @@
-// WebHere.h
+// WHObject.h
 //
 // Copyright (c) 2013 Rui D Lopes
 //
@@ -20,29 +20,19 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "WHClient.h"
+#import <Foundation/Foundation.h>
 
-#import "WHObject.h"
-#import "WHObjectFactory.h"
+@class WHRequest;
+@class HTMLDocument;
 
-#import "WHRequest.h"
-#import "WHLink.h"
-#import "WHForm.h"
+@protocol WHObject <NSObject>
 
-#import "NSObject+Runtime.h"
-#import "NSObject+GCD.h"
-#import "NSError+WebHere.h"
+@property (nonatomic,strong) NSURL *URL;
 
-#import "HTMLDocument.h"
-#import "HTMLDocument+WebHere.h"
-#import "HTMLNode.h"
-#import "HTMLNode+XPath.h"
+@optional
+- (BOOL)matches:(HTMLDocument *)webPage fromRequest:(WHRequest *)request;
 
-// For logging purpose
-#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#ifdef DEBUG
-#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#elif
-#define DLog(...)
-#endif
+@required
+- (void)buildWithHTMLPage:(HTMLDocument *)webPage fromRequest:(WHRequest *)request error:(NSError **)error;
 
+@end

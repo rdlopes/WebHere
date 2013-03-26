@@ -1,0 +1,16 @@
+PODS:
+  - AFNetworking (1.1.0)
+  - Kiwi (2.0.5)
+  - Nocilla (0.3)
+
+DEPENDENCIES:
+  - AFNetworking
+  - Kiwi
+  - Nocilla
+
+SPEC CHECKSUMS:
+  AFNetworking: 761a418233d280c1e0580bcb76ff9cb4c3073d17
+  Kiwi: 89ade77eb49c889178cb2779e02514a7b9b9449e
+  Nocilla: 03b036f74f6d2893d311e8993ddbb42234602bc7
+
+COCOAPODS: 0.17.0.rc2

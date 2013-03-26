@@ -1,4 +1,4 @@
-// WebHere.h
+// WHLink.h
 //
 // Copyright (c) 2013 Rui D Lopes
 //
@@ -20,29 +20,20 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "WHClient.h"
-
-#import "WHObject.h"
-#import "WHObjectFactory.h"
-
+#import <Foundation/Foundation.h>
 #import "WHRequest.h"
-#import "WHLink.h"
-#import "WHForm.h"
 
-#import "NSObject+Runtime.h"
-#import "NSObject+GCD.h"
-#import "NSError+WebHere.h"
+@class HTMLDocument;
+@class HTMLNode;
 
-#import "HTMLDocument.h"
-#import "HTMLDocument+WebHere.h"
-#import "HTMLNode.h"
-#import "HTMLNode+XPath.h"
+@interface WHLink : WHRequest
 
-// For logging purpose
-#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#ifdef DEBUG
-#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#elif
-#define DLog(...)
-#endif
+@property(nonatomic, strong) NSString *label;
+@property(nonatomic, strong) NSString *imagePath;
 
++ (instancetype)linkWithPath:(NSString *)path target:(Class<WHObject>)target;
+
++ (instancetype)linkForXPath:(NSString *)xpath inHTMLPage:(HTMLDocument *)page withTarget:(Class<WHObject>)target;
++ (instancetype)linkForHTMLNode:(HTMLNode *)anchorNode withTarget:(Class<WHObject>)target;
+
+@end

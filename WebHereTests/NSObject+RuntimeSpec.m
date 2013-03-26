@@ -1,4 +1,4 @@
-// WebHere.h
+// NSObject+RuntimeSpec.m
 //
 // Copyright (c) 2013 Rui D Lopes
 //
@@ -20,29 +20,25 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "WHClient.h"
+#import "WebHereTests.h"
 
-#import "WHObject.h"
-#import "WHObjectFactory.h"
+SPEC_BEGIN(NSObject_RuntimeSpec)
 
-#import "WHRequest.h"
-#import "WHLink.h"
-#import "WHForm.h"
+#pragma mark - Runtime
+describe(@"Runtime", ^{
+    it(@"should extract properties names", ^{
+        [[[WHNSObject propertiesNames] should] containObjectsInArray:@[@"synthesizedProperty", @"publicProperty"]];
+        [[[WHNSObjectSubclassed propertiesNames] should] contain:@"subProperty"];
+    });
+    
+    it(@"should extract properties names from superclass", ^{
+        [[[WHNSObjectSubclassed allPropertiesNames] should] containObjectsInArray:@[@"synthesizedProperty", @"publicProperty", @"subProperty"]];
+    });
+    
+    it(@"should extract subclasses names", ^{
+        [[[WHNSObject subclassesNames] should] contain:NSStringFromClass([WHNSObjectSubclassed class])];
+    });
+});
 
-#import "NSObject+Runtime.h"
-#import "NSObject+GCD.h"
-#import "NSError+WebHere.h"
-
-#import "HTMLDocument.h"
-#import "HTMLDocument+WebHere.h"
-#import "HTMLNode.h"
-#import "HTMLNode+XPath.h"
-
-// For logging purpose
-#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#ifdef DEBUG
-#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#elif
-#define DLog(...)
-#endif
+SPEC_END
 

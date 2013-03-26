@@ -1,0 +1,45 @@
+# Cocoapods #
+Pods/
+
+# Mimic Server #
+mimic.pid
+
+# AppCode #
+.idea/
+
+# Compiled source #
+###################
+build/
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+
+# XCode user files #
+###################
+xcuserdata/
+DerivedData/
+*.xcuserstate
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+*.pbxuser
+
+# Logs and databases #
+######################
+*.log
+*.sql
+*.sqlite
+
+# OS generated files #
+######################
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db

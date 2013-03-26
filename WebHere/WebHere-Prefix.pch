@@ -2,6 +2,33 @@
 // Prefix header for all source files of the 'WebHere' target in the 'WebHere' project
 //
 
+// COMMON
 #ifdef __OBJC__
-    #import <Cocoa/Cocoa.h>
+
+    #import <Foundation/Foundation.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+
+    // For logging purpose
+    #define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+    #ifdef DEBUG
+    #define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
+    #elif
+    #define DLog(...)
+    #endif
+
+    // IOS
+    #if __IPHONE_OS_VERSION_MIN_REQUIRED
+
+        #import <UIKit/UIKit.h>
+        #import <MobileCoreServices/MobileCoreServices.h>
+
+        #define NSInteger NSUInteger
+
+    // OSX
+    #elif __MAC_OS_X_VERSION_MIN_REQUIRED
+
+        #import <Cocoa/Cocoa.h>
+        #import <CoreServices/CoreServices.h>
+
+    #endif
 #endif

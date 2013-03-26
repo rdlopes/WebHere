@@ -1,4 +1,4 @@
-// WebHere.h
+// WHNSObject.h
 //
 // Copyright (c) 2013 Rui D Lopes
 //
@@ -20,29 +20,20 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "WHClient.h"
+#import <Foundation/Foundation.h>
 
-#import "WHObject.h"
-#import "WHObjectFactory.h"
+@interface WHNSObject : NSObject {
+@private
+    NSArray *_privateVariable;
+}
 
-#import "WHRequest.h"
-#import "WHLink.h"
-#import "WHForm.h"
+@property(nonatomic, strong) NSString *synthesizedProperty;
+@property(nonatomic, strong) NSArray *publicProperty;
 
-#import "NSObject+Runtime.h"
-#import "NSObject+GCD.h"
-#import "NSError+WebHere.h"
+@end
 
-#import "HTMLDocument.h"
-#import "HTMLDocument+WebHere.h"
-#import "HTMLNode.h"
-#import "HTMLNode+XPath.h"
+@interface WHNSObjectSubclassed : WHNSObject
 
-// For logging purpose
-#define ALog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#ifdef DEBUG
-#define DLog(fmt, ...) NSLog((@"%s [Line %d] " fmt), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__);
-#elif
-#define DLog(...)
-#endif
+@property(nonatomic, strong) NSDictionary *subProperty;
 
+@end
