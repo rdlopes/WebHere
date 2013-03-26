@@ -178,6 +178,7 @@
 		593B20C717025D9000A6D090 /* WHHTMLRequestOperationSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHHTMLRequestOperationSpec.m; sourceTree = "<group>"; };
 		593B20C817025D9000A6D090 /* WHLinkSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLinkSpec.m; sourceTree = "<group>"; };
 		593B20C917025D9000A6D090 /* WHRequestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHRequestSpec.m; sourceTree = "<group>"; };
+		594E6E541702632B00C7BDB5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
 		59F0BAD21702563F005451C7 /* WebHere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebHere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F0BAD51702563F005451C7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		59F0BAD81702563F005451C7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -337,6 +338,7 @@
 		59F0BAC81702563F005451C7 = {
 			isa = PBXGroup;
 			children = (
+				594E6E541702632B00C7BDB5 /* README.md */,
 				59F0BADB1702563F005451C7 /* WebHere */,
 				59F0BAF11702563F005451C7 /* WebHereTests */,
 				59F0BAD41702563F005451C7 /* Frameworks */,

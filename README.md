@@ -34,7 +34,6 @@ Those two projects really deserve attention on their own, make sure to visit the
 Dependencies are automatically managed by Cocoapod. In case you have to add WebHere to your source tree and use it outside Cocoapod, you must add the following projects along with WebHere:
 
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking) for network operations
-* [OCLogTemplate](https://github.com/jasperblues/OCLogTemplate) for logging purpose
 
 ## Usage
 
