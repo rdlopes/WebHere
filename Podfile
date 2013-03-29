@@ -5,6 +5,7 @@ target :WebHereLibrary do
 	platform :ios, '5.0'
 
     pod 'AFNetworking'
+    pod 'OCLogTemplate'
 
 	target :WebHereLibraryTests, :exclusive => true do
 	
@@ -20,6 +21,7 @@ target :WebHereFramework do
 	platform :osx, '10.7'
 
     pod 'AFNetworking'
+    pod 'OCLogTemplate'
 
 	target :WebHereFrameworkTests, :exclusive => true do
 	

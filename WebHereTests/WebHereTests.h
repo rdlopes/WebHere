@@ -8,6 +8,7 @@
 
 #import <Kiwi/Kiwi.h>
 #import <Nocilla/Nocilla.h>
+#import <OCLogTemplate/OCLogTemplate.h>
 #import <WebHere/WebHere.h>
 
 // Fixtures
