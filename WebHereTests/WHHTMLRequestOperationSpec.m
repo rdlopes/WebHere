@@ -1,4 +1,4 @@
-// OSHTMLRequestOperationSpec.m
+// WHHTMLRequestOperationSpec.m
 //
 // Copyright (c) 2013 Rui D Lopes
 //
@@ -22,7 +22,7 @@
 
 #import "WebHereTests.h"
 
-SPEC_BEGIN(OSHTMLRequestOperationSpec)
+SPEC_BEGIN(WHHTMLRequestOperationSpec)
 
 SPEC_END
 
