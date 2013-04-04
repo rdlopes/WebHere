@@ -1,4 +1,4 @@
-# WebHere [_Work In Progress_]
+# WebHere
 
 WebHere is an Objective-C framework for [web scraping](http://en.wikipedia.org/wiki/Web_scraping), packaged for iOS 5+ and OSX 10.7+ platforms.
 
