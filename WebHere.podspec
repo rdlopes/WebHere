@@ -25,8 +25,8 @@ Pod::Spec.new do |s|
                         '--no-keep-undocumented-members',
                       ]}  
 
-  s.dependency 'AFNetworking'
-  s.dependency 'OCLogTemplate'
+  s.dependency 'AFNetworking', '~> 1.1.0'
+  s.dependency 'OCLogTemplate', '~> 1.0'
 
   s.libraries = 'xml2'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
