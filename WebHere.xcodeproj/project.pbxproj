@@ -875,7 +875,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"${PODS_HEADERS_SEARCH_PATHS}",
+					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "WebHere/WebHere-Info.plist";
@@ -903,7 +903,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"${PODS_HEADERS_SEARCH_PATHS}",
+					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "WebHere/WebHere-Info.plist";
@@ -928,7 +928,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"${PODS_HEADERS_SEARCH_PATHS}",
+					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "WebHereTests/WebHereTests-Info.plist";
@@ -951,7 +951,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"${PODS_HEADERS_SEARCH_PATHS}",
+					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "WebHereTests/WebHereTests-Info.plist";
@@ -974,7 +974,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"${PODS_HEADERS_SEARCH_PATHS}",
+					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				PRODUCT_NAME = WebHere;
@@ -991,7 +991,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"${PODS_HEADERS_SEARCH_PATHS}",
+					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				PRODUCT_NAME = WebHere;
@@ -1008,7 +1008,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"${PODS_HEADERS_SEARCH_PATHS}",
+					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "WebHereTests/WebHereTests-Info.plist";
@@ -1031,7 +1031,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				HEADER_SEARCH_PATHS = (
-					"${PODS_HEADERS_SEARCH_PATHS}",
+					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "WebHereTests/WebHereTests-Info.plist";
