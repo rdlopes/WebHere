@@ -81,6 +81,10 @@
 		593B20D317025D9000A6D090 /* WHLinkSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 593B20C817025D9000A6D090 /* WHLinkSpec.m */; };
 		593B20D417025D9000A6D090 /* WHRequestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 593B20C917025D9000A6D090 /* WHRequestSpec.m */; };
 		593B20D517025D9000A6D090 /* WHRequestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 593B20C917025D9000A6D090 /* WHRequestSpec.m */; };
+		596C67B517AED9C500382820 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596C67B317AED9A400382820 /* CoreGraphics.framework */; };
+		596C67B717AED9D000382820 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596C67B617AED9D000382820 /* Security.framework */; };
+		596C67B817AED9E400382820 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596C67B117AED96300382820 /* Security.framework */; };
+		596C67BA17AEDB1500382820 /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 596C67B117AED96300382820 /* Security.framework */; };
 		59F0BAD61702563F005451C7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F0BAD51702563F005451C7 /* Cocoa.framework */; };
 		59F0BAE01702563F005451C7 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59F0BADE1702563F005451C7 /* InfoPlist.strings */; };
 		59F0BAED1702563F005451C7 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F0BAD51702563F005451C7 /* Cocoa.framework */; };
@@ -182,6 +186,9 @@
 		593B20C817025D9000A6D090 /* WHLinkSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLinkSpec.m; sourceTree = "<group>"; };
 		593B20C917025D9000A6D090 /* WHRequestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHRequestSpec.m; sourceTree = "<group>"; };
 		594E6E541702632B00C7BDB5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		596C67B117AED96300382820 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		596C67B317AED9A400382820 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		596C67B617AED9D000382820 /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS6.1.sdk/System/Library/Frameworks/Security.framework; sourceTree = DEVELOPER_DIR; };
 		59F0BAD21702563F005451C7 /* WebHere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebHere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		59F0BAD51702563F005451C7 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		59F0BAD81702563F005451C7 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -213,6 +220,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596C67BA17AEDB1500382820 /* Security.framework in Frameworks */,
 				59F0BAD61702563F005451C7 /* Cocoa.framework in Frameworks */,
 				2142ED17AD0A4E108197BDE7 /* libPods-WebHereFramework.a in Frameworks */,
 			);
@@ -222,6 +230,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596C67B817AED9E400382820 /* Security.framework in Frameworks */,
 				593B20B917025AB900A6D090 /* CoreServices.framework in Frameworks */,
 				593B20BA17025AB900A6D090 /* SystemConfiguration.framework in Frameworks */,
 				593B20B417025A3C00A6D090 /* CFNetwork.framework in Frameworks */,
@@ -245,6 +254,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596C67B717AED9D000382820 /* Security.framework in Frameworks */,
+				596C67B517AED9C500382820 /* CoreGraphics.framework in Frameworks */,
 				593B20BD17025ACB00A6D090 /* MobileCoreServices.framework in Frameworks */,
 				593B20BE17025ACB00A6D090 /* SystemConfiguration.framework in Frameworks */,
 				593B20B617025A4200A6D090 /* CFNetwork.framework in Frameworks */,
@@ -365,6 +376,9 @@
 		59F0BAD41702563F005451C7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				596C67B617AED9D000382820 /* Security.framework */,
+				596C67B317AED9A400382820 /* CoreGraphics.framework */,
+				596C67B117AED96300382820 /* Security.framework */,
 				593B20BB17025ACB00A6D090 /* MobileCoreServices.framework */,
 				593B20BC17025ACB00A6D090 /* SystemConfiguration.framework */,
 				593B20B717025AB900A6D090 /* CoreServices.framework */,
