@@ -133,6 +133,7 @@
 /* Begin PBXFileReference section */
 		20408D19E08F4A9CB6AE77D9 /* libPods-WebHereFramework.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebHereFramework.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2142A6D03C35491FB02DB83C /* Pods-WebHereLibrary.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHereLibrary.xcconfig"; path = "Pods/Pods-WebHereLibrary.xcconfig"; sourceTree = SOURCE_ROOT; };
+		28D1F3D5A673C4F82C2F6767 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; path = .travis.yml; sourceTree = "<group>"; };
 		5904F36C17054C75009174F3 /* WebHere.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = WebHere.podspec; sourceTree = SOURCE_ROOT; };
 		593B20571702593E00A6D090 /* HTMLDocument.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HTMLDocument.h; sourceTree = "<group>"; };
 		593B20581702593E00A6D090 /* HTMLDocument.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HTMLDocument.m; sourceTree = "<group>"; };
@@ -359,6 +360,7 @@
 				59F0BAF11702563F005451C7 /* WebHereTests */,
 				59F0BAD41702563F005451C7 /* Frameworks */,
 				59F0BAD31702563F005451C7 /* Products */,
+				28D1F3D5A673C4F82C2F6767 /* .travis.yml */,
 			);
 			sourceTree = "<group>";
 		};
