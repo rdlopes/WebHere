@@ -9,7 +9,7 @@ target :WebHereLibrary do
 
 	target :WebHereLibraryTests, :exclusive => true do
 	
-		pod 'Kiwi', '~> 2.0.5'
+		pod 'Kiwi'
 		pod 'Nocilla', '~> 0.3'
 		
 	end
@@ -25,7 +25,7 @@ target :WebHereFramework do
 
 	target :WebHereFrameworkTests, :exclusive => true do
 	
-		pod 'Kiwi', '~> 2.0.5'
+		pod 'Kiwi'
 		pod 'Nocilla', '~> 0.3'
 	end
 	

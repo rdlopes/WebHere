@@ -1,19 +1,19 @@
 PODS:
   - AFNetworking (1.1.0)
-  - Kiwi (2.0.5)
-  - Nocilla (0.3)
+  - Kiwi (2.2)
+  - Nocilla (0.6)
   - OCLogTemplate (1.0)
 
 DEPENDENCIES:
-  - AFNetworking
+  - AFNetworking (~> 1.1.0)
   - Kiwi
-  - Nocilla
-  - OCLogTemplate
+  - Nocilla (~> 0.3)
+  - OCLogTemplate (~> 1.0)
 
 SPEC CHECKSUMS:
   AFNetworking: 761a418233d280c1e0580bcb76ff9cb4c3073d17
-  Kiwi: 89ade77eb49c889178cb2779e02514a7b9b9449e
-  Nocilla: 03b036f74f6d2893d311e8993ddbb42234602bc7
+  Kiwi: db174bba4ee8068b15d7122f1b22fb64b7c1d378
+  Nocilla: 8eb1de5a53f8567ca529d144880525448c6e713c
   OCLogTemplate: d448f0a0c7e34e715e0400fc04c6bd871b8c17f4
 
 COCOAPODS: 0.22.3
