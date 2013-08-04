@@ -135,15 +135,15 @@ describe(@"Requests", ^{
                               }];
         [[expectFutureValue(person) shouldEventually] beNil];
     });
-    
+
     it(@"retries on error", ^{
         stubRequest(@"GET", @"http://localhost/person")
-        .andReturn(404)
-        .withBody(nil);
-        
+                .andReturn(404)
+                .withBody(nil);
+
         WHLink *personLink = [WHLink linkWithPath:@"/person" target:[WHPerson class]];
         __block WHPerson *person = [WHPerson new];
-        
+
         [[WHClient sharedClient] send:personLink
                               success:^(WHRequest *request, id <WHObject> object) {
                                   person = (WHPerson *) object;
@@ -151,8 +151,9 @@ describe(@"Requests", ^{
                               failure:^(WHRequest *request, NSError *error) {
                                   person = nil;
                               }];
-        
+
         [[expectFutureValue(person) shouldEventually] beNil];
+        [[expectFutureValue(@(personLink.retryCount)) shouldEventually] equal:@(kWHClientDefaultNumberOfRetries)];
     });
     
 });

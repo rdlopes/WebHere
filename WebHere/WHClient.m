@@ -109,8 +109,6 @@ static WHClient *sharedClient = nil;
     NSMutableURLRequest *URLRequest = [self.httpClient requestWithMethod:request.HTTPMethod path:request.path parameters:queryParameters];
     [URLRequest setTimeoutInterval:self.timeoutInterval];
     
-    request.retryCount ++;
-    
     WHHTMLRequestOperation *operation =
     [WHHTMLRequestOperation
      HTMLRequestOperationWithRequest:URLRequest
@@ -157,6 +155,7 @@ static WHClient *sharedClient = nil;
          
          if (request.retryCount < self.numberOfRetries) {
              // Resend
+             request.retryCount ++;
              LogDebug(@"HTTP request tried %ld times < %ld trials -> Retry sending %@",
                       (unsigned long) request.retryCount, (unsigned long) self.numberOfRetries, request);
              [self send:request success:success failure:failure];
