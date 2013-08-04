@@ -64,11 +64,13 @@
     [self.alternativeTargetClasses enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
         description = [description stringByAppendingFormat:@"/%@", NSStringFromClass((Class<WHObject>)obj)];
     }];
-    description = [description stringByAppendingString:@" ("];
-    [[self.queryParameters allKeys] enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-        description = [description stringByAppendingFormat:@"%@=%@", obj, (self.queryParameters)[obj]];
-    }];
-    description = [description stringByAppendingString:@")]"];
+    if (self.queryParameters.count > 0) {
+        description = [description stringByAppendingString:@" ("];
+        [[self.queryParameters allKeys] enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+            description = [description stringByAppendingFormat:@"%@=%@", obj, (self.queryParameters)[obj]];
+        }];
+        description = [description stringByAppendingString:@")]"];
+    }
     return description;
 }
 

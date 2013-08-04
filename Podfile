@@ -5,12 +5,12 @@ target :WebHereLibrary do
 	platform :ios, '5.0'
 
     pod 'AFNetworking', '~> 1.1.0'
-    pod 'OCLogTemplate', '~> 1.0'
+    pod 'OCLogTemplate'
 
 	target :WebHereLibraryTests, :exclusive => true do
 	
 		pod 'Kiwi'
-		pod 'Nocilla', '~> 0.3'
+		pod 'Nocilla'
 		
 	end
 	
@@ -21,12 +21,12 @@ target :WebHereFramework do
 	platform :osx, '10.7'
 
     pod 'AFNetworking', '~> 1.1.0'
-    pod 'OCLogTemplate', '~> 1.0'
+    pod 'OCLogTemplate'
 
 	target :WebHereFrameworkTests, :exclusive => true do
 	
 		pod 'Kiwi'
-		pod 'Nocilla', '~> 0.3'
+		pod 'Nocilla'
 	end
 	
 end

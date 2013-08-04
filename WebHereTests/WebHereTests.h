@@ -6,6 +6,19 @@
 //  Copyright (c) 2013 Rui D Lopes. All rights reserved.
 //
 
+#ifndef LOGGING_LEVEL_TRACE
+#	define LOGGING_LEVEL_TRACE		0
+#endif
+#ifndef LOGGING_LEVEL_INFO
+#	define LOGGING_LEVEL_INFO		1
+#endif
+#ifndef LOGGING_LEVEL_ERROR
+#	define LOGGING_LEVEL_ERROR		1
+#endif
+#ifndef LOGGING_LEVEL_DEBUG
+#	define LOGGING_LEVEL_DEBUG		0
+#endif
+
 #import <SenTestingKit/SenTestingKit.h>
 #import <Kiwi/Kiwi.h>
 #import <Nocilla/Nocilla.h>
@@ -20,8 +33,3 @@
 #import "WHNSObject.h"
 #import "WHLoginForm.h"
 
-#	define LOGGING_ENABLED        1
-#	define LOGGING_LEVEL_TRACE        0
-#	define LOGGING_LEVEL_INFO        1
-#	define LOGGING_LEVEL_ERROR        1
-#	define LOGGING_LEVEL_DEBUG        1

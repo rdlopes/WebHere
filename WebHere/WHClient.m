@@ -35,20 +35,12 @@ NSInteger const kWHClientDefaultNumberOfRetries = 1;
 @interface WHClient ()
 
 @property(nonatomic, strong) AFHTTPClient *httpClient;
-@property(nonatomic, strong) NSMutableDictionary *retryCountPerRequest;
 
 - (id <WHObject>)mapHTMLPage:(HTMLDocument *)page
                        atURL:(NSURL *)URL
                  fromRequest:(WHRequest *)request
             usingTargetClass:(Class<WHObject>)targetClass
                        error:(NSError **)error;
-
-- (NSInteger)retryCountForRequest:(WHRequest *)request;
-
-- (void)resetRetryCountForRequest:(WHRequest *)request;
-
-- (void)incrementRetryCountForRequest:(WHRequest *)request;
-
 @end
 
 @implementation WHClient
@@ -76,7 +68,6 @@ static WHClient *sharedClient = nil;
     if (self) {
         _httpClient = [AFHTTPClient clientWithBaseURL:baseURL];
         [_httpClient registerHTTPOperationClass:[WHHTMLRequestOperation class]];
-        _retryCountPerRequest = [@{} mutableCopy];
         _numberOfRetries = kWHClientDefaultNumberOfRetries;
         _timeoutInterval = kWHClientDefaultTimeoutInterval;
         LogInfo(@"Initialized:%@", self);
@@ -118,14 +109,14 @@ static WHClient *sharedClient = nil;
     NSMutableURLRequest *URLRequest = [self.httpClient requestWithMethod:request.HTTPMethod path:request.path parameters:queryParameters];
     [URLRequest setTimeoutInterval:self.timeoutInterval];
     
-    [self incrementRetryCountForRequest:request];
+    request.retryCount ++;
     
     WHHTMLRequestOperation *operation =
     [WHHTMLRequestOperation
      HTMLRequestOperationWithRequest:URLRequest
      success:^(NSURLRequest *HTTPRequest, NSHTTPURLResponse *HTTPResponse, HTMLDocument *page) {
          LogDebug(@"HTTP Client did receive response from request:%@", request);
-         [self resetRetryCountForRequest:request];
+         request.retryCount = 0;
          LogDebug(@"Retry count reset for request:%@", request);
          
          [self performAsynchronous:^{
@@ -164,16 +155,15 @@ static WHClient *sharedClient = nil;
      }
      failure:^(NSURLRequest *HTTPRequest, NSHTTPURLResponse *HTTPResponse, NSError *error, HTMLDocument *page) {
          
-         NSInteger retryCount = [self retryCountForRequest:request];
-         if (retryCount < self.numberOfRetries) {
+         if (request.retryCount < self.numberOfRetries) {
              // Resend
              LogDebug(@"HTTP request tried %ld times < %ld trials -> Retry sending %@",
-                      (unsigned long) retryCount, (unsigned long) self.numberOfRetries, request);
+                      (unsigned long) request.retryCount, (unsigned long) self.numberOfRetries, request);
              [self send:request success:success failure:failure];
          } else {
              // Report the error
              LogDebug(@"HTTP request sent %ld times (limit = %ld) -> Failing on HTTP request %@ from initial request %@",
-                      (unsigned long) retryCount, (unsigned long) self.numberOfRetries, HTTPRequest, request);
+                      (unsigned long) request.retryCount, (unsigned long) self.numberOfRetries, HTTPRequest, request);
              failure(request, error);
          }
      }];
@@ -214,22 +204,6 @@ static WHClient *sharedClient = nil;
         }
     }
     return object;
-}
-
-- (NSInteger)retryCountForRequest:(WHRequest *)request {
-    return [self.retryCountPerRequest[@([request hash])] integerValue];
-}
-
-- (void)resetRetryCountForRequest:(WHRequest *)request {
-    [self.retryCountPerRequest removeObjectForKey:@([request hash])];
-}
-
-- (void)incrementRetryCountForRequest:(WHRequest *)request {
-    if (!self.retryCountPerRequest[@([request hash])]) {
-        self.retryCountPerRequest[@([request hash])] = @0;
-    } else {
-        self.retryCountPerRequest[@([request hash])] = @([self retryCountForRequest:request] + 1);
-    }
 }
 
 @end

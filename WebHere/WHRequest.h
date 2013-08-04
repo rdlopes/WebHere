@@ -39,6 +39,7 @@
 @property(nonatomic, assign) NSStringEncoding encoding;
 
 @property(nonatomic, readonly) NSMutableDictionary *userInfo;
+@property(nonatomic, assign) NSInteger retryCount;
 
 + (instancetype)requestWithPath:(NSString *)path target:(Class<WHObject>)target;
 - (instancetype)initWithPath:(NSString *)path target:(Class<WHObject>)target;

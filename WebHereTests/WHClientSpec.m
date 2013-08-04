@@ -24,9 +24,8 @@
 
 SPEC_BEGIN(WHClientSpec)
 
-__block WHClient *client;
-
 NSURL *baseURL = [NSURL URLWithString:@"http://localhost"];
+__block WHClient *client = [WHClient clientWithBaseURL:baseURL];
 
 NSString *personHTML = @"<html>\n"
 "<head>\n"
@@ -51,15 +50,6 @@ NSString *adminHTML = @"<html>\n"
 #pragma mark - Initialization
 describe(@"Initialization", ^{
 
-    beforeEach(^{
-        client = [WHClient clientWithBaseURL:baseURL];
-    });
-    
-    afterEach(^{
-        client = nil;
-        [WHClient setSharedClient:nil];
-    });
-    
     context(@"succeeds", ^{
         
         it(@"with one client", ^{
@@ -94,9 +84,6 @@ describe(@"Initialization", ^{
 #pragma mark - Requests
 describe(@"Requests", ^{
     
-    beforeEach(^{
-        client = [WHClient clientWithBaseURL:baseURL];
-    });
     beforeAll(^{
         [[LSNocilla sharedInstance] start];
     });
@@ -105,8 +92,6 @@ describe(@"Requests", ^{
     });
     afterEach(^{
         [[LSNocilla sharedInstance] clearStubs];
-        client = nil;
-        [WHClient setSharedClient:nil];
     });
     
     it(@"can map alternative targets", ^{
@@ -153,21 +138,20 @@ describe(@"Requests", ^{
     
     it(@"retries on error", ^{
         stubRequest(@"GET", @"http://localhost/person")
-        .andReturn(404);
+        .andReturn(404)
+        .withBody(nil);
         
         WHLink *personLink = [WHLink linkWithPath:@"/person" target:[WHPerson class]];
-        __block WHPerson *person = [[WHPerson alloc] init];
+        __block WHPerson *person = [WHPerson new];
         
-        [[[WHClient sharedClient] should] receive:@selector(send:success:failure:)
-                                        withCount:2];
         [[WHClient sharedClient] send:personLink
                               success:^(WHRequest *request, id <WHObject> object) {
                                   person = (WHPerson *) object;
                               }
                               failure:^(WHRequest *request, NSError *error) {
                                   person = nil;
-                                  LogError(@"Error sending request %@:%@",request,error);
                               }];
+        
         [[expectFutureValue(person) shouldEventually] beNil];
     });
     
@@ -176,9 +160,6 @@ describe(@"Requests", ^{
 #pragma mark - GET Requests
 describe(@"GET Requests", ^{
     
-    beforeEach(^{
-        client = [WHClient clientWithBaseURL:baseURL];
-    });
     beforeAll(^{
         [[LSNocilla sharedInstance] start];
     });
@@ -187,8 +168,6 @@ describe(@"GET Requests", ^{
     });
     afterEach(^{
         [[LSNocilla sharedInstance] clearStubs];
-        client = nil;
-        [WHClient setSharedClient:nil];
     });
     
     it(@"with naked link", ^{
@@ -241,9 +220,6 @@ describe(@"GET Requests", ^{
 #pragma mark - POST Requests
 describe(@"POST Requests", ^{
     
-    beforeEach(^{
-        client = [WHClient clientWithBaseURL:baseURL];
-    });
     beforeAll(^{
         [[LSNocilla sharedInstance] start];
     });
@@ -252,8 +228,6 @@ describe(@"POST Requests", ^{
     });
     afterEach(^{
         [[LSNocilla sharedInstance] clearStubs];
-        client = nil;
-        [WHClient setSharedClient:nil];
     });
     
     it(@"with explicit query parameters", ^{

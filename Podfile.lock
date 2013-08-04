@@ -7,7 +7,7 @@ PODS:
 DEPENDENCIES:
   - AFNetworking (~> 1.1.0)
   - Kiwi
-  - Nocilla (~> 0.3)
+  - Nocilla
   - OCLogTemplate (~> 1.0)
 
 SPEC CHECKSUMS:

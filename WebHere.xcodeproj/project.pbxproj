@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		13563C2769B4421ABACEB384 /* libPods-WebHereFrameworkTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DAABE896580C43609AC21C89 /* libPods-WebHereFrameworkTests.a */; };
 		2142ED17AD0A4E108197BDE7 /* libPods-WebHereFramework.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 20408D19E08F4A9CB6AE77D9 /* libPods-WebHereFramework.a */; };
+		28D1F32FA675B2B9218B8736 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F0BAEB1702563F005451C7 /* SenTestingKit.framework */; };
+		28D1FBE3CCE5C5DDB08B921A /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59F0BAEB1702563F005451C7 /* SenTestingKit.framework */; };
 		593B20721702593E00A6D090 /* HTMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = 593B20571702593E00A6D090 /* HTMLDocument.h */; };
 		593B20731702593E00A6D090 /* HTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 593B20581702593E00A6D090 /* HTMLDocument.m */; };
 		593B20741702593E00A6D090 /* HTMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 593B20581702593E00A6D090 /* HTMLDocument.m */; };
@@ -226,6 +228,7 @@
 				59F0BAED1702563F005451C7 /* Cocoa.framework in Frameworks */,
 				59F0BAF01702563F005451C7 /* WebHere.framework in Frameworks */,
 				13563C2769B4421ABACEB384 /* libPods-WebHereFrameworkTests.a in Frameworks */,
+				28D1FBE3CCE5C5DDB08B921A /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -249,6 +252,7 @@
 				59F0BB1917025717005451C7 /* Foundation.framework in Frameworks */,
 				59F0BB1C17025717005451C7 /* libWebHere.a in Frameworks */,
 				BE176E71891B446989C1EC7A /* libPods-WebHereLibraryTests.a in Frameworks */,
+				28D1F32FA675B2B9218B8736 /* SenTestingKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -830,8 +834,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
 			};
@@ -858,8 +862,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
-				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
 				SDKROOT = macosx;
 			};
 			name = Release;
@@ -970,6 +974,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2142A6D03C35491FB02DB83C /* Pods-WebHereLibrary.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/WebHere.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
@@ -987,6 +992,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 2142A6D03C35491FB02DB83C /* Pods-WebHereLibrary.xcconfig */;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				DSTROOT = /tmp/WebHere.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
