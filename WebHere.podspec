@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
                       ]}  
 
   s.dependency 'AFNetworking', '~> 1.1.0'
-  s.dependency 'OCLogTemplate', '~> 1.0'
+  s.dependency 'CocoaLumberjack'
 
   s.libraries = 'xml2'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }

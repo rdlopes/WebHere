@@ -9,6 +9,8 @@
     #import <SystemConfiguration/SystemConfiguration.h>
     #import <Security/Security.h>
 
+    #define _AFNETWORKING_PIN_SSL_CERTIFICATES_
+
     // IOS
     #if __IPHONE_OS_VERSION_MIN_REQUIRED
 
@@ -25,3 +27,12 @@
 
     #endif
 #endif
+
+// Log levels
+#import <CocoaLumberjack/DDLog.h>
+#ifdef DEBUG
+    static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+#else
+    static const int ddLogLevel = LOG_LEVEL_WARN;
+#endif
+
