@@ -20,7 +20,8 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <OCLogTemplate/OCLogTemplate.h>
+#import <CocoaLumberjack/DDTTYLogger.h>
+#import <CocoaLumberjack/DDASLLogger.h>
 #import "WHClient.h"
 #import "WHHTMLRequestOperation.h"
 #import "NSObject+GCD.h"
@@ -47,6 +48,11 @@ NSInteger const kWHClientDefaultNumberOfRetries = 1;
 
 static WHClient *sharedClient = nil;
 
++ (void) initialize {
+    [DDLog addLogger:[DDASLLogger sharedInstance]];
+    [DDLog addLogger:[DDTTYLogger sharedInstance]];
+}
+
 + (instancetype)sharedClient {
     return sharedClient;
 }
@@ -54,7 +60,7 @@ static WHClient *sharedClient = nil;
 + (void)setSharedClient:(WHClient *)client {
     if (client != sharedClient) {
         sharedClient = client;
-        LogDebug(@"Shared client:%@", sharedClient);
+        DDLogVerbose(@"Shared client:%@", sharedClient);
     }
 }
 
@@ -70,7 +76,7 @@ static WHClient *sharedClient = nil;
         [_httpClient registerHTTPOperationClass:[WHHTMLRequestOperation class]];
         _numberOfRetries = kWHClientDefaultNumberOfRetries;
         _timeoutInterval = kWHClientDefaultTimeoutInterval;
-        LogInfo(@"Initialized:%@", self);
+        DDLogInfo(@"Initialized:%@", self);
     }
     if (self && !sharedClient) {sharedClient = self;}
     return self;
@@ -88,18 +94,18 @@ static WHClient *sharedClient = nil;
 - (void)setAuthorizationUserName:(NSString *)username password:(NSString *)password {
     [self.httpClient clearAuthorizationHeader];
     [self.httpClient setAuthorizationHeaderWithUsername:username password:password];
-    LogDebug(@"Authorization credentials set for %@", username);
+    DDLogVerbose(@"Authorization credentials set for %@", username);
 }
 
 - (void)setAuthorizationToken:(NSString *)token {
     [self.httpClient clearAuthorizationHeader];
     [self.httpClient setAuthorizationHeaderWithToken:token];
-    LogDebug(@"Authorization token set");
+    DDLogVerbose(@"Authorization token set");
 }
 
 - (void)send:(WHRequest *)request success:(WHLoadSuccessfulBlock)success failure:(WHLoadFailureBlock)failure {
     NSParameterAssert(request);
-    LogInfo(@"Will send request:%@", request);
+    DDLogInfo(@"Will send request:%@", request);
     NSDictionary *queryParameters = request.queryParameters.count ? request.queryParameters : nil;
     
     // Make sure the encoding will correspond to the request encoding
@@ -113,9 +119,9 @@ static WHClient *sharedClient = nil;
     [WHHTMLRequestOperation
      HTMLRequestOperationWithRequest:URLRequest
      success:^(NSURLRequest *HTTPRequest, NSHTTPURLResponse *HTTPResponse, HTMLDocument *page) {
-         LogDebug(@"HTTP Client did receive response from request:%@", request);
+         DDLogVerbose(@"HTTP Client did receive response from request:%@", request);
          request.retryCount = 0;
-         LogDebug(@"Retry count reset for request:%@", request);
+         DDLogVerbose(@"Retry count reset for request:%@", request);
          
          [self performAsynchronous:^{
              
@@ -126,9 +132,9 @@ static WHClient *sharedClient = nil;
              BOOL stopMapping = NO;
              id <WHObject> object = nil;
              
-             LogDebug(@"Will try mapping HTML page %@ / from request %@ / using target class %@ / or alternative classes %@", page, request, targetClass, alternativeTargetClasses);
+             DDLogVerbose(@"Will try mapping HTML page %@ / from request %@ / using target class %@ / or alternative classes %@", page, request, targetClass, alternativeTargetClasses);
              while (!stopMapping) {
-                 LogDebug(@"Will try mapping HTML page %@ / from request %@ / using target class %@", page, request, targetClass);
+                 DDLogVerbose(@"Will try mapping HTML page %@ / from request %@ / using target class %@", page, request, targetClass);
                  object = [self mapHTMLPage:page atURL:HTTPResponse.URL fromRequest:request usingTargetClass:targetClass error:&error];
                  stopMapping = !error || !alternativeTargetClasses.count;
                  
@@ -140,13 +146,13 @@ static WHClient *sharedClient = nil;
              }
              
              if (error) {
-                 LogError(@"Failed mapping HTML page %@ / from request %@ / error:%@", page, request, error);
+                 DDLogError(@"Failed mapping HTML page %@ / from request %@ / error:%@", page, request, error);
                  failure(request,error);
-                 LogDebug(@"Called failure block %@ / request %@ / error %@", failure, request, error);
+                 DDLogVerbose(@"Called failure block %@ / request %@ / error %@", failure, request, error);
              } else {
-                 LogDebug(@"Successfully mapped HTML page %@ / from request %@ / object:%@", page, request, object);
+                 DDLogVerbose(@"Successfully mapped HTML page %@ / from request %@ / object:%@", page, request, object);
                  success(request,object);
-                 LogDebug(@"Called success block %@ / request %@ / object %@", success, request, object);
+                 DDLogVerbose(@"Called success block %@ / request %@ / object %@", success, request, object);
              }
              
          }];
@@ -156,18 +162,18 @@ static WHClient *sharedClient = nil;
          if (request.retryCount < self.numberOfRetries) {
              // Resend
              request.retryCount ++;
-             LogDebug(@"HTTP request tried %ld times < %ld trials -> Retry sending %@",
+             DDLogVerbose(@"HTTP request tried %ld times < %ld trials -> Retry sending %@",
                       (unsigned long) request.retryCount, (unsigned long) self.numberOfRetries, request);
              [self send:request success:success failure:failure];
          } else {
              // Report the error
-             LogDebug(@"HTTP request sent %ld times (limit = %ld) -> Failing on HTTP request %@ from initial request %@",
+             DDLogVerbose(@"HTTP request sent %ld times (limit = %ld) -> Failing on HTTP request %@ from initial request %@",
                       (unsigned long) request.retryCount, (unsigned long) self.numberOfRetries, HTTPRequest, request);
              failure(request, error);
          }
      }];
     
-    LogDebug(@"Request %@ will be sent using operation:%@", request, operation);
+    DDLogVerbose(@"Request %@ will be sent using operation:%@", request, operation);
     [self.httpClient enqueueHTTPRequestOperation:operation];
 }
 
@@ -181,9 +187,9 @@ static WHClient *sharedClient = nil;
     // Create an object stub from factory
     id <WHObject> object = [WHObjectFactory createObjectWithClass:targetClass error:error];
     if (*error) {
-        LogError(@"Failed to create object with class %@ / error:%@", targetClass, *error);
+        DDLogError(@"Failed to create object with class %@ / error:%@", targetClass, *error);
     } else {
-        LogDebug(@"Created object %@ -> Building object", object);
+        DDLogVerbose(@"Created object %@ -> Building object", object);
         
         // Set the URL
         object.URL = URL;
@@ -197,9 +203,9 @@ static WHClient *sharedClient = nil;
         }
         
         if (*error) {
-            LogError(@"Failed to build object %@ from HTML page %@ / error:%@", object, page, *error);
+            DDLogError(@"Failed to build object %@ from HTML page %@ / error:%@", object, page, *error);
         } else {
-            LogDebug(@"Built object %@ from HTML page %@ received from request %@ -> Calling success block", object, page, request);
+            DDLogVerbose(@"Built object %@ from HTML page %@ received from request %@ -> Calling success block", object, page, request);
         }
     }
     return object;

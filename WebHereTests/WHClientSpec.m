@@ -111,7 +111,7 @@ describe(@"Requests", ^{
                                   [[theValue(admin.rights) should] equal:theValue(WHAdminRightsWriteOnly)];
                               }
                               failure:^(WHRequest *request, NSError *error) {
-                                  LogError(@"Error sending request %@:%@",request,error);
+                                  DDLogError(@"Error sending request %@:%@",request,error);
                               }];
         [[expectFutureValue(admin) shouldEventually] beNonNil];
     });
@@ -131,7 +131,7 @@ describe(@"Requests", ^{
                               }
                               failure:^(WHRequest *request, NSError *error) {
                                   person = nil;
-                                  LogError(@"Error sending request %@:%@",request,error);
+                                  DDLogError(@"Error sending request %@:%@",request,error);
                               }];
         [[expectFutureValue(person) shouldEventually] beNil];
     });
@@ -188,7 +188,7 @@ describe(@"GET Requests", ^{
                                   [[person.country should] equal:@"France"];
                               }
                               failure:^(WHRequest *request, NSError *error) {
-                                  LogError(@"Error sending request %@:%@",request,error);
+                                  DDLogError(@"Error sending request %@:%@",request,error);
                               }];
         [[expectFutureValue(person) shouldEventually] beNonNil];
     });
@@ -211,7 +211,7 @@ describe(@"GET Requests", ^{
                                   [[person.country should] equal:@"France"];
                               }
                               failure:^(WHRequest *request, NSError *error) {
-                                  LogError(@"Error sending request %@:%@",request,error);
+                                  DDLogError(@"Error sending request %@:%@",request,error);
                               }];
         [[expectFutureValue(person) shouldEventually] beNonNil];
     });
@@ -250,7 +250,7 @@ describe(@"POST Requests", ^{
                                   [[person.country should] equal:@"France"];
                               }
                               failure:^(WHRequest *request, NSError *error) {
-                                  LogError(@"Error sending request %@:%@",request,error);
+                                  DDLogError(@"Error sending request %@:%@",request,error);
                               }];
         [[expectFutureValue(person) shouldEventually] beNonNil];
     });
@@ -274,7 +274,7 @@ describe(@"POST Requests", ^{
                                   [[person.country should] equal:@"France"];
                               }
                               failure:^(WHRequest *request, NSError *error) {
-                                  LogError(@"Error sending request %@:%@",request,error);
+                                  DDLogError(@"Error sending request %@:%@",request,error);
                               }];
         [[expectFutureValue(person) shouldEventually] beNonNil];
     });

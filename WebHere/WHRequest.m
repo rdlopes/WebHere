@@ -20,7 +20,6 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <OCLogTemplate/OCLogTemplate.h>
 #import "WHRequest.h"
 
 @interface WHRequest ()
@@ -52,7 +51,7 @@
         _queryParameters = [@{} mutableCopy];
         _encoding = NSUTF8StringEncoding;
         _userInfo = [@{} mutableCopy];
-        LogInfo(@"Initialized:%@", self);
+        DDLogInfo(@"Initialized:%@", self);
     }
     return self;
 }
