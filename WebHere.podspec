@@ -30,5 +30,41 @@ Pod::Spec.new do |s|
 
   s.libraries = 'xml2'
   s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
-  
+
+  s.prefix_header_contents = <<-EOS
+// COMMON
+#ifdef __OBJC__
+
+    #import <Foundation/Foundation.h>
+    #import <SystemConfiguration/SystemConfiguration.h>
+    #import <Security/Security.h>
+
+    #define _AFNETWORKING_PIN_SSL_CERTIFICATES_
+
+    // IOS
+    #if __IPHONE_OS_VERSION_MIN_REQUIRED
+
+        #import <UIKit/UIKit.h>
+        #import <MobileCoreServices/MobileCoreServices.h>
+
+        #define NSInteger NSUInteger
+
+    // OSX
+    #elif __MAC_OS_X_VERSION_MIN_REQUIRED
+
+        #import <Cocoa/Cocoa.h>
+        #import <CoreServices/CoreServices.h>
+
+    #endif
+#endif
+
+// Log levels
+#import <CocoaLumberjack/DDLog.h>
+#ifdef DEBUG
+    static const int ddLogLevel = LOG_LEVEL_VERBOSE;
+#else
+    static const int ddLogLevel = LOG_LEVEL_WARN;
+#endif
+EOS
+
 end
