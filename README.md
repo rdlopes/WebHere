@@ -1,6 +1,5 @@
 # WebHere
 [![Build Status](https://travis-ci.org/rdlopes/WebHere.png?branch=master,development)](https://travis-ci.org/rdlopes/WebHere)
-[![codeq](https://codeq.io/github/rdlopes/WebHere/badges/master.png)](https://codeq.io/github/rdlopes/WebHere/branches/master)
 
 WebHere is an Objective-C framework for [web scraping](http://en.wikipedia.org/wiki/Web_scraping), packaged for iOS 5+ and OSX 10.7+ platforms.
 
