@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		073DBBB1772A471798F3839E /* libPods-iOSWebHereTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = EA0DF744B1B04687B53DE5E6 /* libPods-iOSWebHereTests.a */; };
+		2F59EB565A7D4FFEA98AB65B /* libPods-iOSWebHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C127D0BE3C1F41DBB9B8B284 /* libPods-iOSWebHere.a */; };
 		5987E2D118790BCC00413C98 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5987E2D018790BCC00413C98 /* Foundation.framework */; };
 		5987E2D618790BCC00413C98 /* iOSWebHere.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 5987E2D518790BCC00413C98 /* iOSWebHere.h */; };
 		5987E2D818790BCD00413C98 /* iOSWebHere.m in Sources */ = {isa = PBXBuildFile; fileRef = 5987E2D718790BCC00413C98 /* iOSWebHere.m */; };
@@ -53,6 +55,10 @@
 		5987E2E818790BCD00413C98 /* iOSWebHereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSWebHereTests-Info.plist"; sourceTree = "<group>"; };
 		5987E2EA18790BCD00413C98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		5987E2EC18790BCD00413C98 /* iOSWebHereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSWebHereTests.m; sourceTree = "<group>"; };
+		8768C999A9F34F86B4551035 /* Pods-iOSWebHere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWebHere.xcconfig"; path = "../Pods/Pods-iOSWebHere.xcconfig"; sourceTree = "<group>"; };
+		C127D0BE3C1F41DBB9B8B284 /* libPods-iOSWebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSWebHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA0DF744B1B04687B53DE5E6 /* libPods-iOSWebHereTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSWebHereTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F443DBAA29AD49EDA9B96D5A /* Pods-iOSWebHereTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWebHereTests.xcconfig"; path = "../Pods/Pods-iOSWebHereTests.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +67,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				5987E2D118790BCC00413C98 /* Foundation.framework in Frameworks */,
+				2F59EB565A7D4FFEA98AB65B /* libPods-iOSWebHere.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +79,7 @@
 				5987E2E218790BCD00413C98 /* UIKit.framework in Frameworks */,
 				5987E2E518790BCD00413C98 /* libiOSWebHere.a in Frameworks */,
 				5987E2E018790BCD00413C98 /* Foundation.framework in Frameworks */,
+				073DBBB1772A471798F3839E /* libPods-iOSWebHereTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +93,8 @@
 				5987E2E618790BCD00413C98 /* iOSWebHereTests */,
 				5987E2CF18790BCC00413C98 /* Frameworks */,
 				5987E2CE18790BCC00413C98 /* Products */,
+				8768C999A9F34F86B4551035 /* Pods-iOSWebHere.xcconfig */,
+				F443DBAA29AD49EDA9B96D5A /* Pods-iOSWebHereTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +113,8 @@
 				5987E2D018790BCC00413C98 /* Foundation.framework */,
 				5987E2DE18790BCD00413C98 /* XCTest.framework */,
 				5987E2E118790BCD00413C98 /* UIKit.framework */,
+				C127D0BE3C1F41DBB9B8B284 /* libPods-iOSWebHere.a */,
+				EA0DF744B1B04687B53DE5E6 /* libPods-iOSWebHereTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -150,9 +162,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5987E2F018790BCD00413C98 /* Build configuration list for PBXNativeTarget "iOSWebHere" */;
 			buildPhases = (
+				33D3D95FCCDA4864A6A3CFCD /* Check Pods Manifest.lock */,
 				5987E2C918790BCC00413C98 /* Sources */,
 				5987E2CA18790BCC00413C98 /* Frameworks */,
 				5987E2CB18790BCC00413C98 /* CopyFiles */,
+				81A67AFE7B4648B89AA99ACB /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -167,9 +181,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 5987E2F318790BCD00413C98 /* Build configuration list for PBXNativeTarget "iOSWebHereTests" */;
 			buildPhases = (
+				F8D53CD152744A77BEDC401C /* Check Pods Manifest.lock */,
 				5987E2D918790BCD00413C98 /* Sources */,
 				5987E2DA18790BCD00413C98 /* Frameworks */,
 				5987E2DB18790BCD00413C98 /* Resources */,
+				FF364C7D298047D18F19AA11 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -218,6 +234,69 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		33D3D95FCCDA4864A6A3CFCD /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		81A67AFE7B4648B89AA99ACB /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-iOSWebHere-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F8D53CD152744A77BEDC401C /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		FF364C7D298047D18F19AA11 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-iOSWebHereTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		5987E2C918790BCC00413C98 /* Sources */ = {
@@ -330,6 +409,7 @@
 		};
 		5987E2F118790BCD00413C98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8768C999A9F34F86B4551035 /* Pods-iOSWebHere.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/iOSWebHere.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -342,6 +422,7 @@
 		};
 		5987E2F218790BCD00413C98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8768C999A9F34F86B4551035 /* Pods-iOSWebHere.xcconfig */;
 			buildSettings = {
 				DSTROOT = /tmp/iOSWebHere.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
@@ -354,6 +435,7 @@
 		};
 		5987E2F418790BCD00413C98 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F443DBAA29AD49EDA9B96D5A /* Pods-iOSWebHereTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -368,6 +450,14 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "iOSWebHereTests/iOSWebHereTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CFNetwork,
+					"-framework",
+					SenTestingKit,
+					"-lxml2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -375,6 +465,7 @@
 		};
 		5987E2F518790BCD00413C98 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F443DBAA29AD49EDA9B96D5A /* Pods-iOSWebHereTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -385,6 +476,14 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSWebHere/iOSWebHere-Prefix.pch";
 				INFOPLIST_FILE = "iOSWebHereTests/iOSWebHereTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CFNetwork,
+					"-framework",
+					SenTestingKit,
+					"-lxml2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = xctest;
 			};
@@ -409,6 +508,7 @@
 				5987E2F218790BCD00413C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5987E2F318790BCD00413C98 /* Build configuration list for PBXNativeTarget "iOSWebHereTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +517,7 @@
 				5987E2F518790BCD00413C98 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

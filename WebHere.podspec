@@ -24,16 +24,17 @@ Pod::Spec.new do |s|
   s.osx.exclude_files = 'Classes/ios'
   s.public_header_files = 'Classes/**/*.h'
   
-  subspec "HTMLDocument" do |hs|
+  s.subspec "HTMLDocument" do |hs|
   	hs.author = { "Stefan Klieme" => "stefan@klieme.com" }
   	hs.source = { :git => "https://github.com/stklieme/HTMLDocument", :branch => "head" }
   	hs.source_files = '*.{h,m}'
   end
   
   s.dependency 'AFNetworking', '~> 2.0'
-  s.dependency 'CocoaLumberjack'
+  s.dependency 'GDataXML-HTML', '~> 1.1'
+  s.dependency 'CocoaLumberjack', '~> 1.7'
   
-  s.libraries = 'xml2'
-  s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
+  # s.libraries = 'xml2'
+  # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 
 end
