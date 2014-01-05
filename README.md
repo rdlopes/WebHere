@@ -1,14 +1,16 @@
 # WebHere
 [![Build Status](https://travis-ci.org/rdlopes/WebHere.png?branch=master,development)](https://travis-ci.org/rdlopes/WebHere)
+[![Version](http://cocoapod-badges.herokuapp.com/v/WebHere/badge.png)](http://cocoadocs.org/docsets/WebHere)
+[![Platform](http://cocoapod-badges.herokuapp.com/p/WebHere/badge.png)](http://cocoadocs.org/docsets/WebHere)
 
-WebHere is an Objective-C framework for [web scraping](http://en.wikipedia.org/wiki/Web_scraping), packaged for iOS 5+ and OSX 10.7+ platforms.
+WebHere is an Objective-C framework for [web scraping](http://en.wikipedia.org/wiki/Web_scraping), packaged for iOS 7+ and OSX 10.8+ platforms.
 
 Briefly put, web scraping is parsing of a website and extraction of data from the HTML pages contained in it.
 
 This work has been inspired by [RestKit](https://github.com/RestKit/RestKit), but aimed at HTML data and working in a simpler form (no mapping upfront, model classes declare their own building strategy); it is mostly relying on:
 
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking) to perform all network operations.
-* [HTMLDocument](https://github.com/stklieme/HTMLDocument) to extract data using XPath.
+* [HTMLDocument](https://github.com/stklieme/HTMLDocument) to process HTML documents using XPath.
 
 Those two projects really deserve attention on their own, make sure to visit their page and understand their APIs, as WebHere will mostly provide a unified facade to their APIs.
 
@@ -27,8 +29,10 @@ Those two projects really deserve attention on their own, make sure to visit the
 
 ## Installation
 
-* Preferred way is by using [CocoaPod](http://cocoapods.org/) (_Work In Progress_).
-* You should be able to add WebHere to you source tree. If you are using git, consider using a `git submodule`
+WebHere is available through [CocoaPods](http://cocoapods.org), to install
+it simply add the following line to your Podfile:
+
+    pod "WebHere"
 
 ## Dependencies
 
@@ -39,7 +43,7 @@ Dependencies are automatically managed by Cocoapod. In case you have to add WebH
 
 ## Usage
 
-TBD - Having a look at the test cases provided should give you an overview of the API.
+To run the example project; clone the repo, and run `pod install` from the Project directory first.
 
 ## Testing
 
@@ -58,3 +62,12 @@ Please notice that all tests are performed locally, meaning that no actual netwo
 3. Commit your changes
 4. Push to the branch
 5. Create new Pull Request
+
+## Author
+
+Rui Lopes, rui.d.lopes@me.com
+
+## License
+
+WebHere is available under the MIT license. See the LICENSE file for more info.
+

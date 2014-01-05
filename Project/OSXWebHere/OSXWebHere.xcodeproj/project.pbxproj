@@ -1,0 +1,463 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5987E33F18790C3A00413C98 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5987E33E18790C3A00413C98 /* Cocoa.framework */; };
+		5987E34918790C3A00413C98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5987E34718790C3A00413C98 /* InfoPlist.strings */; };
+		5987E34D18790C3A00413C98 /* OSXWebHere.m in Sources */ = {isa = PBXBuildFile; fileRef = 5987E34C18790C3A00413C98 /* OSXWebHere.m */; };
+		5987E35418790C3A00413C98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5987E35318790C3A00413C98 /* XCTest.framework */; };
+		5987E35518790C3A00413C98 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5987E33E18790C3A00413C98 /* Cocoa.framework */; };
+		5987E35818790C3A00413C98 /* OSXWebHere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5987E33B18790C3A00413C98 /* OSXWebHere.framework */; };
+		5987E35E18790C3A00413C98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5987E35C18790C3A00413C98 /* InfoPlist.strings */; };
+		5987E36018790C3A00413C98 /* OSXWebHereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5987E35F18790C3A00413C98 /* OSXWebHereTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5987E35618790C3A00413C98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5987E33218790C3A00413C98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5987E33A18790C3A00413C98;
+			remoteInfo = OSXWebHere;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5987E33B18790C3A00413C98 /* OSXWebHere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OSXWebHere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5987E33E18790C3A00413C98 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5987E34118790C3A00413C98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5987E34218790C3A00413C98 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5987E34318790C3A00413C98 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5987E34618790C3A00413C98 /* OSXWebHere-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXWebHere-Info.plist"; sourceTree = "<group>"; };
+		5987E34818790C3A00413C98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5987E34A18790C3A00413C98 /* OSXWebHere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXWebHere-Prefix.pch"; sourceTree = "<group>"; };
+		5987E34B18790C3A00413C98 /* OSXWebHere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSXWebHere.h; sourceTree = "<group>"; };
+		5987E34C18790C3A00413C98 /* OSXWebHere.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXWebHere.m; sourceTree = "<group>"; };
+		5987E35218790C3A00413C98 /* OSXWebHereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSXWebHereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5987E35318790C3A00413C98 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5987E35B18790C3A00413C98 /* OSXWebHereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXWebHereTests-Info.plist"; sourceTree = "<group>"; };
+		5987E35D18790C3A00413C98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5987E35F18790C3A00413C98 /* OSXWebHereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXWebHereTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5987E33718790C3A00413C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5987E33F18790C3A00413C98 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5987E34F18790C3A00413C98 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5987E35818790C3A00413C98 /* OSXWebHere.framework in Frameworks */,
+				5987E35518790C3A00413C98 /* Cocoa.framework in Frameworks */,
+				5987E35418790C3A00413C98 /* XCTest.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5987E33118790C3A00413C98 = {
+			isa = PBXGroup;
+			children = (
+				5987E34418790C3A00413C98 /* OSXWebHere */,
+				5987E35918790C3A00413C98 /* OSXWebHereTests */,
+				5987E33D18790C3A00413C98 /* Frameworks */,
+				5987E33C18790C3A00413C98 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5987E33C18790C3A00413C98 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5987E33B18790C3A00413C98 /* OSXWebHere.framework */,
+				5987E35218790C3A00413C98 /* OSXWebHereTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5987E33D18790C3A00413C98 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5987E33E18790C3A00413C98 /* Cocoa.framework */,
+				5987E35318790C3A00413C98 /* XCTest.framework */,
+				5987E34018790C3A00413C98 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5987E34018790C3A00413C98 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5987E34118790C3A00413C98 /* Foundation.framework */,
+				5987E34218790C3A00413C98 /* CoreData.framework */,
+				5987E34318790C3A00413C98 /* AppKit.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		5987E34418790C3A00413C98 /* OSXWebHere */ = {
+			isa = PBXGroup;
+			children = (
+				5987E34B18790C3A00413C98 /* OSXWebHere.h */,
+				5987E34C18790C3A00413C98 /* OSXWebHere.m */,
+				5987E34518790C3A00413C98 /* Supporting Files */,
+			);
+			path = OSXWebHere;
+			sourceTree = "<group>";
+		};
+		5987E34518790C3A00413C98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5987E34618790C3A00413C98 /* OSXWebHere-Info.plist */,
+				5987E34718790C3A00413C98 /* InfoPlist.strings */,
+				5987E34A18790C3A00413C98 /* OSXWebHere-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5987E35918790C3A00413C98 /* OSXWebHereTests */ = {
+			isa = PBXGroup;
+			children = (
+				5987E35F18790C3A00413C98 /* OSXWebHereTests.m */,
+				5987E35A18790C3A00413C98 /* Supporting Files */,
+			);
+			path = OSXWebHereTests;
+			sourceTree = "<group>";
+		};
+		5987E35A18790C3A00413C98 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5987E35B18790C3A00413C98 /* OSXWebHereTests-Info.plist */,
+				5987E35C18790C3A00413C98 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		5987E33818790C3A00413C98 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		5987E33A18790C3A00413C98 /* OSXWebHere */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5987E36318790C3A00413C98 /* Build configuration list for PBXNativeTarget "OSXWebHere" */;
+			buildPhases = (
+				5987E33618790C3A00413C98 /* Sources */,
+				5987E33718790C3A00413C98 /* Frameworks */,
+				5987E33818790C3A00413C98 /* Headers */,
+				5987E33918790C3A00413C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OSXWebHere;
+			productName = OSXWebHere;
+			productReference = 5987E33B18790C3A00413C98 /* OSXWebHere.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		5987E35118790C3A00413C98 /* OSXWebHereTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5987E36618790C3A00413C98 /* Build configuration list for PBXNativeTarget "OSXWebHereTests" */;
+			buildPhases = (
+				5987E34E18790C3A00413C98 /* Sources */,
+				5987E34F18790C3A00413C98 /* Frameworks */,
+				5987E35018790C3A00413C98 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5987E35718790C3A00413C98 /* PBXTargetDependency */,
+			);
+			name = OSXWebHereTests;
+			productName = OSXWebHereTests;
+			productReference = 5987E35218790C3A00413C98 /* OSXWebHereTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5987E33218790C3A00413C98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Rui Lopes";
+				TargetAttributes = {
+					5987E35118790C3A00413C98 = {
+						TestTargetID = 5987E33A18790C3A00413C98;
+					};
+				};
+			};
+			buildConfigurationList = 5987E33518790C3A00413C98 /* Build configuration list for PBXProject "OSXWebHere" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5987E33118790C3A00413C98;
+			productRefGroup = 5987E33C18790C3A00413C98 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5987E33A18790C3A00413C98 /* OSXWebHere */,
+				5987E35118790C3A00413C98 /* OSXWebHereTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5987E33918790C3A00413C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5987E34918790C3A00413C98 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5987E35018790C3A00413C98 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5987E35E18790C3A00413C98 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5987E33618790C3A00413C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5987E34D18790C3A00413C98 /* OSXWebHere.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5987E34E18790C3A00413C98 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5987E36018790C3A00413C98 /* OSXWebHereTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5987E35718790C3A00413C98 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5987E33A18790C3A00413C98 /* OSXWebHere */;
+			targetProxy = 5987E35618790C3A00413C98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5987E34718790C3A00413C98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5987E34818790C3A00413C98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5987E35C18790C3A00413C98 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5987E35D18790C3A00413C98 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5987E36118790C3A00413C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		5987E36218790C3A00413C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.9;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		5987E36418790C3A00413C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXWebHere/OSXWebHere-Prefix.pch";
+				INFOPLIST_FILE = "OSXWebHere/OSXWebHere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Debug;
+		};
+		5987E36518790C3A00413C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXWebHere/OSXWebHere-Prefix.pch";
+				INFOPLIST_FILE = "OSXWebHere/OSXWebHere-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = framework;
+			};
+			name = Release;
+		};
+		5987E36718790C3A00413C98 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSXWebHere.framework/Versions/A/OSXWebHere";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXWebHere/OSXWebHere-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "OSXWebHereTests/OSXWebHereTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		5987E36818790C3A00413C98 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSXWebHere.framework/Versions/A/OSXWebHere";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "OSXWebHere/OSXWebHere-Prefix.pch";
+				INFOPLIST_FILE = "OSXWebHereTests/OSXWebHereTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5987E33518790C3A00413C98 /* Build configuration list for PBXProject "OSXWebHere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5987E36118790C3A00413C98 /* Debug */,
+				5987E36218790C3A00413C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5987E36318790C3A00413C98 /* Build configuration list for PBXNativeTarget "OSXWebHere" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5987E36418790C3A00413C98 /* Debug */,
+				5987E36518790C3A00413C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5987E36618790C3A00413C98 /* Build configuration list for PBXNativeTarget "OSXWebHereTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5987E36718790C3A00413C98 /* Debug */,
+				5987E36818790C3A00413C98 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5987E33218790C3A00413C98 /* Project object */;
+}

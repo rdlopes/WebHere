@@ -1,0 +1,49 @@
+workspace 'WebHere.xcworkspace'
+xcodeproj 'iOSWebHere/iOSWebHere.xcodeproj'
+
+target :iOSWebHere do
+	platform :ios, '7.0'
+
+	xcodeproj 'iOSWebHere/iOSWebHere.xcodeproj'
+
+    pod 'AFNetworking', '~> 2.0'
+    pod 'CocoaLumberjack'
+
+	target :iOSWebHereTests, :exclusive => true do
+	
+		pod 'Kiwi'
+		pod 'Nocilla'
+		
+	end
+
+	target :iOSWebHereExample, :exclusive => true do
+	
+		xcodeproj 'iOSWebHereExample/iOSWebHereExample.xcodeproj'
+		pod "WebHere", :path => "../WebHere.podspec"
+		
+	end
+
+end
+
+target :OSXWebHere do
+
+	xcodeproj 'OSXWebHere/OSXWebHere.xcodeproj'
+	platform :osx, '10.8'
+
+    pod 'AFNetworking', '~> 2.0'
+    pod 'CocoaLumberjack'
+
+	target :OSXWebHereTests, :exclusive => true do
+	
+		pod 'Kiwi'
+		pod 'Nocilla'
+	end
+	
+	target :OSXWebHereExample, :exclusive => true do
+	
+		xcodeproj 'OSXWebHereExample/OSXWebHereExample.xcodeproj'
+		pod "WebHere", :path => "../WebHere.podspec"
+		
+	end
+
+end
