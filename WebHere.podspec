@@ -11,7 +11,7 @@ Pod::Spec.new do |s|
   # s.screenshots  = "www.example.com/screenshots_1", "www.example.com/screenshots_2"
   s.license      = 'MIT'
   s.author       = { "Rui Lopes" => "rui.d.lopes@me.com" }
-  s.source       = { :git => "https://github.com/rdlopes/WebHere.git", :tag => s.version.to_s }
+  s.source       = { :git => "https://github.com/rdlopes/WebHere.git", :branch => "pre-0.2.0-platform-update" }
 
   s.ios.deployment_target = '7.0'
   s.osx.deployment_target = '10.8'
@@ -23,12 +23,6 @@ Pod::Spec.new do |s|
   s.ios.exclude_files = 'Classes/osx'
   s.osx.exclude_files = 'Classes/ios'
   s.public_header_files = 'Classes/**/*.h'
-  
-  s.subspec "HTMLDocument" do |hs|
-  	hs.author = { "Stefan Klieme" => "stefan@klieme.com" }
-  	hs.source = { :git => "https://github.com/stklieme/HTMLDocument", :branch => "head" }
-  	hs.source_files = '*.{h,m}'
-  end
   
   s.dependency 'AFNetworking', '~> 2.0'
   s.dependency 'GDataXML-HTML', '~> 1.1'

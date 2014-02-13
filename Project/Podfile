@@ -9,21 +9,14 @@ target :iOSWebHere do
     pod 'AFNetworking', '~> 2.0'
     pod 'GDataXML-HTML', '~> 1.1'
     pod 'CocoaLumberjack', '~> 1.7'
+	pod 'WebHere', :path => '../WebHere.podspec'
 
 	target :iOSWebHereTests, :exclusive => true do
 	
-		pod 'Kiwi', '~> 2.2'
+		pod 'Kiwi/XCTest', '~> 2.2'
 		pod 'Nocilla', '~> 0.7'
 		
 	end
-
-	target :iOSWebHereExample, :exclusive => true do
-	
-		xcodeproj 'iOSWebHereExample/iOSWebHereExample.xcodeproj'
-		pod 'WebHere', :path => '../WebHere.podspec'
-		
-	end
-
 end
 
 target :OSXWebHere do
@@ -34,19 +27,12 @@ target :OSXWebHere do
     pod 'AFNetworking', '~> 2.0'
     pod 'GDataXML-HTML', '~> 1.1'
     pod 'CocoaLumberjack', '~> 1.7'
+	pod 'WebHere', :path => '../WebHere.podspec'
 
 	target :OSXWebHereTests, :exclusive => true do
 	
-        pod 'Kiwi', '~> 2.2'
+        pod 'Kiwi/XCTest', '~> 2.2'
         pod 'Nocilla', '~> 0.7'
     
 	end
-	
-	target :OSXWebHereExample, :exclusive => true do
-	
-		xcodeproj 'OSXWebHereExample/OSXWebHereExample.xcodeproj'
-		pod 'WebHere', :path => '../WebHere.podspec'
-		
-	end
-
 end

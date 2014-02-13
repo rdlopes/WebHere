@@ -2,7 +2,7 @@
 //  iOSWebHereTests.m
 //  iOSWebHereTests
 //
-//  Created by Rui Lopes on 05/01/2014.
+//  Created by Rui Lopes on 13/02/2014.
 //  Copyright (c) 2014 Rui Lopes. All rights reserved.
 //
 
@@ -28,7 +28,7 @@
 
 - (void)testExample
 {
-    XCTFail(@"No implementation for \"%s\"", __PRETTY_FUNCTION__);
+    XCTAssert(1 + 1 == 2, @"Super easy");
 }
 
 @end
