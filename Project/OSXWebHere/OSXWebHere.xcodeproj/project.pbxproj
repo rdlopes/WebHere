@@ -7,178 +7,177 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5987E33F18790C3A00413C98 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5987E33E18790C3A00413C98 /* Cocoa.framework */; };
-		5987E34918790C3A00413C98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5987E34718790C3A00413C98 /* InfoPlist.strings */; };
-		5987E34D18790C3A00413C98 /* OSXWebHere.m in Sources */ = {isa = PBXBuildFile; fileRef = 5987E34C18790C3A00413C98 /* OSXWebHere.m */; };
-		5987E35418790C3A00413C98 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5987E35318790C3A00413C98 /* XCTest.framework */; };
-		5987E35518790C3A00413C98 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5987E33E18790C3A00413C98 /* Cocoa.framework */; };
-		5987E35818790C3A00413C98 /* OSXWebHere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5987E33B18790C3A00413C98 /* OSXWebHere.framework */; };
-		5987E35E18790C3A00413C98 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5987E35C18790C3A00413C98 /* InfoPlist.strings */; };
-		5987E36018790C3A00413C98 /* OSXWebHereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5987E35F18790C3A00413C98 /* OSXWebHereTests.m */; };
-		E0FA951DEF9046AAAF86348A /* libPods-OSXWebHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 79D1150DF1FD4D1781EDAC14 /* libPods-OSXWebHere.a */; };
-		E6BABED6054E47B7946181A9 /* libPods-OSXWebHereTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 87DA0F7725984F04BDF55A09 /* libPods-OSXWebHereTests.a */; };
+		5990555118AD75F200FC8D85 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5990555018AD75F200FC8D85 /* Cocoa.framework */; };
+		5990555B18AD75F200FC8D85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5990555918AD75F200FC8D85 /* InfoPlist.strings */; };
+		5990555D18AD75F200FC8D85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5990555C18AD75F200FC8D85 /* main.m */; };
+		5990556118AD75F200FC8D85 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5990555F18AD75F200FC8D85 /* Credits.rtf */; };
+		5990556418AD75F200FC8D85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5990556318AD75F200FC8D85 /* AppDelegate.m */; };
+		5990556718AD75F200FC8D85 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5990556518AD75F200FC8D85 /* MainMenu.xib */; };
+		5990556918AD75F200FC8D85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5990556818AD75F200FC8D85 /* Images.xcassets */; };
+		5990557018AD75F200FC8D85 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5990556F18AD75F200FC8D85 /* XCTest.framework */; };
+		5990557118AD75F200FC8D85 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5990555018AD75F200FC8D85 /* Cocoa.framework */; };
+		5990557918AD75F200FC8D85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5990557718AD75F200FC8D85 /* InfoPlist.strings */; };
+		5990557B18AD75F200FC8D85 /* OSXWebHereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5990557A18AD75F200FC8D85 /* OSXWebHereTests.m */; };
+		832863433C5A45E59474F167 /* libPods-OSXWebHereTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07267A0504C74896BEDA96B8 /* libPods-OSXWebHereTests.a */; };
+		D8C0CBAC8A1846F7AFC9D497 /* libPods-OSXWebHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3195073DE38B44E58CA8A969 /* libPods-OSXWebHere.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5987E35618790C3A00413C98 /* PBXContainerItemProxy */ = {
+		5990557218AD75F200FC8D85 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5987E33218790C3A00413C98 /* Project object */;
+			containerPortal = 5990554518AD75F200FC8D85 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5987E33A18790C3A00413C98;
+			remoteGlobalIDString = 5990554C18AD75F200FC8D85;
 			remoteInfo = OSXWebHere;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5987E33B18790C3A00413C98 /* OSXWebHere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OSXWebHere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5987E33E18790C3A00413C98 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		5987E34118790C3A00413C98 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5987E34218790C3A00413C98 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		5987E34318790C3A00413C98 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		5987E34618790C3A00413C98 /* OSXWebHere-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXWebHere-Info.plist"; sourceTree = "<group>"; };
-		5987E34818790C3A00413C98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5987E34A18790C3A00413C98 /* OSXWebHere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXWebHere-Prefix.pch"; sourceTree = "<group>"; };
-		5987E34B18790C3A00413C98 /* OSXWebHere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSXWebHere.h; sourceTree = "<group>"; };
-		5987E34C18790C3A00413C98 /* OSXWebHere.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXWebHere.m; sourceTree = "<group>"; };
-		5987E35218790C3A00413C98 /* OSXWebHereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSXWebHereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5987E35318790C3A00413C98 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5987E35B18790C3A00413C98 /* OSXWebHereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXWebHereTests-Info.plist"; sourceTree = "<group>"; };
-		5987E35D18790C3A00413C98 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5987E35F18790C3A00413C98 /* OSXWebHereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXWebHereTests.m; sourceTree = "<group>"; };
-		79D1150DF1FD4D1781EDAC14 /* libPods-OSXWebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSXWebHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		87DA0F7725984F04BDF55A09 /* libPods-OSXWebHereTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSXWebHereTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		8D7EABD2D62C4E33B3CAD2B3 /* Pods-OSXWebHere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXWebHere.xcconfig"; path = "../Pods/Pods-OSXWebHere.xcconfig"; sourceTree = "<group>"; };
-		CBA83C284F01454992EF52B2 /* Pods-OSXWebHereTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXWebHereTests.xcconfig"; path = "../Pods/Pods-OSXWebHereTests.xcconfig"; sourceTree = "<group>"; };
+		07267A0504C74896BEDA96B8 /* libPods-OSXWebHereTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSXWebHereTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3195073DE38B44E58CA8A969 /* libPods-OSXWebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSXWebHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5001D03092774D419ACC749D /* Pods-OSXWebHereTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXWebHereTests.xcconfig"; path = "../Pods/Pods-OSXWebHereTests.xcconfig"; sourceTree = "<group>"; };
+		5990554D18AD75F200FC8D85 /* OSXWebHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSXWebHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5990555018AD75F200FC8D85 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		5990555318AD75F200FC8D85 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		5990555418AD75F200FC8D85 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		5990555518AD75F200FC8D85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5990555818AD75F200FC8D85 /* OSXWebHere-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXWebHere-Info.plist"; sourceTree = "<group>"; };
+		5990555A18AD75F200FC8D85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5990555C18AD75F200FC8D85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5990555E18AD75F200FC8D85 /* OSXWebHere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXWebHere-Prefix.pch"; sourceTree = "<group>"; };
+		5990556018AD75F200FC8D85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		5990556218AD75F200FC8D85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		5990556318AD75F200FC8D85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		5990556618AD75F200FC8D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		5990556818AD75F200FC8D85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5990556E18AD75F200FC8D85 /* OSXWebHereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSXWebHereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5990556F18AD75F200FC8D85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5990557618AD75F200FC8D85 /* OSXWebHereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXWebHereTests-Info.plist"; sourceTree = "<group>"; };
+		5990557818AD75F200FC8D85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5990557A18AD75F200FC8D85 /* OSXWebHereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXWebHereTests.m; sourceTree = "<group>"; };
+		E82FEDE937914749846A3C3C /* Pods-OSXWebHere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXWebHere.xcconfig"; path = "../Pods/Pods-OSXWebHere.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5987E33718790C3A00413C98 /* Frameworks */ = {
+		5990554A18AD75F200FC8D85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5987E33F18790C3A00413C98 /* Cocoa.framework in Frameworks */,
-				E0FA951DEF9046AAAF86348A /* libPods-OSXWebHere.a in Frameworks */,
+				5990555118AD75F200FC8D85 /* Cocoa.framework in Frameworks */,
+				D8C0CBAC8A1846F7AFC9D497 /* libPods-OSXWebHere.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5987E34F18790C3A00413C98 /* Frameworks */ = {
+		5990556B18AD75F200FC8D85 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5987E35818790C3A00413C98 /* OSXWebHere.framework in Frameworks */,
-				5987E35518790C3A00413C98 /* Cocoa.framework in Frameworks */,
-				5987E35418790C3A00413C98 /* XCTest.framework in Frameworks */,
-				E6BABED6054E47B7946181A9 /* libPods-OSXWebHereTests.a in Frameworks */,
+				5990557118AD75F200FC8D85 /* Cocoa.framework in Frameworks */,
+				5990557018AD75F200FC8D85 /* XCTest.framework in Frameworks */,
+				832863433C5A45E59474F167 /* libPods-OSXWebHereTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5987E33118790C3A00413C98 = {
+		5990554418AD75F200FC8D85 = {
 			isa = PBXGroup;
 			children = (
-				5987E34418790C3A00413C98 /* OSXWebHere */,
-				5987E35918790C3A00413C98 /* OSXWebHereTests */,
-				5987E33D18790C3A00413C98 /* Frameworks */,
-				5987E33C18790C3A00413C98 /* Products */,
-				8D7EABD2D62C4E33B3CAD2B3 /* Pods-OSXWebHere.xcconfig */,
-				CBA83C284F01454992EF52B2 /* Pods-OSXWebHereTests.xcconfig */,
+				5990555618AD75F200FC8D85 /* OSXWebHere */,
+				5990557418AD75F200FC8D85 /* OSXWebHereTests */,
+				5990554F18AD75F200FC8D85 /* Frameworks */,
+				5990554E18AD75F200FC8D85 /* Products */,
+				E82FEDE937914749846A3C3C /* Pods-OSXWebHere.xcconfig */,
+				5001D03092774D419ACC749D /* Pods-OSXWebHereTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
-		5987E33C18790C3A00413C98 /* Products */ = {
+		5990554E18AD75F200FC8D85 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5987E33B18790C3A00413C98 /* OSXWebHere.framework */,
-				5987E35218790C3A00413C98 /* OSXWebHereTests.xctest */,
+				5990554D18AD75F200FC8D85 /* OSXWebHere.app */,
+				5990556E18AD75F200FC8D85 /* OSXWebHereTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5987E33D18790C3A00413C98 /* Frameworks */ = {
+		5990554F18AD75F200FC8D85 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5987E33E18790C3A00413C98 /* Cocoa.framework */,
-				5987E35318790C3A00413C98 /* XCTest.framework */,
-				5987E34018790C3A00413C98 /* Other Frameworks */,
-				79D1150DF1FD4D1781EDAC14 /* libPods-OSXWebHere.a */,
-				87DA0F7725984F04BDF55A09 /* libPods-OSXWebHereTests.a */,
+				5990555018AD75F200FC8D85 /* Cocoa.framework */,
+				5990556F18AD75F200FC8D85 /* XCTest.framework */,
+				5990555218AD75F200FC8D85 /* Other Frameworks */,
+				3195073DE38B44E58CA8A969 /* libPods-OSXWebHere.a */,
+				07267A0504C74896BEDA96B8 /* libPods-OSXWebHereTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5987E34018790C3A00413C98 /* Other Frameworks */ = {
+		5990555218AD75F200FC8D85 /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5987E34118790C3A00413C98 /* Foundation.framework */,
-				5987E34218790C3A00413C98 /* CoreData.framework */,
-				5987E34318790C3A00413C98 /* AppKit.framework */,
+				5990555318AD75F200FC8D85 /* AppKit.framework */,
+				5990555418AD75F200FC8D85 /* CoreData.framework */,
+				5990555518AD75F200FC8D85 /* Foundation.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		5987E34418790C3A00413C98 /* OSXWebHere */ = {
+		5990555618AD75F200FC8D85 /* OSXWebHere */ = {
 			isa = PBXGroup;
 			children = (
-				5987E34B18790C3A00413C98 /* OSXWebHere.h */,
-				5987E34C18790C3A00413C98 /* OSXWebHere.m */,
-				5987E34518790C3A00413C98 /* Supporting Files */,
+				5990556218AD75F200FC8D85 /* AppDelegate.h */,
+				5990556318AD75F200FC8D85 /* AppDelegate.m */,
+				5990556518AD75F200FC8D85 /* MainMenu.xib */,
+				5990556818AD75F200FC8D85 /* Images.xcassets */,
+				5990555718AD75F200FC8D85 /* Supporting Files */,
 			);
 			path = OSXWebHere;
 			sourceTree = "<group>";
 		};
-		5987E34518790C3A00413C98 /* Supporting Files */ = {
+		5990555718AD75F200FC8D85 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5987E34618790C3A00413C98 /* OSXWebHere-Info.plist */,
-				5987E34718790C3A00413C98 /* InfoPlist.strings */,
-				5987E34A18790C3A00413C98 /* OSXWebHere-Prefix.pch */,
+				5990555818AD75F200FC8D85 /* OSXWebHere-Info.plist */,
+				5990555918AD75F200FC8D85 /* InfoPlist.strings */,
+				5990555C18AD75F200FC8D85 /* main.m */,
+				5990555E18AD75F200FC8D85 /* OSXWebHere-Prefix.pch */,
+				5990555F18AD75F200FC8D85 /* Credits.rtf */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5987E35918790C3A00413C98 /* OSXWebHereTests */ = {
+		5990557418AD75F200FC8D85 /* OSXWebHereTests */ = {
 			isa = PBXGroup;
 			children = (
-				5987E35F18790C3A00413C98 /* OSXWebHereTests.m */,
-				5987E35A18790C3A00413C98 /* Supporting Files */,
+				5990557A18AD75F200FC8D85 /* OSXWebHereTests.m */,
+				5990557518AD75F200FC8D85 /* Supporting Files */,
 			);
 			path = OSXWebHereTests;
 			sourceTree = "<group>";
 		};
-		5987E35A18790C3A00413C98 /* Supporting Files */ = {
+		5990557518AD75F200FC8D85 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5987E35B18790C3A00413C98 /* OSXWebHereTests-Info.plist */,
-				5987E35C18790C3A00413C98 /* InfoPlist.strings */,
+				5990557618AD75F200FC8D85 /* OSXWebHereTests-Info.plist */,
+				5990557718AD75F200FC8D85 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		5987E33818790C3A00413C98 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		5987E33A18790C3A00413C98 /* OSXWebHere */ = {
+		5990554C18AD75F200FC8D85 /* OSXWebHere */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5987E36318790C3A00413C98 /* Build configuration list for PBXNativeTarget "OSXWebHere" */;
+			buildConfigurationList = 5990557E18AD75F200FC8D85 /* Build configuration list for PBXNativeTarget "OSXWebHere" */;
 			buildPhases = (
-				BA71FB72CAE740D6A0464DCC /* Check Pods Manifest.lock */,
-				5987E33618790C3A00413C98 /* Sources */,
-				5987E33718790C3A00413C98 /* Frameworks */,
-				5987E33818790C3A00413C98 /* Headers */,
-				5987E33918790C3A00413C98 /* Resources */,
-				C462A205152644B092F9A1DA /* Copy Pods Resources */,
+				409A70B4F2F14320B42F1425 /* Check Pods Manifest.lock */,
+				5990554918AD75F200FC8D85 /* Sources */,
+				5990554A18AD75F200FC8D85 /* Frameworks */,
+				5990554B18AD75F200FC8D85 /* Resources */,
+				FE943AA6F42D4E91A8378F51 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,84 +185,88 @@
 			);
 			name = OSXWebHere;
 			productName = OSXWebHere;
-			productReference = 5987E33B18790C3A00413C98 /* OSXWebHere.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 5990554D18AD75F200FC8D85 /* OSXWebHere.app */;
+			productType = "com.apple.product-type.application";
 		};
-		5987E35118790C3A00413C98 /* OSXWebHereTests */ = {
+		5990556D18AD75F200FC8D85 /* OSXWebHereTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5987E36618790C3A00413C98 /* Build configuration list for PBXNativeTarget "OSXWebHereTests" */;
+			buildConfigurationList = 5990558118AD75F200FC8D85 /* Build configuration list for PBXNativeTarget "OSXWebHereTests" */;
 			buildPhases = (
-				7C3EEAFC18FC4BC6B3172881 /* Check Pods Manifest.lock */,
-				5987E34E18790C3A00413C98 /* Sources */,
-				5987E34F18790C3A00413C98 /* Frameworks */,
-				5987E35018790C3A00413C98 /* Resources */,
-				8CCC84F9CD4745BD9869A4A1 /* Copy Pods Resources */,
+				FA93A13A6A0E4D91BE82932A /* Check Pods Manifest.lock */,
+				5990556A18AD75F200FC8D85 /* Sources */,
+				5990556B18AD75F200FC8D85 /* Frameworks */,
+				5990556C18AD75F200FC8D85 /* Resources */,
+				5DF4CDA163E045DD8A6CD7F9 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5987E35718790C3A00413C98 /* PBXTargetDependency */,
+				5990557318AD75F200FC8D85 /* PBXTargetDependency */,
 			);
 			name = OSXWebHereTests;
 			productName = OSXWebHereTests;
-			productReference = 5987E35218790C3A00413C98 /* OSXWebHereTests.xctest */;
+			productReference = 5990556E18AD75F200FC8D85 /* OSXWebHereTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5987E33218790C3A00413C98 /* Project object */ = {
+		5990554518AD75F200FC8D85 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Rui Lopes";
 				TargetAttributes = {
-					5987E35118790C3A00413C98 = {
-						TestTargetID = 5987E33A18790C3A00413C98;
+					5990556D18AD75F200FC8D85 = {
+						TestTargetID = 5990554C18AD75F200FC8D85;
 					};
 				};
 			};
-			buildConfigurationList = 5987E33518790C3A00413C98 /* Build configuration list for PBXProject "OSXWebHere" */;
+			buildConfigurationList = 5990554818AD75F200FC8D85 /* Build configuration list for PBXProject "OSXWebHere" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 5987E33118790C3A00413C98;
-			productRefGroup = 5987E33C18790C3A00413C98 /* Products */;
+			mainGroup = 5990554418AD75F200FC8D85;
+			productRefGroup = 5990554E18AD75F200FC8D85 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 			);
 			projectRoot = "";
 			targets = (
-				5987E33A18790C3A00413C98 /* OSXWebHere */,
-				5987E35118790C3A00413C98 /* OSXWebHereTests */,
+				5990554C18AD75F200FC8D85 /* OSXWebHere */,
+				5990556D18AD75F200FC8D85 /* OSXWebHereTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5987E33918790C3A00413C98 /* Resources */ = {
+		5990554B18AD75F200FC8D85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5987E34918790C3A00413C98 /* InfoPlist.strings in Resources */,
+				5990555B18AD75F200FC8D85 /* InfoPlist.strings in Resources */,
+				5990556918AD75F200FC8D85 /* Images.xcassets in Resources */,
+				5990556118AD75F200FC8D85 /* Credits.rtf in Resources */,
+				5990556718AD75F200FC8D85 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5987E35018790C3A00413C98 /* Resources */ = {
+		5990556C18AD75F200FC8D85 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5987E35E18790C3A00413C98 /* InfoPlist.strings in Resources */,
+				5990557918AD75F200FC8D85 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		7C3EEAFC18FC4BC6B3172881 /* Check Pods Manifest.lock */ = {
+		409A70B4F2F14320B42F1425 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -278,7 +281,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		8CCC84F9CD4745BD9869A4A1 /* Copy Pods Resources */ = {
+		5DF4CDA163E045DD8A6CD7F9 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -293,7 +296,7 @@
 			shellScript = "\"${SRCROOT}/../Pods/Pods-OSXWebHereTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		BA71FB72CAE740D6A0464DCC /* Check Pods Manifest.lock */ = {
+		FA93A13A6A0E4D91BE82932A /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,7 +311,7 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		C462A205152644B092F9A1DA /* Copy Pods Resources */ = {
+		FE943AA6F42D4E91A8378F51 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,45 +329,62 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5987E33618790C3A00413C98 /* Sources */ = {
+		5990554918AD75F200FC8D85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5987E34D18790C3A00413C98 /* OSXWebHere.m in Sources */,
+				5990556418AD75F200FC8D85 /* AppDelegate.m in Sources */,
+				5990555D18AD75F200FC8D85 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5987E34E18790C3A00413C98 /* Sources */ = {
+		5990556A18AD75F200FC8D85 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5987E36018790C3A00413C98 /* OSXWebHereTests.m in Sources */,
+				5990557B18AD75F200FC8D85 /* OSXWebHereTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5987E35718790C3A00413C98 /* PBXTargetDependency */ = {
+		5990557318AD75F200FC8D85 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5987E33A18790C3A00413C98 /* OSXWebHere */;
-			targetProxy = 5987E35618790C3A00413C98 /* PBXContainerItemProxy */;
+			target = 5990554C18AD75F200FC8D85 /* OSXWebHere */;
+			targetProxy = 5990557218AD75F200FC8D85 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5987E34718790C3A00413C98 /* InfoPlist.strings */ = {
+		5990555918AD75F200FC8D85 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5987E34818790C3A00413C98 /* en */,
+				5990555A18AD75F200FC8D85 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		5987E35C18790C3A00413C98 /* InfoPlist.strings */ = {
+		5990555F18AD75F200FC8D85 /* Credits.rtf */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5987E35D18790C3A00413C98 /* en */,
+				5990556018AD75F200FC8D85 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		5990556518AD75F200FC8D85 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5990556618AD75F200FC8D85 /* Base */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+		5990557718AD75F200FC8D85 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5990557818AD75F200FC8D85 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -372,7 +392,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5987E36118790C3A00413C98 /* Debug */ = {
+		5990557C18AD75F200FC8D85 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -409,7 +429,7 @@
 			};
 			name = Debug;
 		};
-		5987E36218790C3A00413C98 /* Release */ = {
+		5990557D18AD75F200FC8D85 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -440,43 +460,39 @@
 			};
 			name = Release;
 		};
-		5987E36418790C3A00413C98 /* Debug */ = {
+		5990557F18AD75F200FC8D85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D7EABD2D62C4E33B3CAD2B3 /* Pods-OSXWebHere.xcconfig */;
+			baseConfigurationReference = E82FEDE937914749846A3C3C /* Pods-OSXWebHere.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OSXWebHere/OSXWebHere-Prefix.pch";
 				INFOPLIST_FILE = "OSXWebHere/OSXWebHere-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
 		};
-		5987E36518790C3A00413C98 /* Release */ = {
+		5990558018AD75F200FC8D85 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8D7EABD2D62C4E33B3CAD2B3 /* Pods-OSXWebHere.xcconfig */;
+			baseConfigurationReference = E82FEDE937914749846A3C3C /* Pods-OSXWebHere.xcconfig */;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OSXWebHere/OSXWebHere-Prefix.pch";
 				INFOPLIST_FILE = "OSXWebHere/OSXWebHere-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = framework;
+				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
 		};
-		5987E36718790C3A00413C98 /* Debug */ = {
+		5990558218AD75F200FC8D85 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBA83C284F01454992EF52B2 /* Pods-OSXWebHereTests.xcconfig */;
+			baseConfigurationReference = 5001D03092774D419ACC749D /* Pods-OSXWebHereTests.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSXWebHere.framework/Versions/A/OSXWebHere";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSXWebHere.app/Contents/MacOS/OSXWebHere";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -495,11 +511,11 @@
 			};
 			name = Debug;
 		};
-		5987E36818790C3A00413C98 /* Release */ = {
+		5990558318AD75F200FC8D85 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CBA83C284F01454992EF52B2 /* Pods-OSXWebHereTests.xcconfig */;
+			baseConfigurationReference = 5001D03092774D419ACC749D /* Pods-OSXWebHereTests.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSXWebHere.framework/Versions/A/OSXWebHere";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSXWebHere.app/Contents/MacOS/OSXWebHere";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -517,32 +533,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5987E33518790C3A00413C98 /* Build configuration list for PBXProject "OSXWebHere" */ = {
+		5990554818AD75F200FC8D85 /* Build configuration list for PBXProject "OSXWebHere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5987E36118790C3A00413C98 /* Debug */,
-				5987E36218790C3A00413C98 /* Release */,
+				5990557C18AD75F200FC8D85 /* Debug */,
+				5990557D18AD75F200FC8D85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5987E36318790C3A00413C98 /* Build configuration list for PBXNativeTarget "OSXWebHere" */ = {
+		5990557E18AD75F200FC8D85 /* Build configuration list for PBXNativeTarget "OSXWebHere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5987E36418790C3A00413C98 /* Debug */,
-				5987E36518790C3A00413C98 /* Release */,
+				5990557F18AD75F200FC8D85 /* Debug */,
+				5990558018AD75F200FC8D85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		5987E36618790C3A00413C98 /* Build configuration list for PBXNativeTarget "OSXWebHereTests" */ = {
+		5990558118AD75F200FC8D85 /* Build configuration list for PBXNativeTarget "OSXWebHereTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5987E36718790C3A00413C98 /* Debug */,
-				5987E36818790C3A00413C98 /* Release */,
+				5990558218AD75F200FC8D85 /* Debug */,
+				5990558318AD75F200FC8D85 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5987E33218790C3A00413C98 /* Project object */;
+	rootObject = 5990554518AD75F200FC8D85 /* Project object */;
 }
