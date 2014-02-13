@@ -1,6 +1,4 @@
-[![Stories in Ready](https://badge.waffle.io/rdlopes/webhere.png?label=ready)](https://waffle.io/rdlopes/webhere)
-# WebHere
-[![Build Status](https://travis-ci.org/rdlopes/WebHere.png?branch=master,development)](https://travis-ci.org/rdlopes/WebHere)
+# WebHere [![Build Status](https://travis-ci.org/rdlopes/WebHere.png?branch=master,development)](https://travis-ci.org/rdlopes/WebHere) [![Stories in Ready](https://badge.waffle.io/rdlopes/webhere.png?label=ready)](https://waffle.io/rdlopes/webhere)
 
 WebHere is an Objective-C framework for [web scraping](http://en.wikipedia.org/wiki/Web_scraping), packaged for iOS 5+ and OSX 10.7+ platforms.
 
