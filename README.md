@@ -1,3 +1,4 @@
+[![Stories in Ready](https://badge.waffle.io/rdlopes/webhere.png?label=ready)](https://waffle.io/rdlopes/webhere)
 # WebHere
 [![Build Status](https://travis-ci.org/rdlopes/WebHere.png?branch=master,development)](https://travis-ci.org/rdlopes/WebHere)
 
