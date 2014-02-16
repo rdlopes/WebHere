@@ -1,8 +1,8 @@
 //
 //  main.m
-//  OSXWebHere
+//  OSXWebHereDemo
 //
-//  Created by Rui Lopes on 13/02/2014.
+//  Created by Rui Lopes on 16/02/2014.
 //  Copyright (c) 2014 Rui Lopes. All rights reserved.
 //
 

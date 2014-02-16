@@ -17,10 +17,10 @@ PODS:
   - AFNetworking/Serialization (2.1.0)
   - AFNetworking/UIKit (2.1.0):
     - AFNetworking/NSURLConnection
-  - CocoaLumberjack (1.8.0):
+  - CocoaLumberjack (1.8.1):
     - CocoaLumberjack/Extensions
-  - CocoaLumberjack/Core (1.8.0)
-  - CocoaLumberjack/Extensions (1.8.0):
+  - CocoaLumberjack/Core (1.8.1)
+  - CocoaLumberjack/Extensions (1.8.1):
     - CocoaLumberjack/Core
   - GDataXML-HTML (1.1.0)
   - Kiwi/ARC (2.2.3)
@@ -48,7 +48,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   AFNetworking: c7d7901a83f631414c7eda1737261f696101a5cd
-  CocoaLumberjack: 6ed94046d2ca7fde03a73b3d01b8cfc56574b314
+  CocoaLumberjack: 020378ec400d658923bf5887178394f65f052c90
   GDataXML-HTML: 281ea772a286241f860fa152cff5c7a7cd817336
   Kiwi: 04c51e880831d291748ec702d42c4101f7eb95c9
   Nocilla: 0c8075046df476b1bc6482caa7f6a69db1a9b277

@@ -1,6 +1,6 @@
 //
-//  iOSWebHereTests.m
-//  iOSWebHereTests
+//  iOSWebHereDemoTests.m
+//  iOSWebHereDemoTests
 //
 //  Created by Rui Lopes on 16/02/2014.
 //  Copyright (c) 2014 Rui Lopes. All rights reserved.
@@ -8,11 +8,11 @@
 
 #import <XCTest/XCTest.h>
 
-@interface iOSWebHereTests : XCTestCase
+@interface iOSWebHereDemoTests : XCTestCase
 
 @end
 
-@implementation iOSWebHereTests
+@implementation iOSWebHereDemoTests
 
 - (void)setUp
 {

@@ -2,37 +2,71 @@ workspace 'WebHere.xcworkspace'
 xcodeproj 'iOSWebHere/iOSWebHere.xcodeproj'
 
 target :iOSWebHere do
-	platform :ios, '7.0'
 
-	xcodeproj 'iOSWebHere/iOSWebHere.xcodeproj'
+  platform :ios, '7.0'
+  xcodeproj 'iOSWebHere/iOSWebHere.xcodeproj'
 
-    pod 'AFNetworking', '~> 2.0'
-    pod 'GDataXML-HTML', '~> 1.1'
-    pod 'CocoaLumberjack', '~> 1.7'
-	pod 'WebHere', :path => '../WebHere.podspec'
+  pod 'AFNetworking', '~> 2.0'
+  pod 'GDataXML-HTML', '~> 1.1'
+  pod 'CocoaLumberjack', '~> 1.7'
 
-	target :iOSWebHereTests, :exclusive => true do
-	
-		pod 'Kiwi/XCTest', '~> 2.2'
-		pod 'Nocilla', '~> 0.7'
-		
-	end
+  target :iOSWebHereTests, :exclusive => true do
+
+    pod 'Kiwi/XCTest', '~> 2.2'
+    pod 'Nocilla', '~> 0.7'
+
+  end
 end
 
 target :OSXWebHere do
 
-	xcodeproj 'OSXWebHere/OSXWebHere.xcodeproj'
-	platform :osx, '10.8'
+  xcodeproj 'OSXWebHere/OSXWebHere.xcodeproj'
+  platform :osx, '10.8'
 
-    pod 'AFNetworking', '~> 2.0'
-    pod 'GDataXML-HTML', '~> 1.1'
-    pod 'CocoaLumberjack', '~> 1.7'
-	pod 'WebHere', :path => '../WebHere.podspec'
+  pod 'AFNetworking', '~> 2.0'
+  pod 'GDataXML-HTML', '~> 1.1'
+  pod 'CocoaLumberjack', '~> 1.7'
 
-	target :OSXWebHereTests, :exclusive => true do
-	
-        pod 'Kiwi/XCTest', '~> 2.2'
-        pod 'Nocilla', '~> 0.7'
-    
-	end
+  target :OSXWebHereTests, :exclusive => true do
+
+    pod 'Kiwi/XCTest', '~> 2.2'
+    pod 'Nocilla', '~> 0.7'
+
+  end
+end
+
+target :iOSWebHereDemo do
+  platform :ios, '7.0'
+
+  xcodeproj 'iOSWebHereDemo/iOSWebHereDemo.xcodeproj'
+
+  pod 'AFNetworking', '~> 2.0'
+  pod 'GDataXML-HTML', '~> 1.1'
+  pod 'CocoaLumberjack', '~> 1.7'
+  pod 'WebHere', :path => '../WebHere.podspec'
+
+  target :iOSWebHereDemoTests, :exclusive => true do
+
+    pod 'Kiwi/XCTest', '~> 2.2'
+    pod 'Nocilla', '~> 0.7'
+
+  end
+end
+
+target :OSXWebHereDemo do
+
+  xcodeproj 'OSXWebHereDemo/OSXWebHereDemo.xcodeproj'
+  platform :osx, '10.8'
+
+  pod 'AFNetworking', '~> 2.0'
+  pod 'GDataXML-HTML', '~> 1.1'
+  pod 'CocoaLumberjack', '~> 1.7'
+  pod 'WebHere', :path => '../WebHere.podspec'
+
+  target :OSXWebHereDemoTests, :exclusive => true do
+
+    pod 'Kiwi/XCTest', '~> 2.2'
+    pod 'Nocilla', '~> 0.7'
+
+  end
 end

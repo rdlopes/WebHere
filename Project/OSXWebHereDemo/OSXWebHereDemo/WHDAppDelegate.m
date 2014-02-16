@@ -1,14 +1,14 @@
 //
-//  AppDelegate.m
-//  OSXWebHere
+//  WHDAppDelegate.m
+//  OSXWebHereDemo
 //
-//  Created by Rui Lopes on 13/02/2014.
+//  Created by Rui Lopes on 16/02/2014.
 //  Copyright (c) 2014 Rui Lopes. All rights reserved.
 //
 
-#import "AppDelegate.h"
+#import "WHDAppDelegate.h"
 
-@implementation AppDelegate
+@implementation WHDAppDelegate
 
 - (void)applicationDidFinishLaunching:(NSNotification *)aNotification
 {

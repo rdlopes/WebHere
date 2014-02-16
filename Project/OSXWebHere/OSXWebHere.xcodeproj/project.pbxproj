@@ -7,177 +7,178 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5990555118AD75F200FC8D85 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5990555018AD75F200FC8D85 /* Cocoa.framework */; };
-		5990555B18AD75F200FC8D85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5990555918AD75F200FC8D85 /* InfoPlist.strings */; };
-		5990555D18AD75F200FC8D85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5990555C18AD75F200FC8D85 /* main.m */; };
-		5990556118AD75F200FC8D85 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = 5990555F18AD75F200FC8D85 /* Credits.rtf */; };
-		5990556418AD75F200FC8D85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5990556318AD75F200FC8D85 /* AppDelegate.m */; };
-		5990556718AD75F200FC8D85 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5990556518AD75F200FC8D85 /* MainMenu.xib */; };
-		5990556918AD75F200FC8D85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5990556818AD75F200FC8D85 /* Images.xcassets */; };
-		5990557018AD75F200FC8D85 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5990556F18AD75F200FC8D85 /* XCTest.framework */; };
-		5990557118AD75F200FC8D85 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5990555018AD75F200FC8D85 /* Cocoa.framework */; };
-		5990557918AD75F200FC8D85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5990557718AD75F200FC8D85 /* InfoPlist.strings */; };
-		5990557B18AD75F200FC8D85 /* OSXWebHereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5990557A18AD75F200FC8D85 /* OSXWebHereTests.m */; };
-		832863433C5A45E59474F167 /* libPods-OSXWebHereTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 07267A0504C74896BEDA96B8 /* libPods-OSXWebHereTests.a */; };
-		D8C0CBAC8A1846F7AFC9D497 /* libPods-OSXWebHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3195073DE38B44E58CA8A969 /* libPods-OSXWebHere.a */; };
+		59B1EDDE18B0BAE7005772EF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1EDDD18B0BAE7005772EF /* Cocoa.framework */; };
+		59B1EDE818B0BAE7005772EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B1EDE618B0BAE7005772EF /* InfoPlist.strings */; };
+		59B1EDEC18B0BAE7005772EF /* OSXWebHere.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B1EDEB18B0BAE7005772EF /* OSXWebHere.m */; };
+		59B1EDF318B0BAE7005772EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1EDF218B0BAE7005772EF /* XCTest.framework */; };
+		59B1EDF418B0BAE7005772EF /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1EDDD18B0BAE7005772EF /* Cocoa.framework */; };
+		59B1EDF718B0BAE7005772EF /* OSXWebHere.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1EDDA18B0BAE7005772EF /* OSXWebHere.framework */; };
+		59B1EDFD18B0BAE7005772EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B1EDFB18B0BAE7005772EF /* InfoPlist.strings */; };
+		59B1EDFF18B0BAE7005772EF /* OSXWebHereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B1EDFE18B0BAE7005772EF /* OSXWebHereTests.m */; };
+		95770AC9DCC0469E923C8CE1 /* libPods-OSXWebHereTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C1E0908F357847ABB51FB6B1 /* libPods-OSXWebHereTests.a */; };
+		99D1B87A5DF041F28DA8A7C8 /* libPods-OSXWebHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 7DB2D4561FB24DFD9252843C /* libPods-OSXWebHere.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5990557218AD75F200FC8D85 /* PBXContainerItemProxy */ = {
+		59B1EDF518B0BAE7005772EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5990554518AD75F200FC8D85 /* Project object */;
+			containerPortal = 59B1EDD118B0BAE7005772EF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5990554C18AD75F200FC8D85;
+			remoteGlobalIDString = 59B1EDD918B0BAE7005772EF;
 			remoteInfo = OSXWebHere;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07267A0504C74896BEDA96B8 /* libPods-OSXWebHereTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSXWebHereTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		3195073DE38B44E58CA8A969 /* libPods-OSXWebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSXWebHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5001D03092774D419ACC749D /* Pods-OSXWebHereTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXWebHereTests.xcconfig"; path = "../Pods/Pods-OSXWebHereTests.xcconfig"; sourceTree = "<group>"; };
-		5990554D18AD75F200FC8D85 /* OSXWebHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OSXWebHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5990555018AD75F200FC8D85 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
-		5990555318AD75F200FC8D85 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
-		5990555418AD75F200FC8D85 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
-		5990555518AD75F200FC8D85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5990555818AD75F200FC8D85 /* OSXWebHere-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXWebHere-Info.plist"; sourceTree = "<group>"; };
-		5990555A18AD75F200FC8D85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5990555C18AD75F200FC8D85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5990555E18AD75F200FC8D85 /* OSXWebHere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXWebHere-Prefix.pch"; sourceTree = "<group>"; };
-		5990556018AD75F200FC8D85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
-		5990556218AD75F200FC8D85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		5990556318AD75F200FC8D85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		5990556618AD75F200FC8D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
-		5990556818AD75F200FC8D85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		5990556E18AD75F200FC8D85 /* OSXWebHereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSXWebHereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5990556F18AD75F200FC8D85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		5990557618AD75F200FC8D85 /* OSXWebHereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXWebHereTests-Info.plist"; sourceTree = "<group>"; };
-		5990557818AD75F200FC8D85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5990557A18AD75F200FC8D85 /* OSXWebHereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXWebHereTests.m; sourceTree = "<group>"; };
-		E82FEDE937914749846A3C3C /* Pods-OSXWebHere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXWebHere.xcconfig"; path = "../Pods/Pods-OSXWebHere.xcconfig"; sourceTree = "<group>"; };
+		11F8A19345114880B2E57CD3 /* Pods-OSXWebHereTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXWebHereTests.xcconfig"; path = "../Pods/Pods-OSXWebHereTests.xcconfig"; sourceTree = "<group>"; };
+		59B1EDDA18B0BAE7005772EF /* OSXWebHere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = OSXWebHere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B1EDDD18B0BAE7005772EF /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		59B1EDE018B0BAE7005772EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59B1EDE118B0BAE7005772EF /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		59B1EDE218B0BAE7005772EF /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		59B1EDE518B0BAE7005772EF /* OSXWebHere-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXWebHere-Info.plist"; sourceTree = "<group>"; };
+		59B1EDE718B0BAE7005772EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59B1EDE918B0BAE7005772EF /* OSXWebHere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "OSXWebHere-Prefix.pch"; sourceTree = "<group>"; };
+		59B1EDEA18B0BAE7005772EF /* OSXWebHere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OSXWebHere.h; sourceTree = "<group>"; };
+		59B1EDEB18B0BAE7005772EF /* OSXWebHere.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXWebHere.m; sourceTree = "<group>"; };
+		59B1EDF118B0BAE7005772EF /* OSXWebHereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OSXWebHereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B1EDF218B0BAE7005772EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		59B1EDFA18B0BAE7005772EF /* OSXWebHereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "OSXWebHereTests-Info.plist"; sourceTree = "<group>"; };
+		59B1EDFC18B0BAE7005772EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59B1EDFE18B0BAE7005772EF /* OSXWebHereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OSXWebHereTests.m; sourceTree = "<group>"; };
+		64F916D01151497E939540B2 /* Pods-OSXWebHere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OSXWebHere.xcconfig"; path = "../Pods/Pods-OSXWebHere.xcconfig"; sourceTree = "<group>"; };
+		7DB2D4561FB24DFD9252843C /* libPods-OSXWebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSXWebHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1E0908F357847ABB51FB6B1 /* libPods-OSXWebHereTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OSXWebHereTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5990554A18AD75F200FC8D85 /* Frameworks */ = {
+		59B1EDD618B0BAE7005772EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5990555118AD75F200FC8D85 /* Cocoa.framework in Frameworks */,
-				D8C0CBAC8A1846F7AFC9D497 /* libPods-OSXWebHere.a in Frameworks */,
+				59B1EDDE18B0BAE7005772EF /* Cocoa.framework in Frameworks */,
+				99D1B87A5DF041F28DA8A7C8 /* libPods-OSXWebHere.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5990556B18AD75F200FC8D85 /* Frameworks */ = {
+		59B1EDEE18B0BAE7005772EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5990557118AD75F200FC8D85 /* Cocoa.framework in Frameworks */,
-				5990557018AD75F200FC8D85 /* XCTest.framework in Frameworks */,
-				832863433C5A45E59474F167 /* libPods-OSXWebHereTests.a in Frameworks */,
+				59B1EDF718B0BAE7005772EF /* OSXWebHere.framework in Frameworks */,
+				59B1EDF418B0BAE7005772EF /* Cocoa.framework in Frameworks */,
+				59B1EDF318B0BAE7005772EF /* XCTest.framework in Frameworks */,
+				95770AC9DCC0469E923C8CE1 /* libPods-OSXWebHereTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5990554418AD75F200FC8D85 = {
+		59B1EDD018B0BAE7005772EF = {
 			isa = PBXGroup;
 			children = (
-				5990555618AD75F200FC8D85 /* OSXWebHere */,
-				5990557418AD75F200FC8D85 /* OSXWebHereTests */,
-				5990554F18AD75F200FC8D85 /* Frameworks */,
-				5990554E18AD75F200FC8D85 /* Products */,
-				E82FEDE937914749846A3C3C /* Pods-OSXWebHere.xcconfig */,
-				5001D03092774D419ACC749D /* Pods-OSXWebHereTests.xcconfig */,
+				59B1EDE318B0BAE7005772EF /* OSXWebHere */,
+				59B1EDF818B0BAE7005772EF /* OSXWebHereTests */,
+				59B1EDDC18B0BAE7005772EF /* Frameworks */,
+				59B1EDDB18B0BAE7005772EF /* Products */,
+				64F916D01151497E939540B2 /* Pods-OSXWebHere.xcconfig */,
+				11F8A19345114880B2E57CD3 /* Pods-OSXWebHereTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
-		5990554E18AD75F200FC8D85 /* Products */ = {
+		59B1EDDB18B0BAE7005772EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5990554D18AD75F200FC8D85 /* OSXWebHere.app */,
-				5990556E18AD75F200FC8D85 /* OSXWebHereTests.xctest */,
+				59B1EDDA18B0BAE7005772EF /* OSXWebHere.framework */,
+				59B1EDF118B0BAE7005772EF /* OSXWebHereTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5990554F18AD75F200FC8D85 /* Frameworks */ = {
+		59B1EDDC18B0BAE7005772EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5990555018AD75F200FC8D85 /* Cocoa.framework */,
-				5990556F18AD75F200FC8D85 /* XCTest.framework */,
-				5990555218AD75F200FC8D85 /* Other Frameworks */,
-				3195073DE38B44E58CA8A969 /* libPods-OSXWebHere.a */,
-				07267A0504C74896BEDA96B8 /* libPods-OSXWebHereTests.a */,
+				59B1EDDD18B0BAE7005772EF /* Cocoa.framework */,
+				59B1EDF218B0BAE7005772EF /* XCTest.framework */,
+				59B1EDDF18B0BAE7005772EF /* Other Frameworks */,
+				7DB2D4561FB24DFD9252843C /* libPods-OSXWebHere.a */,
+				C1E0908F357847ABB51FB6B1 /* libPods-OSXWebHereTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5990555218AD75F200FC8D85 /* Other Frameworks */ = {
+		59B1EDDF18B0BAE7005772EF /* Other Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5990555318AD75F200FC8D85 /* AppKit.framework */,
-				5990555418AD75F200FC8D85 /* CoreData.framework */,
-				5990555518AD75F200FC8D85 /* Foundation.framework */,
+				59B1EDE018B0BAE7005772EF /* Foundation.framework */,
+				59B1EDE118B0BAE7005772EF /* CoreData.framework */,
+				59B1EDE218B0BAE7005772EF /* AppKit.framework */,
 			);
 			name = "Other Frameworks";
 			sourceTree = "<group>";
 		};
-		5990555618AD75F200FC8D85 /* OSXWebHere */ = {
+		59B1EDE318B0BAE7005772EF /* OSXWebHere */ = {
 			isa = PBXGroup;
 			children = (
-				5990556218AD75F200FC8D85 /* AppDelegate.h */,
-				5990556318AD75F200FC8D85 /* AppDelegate.m */,
-				5990556518AD75F200FC8D85 /* MainMenu.xib */,
-				5990556818AD75F200FC8D85 /* Images.xcassets */,
-				5990555718AD75F200FC8D85 /* Supporting Files */,
+				59B1EDEA18B0BAE7005772EF /* OSXWebHere.h */,
+				59B1EDEB18B0BAE7005772EF /* OSXWebHere.m */,
+				59B1EDE418B0BAE7005772EF /* Supporting Files */,
 			);
 			path = OSXWebHere;
 			sourceTree = "<group>";
 		};
-		5990555718AD75F200FC8D85 /* Supporting Files */ = {
+		59B1EDE418B0BAE7005772EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5990555818AD75F200FC8D85 /* OSXWebHere-Info.plist */,
-				5990555918AD75F200FC8D85 /* InfoPlist.strings */,
-				5990555C18AD75F200FC8D85 /* main.m */,
-				5990555E18AD75F200FC8D85 /* OSXWebHere-Prefix.pch */,
-				5990555F18AD75F200FC8D85 /* Credits.rtf */,
+				59B1EDE518B0BAE7005772EF /* OSXWebHere-Info.plist */,
+				59B1EDE618B0BAE7005772EF /* InfoPlist.strings */,
+				59B1EDE918B0BAE7005772EF /* OSXWebHere-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		5990557418AD75F200FC8D85 /* OSXWebHereTests */ = {
+		59B1EDF818B0BAE7005772EF /* OSXWebHereTests */ = {
 			isa = PBXGroup;
 			children = (
-				5990557A18AD75F200FC8D85 /* OSXWebHereTests.m */,
-				5990557518AD75F200FC8D85 /* Supporting Files */,
+				59B1EDFE18B0BAE7005772EF /* OSXWebHereTests.m */,
+				59B1EDF918B0BAE7005772EF /* Supporting Files */,
 			);
 			path = OSXWebHereTests;
 			sourceTree = "<group>";
 		};
-		5990557518AD75F200FC8D85 /* Supporting Files */ = {
+		59B1EDF918B0BAE7005772EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5990557618AD75F200FC8D85 /* OSXWebHereTests-Info.plist */,
-				5990557718AD75F200FC8D85 /* InfoPlist.strings */,
+				59B1EDFA18B0BAE7005772EF /* OSXWebHereTests-Info.plist */,
+				59B1EDFB18B0BAE7005772EF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
+/* Begin PBXHeadersBuildPhase section */
+		59B1EDD718B0BAE7005772EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
 /* Begin PBXNativeTarget section */
-		5990554C18AD75F200FC8D85 /* OSXWebHere */ = {
+		59B1EDD918B0BAE7005772EF /* OSXWebHere */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5990557E18AD75F200FC8D85 /* Build configuration list for PBXNativeTarget "OSXWebHere" */;
+			buildConfigurationList = 59B1EE0218B0BAE7005772EF /* Build configuration list for PBXNativeTarget "OSXWebHere" */;
 			buildPhases = (
-				409A70B4F2F14320B42F1425 /* Check Pods Manifest.lock */,
-				5990554918AD75F200FC8D85 /* Sources */,
-				5990554A18AD75F200FC8D85 /* Frameworks */,
-				5990554B18AD75F200FC8D85 /* Resources */,
-				FE943AA6F42D4E91A8378F51 /* Copy Pods Resources */,
+				D97F59043B2C4371804FB7F9 /* Check Pods Manifest.lock */,
+				59B1EDD518B0BAE7005772EF /* Sources */,
+				59B1EDD618B0BAE7005772EF /* Frameworks */,
+				59B1EDD718B0BAE7005772EF /* Headers */,
+				59B1EDD818B0BAE7005772EF /* Resources */,
+				535B20B52C58471BBCE4CC47 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -185,133 +186,84 @@
 			);
 			name = OSXWebHere;
 			productName = OSXWebHere;
-			productReference = 5990554D18AD75F200FC8D85 /* OSXWebHere.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 59B1EDDA18B0BAE7005772EF /* OSXWebHere.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		5990556D18AD75F200FC8D85 /* OSXWebHereTests */ = {
+		59B1EDF018B0BAE7005772EF /* OSXWebHereTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5990558118AD75F200FC8D85 /* Build configuration list for PBXNativeTarget "OSXWebHereTests" */;
+			buildConfigurationList = 59B1EE0518B0BAE7005772EF /* Build configuration list for PBXNativeTarget "OSXWebHereTests" */;
 			buildPhases = (
-				FA93A13A6A0E4D91BE82932A /* Check Pods Manifest.lock */,
-				5990556A18AD75F200FC8D85 /* Sources */,
-				5990556B18AD75F200FC8D85 /* Frameworks */,
-				5990556C18AD75F200FC8D85 /* Resources */,
-				5DF4CDA163E045DD8A6CD7F9 /* Copy Pods Resources */,
+				D2DB247F0ECF48218C4EE5B1 /* Check Pods Manifest.lock */,
+				59B1EDED18B0BAE7005772EF /* Sources */,
+				59B1EDEE18B0BAE7005772EF /* Frameworks */,
+				59B1EDEF18B0BAE7005772EF /* Resources */,
+				7048A620DC07438C811D0A5B /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5990557318AD75F200FC8D85 /* PBXTargetDependency */,
+				59B1EDF618B0BAE7005772EF /* PBXTargetDependency */,
 			);
 			name = OSXWebHereTests;
 			productName = OSXWebHereTests;
-			productReference = 5990556E18AD75F200FC8D85 /* OSXWebHereTests.xctest */;
+			productReference = 59B1EDF118B0BAE7005772EF /* OSXWebHereTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5990554518AD75F200FC8D85 /* Project object */ = {
+		59B1EDD118B0BAE7005772EF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Rui Lopes";
 				TargetAttributes = {
-					5990556D18AD75F200FC8D85 = {
-						TestTargetID = 5990554C18AD75F200FC8D85;
+					59B1EDF018B0BAE7005772EF = {
+						TestTargetID = 59B1EDD918B0BAE7005772EF;
 					};
 				};
 			};
-			buildConfigurationList = 5990554818AD75F200FC8D85 /* Build configuration list for PBXProject "OSXWebHere" */;
+			buildConfigurationList = 59B1EDD418B0BAE7005772EF /* Build configuration list for PBXProject "OSXWebHere" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 5990554418AD75F200FC8D85;
-			productRefGroup = 5990554E18AD75F200FC8D85 /* Products */;
+			mainGroup = 59B1EDD018B0BAE7005772EF;
+			productRefGroup = 59B1EDDB18B0BAE7005772EF /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 			);
 			projectRoot = "";
 			targets = (
-				5990554C18AD75F200FC8D85 /* OSXWebHere */,
-				5990556D18AD75F200FC8D85 /* OSXWebHereTests */,
+				59B1EDD918B0BAE7005772EF /* OSXWebHere */,
+				59B1EDF018B0BAE7005772EF /* OSXWebHereTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5990554B18AD75F200FC8D85 /* Resources */ = {
+		59B1EDD818B0BAE7005772EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5990555B18AD75F200FC8D85 /* InfoPlist.strings in Resources */,
-				5990556918AD75F200FC8D85 /* Images.xcassets in Resources */,
-				5990556118AD75F200FC8D85 /* Credits.rtf in Resources */,
-				5990556718AD75F200FC8D85 /* MainMenu.xib in Resources */,
+				59B1EDE818B0BAE7005772EF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5990556C18AD75F200FC8D85 /* Resources */ = {
+		59B1EDEF18B0BAE7005772EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5990557918AD75F200FC8D85 /* InfoPlist.strings in Resources */,
+				59B1EDFD18B0BAE7005772EF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		409A70B4F2F14320B42F1425 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		5DF4CDA163E045DD8A6CD7F9 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Pods-OSXWebHereTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA93A13A6A0E4D91BE82932A /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		FE943AA6F42D4E91A8378F51 /* Copy Pods Resources */ = {
+		535B20B52C58471BBCE4CC47 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -326,65 +278,93 @@
 			shellScript = "\"${SRCROOT}/../Pods/Pods-OSXWebHere-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
+		7048A620DC07438C811D0A5B /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-OSXWebHereTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D2DB247F0ECF48218C4EE5B1 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D97F59043B2C4371804FB7F9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5990554918AD75F200FC8D85 /* Sources */ = {
+		59B1EDD518B0BAE7005772EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5990556418AD75F200FC8D85 /* AppDelegate.m in Sources */,
-				5990555D18AD75F200FC8D85 /* main.m in Sources */,
+				59B1EDEC18B0BAE7005772EF /* OSXWebHere.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5990556A18AD75F200FC8D85 /* Sources */ = {
+		59B1EDED18B0BAE7005772EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5990557B18AD75F200FC8D85 /* OSXWebHereTests.m in Sources */,
+				59B1EDFF18B0BAE7005772EF /* OSXWebHereTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5990557318AD75F200FC8D85 /* PBXTargetDependency */ = {
+		59B1EDF618B0BAE7005772EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5990554C18AD75F200FC8D85 /* OSXWebHere */;
-			targetProxy = 5990557218AD75F200FC8D85 /* PBXContainerItemProxy */;
+			target = 59B1EDD918B0BAE7005772EF /* OSXWebHere */;
+			targetProxy = 59B1EDF518B0BAE7005772EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5990555918AD75F200FC8D85 /* InfoPlist.strings */ = {
+		59B1EDE618B0BAE7005772EF /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5990555A18AD75F200FC8D85 /* en */,
+				59B1EDE718B0BAE7005772EF /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		5990555F18AD75F200FC8D85 /* Credits.rtf */ = {
+		59B1EDFB18B0BAE7005772EF /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5990556018AD75F200FC8D85 /* en */,
-			);
-			name = Credits.rtf;
-			sourceTree = "<group>";
-		};
-		5990556518AD75F200FC8D85 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5990556618AD75F200FC8D85 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-		5990557718AD75F200FC8D85 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				5990557818AD75F200FC8D85 /* en */,
+				59B1EDFC18B0BAE7005772EF /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -392,7 +372,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		5990557C18AD75F200FC8D85 /* Debug */ = {
+		59B1EE0018B0BAE7005772EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -429,7 +409,7 @@
 			};
 			name = Debug;
 		};
-		5990557D18AD75F200FC8D85 /* Release */ = {
+		59B1EE0118B0BAE7005772EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -460,39 +440,43 @@
 			};
 			name = Release;
 		};
-		5990557F18AD75F200FC8D85 /* Debug */ = {
+		59B1EE0318B0BAE7005772EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E82FEDE937914749846A3C3C /* Pods-OSXWebHere.xcconfig */;
+			baseConfigurationReference = 64F916D01151497E939540B2 /* Pods-OSXWebHere.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OSXWebHere/OSXWebHere-Prefix.pch";
 				INFOPLIST_FILE = "OSXWebHere/OSXWebHere-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Debug;
 		};
-		5990558018AD75F200FC8D85 /* Release */ = {
+		59B1EE0418B0BAE7005772EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = E82FEDE937914749846A3C3C /* Pods-OSXWebHere.xcconfig */;
+			baseConfigurationReference = 64F916D01151497E939540B2 /* Pods-OSXWebHere.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				COMBINE_HIDPI_IMAGES = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				FRAMEWORK_VERSION = A;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "OSXWebHere/OSXWebHere-Prefix.pch";
 				INFOPLIST_FILE = "OSXWebHere/OSXWebHere-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				WRAPPER_EXTENSION = framework;
 			};
 			name = Release;
 		};
-		5990558218AD75F200FC8D85 /* Debug */ = {
+		59B1EE0618B0BAE7005772EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5001D03092774D419ACC749D /* Pods-OSXWebHereTests.xcconfig */;
+			baseConfigurationReference = 11F8A19345114880B2E57CD3 /* Pods-OSXWebHereTests.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSXWebHere.app/Contents/MacOS/OSXWebHere";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSXWebHere.framework/Versions/A/OSXWebHere";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -511,11 +495,11 @@
 			};
 			name = Debug;
 		};
-		5990558318AD75F200FC8D85 /* Release */ = {
+		59B1EE0718B0BAE7005772EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5001D03092774D419ACC749D /* Pods-OSXWebHereTests.xcconfig */;
+			baseConfigurationReference = 11F8A19345114880B2E57CD3 /* Pods-OSXWebHereTests.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSXWebHere.app/Contents/MacOS/OSXWebHere";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/OSXWebHere.framework/Versions/A/OSXWebHere";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -533,32 +517,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5990554818AD75F200FC8D85 /* Build configuration list for PBXProject "OSXWebHere" */ = {
+		59B1EDD418B0BAE7005772EF /* Build configuration list for PBXProject "OSXWebHere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5990557C18AD75F200FC8D85 /* Debug */,
-				5990557D18AD75F200FC8D85 /* Release */,
+				59B1EE0018B0BAE7005772EF /* Debug */,
+				59B1EE0118B0BAE7005772EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5990557E18AD75F200FC8D85 /* Build configuration list for PBXNativeTarget "OSXWebHere" */ = {
+		59B1EE0218B0BAE7005772EF /* Build configuration list for PBXNativeTarget "OSXWebHere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5990557F18AD75F200FC8D85 /* Debug */,
-				5990558018AD75F200FC8D85 /* Release */,
+				59B1EE0318B0BAE7005772EF /* Debug */,
+				59B1EE0418B0BAE7005772EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		5990558118AD75F200FC8D85 /* Build configuration list for PBXNativeTarget "OSXWebHereTests" */ = {
+		59B1EE0518B0BAE7005772EF /* Build configuration list for PBXNativeTarget "OSXWebHereTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5990558218AD75F200FC8D85 /* Debug */,
-				5990558318AD75F200FC8D85 /* Release */,
+				59B1EE0618B0BAE7005772EF /* Debug */,
+				59B1EE0718B0BAE7005772EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5990554518AD75F200FC8D85 /* Project object */;
+	rootObject = 59B1EDD118B0BAE7005772EF /* Project object */;
 }

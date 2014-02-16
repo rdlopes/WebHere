@@ -7,162 +7,150 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		20A4905DFB3542E9BBFB6CCE /* libPods-iOSWebHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4F44D7B87BF34242B0599EA2 /* libPods-iOSWebHere.a */; };
-		5990559118AD762300FC8D85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5990559018AD762300FC8D85 /* Foundation.framework */; };
-		5990559318AD762300FC8D85 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5990559218AD762300FC8D85 /* CoreGraphics.framework */; };
-		5990559518AD762300FC8D85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5990559418AD762300FC8D85 /* UIKit.framework */; };
-		5990559B18AD762300FC8D85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5990559918AD762300FC8D85 /* InfoPlist.strings */; };
-		5990559D18AD762300FC8D85 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5990559C18AD762300FC8D85 /* main.m */; };
-		599055A118AD762300FC8D85 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 599055A018AD762300FC8D85 /* AppDelegate.m */; };
-		599055A418AD762300FC8D85 /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599055A218AD762300FC8D85 /* Main_iPhone.storyboard */; };
-		599055A718AD762300FC8D85 /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 599055A518AD762300FC8D85 /* Main_iPad.storyboard */; };
-		599055AA18AD762300FC8D85 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 599055A918AD762300FC8D85 /* ViewController.m */; };
-		599055AC18AD762300FC8D85 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 599055AB18AD762300FC8D85 /* Images.xcassets */; };
-		599055B318AD762300FC8D85 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 599055B218AD762300FC8D85 /* XCTest.framework */; };
-		599055B418AD762300FC8D85 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5990559018AD762300FC8D85 /* Foundation.framework */; };
-		599055B518AD762300FC8D85 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5990559418AD762300FC8D85 /* UIKit.framework */; };
-		599055BD18AD762300FC8D85 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 599055BB18AD762300FC8D85 /* InfoPlist.strings */; };
-		599055BF18AD762300FC8D85 /* iOSWebHereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 599055BE18AD762300FC8D85 /* iOSWebHereTests.m */; };
-		BECBC4D8F07C4CFB81BD5AEC /* libPods-iOSWebHereTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8A8F9B4D86E244BDA523DBB0 /* libPods-iOSWebHereTests.a */; };
+		59B1EDAB18B0BACC005772EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1EDAA18B0BACC005772EF /* Foundation.framework */; };
+		59B1EDB018B0BACC005772EF /* iOSWebHere.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 59B1EDAF18B0BACC005772EF /* iOSWebHere.h */; };
+		59B1EDB218B0BACC005772EF /* iOSWebHere.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B1EDB118B0BACC005772EF /* iOSWebHere.m */; };
+		59B1EDB918B0BACC005772EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1EDB818B0BACC005772EF /* XCTest.framework */; };
+		59B1EDBA18B0BACC005772EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1EDAA18B0BACC005772EF /* Foundation.framework */; };
+		59B1EDBC18B0BACC005772EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1EDBB18B0BACC005772EF /* UIKit.framework */; };
+		59B1EDBF18B0BACC005772EF /* libiOSWebHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1EDA718B0BACC005772EF /* libiOSWebHere.a */; };
+		59B1EDC518B0BACC005772EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B1EDC318B0BACC005772EF /* InfoPlist.strings */; };
+		59B1EDC718B0BACC005772EF /* iOSWebHereTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B1EDC618B0BACC005772EF /* iOSWebHereTests.m */; };
+		7D65EFB4929247E8AC32030D /* libPods-iOSWebHereTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 233A6188514344C28530D069 /* libPods-iOSWebHereTests.a */; };
+		9327AB07BAC04651A0C814EE /* libPods-iOSWebHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB6D9CF2AD64CE9817056BE /* libPods-iOSWebHere.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		599055B618AD762300FC8D85 /* PBXContainerItemProxy */ = {
+		59B1EDBD18B0BACC005772EF /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5990558518AD762300FC8D85 /* Project object */;
+			containerPortal = 59B1ED9F18B0BACC005772EF /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5990558C18AD762300FC8D85;
+			remoteGlobalIDString = 59B1EDA618B0BACC005772EF;
 			remoteInfo = iOSWebHere;
 		};
 /* End PBXContainerItemProxy section */
 
-/* Begin PBXFileReference section */
-		4F44D7B87BF34242B0599EA2 /* libPods-iOSWebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSWebHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5990558D18AD762300FC8D85 /* iOSWebHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWebHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		5990559018AD762300FC8D85 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		5990559218AD762300FC8D85 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		5990559418AD762300FC8D85 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		5990559818AD762300FC8D85 /* iOSWebHere-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSWebHere-Info.plist"; sourceTree = "<group>"; };
-		5990559A18AD762300FC8D85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		5990559C18AD762300FC8D85 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		5990559E18AD762300FC8D85 /* iOSWebHere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSWebHere-Prefix.pch"; sourceTree = "<group>"; };
-		5990559F18AD762300FC8D85 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		599055A018AD762300FC8D85 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		599055A318AD762300FC8D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		599055A618AD762300FC8D85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
-		599055A818AD762300FC8D85 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		599055A918AD762300FC8D85 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		599055AB18AD762300FC8D85 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		599055B118AD762300FC8D85 /* iOSWebHereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSWebHereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		599055B218AD762300FC8D85 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		599055BA18AD762300FC8D85 /* iOSWebHereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSWebHereTests-Info.plist"; sourceTree = "<group>"; };
-		599055BC18AD762300FC8D85 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		599055BE18AD762300FC8D85 /* iOSWebHereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSWebHereTests.m; sourceTree = "<group>"; };
-		6375D91E7A6A40F3825BAFDE /* Pods-iOSWebHere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWebHere.xcconfig"; path = "../Pods/Pods-iOSWebHere.xcconfig"; sourceTree = "<group>"; };
-		8A8F9B4D86E244BDA523DBB0 /* libPods-iOSWebHereTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSWebHereTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F5E0B0A90CE7446986C84E10 /* Pods-iOSWebHereTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWebHereTests.xcconfig"; path = "../Pods/Pods-iOSWebHereTests.xcconfig"; sourceTree = "<group>"; };
-/* End PBXFileReference section */
-
-/* Begin PBXFrameworksBuildPhase section */
-		5990558A18AD762300FC8D85 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
+/* Begin PBXCopyFilesBuildPhase section */
+		59B1EDA518B0BACC005772EF /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
 			files = (
-				5990559318AD762300FC8D85 /* CoreGraphics.framework in Frameworks */,
-				5990559518AD762300FC8D85 /* UIKit.framework in Frameworks */,
-				5990559118AD762300FC8D85 /* Foundation.framework in Frameworks */,
-				20A4905DFB3542E9BBFB6CCE /* libPods-iOSWebHere.a in Frameworks */,
+				59B1EDB018B0BACC005772EF /* iOSWebHere.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		599055AE18AD762300FC8D85 /* Frameworks */ = {
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1CB6D9CF2AD64CE9817056BE /* libPods-iOSWebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSWebHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		233A6188514344C28530D069 /* libPods-iOSWebHereTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSWebHereTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3598F1B2AFB64A50BA37E3B4 /* Pods-iOSWebHereTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWebHereTests.xcconfig"; path = "../Pods/Pods-iOSWebHereTests.xcconfig"; sourceTree = "<group>"; };
+		59B1EDA718B0BACC005772EF /* libiOSWebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libiOSWebHere.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B1EDAA18B0BACC005772EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		59B1EDAE18B0BACC005772EF /* iOSWebHere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSWebHere-Prefix.pch"; sourceTree = "<group>"; };
+		59B1EDAF18B0BACC005772EF /* iOSWebHere.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = iOSWebHere.h; sourceTree = "<group>"; };
+		59B1EDB118B0BACC005772EF /* iOSWebHere.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSWebHere.m; sourceTree = "<group>"; };
+		59B1EDB718B0BACC005772EF /* iOSWebHereTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSWebHereTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		59B1EDB818B0BACC005772EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		59B1EDBB18B0BACC005772EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		59B1EDC218B0BACC005772EF /* iOSWebHereTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSWebHereTests-Info.plist"; sourceTree = "<group>"; };
+		59B1EDC418B0BACC005772EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		59B1EDC618B0BACC005772EF /* iOSWebHereTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSWebHereTests.m; sourceTree = "<group>"; };
+		96FD8682BE5E4267B01A524D /* Pods-iOSWebHere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWebHere.xcconfig"; path = "../Pods/Pods-iOSWebHere.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		59B1EDA418B0BACC005772EF /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				599055B318AD762300FC8D85 /* XCTest.framework in Frameworks */,
-				599055B518AD762300FC8D85 /* UIKit.framework in Frameworks */,
-				599055B418AD762300FC8D85 /* Foundation.framework in Frameworks */,
-				BECBC4D8F07C4CFB81BD5AEC /* libPods-iOSWebHereTests.a in Frameworks */,
+				59B1EDAB18B0BACC005772EF /* Foundation.framework in Frameworks */,
+				9327AB07BAC04651A0C814EE /* libPods-iOSWebHere.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		59B1EDB418B0BACC005772EF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				59B1EDB918B0BACC005772EF /* XCTest.framework in Frameworks */,
+				59B1EDBC18B0BACC005772EF /* UIKit.framework in Frameworks */,
+				59B1EDBF18B0BACC005772EF /* libiOSWebHere.a in Frameworks */,
+				59B1EDBA18B0BACC005772EF /* Foundation.framework in Frameworks */,
+				7D65EFB4929247E8AC32030D /* libPods-iOSWebHereTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5990558418AD762300FC8D85 = {
+		59B1ED9E18B0BACC005772EF = {
 			isa = PBXGroup;
 			children = (
-				5990559618AD762300FC8D85 /* iOSWebHere */,
-				599055B818AD762300FC8D85 /* iOSWebHereTests */,
-				5990558F18AD762300FC8D85 /* Frameworks */,
-				5990558E18AD762300FC8D85 /* Products */,
-				6375D91E7A6A40F3825BAFDE /* Pods-iOSWebHere.xcconfig */,
-				F5E0B0A90CE7446986C84E10 /* Pods-iOSWebHereTests.xcconfig */,
+				59B1EDAC18B0BACC005772EF /* iOSWebHere */,
+				59B1EDC018B0BACC005772EF /* iOSWebHereTests */,
+				59B1EDA918B0BACC005772EF /* Frameworks */,
+				59B1EDA818B0BACC005772EF /* Products */,
+				96FD8682BE5E4267B01A524D /* Pods-iOSWebHere.xcconfig */,
+				3598F1B2AFB64A50BA37E3B4 /* Pods-iOSWebHereTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
-		5990558E18AD762300FC8D85 /* Products */ = {
+		59B1EDA818B0BACC005772EF /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5990558D18AD762300FC8D85 /* iOSWebHere.app */,
-				599055B118AD762300FC8D85 /* iOSWebHereTests.xctest */,
+				59B1EDA718B0BACC005772EF /* libiOSWebHere.a */,
+				59B1EDB718B0BACC005772EF /* iOSWebHereTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5990558F18AD762300FC8D85 /* Frameworks */ = {
+		59B1EDA918B0BACC005772EF /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				5990559018AD762300FC8D85 /* Foundation.framework */,
-				5990559218AD762300FC8D85 /* CoreGraphics.framework */,
-				5990559418AD762300FC8D85 /* UIKit.framework */,
-				599055B218AD762300FC8D85 /* XCTest.framework */,
-				4F44D7B87BF34242B0599EA2 /* libPods-iOSWebHere.a */,
-				8A8F9B4D86E244BDA523DBB0 /* libPods-iOSWebHereTests.a */,
+				59B1EDAA18B0BACC005772EF /* Foundation.framework */,
+				59B1EDB818B0BACC005772EF /* XCTest.framework */,
+				59B1EDBB18B0BACC005772EF /* UIKit.framework */,
+				1CB6D9CF2AD64CE9817056BE /* libPods-iOSWebHere.a */,
+				233A6188514344C28530D069 /* libPods-iOSWebHereTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		5990559618AD762300FC8D85 /* iOSWebHere */ = {
+		59B1EDAC18B0BACC005772EF /* iOSWebHere */ = {
 			isa = PBXGroup;
 			children = (
-				5990559F18AD762300FC8D85 /* AppDelegate.h */,
-				599055A018AD762300FC8D85 /* AppDelegate.m */,
-				599055A218AD762300FC8D85 /* Main_iPhone.storyboard */,
-				599055A518AD762300FC8D85 /* Main_iPad.storyboard */,
-				599055A818AD762300FC8D85 /* ViewController.h */,
-				599055A918AD762300FC8D85 /* ViewController.m */,
-				599055AB18AD762300FC8D85 /* Images.xcassets */,
-				5990559718AD762300FC8D85 /* Supporting Files */,
+				59B1EDAF18B0BACC005772EF /* iOSWebHere.h */,
+				59B1EDB118B0BACC005772EF /* iOSWebHere.m */,
+				59B1EDAD18B0BACC005772EF /* Supporting Files */,
 			);
 			path = iOSWebHere;
 			sourceTree = "<group>";
 		};
-		5990559718AD762300FC8D85 /* Supporting Files */ = {
+		59B1EDAD18B0BACC005772EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				5990559818AD762300FC8D85 /* iOSWebHere-Info.plist */,
-				5990559918AD762300FC8D85 /* InfoPlist.strings */,
-				5990559C18AD762300FC8D85 /* main.m */,
-				5990559E18AD762300FC8D85 /* iOSWebHere-Prefix.pch */,
+				59B1EDAE18B0BACC005772EF /* iOSWebHere-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		599055B818AD762300FC8D85 /* iOSWebHereTests */ = {
+		59B1EDC018B0BACC005772EF /* iOSWebHereTests */ = {
 			isa = PBXGroup;
 			children = (
-				599055BE18AD762300FC8D85 /* iOSWebHereTests.m */,
-				599055B918AD762300FC8D85 /* Supporting Files */,
+				59B1EDC618B0BACC005772EF /* iOSWebHereTests.m */,
+				59B1EDC118B0BACC005772EF /* Supporting Files */,
 			);
 			path = iOSWebHereTests;
 			sourceTree = "<group>";
 		};
-		599055B918AD762300FC8D85 /* Supporting Files */ = {
+		59B1EDC118B0BACC005772EF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				599055BA18AD762300FC8D85 /* iOSWebHereTests-Info.plist */,
-				599055BB18AD762300FC8D85 /* InfoPlist.strings */,
+				59B1EDC218B0BACC005772EF /* iOSWebHereTests-Info.plist */,
+				59B1EDC318B0BACC005772EF /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -170,15 +158,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		5990558C18AD762300FC8D85 /* iOSWebHere */ = {
+		59B1EDA618B0BACC005772EF /* iOSWebHere */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 599055C218AD762300FC8D85 /* Build configuration list for PBXNativeTarget "iOSWebHere" */;
+			buildConfigurationList = 59B1EDCA18B0BACC005772EF /* Build configuration list for PBXNativeTarget "iOSWebHere" */;
 			buildPhases = (
-				441A9AE7FC7B411B98830420 /* Check Pods Manifest.lock */,
-				5990558918AD762300FC8D85 /* Sources */,
-				5990558A18AD762300FC8D85 /* Frameworks */,
-				5990558B18AD762300FC8D85 /* Resources */,
-				C66785E9E87B42AEA8F193BC /* Copy Pods Resources */,
+				DC7DD68EF05D4BC1976C783E /* Check Pods Manifest.lock */,
+				59B1EDA318B0BACC005772EF /* Sources */,
+				59B1EDA418B0BACC005772EF /* Frameworks */,
+				59B1EDA518B0BACC005772EF /* CopyFiles */,
+				9EBB3F097C084ECC8A0A2E35 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -186,103 +174,69 @@
 			);
 			name = iOSWebHere;
 			productName = iOSWebHere;
-			productReference = 5990558D18AD762300FC8D85 /* iOSWebHere.app */;
-			productType = "com.apple.product-type.application";
+			productReference = 59B1EDA718B0BACC005772EF /* libiOSWebHere.a */;
+			productType = "com.apple.product-type.library.static";
 		};
-		599055B018AD762300FC8D85 /* iOSWebHereTests */ = {
+		59B1EDB618B0BACC005772EF /* iOSWebHereTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 599055C518AD762300FC8D85 /* Build configuration list for PBXNativeTarget "iOSWebHereTests" */;
+			buildConfigurationList = 59B1EDCD18B0BACC005772EF /* Build configuration list for PBXNativeTarget "iOSWebHereTests" */;
 			buildPhases = (
-				E89B71CDF17F47ADA07EFE31 /* Check Pods Manifest.lock */,
-				599055AD18AD762300FC8D85 /* Sources */,
-				599055AE18AD762300FC8D85 /* Frameworks */,
-				599055AF18AD762300FC8D85 /* Resources */,
-				AF74D9021A4342B3B2695922 /* Copy Pods Resources */,
+				5882DAA7845E4F6E82E009BF /* Check Pods Manifest.lock */,
+				59B1EDB318B0BACC005772EF /* Sources */,
+				59B1EDB418B0BACC005772EF /* Frameworks */,
+				59B1EDB518B0BACC005772EF /* Resources */,
+				0F9BFD56D5BE4A70B6A94743 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				599055B718AD762300FC8D85 /* PBXTargetDependency */,
+				59B1EDBE18B0BACC005772EF /* PBXTargetDependency */,
 			);
 			name = iOSWebHereTests;
 			productName = iOSWebHereTests;
-			productReference = 599055B118AD762300FC8D85 /* iOSWebHereTests.xctest */;
+			productReference = 59B1EDB718B0BACC005772EF /* iOSWebHereTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5990558518AD762300FC8D85 /* Project object */ = {
+		59B1ED9F18B0BACC005772EF /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Rui Lopes";
-				TargetAttributes = {
-					599055B018AD762300FC8D85 = {
-						TestTargetID = 5990558C18AD762300FC8D85;
-					};
-				};
 			};
-			buildConfigurationList = 5990558818AD762300FC8D85 /* Build configuration list for PBXProject "iOSWebHere" */;
+			buildConfigurationList = 59B1EDA218B0BACC005772EF /* Build configuration list for PBXProject "iOSWebHere" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
-				Base,
 			);
-			mainGroup = 5990558418AD762300FC8D85;
-			productRefGroup = 5990558E18AD762300FC8D85 /* Products */;
+			mainGroup = 59B1ED9E18B0BACC005772EF;
+			productRefGroup = 59B1EDA818B0BACC005772EF /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-			);
 			projectRoot = "";
 			targets = (
-				5990558C18AD762300FC8D85 /* iOSWebHere */,
-				599055B018AD762300FC8D85 /* iOSWebHereTests */,
+				59B1EDA618B0BACC005772EF /* iOSWebHere */,
+				59B1EDB618B0BACC005772EF /* iOSWebHereTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5990558B18AD762300FC8D85 /* Resources */ = {
+		59B1EDB518B0BACC005772EF /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				599055A718AD762300FC8D85 /* Main_iPad.storyboard in Resources */,
-				599055AC18AD762300FC8D85 /* Images.xcassets in Resources */,
-				599055A418AD762300FC8D85 /* Main_iPhone.storyboard in Resources */,
-				5990559B18AD762300FC8D85 /* InfoPlist.strings in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		599055AF18AD762300FC8D85 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				599055BD18AD762300FC8D85 /* InfoPlist.strings in Resources */,
+				59B1EDC518B0BACC005772EF /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		441A9AE7FC7B411B98830420 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		AF74D9021A4342B3B2695922 /* Copy Pods Resources */ = {
+		0F9BFD56D5BE4A70B6A94743 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -297,7 +251,22 @@
 			shellScript = "\"${SRCROOT}/../Pods/Pods-iOSWebHereTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		C66785E9E87B42AEA8F193BC /* Copy Pods Resources */ = {
+		5882DAA7845E4F6E82E009BF /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9EBB3F097C084ECC8A0A2E35 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -312,7 +281,7 @@
 			shellScript = "\"${SRCROOT}/../Pods/Pods-iOSWebHere-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		E89B71CDF17F47ADA07EFE31 /* Check Pods Manifest.lock */ = {
+		DC7DD68EF05D4BC1976C783E /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -330,63 +299,37 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5990558918AD762300FC8D85 /* Sources */ = {
+		59B1EDA318B0BACC005772EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				599055AA18AD762300FC8D85 /* ViewController.m in Sources */,
-				599055A118AD762300FC8D85 /* AppDelegate.m in Sources */,
-				5990559D18AD762300FC8D85 /* main.m in Sources */,
+				59B1EDB218B0BACC005772EF /* iOSWebHere.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		599055AD18AD762300FC8D85 /* Sources */ = {
+		59B1EDB318B0BACC005772EF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				599055BF18AD762300FC8D85 /* iOSWebHereTests.m in Sources */,
+				59B1EDC718B0BACC005772EF /* iOSWebHereTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		599055B718AD762300FC8D85 /* PBXTargetDependency */ = {
+		59B1EDBE18B0BACC005772EF /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5990558C18AD762300FC8D85 /* iOSWebHere */;
-			targetProxy = 599055B618AD762300FC8D85 /* PBXContainerItemProxy */;
+			target = 59B1EDA618B0BACC005772EF /* iOSWebHere */;
+			targetProxy = 59B1EDBD18B0BACC005772EF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		5990559918AD762300FC8D85 /* InfoPlist.strings */ = {
+		59B1EDC318B0BACC005772EF /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				5990559A18AD762300FC8D85 /* en */,
-			);
-			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		599055A218AD762300FC8D85 /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				599055A318AD762300FC8D85 /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		599055A518AD762300FC8D85 /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				599055A618AD762300FC8D85 /* Base */,
-			);
-			name = Main_iPad.storyboard;
-			sourceTree = "<group>";
-		};
-		599055BB18AD762300FC8D85 /* InfoPlist.strings */ = {
-			isa = PBXVariantGroup;
-			children = (
-				599055BC18AD762300FC8D85 /* en */,
+				59B1EDC418B0BACC005772EF /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -394,7 +337,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		599055C018AD762300FC8D85 /* Debug */ = {
+		59B1EDC818B0BACC005772EF /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -411,7 +354,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -430,11 +372,10 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		599055C118AD762300FC8D85 /* Release */ = {
+		59B1EDC918B0BACC005772EF /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -451,7 +392,6 @@
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -463,47 +403,61 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		599055C318AD762300FC8D85 /* Debug */ = {
+		59B1EDCB18B0BACC005772EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6375D91E7A6A40F3825BAFDE /* Pods-iOSWebHere.xcconfig */;
+			baseConfigurationReference = 96FD8682BE5E4267B01A524D /* Pods-iOSWebHere.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DSTROOT = /tmp/iOSWebHere.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSWebHere/iOSWebHere-Prefix.pch";
-				INFOPLIST_FILE = "iOSWebHere/iOSWebHere-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				SKIP_INSTALL = YES;
 			};
 			name = Debug;
 		};
-		599055C418AD762300FC8D85 /* Release */ = {
+		59B1EDCC18B0BACC005772EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6375D91E7A6A40F3825BAFDE /* Pods-iOSWebHere.xcconfig */;
+			baseConfigurationReference = 96FD8682BE5E4267B01A524D /* Pods-iOSWebHere.xcconfig */;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DSTROOT = /tmp/iOSWebHere.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSWebHere/iOSWebHere-Prefix.pch";
-				INFOPLIST_FILE = "iOSWebHere/iOSWebHere-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CoreGraphics,
+					"-framework",
+					MobileCoreServices,
+					"-framework",
+					Security,
+					"-framework",
+					SystemConfiguration,
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				WRAPPER_EXTENSION = app;
+				SKIP_INSTALL = YES;
 			};
 			name = Release;
 		};
-		599055C618AD762300FC8D85 /* Debug */ = {
+		59B1EDCE18B0BACC005772EF /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5E0B0A90CE7446986C84E10 /* Pods-iOSWebHereTests.xcconfig */;
+			baseConfigurationReference = 3598F1B2AFB64A50BA37E3B4 /* Pods-iOSWebHereTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSWebHere.app/iOSWebHere";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -516,18 +470,24 @@
 					"$(inherited)",
 				);
 				INFOPLIST_FILE = "iOSWebHereTests/iOSWebHereTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CFNetwork,
+					"-framework",
+					XCTest,
+					"-lxml2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
 		};
-		599055C718AD762300FC8D85 /* Release */ = {
+		59B1EDCF18B0BACC005772EF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F5E0B0A90CE7446986C84E10 /* Pods-iOSWebHereTests.xcconfig */;
+			baseConfigurationReference = 3598F1B2AFB64A50BA37E3B4 /* Pods-iOSWebHereTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSWebHere.app/iOSWebHere";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -536,8 +496,15 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "iOSWebHere/iOSWebHere-Prefix.pch";
 				INFOPLIST_FILE = "iOSWebHereTests/iOSWebHereTests-Info.plist";
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-framework",
+					CFNetwork,
+					"-framework",
+					XCTest,
+					"-lxml2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
@@ -545,32 +512,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5990558818AD762300FC8D85 /* Build configuration list for PBXProject "iOSWebHere" */ = {
+		59B1EDA218B0BACC005772EF /* Build configuration list for PBXProject "iOSWebHere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				599055C018AD762300FC8D85 /* Debug */,
-				599055C118AD762300FC8D85 /* Release */,
+				59B1EDC818B0BACC005772EF /* Debug */,
+				59B1EDC918B0BACC005772EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		599055C218AD762300FC8D85 /* Build configuration list for PBXNativeTarget "iOSWebHere" */ = {
+		59B1EDCA18B0BACC005772EF /* Build configuration list for PBXNativeTarget "iOSWebHere" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				599055C318AD762300FC8D85 /* Debug */,
-				599055C418AD762300FC8D85 /* Release */,
+				59B1EDCB18B0BACC005772EF /* Debug */,
+				59B1EDCC18B0BACC005772EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
-		599055C518AD762300FC8D85 /* Build configuration list for PBXNativeTarget "iOSWebHereTests" */ = {
+		59B1EDCD18B0BACC005772EF /* Build configuration list for PBXNativeTarget "iOSWebHereTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				599055C618AD762300FC8D85 /* Debug */,
-				599055C718AD762300FC8D85 /* Release */,
+				59B1EDCE18B0BACC005772EF /* Debug */,
+				59B1EDCF18B0BACC005772EF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5990558518AD762300FC8D85 /* Project object */;
+	rootObject = 59B1ED9F18B0BACC005772EF /* Project object */;
 }
