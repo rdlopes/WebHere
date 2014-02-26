@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5958EDA418BEA2B100536E53 /* WHSiteManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5958EDA218BEA2B100536E53 /* WHSiteManager.h */; };
+		5958EDA518BEA2B100536E53 /* WHSiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5958EDA318BEA2B100536E53 /* WHSiteManager.m */; };
 		598A0D1B18BE9A5800E32B69 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598A0D1A18BE9A5800E32B69 /* Cocoa.framework */; };
 		598A0D2518BE9A5800E32B69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 598A0D2318BE9A5800E32B69 /* InfoPlist.strings */; };
 		598A0D3018BE9A5800E32B69 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598A0D2F18BE9A5800E32B69 /* XCTest.framework */; };
@@ -39,6 +41,8 @@
 /* Begin PBXFileReference section */
 		0FB96F56AD2C419BA97730C9 /* libPods-WebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C708E396D23429E98F7E0CB /* Pods-WebHere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere.xcconfig"; path = "../../Pods/Pods-WebHere.xcconfig"; sourceTree = "<group>"; };
+		5958EDA218BEA2B100536E53 /* WHSiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHSiteManager.h; path = ../../../Classes/WHSiteManager.h; sourceTree = "<group>"; };
+		5958EDA318BEA2B100536E53 /* WHSiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHSiteManager.m; path = ../../../Classes/WHSiteManager.m; sourceTree = "<group>"; };
 		598A0D1718BE9A5800E32B69 /* WebHere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebHere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		598A0D1A18BE9A5800E32B69 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		598A0D1D18BE9A5800E32B69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -95,6 +99,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5958EDA118BEA26400536E53 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				5958EDA218BEA2B100536E53 /* WHSiteManager.h */,
+				5958EDA318BEA2B100536E53 /* WHSiteManager.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
 		598A0D0D18BE9A5800E32B69 = {
 			isa = PBXGroup;
 			children = (
@@ -140,6 +153,7 @@
 			isa = PBXGroup;
 			children = (
 				598A0D4918BE9AF600E32B69 /* WebHere.h */,
+				5958EDA118BEA26400536E53 /* Client */,
 				598A0D5918BE9B1800E32B69 /* Additions */,
 				598A0D2118BE9A5800E32B69 /* Supporting Files */,
 			);
@@ -236,6 +250,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5958EDA418BEA2B100536E53 /* WHSiteManager.h in Headers */,
 				598A0D4E18BE9AF600E32B69 /* WebHere.h in Headers */,
 				598A0D4A18BE9AF600E32B69 /* NSObject+GCD.h in Headers */,
 				598A0D4C18BE9AF600E32B69 /* NSObject+Runtime.h in Headers */,
@@ -406,6 +421,7 @@
 			files = (
 				598A0D4D18BE9AF600E32B69 /* NSObject+Runtime.m in Sources */,
 				598A0D4B18BE9AF600E32B69 /* NSObject+GCD.m in Sources */,
+				5958EDA518BEA2B100536E53 /* WHSiteManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
