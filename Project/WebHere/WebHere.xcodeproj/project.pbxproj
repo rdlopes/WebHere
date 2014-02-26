@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28D1FF54A4DB48AA04CCE2AD /* WHSiteManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D1FEAB3E81A1F4E56F8CFD /* WHSiteManagerTests.m */; };
 		5958EDA418BEA2B100536E53 /* WHSiteManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5958EDA218BEA2B100536E53 /* WHSiteManager.h */; };
 		5958EDA518BEA2B100536E53 /* WHSiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5958EDA318BEA2B100536E53 /* WHSiteManager.m */; };
 		598A0D1B18BE9A5800E32B69 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598A0D1A18BE9A5800E32B69 /* Cocoa.framework */; };
@@ -40,6 +41,7 @@
 
 /* Begin PBXFileReference section */
 		0FB96F56AD2C419BA97730C9 /* libPods-WebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D1FEAB3E81A1F4E56F8CFD /* WHSiteManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHSiteManagerTests.m; path = ../../../Tests/WHSiteManagerTests.m; sourceTree = "<group>"; };
 		3C708E396D23429E98F7E0CB /* Pods-WebHere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere.xcconfig"; path = "../../Pods/Pods-WebHere.xcconfig"; sourceTree = "<group>"; };
 		5958EDA218BEA2B100536E53 /* WHSiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHSiteManager.h; path = ../../../Classes/WHSiteManager.h; sourceTree = "<group>"; };
 		5958EDA318BEA2B100536E53 /* WHSiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHSiteManager.m; path = ../../../Classes/WHSiteManager.m; sourceTree = "<group>"; };
@@ -99,6 +101,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28D1FA3AA9F44B8D42F4F860 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				28D1FEAB3E81A1F4E56F8CFD /* WHSiteManagerTests.m */,
+			);
+			name = Client;
+			sourceTree = "<group>";
+		};
 		5958EDA118BEA26400536E53 /* Client */ = {
 			isa = PBXGroup;
 			children = (
@@ -180,6 +190,7 @@
 				598A0D5B18BE9B3400E32B69 /* Additions */,
 				598A0D5A18BE9B2A00E32B69 /* Fixtures */,
 				598A0D3618BE9A5800E32B69 /* Supporting Files */,
+				28D1FA3AA9F44B8D42F4F860 /* Client */,
 			);
 			path = WebHereTests;
 			sourceTree = "<group>";
@@ -433,6 +444,7 @@
 				598A0D5618BE9B0C00E32B69 /* NSObject_RuntimeTest.m in Sources */,
 				598A0D5818BE9B0C00E32B69 /* WHNSObject.m in Sources */,
 				598A0D5518BE9B0C00E32B69 /* NSObject_GCD.m in Sources */,
+				28D1FF54A4DB48AA04CCE2AD /* WHSiteManagerTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
