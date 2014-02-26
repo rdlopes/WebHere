@@ -2,7 +2,7 @@
 //  WHDAppDelegate.h
 //  OSXWebHereDemo
 //
-//  Created by Rui Lopes on 16/02/2014.
+//  Created by Rui Lopes on 26/02/2014.
 //  Copyright (c) 2014 Rui Lopes. All rights reserved.
 //
 
@@ -10,6 +10,6 @@
 
 @interface WHDAppDelegate : NSObject <NSApplicationDelegate>
 
-@property (assign) IBOutlet NSWindow *window;
+@property(assign) IBOutlet NSWindow *window;
 
 @end

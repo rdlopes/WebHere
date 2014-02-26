@@ -14,7 +14,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/rdlopes/WebHere.git", :branch => "pre-0.2.0-platform-update" }
 
   s.ios.deployment_target = '7.0'
-  s.osx.deployment_target = '10.8'
+  s.osx.deployment_target = '10.9'
   s.requires_arc = true
 
   s.source_files = 'Classes'

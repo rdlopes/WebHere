@@ -7,151 +7,151 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2667526CC40444F4BE997D04 /* libPods-iOSWebHereDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E013F05A796C434FB55E9514 /* libPods-iOSWebHereDemo.a */; };
-		49D193A91F564801A67521CC /* libPods-iOSWebHereDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A6896B745D904169A55C39CE /* libPods-iOSWebHereDemoTests.a */; };
-		59B1ED3018B0BA64005772EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1ED2F18B0BA64005772EF /* Foundation.framework */; };
-		59B1ED3218B0BA64005772EF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1ED3118B0BA64005772EF /* CoreGraphics.framework */; };
-		59B1ED3418B0BA64005772EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1ED3318B0BA64005772EF /* UIKit.framework */; };
-		59B1ED3A18B0BA64005772EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B1ED3818B0BA64005772EF /* InfoPlist.strings */; };
-		59B1ED3C18B0BA64005772EF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B1ED3B18B0BA64005772EF /* main.m */; };
-		59B1ED4018B0BA64005772EF /* WHDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B1ED3F18B0BA64005772EF /* WHDAppDelegate.m */; };
-		59B1ED4218B0BA64005772EF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 59B1ED4118B0BA64005772EF /* Images.xcassets */; };
-		59B1ED4918B0BA64005772EF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1ED4818B0BA64005772EF /* XCTest.framework */; };
-		59B1ED4A18B0BA64005772EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1ED2F18B0BA64005772EF /* Foundation.framework */; };
-		59B1ED4B18B0BA64005772EF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 59B1ED3318B0BA64005772EF /* UIKit.framework */; };
-		59B1ED5318B0BA64005772EF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 59B1ED5118B0BA64005772EF /* InfoPlist.strings */; };
-		59B1ED5518B0BA64005772EF /* iOSWebHereDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 59B1ED5418B0BA64005772EF /* iOSWebHereDemoTests.m */; };
+		56AF357CC88E4BE4B54CF89B /* libPods-iOSWebHereDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 133203CC6D184F1586DE9E3D /* libPods-iOSWebHereDemoTests.a */; };
+		5931BF7618BE976900CD7313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5931BF7518BE976900CD7313 /* Foundation.framework */; };
+		5931BF7818BE976900CD7313 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5931BF7718BE976900CD7313 /* CoreGraphics.framework */; };
+		5931BF7A18BE976900CD7313 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5931BF7918BE976900CD7313 /* UIKit.framework */; };
+		5931BF8018BE976900CD7313 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5931BF7E18BE976900CD7313 /* InfoPlist.strings */; };
+		5931BF8218BE976900CD7313 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5931BF8118BE976900CD7313 /* main.m */; };
+		5931BF8618BE976900CD7313 /* WHDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5931BF8518BE976900CD7313 /* WHDAppDelegate.m */; };
+		5931BF8818BE976900CD7313 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5931BF8718BE976900CD7313 /* Images.xcassets */; };
+		5931BF8F18BE976900CD7313 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5931BF8E18BE976900CD7313 /* XCTest.framework */; };
+		5931BF9018BE976900CD7313 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5931BF7518BE976900CD7313 /* Foundation.framework */; };
+		5931BF9118BE976900CD7313 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5931BF7918BE976900CD7313 /* UIKit.framework */; };
+		5931BF9918BE976900CD7313 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5931BF9718BE976900CD7313 /* InfoPlist.strings */; };
+		5931BF9B18BE976900CD7313 /* iOSWebHereDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5931BF9A18BE976900CD7313 /* iOSWebHereDemoTests.m */; };
+		8FA9AEAF167D4917825F834A /* libPods-iOSWebHereDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A1551CEE44054CF386651FD5 /* libPods-iOSWebHereDemo.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		59B1ED4C18B0BA64005772EF /* PBXContainerItemProxy */ = {
+		5931BF9218BE976900CD7313 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 59B1ED2418B0BA64005772EF /* Project object */;
+			containerPortal = 5931BF6A18BE976900CD7313 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 59B1ED2B18B0BA64005772EF;
+			remoteGlobalIDString = 5931BF7118BE976900CD7313;
 			remoteInfo = iOSWebHereDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		59B1ED2C18B0BA64005772EF /* iOSWebHereDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWebHereDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		59B1ED2F18B0BA64005772EF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		59B1ED3118B0BA64005772EF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		59B1ED3318B0BA64005772EF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
-		59B1ED3718B0BA64005772EF /* iOSWebHereDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSWebHereDemo-Info.plist"; sourceTree = "<group>"; };
-		59B1ED3918B0BA64005772EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		59B1ED3B18B0BA64005772EF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		59B1ED3D18B0BA64005772EF /* iOSWebHereDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSWebHereDemo-Prefix.pch"; sourceTree = "<group>"; };
-		59B1ED3E18B0BA64005772EF /* WHDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHDAppDelegate.h; sourceTree = "<group>"; };
-		59B1ED3F18B0BA64005772EF /* WHDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHDAppDelegate.m; sourceTree = "<group>"; };
-		59B1ED4118B0BA64005772EF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		59B1ED4718B0BA64005772EF /* iOSWebHereDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSWebHereDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		59B1ED4818B0BA64005772EF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
-		59B1ED5018B0BA64005772EF /* iOSWebHereDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSWebHereDemoTests-Info.plist"; sourceTree = "<group>"; };
-		59B1ED5218B0BA64005772EF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		59B1ED5418B0BA64005772EF /* iOSWebHereDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSWebHereDemoTests.m; sourceTree = "<group>"; };
-		79506B9DBBA64A79A2F96071 /* Pods-iOSWebHereDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWebHereDemoTests.xcconfig"; path = "../Pods/Pods-iOSWebHereDemoTests.xcconfig"; sourceTree = "<group>"; };
-		8C7CB04105394AB6B8650C5F /* Pods-iOSWebHereDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWebHereDemo.xcconfig"; path = "../Pods/Pods-iOSWebHereDemo.xcconfig"; sourceTree = "<group>"; };
-		A6896B745D904169A55C39CE /* libPods-iOSWebHereDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSWebHereDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		E013F05A796C434FB55E9514 /* libPods-iOSWebHereDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSWebHereDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		111664FC5AAD45FF95205769 /* Pods-iOSWebHereDemo.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWebHereDemo.xcconfig"; path = "../Pods/Pods-iOSWebHereDemo.xcconfig"; sourceTree = "<group>"; };
+		133203CC6D184F1586DE9E3D /* libPods-iOSWebHereDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSWebHereDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5931BF7218BE976900CD7313 /* iOSWebHereDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSWebHereDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5931BF7518BE976900CD7313 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5931BF7718BE976900CD7313 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5931BF7918BE976900CD7313 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5931BF7D18BE976900CD7313 /* iOSWebHereDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSWebHereDemo-Info.plist"; sourceTree = "<group>"; };
+		5931BF7F18BE976900CD7313 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5931BF8118BE976900CD7313 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5931BF8318BE976900CD7313 /* iOSWebHereDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "iOSWebHereDemo-Prefix.pch"; sourceTree = "<group>"; };
+		5931BF8418BE976900CD7313 /* WHDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHDAppDelegate.h; sourceTree = "<group>"; };
+		5931BF8518BE976900CD7313 /* WHDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHDAppDelegate.m; sourceTree = "<group>"; };
+		5931BF8718BE976900CD7313 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		5931BF8D18BE976900CD7313 /* iOSWebHereDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSWebHereDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5931BF8E18BE976900CD7313 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		5931BF9618BE976900CD7313 /* iOSWebHereDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "iOSWebHereDemoTests-Info.plist"; sourceTree = "<group>"; };
+		5931BF9818BE976900CD7313 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5931BF9A18BE976900CD7313 /* iOSWebHereDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSWebHereDemoTests.m; sourceTree = "<group>"; };
+		5B589CA3E3BB4B7098165DBA /* Pods-iOSWebHereDemoTests.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-iOSWebHereDemoTests.xcconfig"; path = "../Pods/Pods-iOSWebHereDemoTests.xcconfig"; sourceTree = "<group>"; };
+		A1551CEE44054CF386651FD5 /* libPods-iOSWebHereDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-iOSWebHereDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		59B1ED2918B0BA64005772EF /* Frameworks */ = {
+		5931BF6F18BE976900CD7313 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59B1ED3218B0BA64005772EF /* CoreGraphics.framework in Frameworks */,
-				59B1ED3418B0BA64005772EF /* UIKit.framework in Frameworks */,
-				59B1ED3018B0BA64005772EF /* Foundation.framework in Frameworks */,
-				2667526CC40444F4BE997D04 /* libPods-iOSWebHereDemo.a in Frameworks */,
+				5931BF7818BE976900CD7313 /* CoreGraphics.framework in Frameworks */,
+				5931BF7A18BE976900CD7313 /* UIKit.framework in Frameworks */,
+				5931BF7618BE976900CD7313 /* Foundation.framework in Frameworks */,
+				8FA9AEAF167D4917825F834A /* libPods-iOSWebHereDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59B1ED4418B0BA64005772EF /* Frameworks */ = {
+		5931BF8A18BE976900CD7313 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59B1ED4918B0BA64005772EF /* XCTest.framework in Frameworks */,
-				59B1ED4B18B0BA64005772EF /* UIKit.framework in Frameworks */,
-				59B1ED4A18B0BA64005772EF /* Foundation.framework in Frameworks */,
-				49D193A91F564801A67521CC /* libPods-iOSWebHereDemoTests.a in Frameworks */,
+				5931BF8F18BE976900CD7313 /* XCTest.framework in Frameworks */,
+				5931BF9118BE976900CD7313 /* UIKit.framework in Frameworks */,
+				5931BF9018BE976900CD7313 /* Foundation.framework in Frameworks */,
+				56AF357CC88E4BE4B54CF89B /* libPods-iOSWebHereDemoTests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		59B1ED2318B0BA64005772EF = {
+		5931BF6918BE976900CD7313 = {
 			isa = PBXGroup;
 			children = (
-				59B1ED3518B0BA64005772EF /* iOSWebHereDemo */,
-				59B1ED4E18B0BA64005772EF /* iOSWebHereDemoTests */,
-				59B1ED2E18B0BA64005772EF /* Frameworks */,
-				59B1ED2D18B0BA64005772EF /* Products */,
-				8C7CB04105394AB6B8650C5F /* Pods-iOSWebHereDemo.xcconfig */,
-				79506B9DBBA64A79A2F96071 /* Pods-iOSWebHereDemoTests.xcconfig */,
+				5931BF7B18BE976900CD7313 /* iOSWebHereDemo */,
+				5931BF9418BE976900CD7313 /* iOSWebHereDemoTests */,
+				5931BF7418BE976900CD7313 /* Frameworks */,
+				5931BF7318BE976900CD7313 /* Products */,
+				111664FC5AAD45FF95205769 /* Pods-iOSWebHereDemo.xcconfig */,
+				5B589CA3E3BB4B7098165DBA /* Pods-iOSWebHereDemoTests.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
-		59B1ED2D18B0BA64005772EF /* Products */ = {
+		5931BF7318BE976900CD7313 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				59B1ED2C18B0BA64005772EF /* iOSWebHereDemo.app */,
-				59B1ED4718B0BA64005772EF /* iOSWebHereDemoTests.xctest */,
+				5931BF7218BE976900CD7313 /* iOSWebHereDemo.app */,
+				5931BF8D18BE976900CD7313 /* iOSWebHereDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		59B1ED2E18B0BA64005772EF /* Frameworks */ = {
+		5931BF7418BE976900CD7313 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				59B1ED2F18B0BA64005772EF /* Foundation.framework */,
-				59B1ED3118B0BA64005772EF /* CoreGraphics.framework */,
-				59B1ED3318B0BA64005772EF /* UIKit.framework */,
-				59B1ED4818B0BA64005772EF /* XCTest.framework */,
-				E013F05A796C434FB55E9514 /* libPods-iOSWebHereDemo.a */,
-				A6896B745D904169A55C39CE /* libPods-iOSWebHereDemoTests.a */,
+				5931BF7518BE976900CD7313 /* Foundation.framework */,
+				5931BF7718BE976900CD7313 /* CoreGraphics.framework */,
+				5931BF7918BE976900CD7313 /* UIKit.framework */,
+				5931BF8E18BE976900CD7313 /* XCTest.framework */,
+				A1551CEE44054CF386651FD5 /* libPods-iOSWebHereDemo.a */,
+				133203CC6D184F1586DE9E3D /* libPods-iOSWebHereDemoTests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		59B1ED3518B0BA64005772EF /* iOSWebHereDemo */ = {
+		5931BF7B18BE976900CD7313 /* iOSWebHereDemo */ = {
 			isa = PBXGroup;
 			children = (
-				59B1ED3E18B0BA64005772EF /* WHDAppDelegate.h */,
-				59B1ED3F18B0BA64005772EF /* WHDAppDelegate.m */,
-				59B1ED4118B0BA64005772EF /* Images.xcassets */,
-				59B1ED3618B0BA64005772EF /* Supporting Files */,
+				5931BF8418BE976900CD7313 /* WHDAppDelegate.h */,
+				5931BF8518BE976900CD7313 /* WHDAppDelegate.m */,
+				5931BF8718BE976900CD7313 /* Images.xcassets */,
+				5931BF7C18BE976900CD7313 /* Supporting Files */,
 			);
 			path = iOSWebHereDemo;
 			sourceTree = "<group>";
 		};
-		59B1ED3618B0BA64005772EF /* Supporting Files */ = {
+		5931BF7C18BE976900CD7313 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				59B1ED3718B0BA64005772EF /* iOSWebHereDemo-Info.plist */,
-				59B1ED3818B0BA64005772EF /* InfoPlist.strings */,
-				59B1ED3B18B0BA64005772EF /* main.m */,
-				59B1ED3D18B0BA64005772EF /* iOSWebHereDemo-Prefix.pch */,
+				5931BF7D18BE976900CD7313 /* iOSWebHereDemo-Info.plist */,
+				5931BF7E18BE976900CD7313 /* InfoPlist.strings */,
+				5931BF8118BE976900CD7313 /* main.m */,
+				5931BF8318BE976900CD7313 /* iOSWebHereDemo-Prefix.pch */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		59B1ED4E18B0BA64005772EF /* iOSWebHereDemoTests */ = {
+		5931BF9418BE976900CD7313 /* iOSWebHereDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				59B1ED5418B0BA64005772EF /* iOSWebHereDemoTests.m */,
-				59B1ED4F18B0BA64005772EF /* Supporting Files */,
+				5931BF9A18BE976900CD7313 /* iOSWebHereDemoTests.m */,
+				5931BF9518BE976900CD7313 /* Supporting Files */,
 			);
 			path = iOSWebHereDemoTests;
 			sourceTree = "<group>";
 		};
-		59B1ED4F18B0BA64005772EF /* Supporting Files */ = {
+		5931BF9518BE976900CD7313 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				59B1ED5018B0BA64005772EF /* iOSWebHereDemoTests-Info.plist */,
-				59B1ED5118B0BA64005772EF /* InfoPlist.strings */,
+				5931BF9618BE976900CD7313 /* iOSWebHereDemoTests-Info.plist */,
+				5931BF9718BE976900CD7313 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -159,15 +159,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		59B1ED2B18B0BA64005772EF /* iOSWebHereDemo */ = {
+		5931BF7118BE976900CD7313 /* iOSWebHereDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59B1ED5818B0BA64005772EF /* Build configuration list for PBXNativeTarget "iOSWebHereDemo" */;
+			buildConfigurationList = 5931BF9E18BE976900CD7313 /* Build configuration list for PBXNativeTarget "iOSWebHereDemo" */;
 			buildPhases = (
-				1356C2EC9296461F92302460 /* Check Pods Manifest.lock */,
-				59B1ED2818B0BA64005772EF /* Sources */,
-				59B1ED2918B0BA64005772EF /* Frameworks */,
-				59B1ED2A18B0BA64005772EF /* Resources */,
-				B7866B7616B8435281F50649 /* Copy Pods Resources */,
+				5B062CA0351E49B98E414BF9 /* Check Pods Manifest.lock */,
+				5931BF6E18BE976900CD7313 /* Sources */,
+				5931BF6F18BE976900CD7313 /* Frameworks */,
+				5931BF7018BE976900CD7313 /* Resources */,
+				34632B4D31C04E0B9BF449E1 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -175,116 +175,86 @@
 			);
 			name = iOSWebHereDemo;
 			productName = iOSWebHereDemo;
-			productReference = 59B1ED2C18B0BA64005772EF /* iOSWebHereDemo.app */;
+			productReference = 5931BF7218BE976900CD7313 /* iOSWebHereDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		59B1ED4618B0BA64005772EF /* iOSWebHereDemoTests */ = {
+		5931BF8C18BE976900CD7313 /* iOSWebHereDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 59B1ED5B18B0BA64005772EF /* Build configuration list for PBXNativeTarget "iOSWebHereDemoTests" */;
+			buildConfigurationList = 5931BFA118BE976900CD7313 /* Build configuration list for PBXNativeTarget "iOSWebHereDemoTests" */;
 			buildPhases = (
-				DA7257432A464B329FD46C1C /* Check Pods Manifest.lock */,
-				59B1ED4318B0BA64005772EF /* Sources */,
-				59B1ED4418B0BA64005772EF /* Frameworks */,
-				59B1ED4518B0BA64005772EF /* Resources */,
-				D17B5DF75A684D4090188C41 /* Copy Pods Resources */,
+				67C55D92F6CB4B4292FDD4EE /* Check Pods Manifest.lock */,
+				5931BF8918BE976900CD7313 /* Sources */,
+				5931BF8A18BE976900CD7313 /* Frameworks */,
+				5931BF8B18BE976900CD7313 /* Resources */,
+				16390FEB0A70439EADC6D47A /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				59B1ED4D18B0BA64005772EF /* PBXTargetDependency */,
+				5931BF9318BE976900CD7313 /* PBXTargetDependency */,
 			);
 			name = iOSWebHereDemoTests;
 			productName = iOSWebHereDemoTests;
-			productReference = 59B1ED4718B0BA64005772EF /* iOSWebHereDemoTests.xctest */;
+			productReference = 5931BF8D18BE976900CD7313 /* iOSWebHereDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		59B1ED2418B0BA64005772EF /* Project object */ = {
+		5931BF6A18BE976900CD7313 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = WHD;
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Rui Lopes";
 				TargetAttributes = {
-					59B1ED4618B0BA64005772EF = {
-						TestTargetID = 59B1ED2B18B0BA64005772EF;
+					5931BF8C18BE976900CD7313 = {
+						TestTargetID = 5931BF7118BE976900CD7313;
 					};
 				};
 			};
-			buildConfigurationList = 59B1ED2718B0BA64005772EF /* Build configuration list for PBXProject "iOSWebHereDemo" */;
+			buildConfigurationList = 5931BF6D18BE976900CD7313 /* Build configuration list for PBXProject "iOSWebHereDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 59B1ED2318B0BA64005772EF;
-			productRefGroup = 59B1ED2D18B0BA64005772EF /* Products */;
+			mainGroup = 5931BF6918BE976900CD7313;
+			productRefGroup = 5931BF7318BE976900CD7313 /* Products */;
 			projectDirPath = "";
 			projectReferences = (
 			);
 			projectRoot = "";
 			targets = (
-				59B1ED2B18B0BA64005772EF /* iOSWebHereDemo */,
-				59B1ED4618B0BA64005772EF /* iOSWebHereDemoTests */,
+				5931BF7118BE976900CD7313 /* iOSWebHereDemo */,
+				5931BF8C18BE976900CD7313 /* iOSWebHereDemoTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		59B1ED2A18B0BA64005772EF /* Resources */ = {
+		5931BF7018BE976900CD7313 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59B1ED3A18B0BA64005772EF /* InfoPlist.strings in Resources */,
-				59B1ED4218B0BA64005772EF /* Images.xcassets in Resources */,
+				5931BF8018BE976900CD7313 /* InfoPlist.strings in Resources */,
+				5931BF8818BE976900CD7313 /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59B1ED4518B0BA64005772EF /* Resources */ = {
+		5931BF8B18BE976900CD7313 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59B1ED5318B0BA64005772EF /* InfoPlist.strings in Resources */,
+				5931BF9918BE976900CD7313 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		1356C2EC9296461F92302460 /* Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		B7866B7616B8435281F50649 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/../Pods/Pods-iOSWebHereDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D17B5DF75A684D4090188C41 /* Copy Pods Resources */ = {
+		16390FEB0A70439EADC6D47A /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -299,7 +269,37 @@
 			shellScript = "\"${SRCROOT}/../Pods/Pods-iOSWebHereDemoTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		DA7257432A464B329FD46C1C /* Check Pods Manifest.lock */ = {
+		34632B4D31C04E0B9BF449E1 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../Pods/Pods-iOSWebHereDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B062CA0351E49B98E414BF9 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		67C55D92F6CB4B4292FDD4EE /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -317,46 +317,46 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		59B1ED2818B0BA64005772EF /* Sources */ = {
+		5931BF6E18BE976900CD7313 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59B1ED4018B0BA64005772EF /* WHDAppDelegate.m in Sources */,
-				59B1ED3C18B0BA64005772EF /* main.m in Sources */,
+				5931BF8618BE976900CD7313 /* WHDAppDelegate.m in Sources */,
+				5931BF8218BE976900CD7313 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		59B1ED4318B0BA64005772EF /* Sources */ = {
+		5931BF8918BE976900CD7313 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59B1ED5518B0BA64005772EF /* iOSWebHereDemoTests.m in Sources */,
+				5931BF9B18BE976900CD7313 /* iOSWebHereDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		59B1ED4D18B0BA64005772EF /* PBXTargetDependency */ = {
+		5931BF9318BE976900CD7313 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 59B1ED2B18B0BA64005772EF /* iOSWebHereDemo */;
-			targetProxy = 59B1ED4C18B0BA64005772EF /* PBXContainerItemProxy */;
+			target = 5931BF7118BE976900CD7313 /* iOSWebHereDemo */;
+			targetProxy = 5931BF9218BE976900CD7313 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		59B1ED3818B0BA64005772EF /* InfoPlist.strings */ = {
+		5931BF7E18BE976900CD7313 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				59B1ED3918B0BA64005772EF /* en */,
+				5931BF7F18BE976900CD7313 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
-		59B1ED5118B0BA64005772EF /* InfoPlist.strings */ = {
+		5931BF9718BE976900CD7313 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
-				59B1ED5218B0BA64005772EF /* en */,
+				5931BF9818BE976900CD7313 /* en */,
 			);
 			name = InfoPlist.strings;
 			sourceTree = "<group>";
@@ -364,7 +364,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		59B1ED5618B0BA64005772EF /* Debug */ = {
+		5931BF9C18BE976900CD7313 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -404,7 +404,7 @@
 			};
 			name = Debug;
 		};
-		59B1ED5718B0BA64005772EF /* Release */ = {
+		5931BF9D18BE976900CD7313 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -438,9 +438,9 @@
 			};
 			name = Release;
 		};
-		59B1ED5918B0BA64005772EF /* Debug */ = {
+		5931BF9F18BE976900CD7313 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C7CB04105394AB6B8650C5F /* Pods-iOSWebHereDemo.xcconfig */;
+			baseConfigurationReference = 111664FC5AAD45FF95205769 /* Pods-iOSWebHereDemo.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -452,9 +452,9 @@
 			};
 			name = Debug;
 		};
-		59B1ED5A18B0BA64005772EF /* Release */ = {
+		5931BFA018BE976900CD7313 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 8C7CB04105394AB6B8650C5F /* Pods-iOSWebHereDemo.xcconfig */;
+			baseConfigurationReference = 111664FC5AAD45FF95205769 /* Pods-iOSWebHereDemo.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -466,9 +466,9 @@
 			};
 			name = Release;
 		};
-		59B1ED5C18B0BA64005772EF /* Debug */ = {
+		5931BFA218BE976900CD7313 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79506B9DBBA64A79A2F96071 /* Pods-iOSWebHereDemoTests.xcconfig */;
+			baseConfigurationReference = 5B589CA3E3BB4B7098165DBA /* Pods-iOSWebHereDemoTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSWebHereDemo.app/iOSWebHereDemo";
@@ -490,9 +490,9 @@
 			};
 			name = Debug;
 		};
-		59B1ED5D18B0BA64005772EF /* Release */ = {
+		5931BFA318BE976900CD7313 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 79506B9DBBA64A79A2F96071 /* Pods-iOSWebHereDemoTests.xcconfig */;
+			baseConfigurationReference = 5B589CA3E3BB4B7098165DBA /* Pods-iOSWebHereDemoTests.xcconfig */;
 			buildSettings = {
 				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/iOSWebHereDemo.app/iOSWebHereDemo";
@@ -513,32 +513,32 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		59B1ED2718B0BA64005772EF /* Build configuration list for PBXProject "iOSWebHereDemo" */ = {
+		5931BF6D18BE976900CD7313 /* Build configuration list for PBXProject "iOSWebHereDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59B1ED5618B0BA64005772EF /* Debug */,
-				59B1ED5718B0BA64005772EF /* Release */,
+				5931BF9C18BE976900CD7313 /* Debug */,
+				5931BF9D18BE976900CD7313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		59B1ED5818B0BA64005772EF /* Build configuration list for PBXNativeTarget "iOSWebHereDemo" */ = {
+		5931BF9E18BE976900CD7313 /* Build configuration list for PBXNativeTarget "iOSWebHereDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59B1ED5918B0BA64005772EF /* Debug */,
-				59B1ED5A18B0BA64005772EF /* Release */,
+				5931BF9F18BE976900CD7313 /* Debug */,
+				5931BFA018BE976900CD7313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		59B1ED5B18B0BA64005772EF /* Build configuration list for PBXNativeTarget "iOSWebHereDemoTests" */ = {
+		5931BFA118BE976900CD7313 /* Build configuration list for PBXNativeTarget "iOSWebHereDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				59B1ED5C18B0BA64005772EF /* Debug */,
-				59B1ED5D18B0BA64005772EF /* Release */,
+				5931BFA218BE976900CD7313 /* Debug */,
+				5931BFA318BE976900CD7313 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 59B1ED2418B0BA64005772EF /* Project object */;
+	rootObject = 5931BF6A18BE976900CD7313 /* Project object */;
 }

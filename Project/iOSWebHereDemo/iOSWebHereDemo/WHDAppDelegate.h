@@ -2,7 +2,7 @@
 //  WHDAppDelegate.h
 //  iOSWebHereDemo
 //
-//  Created by Rui Lopes on 16/02/2014.
+//  Created by Rui Lopes on 26/02/2014.
 //  Copyright (c) 2014 Rui Lopes. All rights reserved.
 //
 
@@ -10,6 +10,6 @@
 
 @interface WHDAppDelegate : UIResponder <UIApplicationDelegate>
 
-@property (strong, nonatomic) UIWindow *window;
+@property(strong, nonatomic) UIWindow *window;
 
 @end
