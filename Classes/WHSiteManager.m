@@ -22,30 +22,35 @@
 
 #import "WHSiteManager.h"
 #import "AFHTTPSessionManager.h"
+#import "WHResponseSerializer.h"
 
+#pragma mark - Private WHSiteManager
 @interface WHSiteManager ()
 
 @property(nonatomic, strong) AFHTTPSessionManager *sessionManager;
 
 @end
 
+#pragma mark - Implementation WHSiteManager
 @implementation WHSiteManager
 
 - (instancetype)init {
-    self = [super init];
-    if (self) {
-        _sessionManager = [[AFHTTPSessionManager alloc] initWithBaseURL:nil];
-    }
-    return self;
+    return [self initWithBaseURL:nil];
 }
 
 - (instancetype)initWithBaseURL:(NSURL *)url {
     self = [[[self class] alloc] init];
     if (self) {
         _sessionManager = [[AFHTTPSessionManager alloc] initWithBaseURL:url];
+        _sessionManager.responseSerializer = [WHResponseSerializer serializer];
     }
     return self;
 }
+
+- (instancetype)initWithBaseURL:(NSURL *)url encoding:(NSStringEncoding)encoding {
+    return nil;
+}
+
 
 #pragma mark - NSCoding
 

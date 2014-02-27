@@ -1,4 +1,4 @@
-// WHSiteManager.h
+// WHResponseSerializer.h
 // 
 // Copyright (c) 2014 Rui Lopes
 //
@@ -20,18 +20,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-FOUNDATION_EXPORT NSTimeInterval const kWHClientDefaultTimeoutInterval;
-FOUNDATION_EXPORT NSInteger const kWHClientDefaultNumberOfRetries;
+#import "AFURLResponseSerialization.h"
 
-/**
-    'WHSiteManager' is the controller class for the targeted website.
-    You would use this class to customize network configuration, access a website and perform requests.
+@interface WHResponseSerializer : AFHTTPResponseSerializer
 
-
-*/
-@interface WHSiteManager : NSObject <NSCopying, NSCoding>
-
-- (instancetype)initWithBaseURL:(NSURL *)url;
-- (instancetype)initWithBaseURL:(NSURL *)url encoding:(NSStringEncoding)encoding;
++ (instancetype) serializerWithEncoding:(NSStringEncoding) encoding;
 
 @end
