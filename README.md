@@ -1,5 +1,5 @@
 # WebHere
-[![Build Status](https://travis-ci.org/rdlopes/WebHere.png?branch=master,development)](https://travis-ci.org/rdlopes/WebHere) 
+[![Build Status](https://travis-ci.org/rdlopes/WebHere.png?branch=pre-0.2.0-platform-update)](https://travis-ci.org/rdlopes/WebHere)
 [![Stories in Ready](https://badge.waffle.io/rdlopes/webhere.png?label=ready)](https://waffle.io/rdlopes/webhere)
 [![Version](http://cocoapod-badges.herokuapp.com/v/WebHere/badge.png)](http://cocoadocs.org/docsets/WebHere)
 [![Platform](http://cocoapod-badges.herokuapp.com/p/WebHere/badge.png)](http://cocoadocs.org/docsets/WebHere)
