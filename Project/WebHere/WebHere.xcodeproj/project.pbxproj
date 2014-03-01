@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28D1F302F83F79EB43A184E7 /* WHResponseSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D1F2709CB6108F19AC8BE6 /* WHResponseSerializer.m */; };
 		28D1FF54A4DB48AA04CCE2AD /* WHSiteManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D1FEAB3E81A1F4E56F8CFD /* WHSiteManagerTests.m */; };
+		28D1FFBB6663046DCE84F9B9 /* WHResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D1FD7DF13AE6F881202DCE /* WHResponseSerializer.h */; };
 		5958EDA418BEA2B100536E53 /* WHSiteManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5958EDA218BEA2B100536E53 /* WHSiteManager.h */; };
 		5958EDA518BEA2B100536E53 /* WHSiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5958EDA318BEA2B100536E53 /* WHSiteManager.m */; };
 		598A0D1B18BE9A5800E32B69 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598A0D1A18BE9A5800E32B69 /* Cocoa.framework */; };
@@ -41,6 +43,8 @@
 
 /* Begin PBXFileReference section */
 		0FB96F56AD2C419BA97730C9 /* libPods-WebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		28D1F2709CB6108F19AC8BE6 /* WHResponseSerializer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHResponseSerializer.m; path = ../../../Classes/WHResponseSerializer.m; sourceTree = "<group>"; };
+		28D1FD7DF13AE6F881202DCE /* WHResponseSerializer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHResponseSerializer.h; path = ../../../Classes/WHResponseSerializer.h; sourceTree = "<group>"; };
 		28D1FEAB3E81A1F4E56F8CFD /* WHSiteManagerTests.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHSiteManagerTests.m; path = ../../../Tests/WHSiteManagerTests.m; sourceTree = "<group>"; };
 		3C708E396D23429E98F7E0CB /* Pods-WebHere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere.xcconfig"; path = "../../Pods/Pods-WebHere.xcconfig"; sourceTree = "<group>"; };
 		5958EDA218BEA2B100536E53 /* WHSiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHSiteManager.h; path = ../../../Classes/WHSiteManager.h; sourceTree = "<group>"; };
@@ -114,6 +118,8 @@
 			children = (
 				5958EDA218BEA2B100536E53 /* WHSiteManager.h */,
 				5958EDA318BEA2B100536E53 /* WHSiteManager.m */,
+				28D1FD7DF13AE6F881202DCE /* WHResponseSerializer.h */,
+				28D1F2709CB6108F19AC8BE6 /* WHResponseSerializer.m */,
 			);
 			name = Client;
 			sourceTree = "<group>";
@@ -265,6 +271,7 @@
 				598A0D4E18BE9AF600E32B69 /* WebHere.h in Headers */,
 				598A0D4A18BE9AF600E32B69 /* NSObject+GCD.h in Headers */,
 				598A0D4C18BE9AF600E32B69 /* NSObject+Runtime.h in Headers */,
+				28D1FFBB6663046DCE84F9B9 /* WHResponseSerializer.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +440,7 @@
 				598A0D4D18BE9AF600E32B69 /* NSObject+Runtime.m in Sources */,
 				598A0D4B18BE9AF600E32B69 /* NSObject+GCD.m in Sources */,
 				5958EDA518BEA2B100536E53 /* WHSiteManager.m in Sources */,
+				28D1F302F83F79EB43A184E7 /* WHResponseSerializer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

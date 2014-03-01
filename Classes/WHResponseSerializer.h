@@ -1,4 +1,4 @@
-// WHSiteManagerTests.m
+// WHResponseSerializer.h
 // 
 // Copyright (c) 2014 Rui Lopes
 //
@@ -20,20 +20,10 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#pragma mark - Interface
-#import "WebHereTests.h"
+#import "AFURLResponseSerialization.h"
 
+@interface WHResponseSerializer : AFHTTPResponseSerializer
 
-@interface WHSiteManagerTests : WebHereTests
-@end
-
-#pragma mark - Implementation
-@implementation WHSiteManagerTests
-
-- (void)testInitializationWithUrl {
-    WHSiteManager *siteManager = [[WHSiteManager alloc] initWithBaseURL:self.baseURL];
-    expect(siteManager).notTo.beNil;
-    expect(siteManager.baseURL).to.equal(self.baseURL);
-}
++ (instancetype) serializerWithEncoding:(NSStringEncoding) encoding;
 
 @end

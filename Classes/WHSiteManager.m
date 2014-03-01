@@ -22,32 +22,49 @@
 
 #import "WHSiteManager.h"
 #import "AFHTTPSessionManager.h"
+#import "WHResponseSerializer.h"
 
+NSStringEncoding const kWHDefaultStringEncoding = NSUTF8StringEncoding;
+
+#pragma mark - Private WHSiteManager
 @interface WHSiteManager ()
 
 @property(nonatomic, strong) AFHTTPSessionManager *sessionManager;
 
 @end
 
+#pragma mark - Implementation WHSiteManager
 @implementation WHSiteManager
 
-- (instancetype)init {
-    self = [super init];
-    if (self) {
-        _sessionManager = [[AFHTTPSessionManager alloc] initWithBaseURL:nil];
-    }
-    return self;
+#pragma mark - Initialization
+- (instancetype)initWithBaseURL:(NSURL *)url {
+    return [self initWithBaseURL:url encoding:kWHDefaultStringEncoding];
 }
 
-- (instancetype)initWithBaseURL:(NSURL *)url {
+- (instancetype)initWithBaseURL:(NSURL *)url encoding:(NSStringEncoding)encoding {
+    return [self initWithBaseURL:url encoding:encoding sessionConfiguration:[NSURLSessionConfiguration defaultSessionConfiguration]];
+}
+
+- (instancetype)initWithBaseURL:(NSURL *)url sessionConfiguration:(NSURLSessionConfiguration *)configuration {
+    return [self initWithBaseURL:url encoding:kWHDefaultStringEncoding sessionConfiguration:configuration];
+}
+
+- (instancetype)initWithBaseURL:(NSURL *)url encoding:(NSStringEncoding)encoding sessionConfiguration:(NSURLSessionConfiguration *)configuration {
     self = [[[self class] alloc] init];
     if (self) {
-        _sessionManager = [[AFHTTPSessionManager alloc] initWithBaseURL:url];
+        _sessionManager = [[AFHTTPSessionManager alloc] initWithBaseURL:url sessionConfiguration:configuration];
+        _sessionManager.responseSerializer = [WHResponseSerializer serializerWithEncoding:encoding];
     }
     return self;
 }
 
-#pragma mark - NSCoding
+#pragma mark - Properties
+- (NSURL *)baseURL {
+    return self.sessionManager.baseURL;
+}
+
+
+#pragma mark - <NSCoding>
 
 - (id)initWithCoder:(NSCoder *)decoder {
     self = [self init];
@@ -61,7 +78,7 @@
     [coder encodeObject:self.sessionManager forKey:NSStringFromSelector(@selector(sessionManager))];
 }
 
-#pragma mark - NSCopying
+#pragma mark - <NSCopying>
 
 - (id)copyWithZone:(NSZone *)zone {
     WHSiteManager *siteManager = [[[self class] allocWithZone:zone] init];

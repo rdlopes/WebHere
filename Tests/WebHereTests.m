@@ -22,6 +22,8 @@
 
 #import "WebHereTests.h"
 
+NSString *const WHSiteManagerTestsBaseURLString = @"http://localhost";
+
 @implementation WebHereTests
 
 - (void)setUp {
@@ -31,6 +33,10 @@
 
 - (void)tearDown {
     [super tearDown];
+}
+
+- (NSURL *)baseURL {
+    return [NSURL URLWithString:WHSiteManagerTestsBaseURLString];
 }
 
 @end

@@ -33,4 +33,6 @@
 
 @interface WebHereTests : XCTestCase
 
+@property(nonatomic, strong, readonly) NSURL *baseURL;
+
 @end
