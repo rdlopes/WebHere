@@ -23,10 +23,17 @@
 #pragma mark - Interface
 #import "WebHereTests.h"
 
+
 @interface WHSiteManagerTests : WebHereTests
 @end
 
 #pragma mark - Implementation
 @implementation WHSiteManagerTests
+
+- (void)testInitializationWithUrl {
+    WHSiteManager *siteManager = [[WHSiteManager alloc] initWithBaseURL:self.baseURL];
+    expect(siteManager).notTo.beNil;
+    expect(siteManager.baseURL).to.equal(self.baseURL);
+}
 
 @end

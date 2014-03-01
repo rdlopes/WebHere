@@ -23,18 +23,18 @@
 #import <GDataXML-HTML/GDataXMLNode.h>
 #import "WHResponseSerializer.h"
 
-static NSError * WHErrorWithUnderlyingError(NSError *error, NSError *underlyingError) {
+static NSError *WHErrorWithUnderlyingError(NSError *error, NSError *underlyingError) {
     if (!error) {
         return underlyingError;
     }
-    
+
     if (!underlyingError || error.userInfo[NSUnderlyingErrorKey]) {
         return error;
     }
-    
+
     NSMutableDictionary *mutableUserInfo = [error.userInfo mutableCopy];
     mutableUserInfo[NSUnderlyingErrorKey] = underlyingError;
-    
+
     return [[NSError alloc] initWithDomain:error.domain code:error.code userInfo:mutableUserInfo];
 }
 
@@ -44,7 +44,7 @@ static BOOL WHErrorOrUnderlyingErrorHasCode(NSError *error, NSInteger code) {
     } else if (error.userInfo[NSUnderlyingErrorKey]) {
         return WHErrorOrUnderlyingErrorHasCode(error.userInfo[NSUnderlyingErrorKey], code);
     }
-    
+
     return NO;
 }
 
@@ -88,21 +88,21 @@ static BOOL WHErrorOrUnderlyingErrorHasCode(NSError *error, NSInteger code) {
         }
     }
 
-      NSStringEncoding stringEncoding = self.stringEncoding;
-//    if (response.textEncodingName) {
-//        CFStringEncoding encoding = CFStringConvertIANACharSetNameToEncoding((CFStringRef)response.textEncodingName);
-//        if (encoding != kCFStringEncodingInvalidId) {
-//            stringEncoding = CFStringConvertEncodingToNSStringEncoding(encoding);
-//        }
-//    }
+    NSStringEncoding stringEncoding = self.stringEncoding;
+    if (response.textEncodingName) {
+        CFStringEncoding encoding = CFStringConvertIANACharSetNameToEncoding((__bridge CFStringRef) response.textEncodingName);
+        if (encoding != kCFStringEncodingInvalidId) {
+            stringEncoding = CFStringConvertEncodingToNSStringEncoding(encoding);
+        }
+    }
 
     NSError *serializationError = nil;
     GDataXMLDocument *document = [[GDataXMLDocument alloc] initWithHTMLData:data encoding:stringEncoding error:&serializationError];
-    
+
     if (error) {
         *error = WHErrorWithUnderlyingError(serializationError, *error);
     }
-    
+
     return document;
 }
 

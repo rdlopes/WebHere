@@ -20,8 +20,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-FOUNDATION_EXPORT NSTimeInterval const kWHClientDefaultTimeoutInterval;
-FOUNDATION_EXPORT NSInteger const kWHClientDefaultNumberOfRetries;
+FOUNDATION_EXPORT NSStringEncoding const kWHDefaultStringEncoding;
 
 /**
     'WHSiteManager' is the controller class for the targeted website.
@@ -31,7 +30,14 @@ FOUNDATION_EXPORT NSInteger const kWHClientDefaultNumberOfRetries;
 */
 @interface WHSiteManager : NSObject <NSCopying, NSCoding>
 
+@property(nonatomic, strong, readonly) NSURL *baseURL;
+
 - (instancetype)initWithBaseURL:(NSURL *)url;
+
 - (instancetype)initWithBaseURL:(NSURL *)url encoding:(NSStringEncoding)encoding;
+
+- (instancetype)initWithBaseURL:(NSURL *)url sessionConfiguration:(NSURLSessionConfiguration *)configuration;
+
+- (instancetype)initWithBaseURL:(NSURL *)url encoding:(NSStringEncoding)encoding sessionConfiguration:(NSURLSessionConfiguration *)configuration;
 
 @end
