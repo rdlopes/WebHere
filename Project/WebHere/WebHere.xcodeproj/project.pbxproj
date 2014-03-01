@@ -12,6 +12,8 @@
 		28D1FFBB6663046DCE84F9B9 /* WHResponseSerializer.h in Headers */ = {isa = PBXBuildFile; fileRef = 28D1FD7DF13AE6F881202DCE /* WHResponseSerializer.h */; };
 		5958EDA418BEA2B100536E53 /* WHSiteManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 5958EDA218BEA2B100536E53 /* WHSiteManager.h */; };
 		5958EDA518BEA2B100536E53 /* WHSiteManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 5958EDA318BEA2B100536E53 /* WHSiteManager.m */; };
+		597721B118C1BCAA0046A351 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = 597721AF18C1BCAA0046A351 /* .gitignore */; };
+		597721B218C1BCAA0046A351 /* .travis.yml in Resources */ = {isa = PBXBuildFile; fileRef = 597721B018C1BCAA0046A351 /* .travis.yml */; };
 		598A0D1B18BE9A5800E32B69 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598A0D1A18BE9A5800E32B69 /* Cocoa.framework */; };
 		598A0D2518BE9A5800E32B69 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 598A0D2318BE9A5800E32B69 /* InfoPlist.strings */; };
 		598A0D3018BE9A5800E32B69 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 598A0D2F18BE9A5800E32B69 /* XCTest.framework */; };
@@ -49,6 +51,8 @@
 		3C708E396D23429E98F7E0CB /* Pods-WebHere.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere.xcconfig"; path = "../../Pods/Pods-WebHere.xcconfig"; sourceTree = "<group>"; };
 		5958EDA218BEA2B100536E53 /* WHSiteManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WHSiteManager.h; path = ../../../Classes/WHSiteManager.h; sourceTree = "<group>"; };
 		5958EDA318BEA2B100536E53 /* WHSiteManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WHSiteManager.m; path = ../../../Classes/WHSiteManager.m; sourceTree = "<group>"; };
+		597721AF18C1BCAA0046A351 /* .gitignore */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .gitignore; path = ../../../.gitignore; sourceTree = "<group>"; };
+		597721B018C1BCAA0046A351 /* .travis.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = .travis.yml; path = ../../../.travis.yml; sourceTree = "<group>"; };
 		598A0D1718BE9A5800E32B69 /* WebHere.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WebHere.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		598A0D1A18BE9A5800E32B69 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		598A0D1D18BE9A5800E32B69 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -179,11 +183,13 @@
 		598A0D2118BE9A5800E32B69 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				598A0D6118BE9C2C00E32B69 /* Info */,
-				598A0D6218BE9C4900E32B69 /* Pod */,
-				598A0D2218BE9A5800E32B69 /* WebHere-Info.plist */,
-				598A0D2318BE9A5800E32B69 /* InfoPlist.strings */,
+				597721AF18C1BCAA0046A351 /* .gitignore */,
 				598A0D2618BE9A5800E32B69 /* WebHere-Prefix.pch */,
+				598A0D2218BE9A5800E32B69 /* WebHere-Info.plist */,
+				597721B018C1BCAA0046A351 /* .travis.yml */,
+				598A0D6118BE9C2C00E32B69 /* Info */,
+				598A0D2318BE9A5800E32B69 /* InfoPlist.strings */,
+				598A0D6218BE9C4900E32B69 /* Pod */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -355,6 +361,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				597721B218C1BCAA0046A351 /* .travis.yml in Resources */,
+				597721B118C1BCAA0046A351 /* .gitignore in Resources */,
 				598A0D2518BE9A5800E32B69 /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
