@@ -332,11 +332,6 @@
 			attributes = {
 				LastUpgradeCheck = 0500;
 				ORGANIZATIONNAME = "Rui Lopes";
-				TargetAttributes = {
-					598A0D2D18BE9A5800E32B69 = {
-						TestTargetID = 598A0D1618BE9A5800E32B69;
-					};
-				};
 			};
 			buildConfigurationList = 598A0D1118BE9A5800E32B69 /* Build configuration list for PBXProject "WebHere" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -598,7 +593,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9138BBB03C54F6D8E727B4E /* Pods-WebHereTests.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebHere.framework/Versions/A/WebHere";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -612,7 +606,6 @@
 				);
 				INFOPLIST_FILE = "WebHereTests/WebHereTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -621,7 +614,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = D9138BBB03C54F6D8E727B4E /* Pods-WebHereTests.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebHere.framework/Versions/A/WebHere";
 				COMBINE_HIDPI_IMAGES = YES;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(DEVELOPER_FRAMEWORKS_DIR)",
@@ -631,7 +623,6 @@
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				INFOPLIST_FILE = "WebHereTests/WebHereTests-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
