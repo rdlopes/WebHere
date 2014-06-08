@@ -1,57 +1,16 @@
 PODS:
-  - AFNetworking (2.2.0):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-    - AFNetworking/UIKit
-  - AFNetworking/NSURLConnection (2.2.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/NSURLSession (2.2.0):
-    - AFNetworking/NSURLConnection
-  - AFNetworking/Reachability (2.2.0)
-  - AFNetworking/Security (2.2.0)
-  - AFNetworking/Serialization (2.2.0)
-  - AFNetworking/UIKit (2.2.0):
-    - AFNetworking/NSURLConnection
-    - AFNetworking/NSURLSession
-  - CocoaLumberjack (1.8.1):
-    - CocoaLumberjack/Extensions
-  - CocoaLumberjack/Core (1.8.1)
-  - CocoaLumberjack/Extensions (1.8.1):
-    - CocoaLumberjack/Core
-  - Expecta (0.2.3)
-  - GDataXML-HTML (1.1.0)
+  - Expecta (0.3.0)
   - Nocilla (0.8.1)
-  - OCMock (2.2.3)
-  - WebHere (0.2.0):
-    - AFNetworking (~> 2.0)
-    - CocoaLumberjack (~> 1.7)
-    - GDataXML-HTML (~> 1.1)
+  - OCMock (2.2.4)
 
 DEPENDENCIES:
-  - AFNetworking (~> 2.0)
-  - CocoaLumberjack (~> 1.7)
-  - Expecta (~> 0.2.3)
-  - GDataXML-HTML (~> 1.1)
-  - Nocilla (~> 0.7)
-  - OCMock (~> 2.2.3)
-  - WebHere (from `../WebHere.podspec`)
-
-EXTERNAL SOURCES:
-  WebHere:
-    :path: ../WebHere.podspec
+  - Expecta
+  - Nocilla
+  - OCMock
 
 SPEC CHECKSUMS:
-  AFNetworking: e8cfd8f3fe3bfe19124a0cc63f4d45752d892a56
-  CocoaLumberjack: 020378ec400d658923bf5887178394f65f052c90
-  Expecta: dbc4a27fabb853bdd2e907e33f11ee43a9a47d0c
-  GDataXML-HTML: 281ea772a286241f860fa152cff5c7a7cd817336
-  Nocilla: 0c8075046df476b1bc6482caa7f6a69db1a9b277
-  OCMock: 74e4ddbcef134170dcc844f91c691f13868075d7
-  WebHere: 0ca0265c6363b67bfa46eda440ee24a3755a5849
+  Expecta: ce8a51b9fad15a2cd573b291cb2909aaed865350
+  Nocilla: e573c2bf9113c8d77782b695a2f9362b7bc44e72
+  OCMock: 6db79185520e24f9f299548f2b8b07e41d881bd5
 
-COCOAPODS: 0.29.0
+COCOAPODS: 0.33.1

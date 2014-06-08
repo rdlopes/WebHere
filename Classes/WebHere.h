@@ -1,6 +1,6 @@
 // WebHere.h
 //
-// Copyright (c) 2013 Rui D Lopes
+// Copyright (c) 2014 Rui Lopes
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -20,7 +20,4 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import "NSObject+Runtime.h"
-#import "NSObject+GCD.h"
-
-#import "WHSiteManager.h"
+#import <Foundation/Foundation.h>

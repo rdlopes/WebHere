@@ -23,11 +23,7 @@ Pod::Spec.new do |s|
   s.ios.exclude_files = 'Classes/osx'
   s.osx.exclude_files = 'Classes/ios'
   s.public_header_files = 'Classes/**/*.h'
-  
-  s.dependency 'AFNetworking', '~> 2.0'
-  s.dependency 'GDataXML-HTML', '~> 1.1'
-  s.dependency 'CocoaLumberjack', '~> 1.7'
-  
+    
   # s.libraries = 'xml2'
   # s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 

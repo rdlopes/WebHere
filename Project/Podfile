@@ -1,46 +1,21 @@
-workspace 'WebHere.xcworkspace'
-xcodeproj 'WebHere/WebHere.xcodeproj'
+workspace 'WebHereTest.xcworkspace'
+xcodeproj 'WebHereTest/WebHereTest.xcodeproj'
 
 def pods_core
-  pod 'AFNetworking', '~> 2.0'
-  pod 'GDataXML-HTML', '~> 1.1'
-  pod 'CocoaLumberjack', '~> 1.7'
 end
 
 def pods_test
-  pod 'OCMock', '~> 2.2.3'
-  pod 'Expecta', '~> 0.2.3'
-  pod 'Nocilla', '~> 0.7'
+  pod 'OCMock'
+  pod 'Expecta'
+  pod 'Nocilla'
 end
 
-target :WebHere do
-  xcodeproj 'WebHere/WebHere.xcodeproj'
-  platform :osx, '10.9'
+target :WebHereTest do
+  xcodeproj 'WebHereTest/WebHereTest.xcodeproj'
+  platform :ios, '7.0'
   pods_core
 
   target :WebHereTests, :exclusive => true do
-    pods_test
-  end
-end
-
-target :iOSWebHereDemo do
-  platform :ios, '7.0'
-  xcodeproj 'iOSWebHereDemo/iOSWebHereDemo.xcodeproj'
-  pods_core
-  pod 'WebHere', :path => '../WebHere.podspec'
-
-  target :iOSWebHereDemoTests, :exclusive => true do
-    pods_test
-  end
-end
-
-target :OSXWebHereDemo do
-  xcodeproj 'OSXWebHereDemo/OSXWebHereDemo.xcodeproj'
-  platform :osx, '10.9'
-  pods_core
-  pod 'WebHere', :path => '../WebHere.podspec'
-
-  target :OSXWebHereDemoTests, :exclusive => true do
     pods_test
   end
 end
