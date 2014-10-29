@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		0D09498229F1157586BE9866 /* libPods-WebHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F5494A50893F41C1C4BBDDF4 /* libPods-WebHere.a */; };
-		28D1F9FCE238D8F02A018162 /* Podfile.travis in Resources */ = {isa = PBXBuildFile; fileRef = 28D1F3233FE85E97414D43C8 /* Podfile.travis */; };
 		28D1FAD5CCE4D666B6081767 /* GSearchPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D1FC01AD3C612E5179A410 /* GSearchPage.m */; };
 		28D1FC88BCD7521AE658C951 /* GSearchResultsPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D1F5099F9F6EB55930EF8B /* GSearchResultsPage.m */; };
 		3340678A37A4614B04142F66 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 34B0E52256D4C0158628CAAB /* libPods-Tests.a */; };
@@ -53,7 +52,6 @@
 /* Begin PBXFileReference section */
 		28D1F2254B298C265615FCA2 /* GSearchResultsPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSearchResultsPage.h; sourceTree = "<group>"; };
 		28D1F31B68A6A351130C1033 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
-		28D1F3233FE85E97414D43C8 /* Podfile.travis */ = {isa = PBXFileReference; lastKnownFileType = file.travis; path = Podfile.travis; sourceTree = "<group>"; };
 		28D1F5099F9F6EB55930EF8B /* GSearchResultsPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSearchResultsPage.m; sourceTree = "<group>"; };
 		28D1F9B6702B85D32D9A0274 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		28D1FB2A902B29B3E9492854 /* GSearchPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSearchPage.h; sourceTree = "<group>"; };
@@ -179,7 +177,6 @@
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
 				744193B353E6A6D9ABEE7229 /* Pods */,
-				28D1F3233FE85E97414D43C8 /* Podfile.travis */,
 			);
 			sourceTree = "<group>";
 		};
@@ -369,7 +366,6 @@
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				28D1F9FCE238D8F02A018162 /* Podfile.travis in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
