@@ -51,7 +51,9 @@
 
 /* Begin PBXFileReference section */
 		28D1F2254B298C265615FCA2 /* GSearchResultsPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSearchResultsPage.h; sourceTree = "<group>"; };
+		28D1F31B68A6A351130C1033 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		28D1F5099F9F6EB55930EF8B /* GSearchResultsPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSearchResultsPage.m; sourceTree = "<group>"; };
+		28D1F9B6702B85D32D9A0274 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		28D1FB2A902B29B3E9492854 /* GSearchPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GSearchPage.h; sourceTree = "<group>"; };
 		28D1FC01AD3C612E5179A410 /* GSearchPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GSearchPage.m; sourceTree = "<group>"; };
 		324EB692DFF68722C1CF9A5A /* WebHere.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WebHere.podspec; path = ../WebHere.podspec; sourceTree = "<group>"; };
@@ -97,7 +99,6 @@
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		C3F77E52FF22DEBE91652D55 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		E2CE95141F56076FF1410BBA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		E42BC3D5CEBAB19FB9940DD7 /* Pods-WebHere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebHere/Pods-WebHere.release.xcconfig"; sourceTree = "<group>"; };
 		E9E5C9C6735EFBD37D63EB9D /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		EA222F5DDC5FC665E6380D6E /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -213,6 +214,7 @@
 				6003F5A6195388D20070C39A /* WHViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				28D1F9B6702B85D32D9A0274 /* LICENSE */,
 			);
 			path = WebHere;
 			sourceTree = "<group>";
@@ -260,7 +262,7 @@
 			children = (
 				324EB692DFF68722C1CF9A5A /* WebHere.podspec */,
 				E9E5C9C6735EFBD37D63EB9D /* README.md */,
-				E2CE95141F56076FF1410BBA /* LICENSE */,
+				28D1F31B68A6A351130C1033 /* .travis.yml */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
