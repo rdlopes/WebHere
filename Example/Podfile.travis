@@ -1,0 +1,12 @@
+
+target 'WebHere', :exclusive => true do
+  pod "WebHere", :path => "../"
+end
+
+target 'Tests', :exclusive => true do
+  
+  pod 'Specta', :git => 'https://github.com/specta/specta.git', :tag => 'v0.3.0.beta1'
+  pod 'Expecta', '~> 0.3.1'
+  pod 'Nocilla', :head
+
+end
