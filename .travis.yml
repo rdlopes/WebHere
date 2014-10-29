@@ -1,3 +1,4 @@
 language: objective-c
 xcode_project: Example/WebHere.xcodeproj # path to your xcodeproj folder
 xcode_scheme: WebHere
+podfile: Example/podfile
