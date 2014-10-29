@@ -1,12 +1,13 @@
 # WebHere
 
+[![CI Status](http://img.shields.io/travis/Rui Lopes/WebHere.svg?style=flat)](https://travis-ci.org/Rui Lopes/WebHere)
 [![Version](https://img.shields.io/cocoapods/v/WebHere.svg?style=flat)](http://cocoadocs.org/docsets/WebHere)
 [![License](https://img.shields.io/cocoapods/l/WebHere.svg?style=flat)](http://cocoadocs.org/docsets/WebHere)
 [![Platform](https://img.shields.io/cocoapods/p/WebHere.svg?style=flat)](http://cocoadocs.org/docsets/WebHere)
 
 ## Usage
 
-To run the example project; clone the repo, and run `pod install` from the Example directory first.
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
 ## Requirements
 
