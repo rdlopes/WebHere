@@ -646,6 +646,7 @@
 					"\"${PODS_ROOT}/Headers/Public/Nocilla\"",
 					"\"${PODS_ROOT}/Headers/Public/Specta\"",
 					"\"${PODS_ROOT}/Headers/Public/WebHere\"",
+					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
@@ -660,6 +661,7 @@
 					"\"Foundation\"",
 					"-framework",
 					"\"XCTest\"",
+					"$(inherited)",
 					"-lxml2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -688,6 +690,7 @@
 					"\"${PODS_ROOT}/Headers/Public/Nocilla\"",
 					"\"${PODS_ROOT}/Headers/Public/Specta\"",
 					"\"${PODS_ROOT}/Headers/Public/WebHere\"",
+					"$(inherited)",
 					"$(SDKROOT)/usr/include/libxml2",
 				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
@@ -702,6 +705,7 @@
 					"\"Foundation\"",
 					"-framework",
 					"\"XCTest\"",
+					"$(inherited)",
 					"-lxml2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";

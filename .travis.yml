@@ -1,8 +1,12 @@
 language: objective-c
 
-before_install:
-    - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
-    - cd Example && pod install && cd $TRAVIS_BUILD_DIR
+env:
+  global:
+    secure: aHDU5ojje1DXHIbPUSNC4vxvewqXDUsn0HbiI6wFuDKvA6cgS+A6Y+yRST+uL30zqiBlHEJacioiiP3XYOCa9YU+DGI3ojl8sVYksvhrjXtiynvI+/QpLpgf32eICeIE+jcOzYP6SkYSJq/6upJlfgtmIS5LvUQpPQ1kTGfScZ4=
 
-xcode_project: Example/WebHere.xcodeproj # path to your xcodeproj folder
+before_install:
+- gem install cocoapods --no-rdoc --no-ri --no-document --quiet
+- cd Example && pod install && cd $TRAVIS_BUILD_DIR
+
+xcode_project: Example/WebHere.xcodeproj
 xcode_scheme: WebHere
