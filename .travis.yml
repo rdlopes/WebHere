@@ -8,5 +8,5 @@ before_install:
 - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
 - cd Example && pod install && cd $TRAVIS_BUILD_DIR
 
-xcode_project: Example/WebHere.xcodeproj
-xcode_scheme: WebHere
+script:
+xctool test -workspace Example/WebHere.xcworkspace -scheme WebHere -sdk iphonesimulator ONLY_ACTIVE_ARCH=NO
