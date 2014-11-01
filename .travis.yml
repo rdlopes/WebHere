@@ -3,6 +3,11 @@ language: objective-c
 before_install:
 - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
 - cd Example && pod install && cd $TRAVIS_BUILD_DIR
+- KEY_CHAIN=ios-build.keychain
+- security create-keychain -p travis $KEY_CHAIN
+- security default-keychain -s $KEY_CHAIN
+- security unlock-keychain -p travis $KEY_CHAIN
+- security set-keychain-settings -t 3600 -u $KEY_CHAIN
 
 xcode_workspace: Example/WebHere.xcworkspace
 xcode_scheme: WebHere
