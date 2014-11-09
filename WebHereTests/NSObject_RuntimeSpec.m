@@ -1,10 +1,10 @@
 //
-// NSObject+Runtime.h
+// NSObject_RuntimeSpec.m
 // WebHere
 //
 // Created by Rui Lopes on 06/10/2014.
 //
-// Copyright (c) 2013 Rui D Lopes
+// Copyright (c) 2014 Rui Lopes
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -12,10 +12,10 @@
 // to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 // copies of the Software, and to permit persons to whom the Software is
 // furnished to do so, subject to the following conditions:
-//
+// 
 // The above copyright notice and this permission notice shall be included in
 // all copies or substantial portions of the Software.
-//
+// 
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 // FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -25,17 +25,25 @@
 // THE SOFTWARE.
 //
 
-#import <Foundation/Foundation.h>
-#import <objc/runtime.h>
+#import "WebHereTests.h"
 
-@interface NSObject (RunTime)
+SpecBegin(NSObject_Runtime)
 
-+ (NSSet *)propertiesNames;
+describe(@"NSObject_Runtime", ^{
 
-+ (NSSet *)allPropertiesNames;
+    it(@"should extract properties names", ^{
+        expect([WHNSObject propertiesNames]).to.containAll((@[@"synthesizedProperty", @"publicProperty"]));
+        expect([WHNSObjectSubclassed propertiesNames]).to.contain(@"subProperty");
+    });
 
-+ (NSSet *)subclassesNames;
+    it(@"should extract properties names from superclass", ^{
+        expect([WHNSObjectSubclassed allPropertiesNames]).to.containAll((@[@"synthesizedProperty", @"publicProperty", @"subProperty"]));
+    });
 
-- (NSString *)fullDescription;
+    it(@"should extract subclasses names", ^{
+        expect([WHNSObject subclassesNames]).to.contain(NSStringFromClass([WHNSObjectSubclassed class]));
+    });
 
-@end
+});
+
+SpecEnd

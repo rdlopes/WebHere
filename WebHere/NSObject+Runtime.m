@@ -1,4 +1,8 @@
+//
 // NSObject+Runtime.m
+// WebHere
+//
+// Created by Rui Lopes on 06/10/2014.
 //
 // Copyright (c) 2013 Rui D Lopes
 //
@@ -19,12 +23,13 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
+//
 
 #import "NSObject+Runtime.h"
 
 @implementation NSObject (Runtime)
 
-#pragma mark - Properties Introspection
+#pragma mark - Properties
 
 + (NSSet *)propertiesNames {
     u_int count;
@@ -82,7 +87,7 @@
 
 - (NSString *)fullDescription {
     NSString *fullDescription = [NSString stringWithFormat:@"\n %@", [self description]];
-    for (NSString *propertyName in [[self class] propertiesNames]) {
+    for (NSString *propertyName in [[self class] allPropertiesNames]) {
         fullDescription = [fullDescription stringByAppendingFormat:@"\n%@=%@", propertyName, [self valueForKey:propertyName]];
     }
     return fullDescription;

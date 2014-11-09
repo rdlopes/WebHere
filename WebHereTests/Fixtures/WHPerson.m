@@ -1,8 +1,4 @@
-//
-// NSObject+Runtime.h
-// WebHere
-//
-// Created by Rui Lopes on 06/10/2014.
+// WHPerson.m
 //
 // Copyright (c) 2013 Rui D Lopes
 //
@@ -25,17 +21,16 @@
 // THE SOFTWARE.
 //
 
-#import <Foundation/Foundation.h>
-#import <objc/runtime.h>
+#import "WHPerson.h"
 
-@interface NSObject (RunTime)
+@implementation WHPerson
 
-+ (NSSet *)propertiesNames;
+@end
 
-+ (NSSet *)allPropertiesNames;
+@implementation WHUnmatchedPerson
 
-+ (NSSet *)subclassesNames;
+@end
 
-- (NSString *)fullDescription;
+@implementation WHAdmin
 
 @end

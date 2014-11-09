@@ -1,9 +1,5 @@
-//
-// NSObject+Runtime.h
-// WebHere
-//
-// Created by Rui Lopes on 06/10/2014.
-//
+// WHLoginForm.m
+// 
 // Copyright (c) 2013 Rui D Lopes
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
@@ -12,10 +8,10 @@
 // to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
 // copies of the Software, and to permit persons to whom the Software is
 // furnished to do so, subject to the following conditions:
-//
+// 
 // The above copyright notice and this permission notice shall be included in
 // all copies or substantial portions of the Software.
-//
+// 
 // THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
 // IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
 // FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
@@ -25,17 +21,8 @@
 // THE SOFTWARE.
 //
 
-#import <Foundation/Foundation.h>
-#import <objc/runtime.h>
+#import "WHLoginForm.h"
 
-@interface NSObject (RunTime)
-
-+ (NSSet *)propertiesNames;
-
-+ (NSSet *)allPropertiesNames;
-
-+ (NSSet *)subclassesNames;
-
-- (NSString *)fullDescription;
+@implementation WHLoginForm
 
 @end

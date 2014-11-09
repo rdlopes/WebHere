@@ -1,15 +1,23 @@
-# WebHere [![Build Status](https://travis-ci.org/rdlopes/WebHere.png?branch=master,development)](https://travis-ci.org/rdlopes/WebHere) [![Stories in Ready](https://badge.waffle.io/rdlopes/webhere.png?label=ready)](https://waffle.io/rdlopes/webhere)
+# WebHere
 
-WebHere is an Objective-C framework for [web scraping](http://en.wikipedia.org/wiki/Web_scraping), packaged for iOS 5+ and OSX 10.7+ platforms.
+[![CI Status](http://img.shields.io/travis/rdlopes/WebHere.svg?style=flat)](https://travis-ci.org/rdlopes/WebHere)
+[![Version](https://img.shields.io/cocoapods/v/WebHere.svg?style=flat)](http://cocoadocs.org/docsets/WebHere)
+[![License](https://img.shields.io/cocoapods/l/WebHere.svg?style=flat)](http://cocoadocs.org/docsets/WebHere)
+[![Platform](https://img.shields.io/cocoapods/p/WebHere.svg?style=flat)](http://cocoadocs.org/docsets/WebHere)
+
+WebHere is an Objective-C framework for [web scraping](http://en.wikipedia.org/wiki/Web_scraping), packaged for iOS 8+ and OSX 10.10+ platforms.
 
 Briefly put, web scraping is parsing of a website and extraction of data from the HTML pages contained in it.
 
-This work has been inspired by [RestKit](https://github.com/RestKit/RestKit), but aimed at HTML data and working in a simpler form (no mapping upfront, model classes declare their own building strategy); it is mostly relying on:
+This work has been inspired by [RestKit](https://github.com/RestKit/RestKit), 
+but aimed at HTML data and working in a simpler form (no mapping upfront, model classes declare their own building strategy); 
+it is mostly relying on:
 
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking) to perform all network operations.
-* [HTMLDocument](https://github.com/stklieme/HTMLDocument) to extract data using XPath.
+* [GDataXML-HTML](https://github.com/graetzer/GDataXML-HTML) to extract data using XPath.
 
-Those two projects really deserve attention on their own, make sure to visit their page and understand their APIs, as WebHere will mostly provide a unified facade to their APIs.
+Those two projects really deserve attention on their own, make sure to visit their page and understand their APIs, 
+as WebHere will mostly provide a unified facade to their APIs.
 
 ## Features
 
@@ -22,33 +30,47 @@ Those two projects really deserve attention on their own, make sure to visit the
 
 * At this moment only GET and POST REST methods have been tested.
 * Please pay attention to the legal issues when peforming web scraping.
-* Authorization credentials (username/password and token based) have not been tested.
-
-## Installation
-
-* Preferred way is by using [CocoaPod](http://cocoapods.org/) (_Work In Progress_).
-* You should be able to add WebHere to you source tree. If you are using git, consider using a `git submodule`
-
-## Dependencies
-
-Dependencies are automatically managed by Cocoapod. In case you have to add WebHere to your source tree and use it outside Cocoapod, you must add the following projects along with WebHere:
-
-* [AFNetworking](https://github.com/AFNetworking/AFNetworking) for network operations
-* [OCLogTemplate](https://github.com/jasperblues/OCLogTemplate) for logging purpose
 
 ## Usage
 
-TBD - Having a look at the test cases provided should give you an overview of the API.
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
+
+Having a look at the test cases provided should give you an overview of the API.
+
+Example folder contains an iOS app that maps HTML to query Google.
+
+## Requirements
+
+Dependencies are automatically managed by Cocoapod. 
+In case you have to add WebHere to your source tree and use it outside Cocoapod, 
+you must add the following projects along with WebHere:
+
+* [AFNetworking](https://github.com/AFNetworking/AFNetworking) for network operations
+* [GDataXML-HTML](https://github.com/graetzer/GDataXML-HTML) for XPath extraction
+
+## Installation (_Work In Progress_)
+
+WebHere is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
+
+    pod "WebHere"
+
+## Author
+
+Rui Lopes, rui.d.lopes@me.com
+
+## License
+
+WebHere is available under the MIT license. See the LICENSE file for more info.
 
 ## Testing
 
 Project has been covered by unit tests using:
 
-* [Kiwi](https://github.com/allending/Kiwi) for the generic testing framework.
+* [Specta/Expecta](https://github.com/specta/expecta) for the generic testing framework.
 * [Nocilla](https://github.com/luisobo/Nocilla) for stubbing network requests.
 
 Please notice that all tests are performed locally, meaning that no actual network access is needed, all requests being stubed by Nocilla.
-
 
 ## Contributing
 
@@ -57,3 +79,4 @@ Please notice that all tests are performed locally, meaning that no actual netwo
 3. Commit your changes
 4. Push to the branch
 5. Create new Pull Request
+

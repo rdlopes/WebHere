@@ -1,10 +1,10 @@
 //
-// NSObject+Runtime.h
+// WHHTMLResponseSerializer.h
 // WebHere
 //
-// Created by Rui Lopes on 06/10/2014.
+// Created by Rui Lopes on 14/10/2014.
 //
-// Copyright (c) 2013 Rui D Lopes
+// Copyright (c) 2014 Rui Lopes.
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -23,19 +23,9 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
-//
 
-#import <Foundation/Foundation.h>
-#import <objc/runtime.h>
+#import "AFURLResponseSerialization.h"
 
-@interface NSObject (RunTime)
-
-+ (NSSet *)propertiesNames;
-
-+ (NSSet *)allPropertiesNames;
-
-+ (NSSet *)subclassesNames;
-
-- (NSString *)fullDescription;
+@interface WHHTMLResponseSerializer : AFHTTPResponseSerializer
 
 @end

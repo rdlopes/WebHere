@@ -1,32 +1,12 @@
-inhibit_all_warnings!
+source 'https://github.com/CocoaPods/Specs.git'
 
-target :WebHereLibrary do
-
-	platform :ios, '5.0'
-
-    pod 'AFNetworking', '~> 1.3.1'
-    pod 'CocoaLumberjack'
-
-	target :WebHereLibraryTests, :exclusive => true do
-	
-		pod 'Kiwi'
-		pod 'Nocilla'
-		
-	end
-
+target 'WebHere', :exclusive => true do
+  pod 'AFNetworking'
+  pod 'GDataXML-HTML'
 end
 
-target :WebHereFramework do
-
-	platform :osx, '10.7'
-
-    pod 'AFNetworking', '~> 1.3.1'
-    pod 'CocoaLumberjack'
-
-	target :WebHereFrameworkTests, :exclusive => true do
-	
-		pod 'Kiwi'
-		pod 'Nocilla'
-	end
-	
+target 'WebHereTests', :exclusive => true do
+  pod 'Specta', :git => 'https://github.com/specta/specta.git', :tag => 'v0.3.0.beta1'
+  pod 'Expecta', '~> 0.3.1'
+  pod 'Nocilla'
 end

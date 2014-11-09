@@ -1,10 +1,10 @@
 //
-//  WebHere.h
-//  WebHere
+// WHHTTPRequest.h
+// WebHere
 //
 // Created by Rui Lopes on 13/10/2014.
 //
-// Copyright (c) 2014 Rui Lopes.
+// Copyright (c) 2014 Rui Lopes
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -26,10 +26,42 @@
 
 #import <Foundation/Foundation.h>
 
-#import <GDataXML-HTML/GDataXMLNode.h>
+@protocol WHObject;
 
-#import "NSObject+Runtime.h"
-#import "WHHTTPRequest.h"
-#import "WHHTTPRequest+HTML.h"
-#import "WHObject.h"
-#import "WHWebsite.h"
+@interface WHHTTPRequest : NSObject
+
+@property(nonatomic, strong) NSString *HTTPMethod;
+@property(nonatomic, strong) NSString *path;
+
+@property(nonatomic, readonly) NSMutableDictionary *queryParameters;
+@property(nonatomic, readonly) NSMutableArray *alternativeTargets;
+
+@property(nonatomic, readonly) NSMutableDictionary *userInfo;
+
+@property(nonatomic, assign) Class<WHObject> targetClass;
+@property (nonatomic, assign) NSInteger retryCount;
+
++ (instancetype)requestWithPath:(NSString *)path target:(Class<WHObject>)target;
+
+- (instancetype)initWithPath:(NSString *)path target:(Class<WHObject>)target;
+
+@end
+
+@interface WHLink : WHHTTPRequest
+
+@property(nonatomic, strong) NSString *label;
+@property(nonatomic, strong) NSString *imagePath;
+
++ (instancetype)linkWithPath:(NSString *)path target:(Class<WHObject>)target;
+
+@end
+
+@interface WHForm : WHHTTPRequest
+
+@property(nonatomic, strong) NSString *userName;
+
+@property(nonatomic, strong) NSString *password;
+
++ (instancetype)formWithPath:(NSString *)path target:(Class<WHObject>)target;
+
+@end

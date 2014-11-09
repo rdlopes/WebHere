@@ -1,8 +1,4 @@
-//
-// NSObject+Runtime.h
-// WebHere
-//
-// Created by Rui Lopes on 06/10/2014.
+// WHNSObject.h
 //
 // Copyright (c) 2013 Rui D Lopes
 //
@@ -26,16 +22,19 @@
 //
 
 #import <Foundation/Foundation.h>
-#import <objc/runtime.h>
 
-@interface NSObject (RunTime)
+@interface WHNSObject : NSObject {
+@private
+    NSArray *_privateVariable;
+}
 
-+ (NSSet *)propertiesNames;
+@property(nonatomic, strong) NSString *synthesizedProperty;
+@property(nonatomic, strong) NSArray *publicProperty;
 
-+ (NSSet *)allPropertiesNames;
+@end
 
-+ (NSSet *)subclassesNames;
+@interface WHNSObjectSubclassed : WHNSObject
 
-- (NSString *)fullDescription;
+@property(nonatomic, strong) NSDictionary *subProperty;
 
 @end
