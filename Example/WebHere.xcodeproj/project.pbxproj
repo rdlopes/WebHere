@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		1C5612C7DF1C02C959BD2A01 /* libPods-WebHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6423E6CA46E7B1F5D6D8655 /* libPods-WebHere.a */; };
+		597282F21A41F22A00A63448 /* WHGoogleSearchPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 597282F11A41F22A00A63448 /* WHGoogleSearchPage.m */; };
+		597282F71A41F28C00A63448 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 597282F31A41F28C00A63448 /* LaunchScreen.xib */; };
+		597282FB1A42009B00A63448 /* Storyboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 597282F91A42009B00A63448 /* Storyboard.storyboard */; };
 		59FB54041A41CD1B00B88276 /* EXPMatchers+containAll.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB53F21A41CD1B00B88276 /* EXPMatchers+containAll.m */; };
 		59FB54051A41CD1B00B88276 /* WHLoginForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB53F51A41CD1B00B88276 /* WHLoginForm.m */; };
 		59FB54061A41CD1B00B88276 /* WHNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB53F71A41CD1B00B88276 /* WHNSObject.m */; };
@@ -26,8 +29,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* WHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* WHAppDelegate.m */; };
-		6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F59F195388D20070C39A /* Main_iPhone.storyboard */; };
-		6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A2195388D20070C39A /* Main_iPad.storyboard */; };
 		6003F5A7195388D20070C39A /* WHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* WHViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
@@ -53,6 +54,10 @@
 		4A6BAF915B2C0EC75A583954 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		504C13AC9AC1C4725159AA7A /* Pods-WebHere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebHere/Pods-WebHere.debug.xcconfig"; sourceTree = "<group>"; };
 		564C6FBA66341C591A869B26 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		597282F01A41F22A00A63448 /* WHGoogleSearchPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHGoogleSearchPage.h; sourceTree = "<group>"; };
+		597282F11A41F22A00A63448 /* WHGoogleSearchPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHGoogleSearchPage.m; sourceTree = "<group>"; };
+		597282F41A41F28C00A63448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		597282FA1A42009B00A63448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Storyboard.storyboard; sourceTree = "<group>"; };
 		59FB53F11A41CD1B00B88276 /* EXPMatchers+containAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+containAll.h"; sourceTree = "<group>"; };
 		59FB53F21A41CD1B00B88276 /* EXPMatchers+containAll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+containAll.m"; sourceTree = "<group>"; };
 		59FB53F41A41CD1B00B88276 /* WHLoginForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLoginForm.h; sourceTree = "<group>"; };
@@ -81,8 +86,6 @@
 		6003F59B195388D20070C39A /* WebHere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebHere-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* WHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* WHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A0195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
-		6003F5A3195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* WHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* WHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -186,10 +189,12 @@
 		6003F593195388D20070C39A /* WebHere */ = {
 			isa = PBXGroup;
 			children = (
+				597282F91A42009B00A63448 /* Storyboard.storyboard */,
+				597282F31A41F28C00A63448 /* LaunchScreen.xib */,
+				597282F01A41F22A00A63448 /* WHGoogleSearchPage.h */,
+				597282F11A41F22A00A63448 /* WHGoogleSearchPage.m */,
 				6003F59C195388D20070C39A /* WHAppDelegate.h */,
 				6003F59D195388D20070C39A /* WHAppDelegate.m */,
-				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
-				6003F5A2195388D20070C39A /* Main_iPad.storyboard */,
 				6003F5A5195388D20070C39A /* WHViewController.h */,
 				6003F5A6195388D20070C39A /* WHViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
@@ -337,9 +342,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6003F5A4195388D20070C39A /* Main_iPad.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
+				597282FB1A42009B00A63448 /* Storyboard.storyboard in Resources */,
+				597282F71A41F28C00A63448 /* LaunchScreen.xib in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -424,6 +429,7 @@
 			files = (
 				6003F59E195388D20070C39A /* WHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WHViewController.m in Sources */,
+				597282F21A41F22A00A63448 /* WHGoogleSearchPage.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -458,28 +464,28 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		597282F31A41F28C00A63448 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				597282F41A41F28C00A63448 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+		597282F91A42009B00A63448 /* Storyboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				597282FA1A42009B00A63448 /* Base */,
+			);
+			name = Storyboard.storyboard;
+			sourceTree = "<group>";
+		};
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6003F597195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		6003F59F195388D20070C39A /* Main_iPhone.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5A0195388D20070C39A /* Base */,
-			);
-			name = Main_iPhone.storyboard;
-			sourceTree = "<group>";
-		};
-		6003F5A2195388D20070C39A /* Main_iPad.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6003F5A3195388D20070C39A /* Base */,
-			);
-			name = Main_iPad.storyboard;
 			sourceTree = "<group>";
 		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
@@ -575,6 +581,7 @@
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				INFOPLIST_FILE = "WebHere/WebHere-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -589,6 +596,7 @@
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				INFOPLIST_FILE = "WebHere/WebHere-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

@@ -7,7 +7,12 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <WebHere/WebHere.h>
+#import "WHGoogleSearchPage.h"
 
 @interface WHViewController : UIViewController
+
+@property(nonatomic, strong) WHGoogleSearchPage *googleSearchPage;
+@property(nonatomic, strong) WHWebsite *googleWebsite;
 
 @end
