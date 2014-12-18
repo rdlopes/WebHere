@@ -50,10 +50,12 @@ you must add the following projects along with WebHere:
 
 ## Installation (_Work In Progress_)
 
-WebHere is available through [CocoaPods](http://cocoapods.org). To install
+WebHere _will be_ available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
     pod "WebHere"
+
+Alternatively, you can add these sources as a git submodule.
 
 ## Author
 
