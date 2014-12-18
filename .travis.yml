@@ -11,5 +11,5 @@ before_install:
 - security set-keychain-settings -t 3600 -u $KEY_CHAIN
 - cd $TRAVIS_BUILD_DIR
 
-xcode_workspace: WebHere.xcworkspace
+xcode_workspace: Example/WebHere.xcworkspace
 xcode_scheme: WebHere
