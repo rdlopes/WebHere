@@ -12,4 +12,4 @@ before_install:
 - cd $TRAVIS_BUILD_DIR
 
 xcode_workspace: Example/WebHere.xcworkspace
-xcode_scheme: WebHere
+xcode_scheme: WebHere-Example
