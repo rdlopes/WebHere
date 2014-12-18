@@ -1,7 +1,7 @@
 language: objective-c
 
 before_install:
-- cd Example/Tests
+- cd Example
 - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
 - pod install
 - KEY_CHAIN=ios-build.keychain
