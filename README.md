@@ -28,6 +28,7 @@ as WebHere will mostly provide a unified facade to their APIs.
 
 ## Limitations
 
+* The Travis CI build configuration is missing code signing to properly complete.
 * At this moment only GET and POST REST methods have been tested.
 * Please pay attention to the legal issues when peforming web scraping.
 
