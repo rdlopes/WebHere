@@ -25,7 +25,7 @@
                          self.googleSearchPage = (id) responseObject;
                      }
                      failure:^(WHHTTPRequest *request, NSError *error) {
-                         self.statusLabel.text = @"Could not fetch search page";
+                         self.statusLabel.text = [NSString stringWithFormat:@"Could not fetch search page - %@", error.localizedDescription];
                      }];
     
     self.searchController = [[UISearchController alloc] initWithSearchResultsController:nil];
