@@ -10,5 +10,6 @@ before_install:
 - security unlock-keychain -p travis $KEY_CHAIN
 - security set-keychain-settings -t 3600 -u $KEY_CHAIN
 
+xcode_sdk: iphonesimulator
 xcode_workspace: WebHere.xcworkspace
 xcode_scheme: WebHere-Example

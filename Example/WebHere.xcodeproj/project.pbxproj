@@ -55,6 +55,7 @@
 		4A6BAF915B2C0EC75A583954 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		504C13AC9AC1C4725159AA7A /* Pods-WebHere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebHere/Pods-WebHere.debug.xcconfig"; sourceTree = "<group>"; };
 		564C6FBA66341C591A869B26 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		595BC3461A4368EF006E3ED9 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		597282F01A41F22A00A63448 /* WHGoogleSearchPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHGoogleSearchPage.h; sourceTree = "<group>"; };
 		597282F11A41F22A00A63448 /* WHGoogleSearchPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHGoogleSearchPage.m; sourceTree = "<group>"; };
 		597282F41A41F28C00A63448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -243,6 +244,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				595BC3461A4368EF006E3ED9 /* .travis.yml */,
 				CD985678015CFADCF1D38F43 /* WebHere.podspec */,
 				A1C34A2DDF4908654AA5DBF6 /* README.md */,
 				07EA6F4C72262DA4945EDAFA /* LICENSE */,
