@@ -40,16 +40,6 @@
 		BB0707D5452A5B2466AA03A9 /* libPods-WebHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C4D07B87508B7419213E3D /* libPods-WebHere.a */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		5913BBD81A50C096002B4132 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 6003F582195388D10070C39A /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6003F589195388D20070C39A;
-			remoteInfo = WebHere;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
 		0AC8D84B99ABBD8F04F10FD6 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		28D1F271F15950EFA8F0CD79 /* WHSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSearchResult.h; sourceTree = "<group>"; };
@@ -318,7 +308,6 @@
 			buildRules = (
 			);
 			dependencies = (
-				5913BBD91A50C096002B4132 /* PBXTargetDependency */,
 			);
 			name = Tests;
 			productName = WebHereTests;
@@ -334,11 +323,6 @@
 				CLASSPREFIX = WH;
 				LastUpgradeCheck = 0510;
 				ORGANIZATIONNAME = "Rui Lopes";
-				TargetAttributes = {
-					6003F5AD195388D20070C39A = {
-						TestTargetID = 6003F589195388D20070C39A;
-					};
-				};
 			};
 			buildConfigurationList = 6003F585195388D10070C39A /* Build configuration list for PBXProject "WebHere" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -479,14 +463,6 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		5913BBD91A50C096002B4132 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 6003F589195388D20070C39A /* WebHere */;
-			targetProxy = 5913BBD81A50C096002B4132 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -621,7 +597,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0AC8D84B99ABBD8F04F10FD6 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebHere.app/WebHere";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -664,7 +639,6 @@
 					"-lxml2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Debug;
@@ -673,7 +647,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7DED6213FE3907EA7A76BAD5 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
-				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebHere.app/WebHere";
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -712,7 +685,6 @@
 					"-lxml2",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
 			};
 			name = Release;
