@@ -1,15 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5371a47f-fed6-481f-8a34-5b2cd14314c3" name="Default" comment="Cahnged travis config">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-acknowledgements.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-acknowledgements.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-environment.h" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-environment.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebHere.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/WebHere.xcodeproj/project.pbxproj" />
+    <list default="true" id="5371a47f-fed6-481f-8a34-5b2cd14314c3" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.travis.yml" afterPath="$PROJECT_DIR$/../.travis.yml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Example.iws" />
@@ -119,6 +112,20 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="WebHere" />
               <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeRootNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebHere" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Podspec Metadata" />
+              <option name="myItemType" value="com.jetbrains.cidr.projectView.XcodeViewNode" />
             </PATH_ELEMENT>
           </PATH>
           <PATH>
@@ -286,7 +293,13 @@
       <option name="project" value="LOCAL" />
       <updated>1419808078586</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Cahnged travis config">
+      <created>1419809031753</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1419809031753</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">

@@ -12,4 +12,4 @@ before_install:
 
 xcode_sdk: iphonesimulator
 xcode_workspace: WebHere.xcworkspace
-xcode_scheme: AllTests
+xcode_scheme: Tests
