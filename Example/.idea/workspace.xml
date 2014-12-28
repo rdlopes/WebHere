@@ -1,31 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5371a47f-fed6-481f-8a34-5b2cd14314c3" name="Default" comment="Added example for google search">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/AllTests.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-AFNetworking/Pods-Tests-AFNetworking-Private.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-AFNetworking/Pods-Tests-AFNetworking-dummy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-AFNetworking/Pods-Tests-AFNetworking-prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-AFNetworking/Pods-Tests-AFNetworking.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-GDataXML-HTML/Pods-Tests-GDataXML-HTML-Private.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-GDataXML-HTML/Pods-Tests-GDataXML-HTML-dummy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-GDataXML-HTML/Pods-Tests-GDataXML-HTML-prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-GDataXML-HTML/Pods-Tests-GDataXML-HTML.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-WebHere/Pods-Tests-WebHere-Private.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-WebHere/Pods-Tests-WebHere-dummy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-WebHere/Pods-Tests-WebHere-prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-WebHere/Pods-Tests-WebHere.xcconfig" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.travis.yml" afterPath="$PROJECT_DIR$/../.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebHere/Base.lproj/Main_iPhone.storyboard" afterPath="$PROJECT_DIR$/WebHere/Base.lproj/Main_iPhone.storyboard" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-acknowledgements.markdown" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-acknowledgements.markdown" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-acknowledgements.plist" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-acknowledgements.plist" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-environment.h" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-environment.h" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebHere/WHViewController.m" afterPath="$PROJECT_DIR$/WebHere/WHViewController.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebHere.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/WebHere.xcodeproj/project.pbxproj" />
+    <list default="true" id="5371a47f-fed6-481f-8a34-5b2cd14314c3" name="Default" comment="Cahnged travis config">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Example.iws" />
@@ -49,28 +25,7 @@
     <favorites_list name="WebHere" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ASIHTTPRequestStub.m" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/ASIHTTPRequest/ASIHTTPRequestStub.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="245" max-vertical-offset="795">
-              <caret line="29" column="39" selection-start-line="29" selection-start-column="39" selection-end-line="29" selection-end-column="39" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="NSURLRequest+LSHTTPRequest.m" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/NSURLRequest/NSURLRequest+LSHTTPRequest.m">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.4827586" vertical-offset="186" max-vertical-offset="795">
-              <caret line="32" column="124" selection-start-line="32" selection-start-column="124" selection-end-line="32" selection-end-column="124" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -265,7 +220,13 @@
       <option name="project" value="LOCAL" />
       <updated>1419791026461</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Cahnged travis config">
+      <created>1419808078585</created>
+      <option name="number" value="00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1419808078586</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -300,11 +261,14 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Added example for google search" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added example for google search" />
+    <MESSAGE value="Cahnged travis config" />
+    <option name="LAST_COMMIT_MESSAGE" value="Cahnged travis config" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -653,8 +617,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/NSURLRequest/NSURLRequest+LSHTTPRequest.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.4827586" vertical-offset="186" max-vertical-offset="795">
-          <caret line="32" column="124" selection-start-line="32" selection-start-column="124" selection-end-line="32" selection-end-column="124" />
+        <state vertical-scroll-proportion="0.18719211" vertical-offset="186" max-vertical-offset="795">
+          <caret line="20" column="22" selection-start-line="20" selection-start-column="22" selection-end-line="20" selection-end-column="22" />
           <folding />
         </state>
       </provider>
