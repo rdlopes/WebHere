@@ -8,6 +8,12 @@
 
 #import <UIKit/UIKit.h>
 
+@class WHSearchRequest;
+@class WHSearchResponse;
+
 @interface WHViewController : UIViewController
+
+@property(strong, nonatomic) WHSearchRequest *searchRequest;
+@property(strong, nonatomic) WHSearchResponse *searchResponse;
 
 @end

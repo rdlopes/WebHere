@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28D1FE69B5DBDD924C75D6B9 /* response.xml in Resources */ = {isa = PBXBuildFile; fileRef = 28D1F924AA3190205A3B913E /* response.xml */; };
+		28D1FFD6C86AFA9792EDE80C /* WHSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D1F31875C3DECD28575686 /* WHSearchResult.m */; };
+		596CB0CE1A5047FA00D6CC43 /* WHSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 596CB0CD1A5047FA00D6CC43 /* WHSearchRequest.m */; };
+		596CB0D11A5048EC00D6CC43 /* WHSearchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 596CB0D01A5048EC00D6CC43 /* WHSearchResponse.m */; };
 		59F6B9111A50314C00CB458F /* EXPMatchers+containAll.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B8FF1A50314C00CB458F /* EXPMatchers+containAll.m */; };
 		59F6B9121A50314C00CB458F /* WHLoginForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B9021A50314C00CB458F /* WHLoginForm.m */; };
 		59F6B9131A50314C00CB458F /* WHNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B9041A50314C00CB458F /* WHNSObject.m */; };
@@ -48,8 +52,15 @@
 
 /* Begin PBXFileReference section */
 		0AC8D84B99ABBD8F04F10FD6 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		28D1F271F15950EFA8F0CD79 /* WHSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSearchResult.h; sourceTree = "<group>"; };
+		28D1F31875C3DECD28575686 /* WHSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSearchResult.m; sourceTree = "<group>"; };
+		28D1F924AA3190205A3B913E /* response.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = response.xml; sourceTree = "<group>"; };
 		36487D02D04E9750642ECF17 /* Pods-WebHere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebHere/Pods-WebHere.debug.xcconfig"; sourceTree = "<group>"; };
 		46C4D07B87508B7419213E3D /* libPods-WebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		596CB0CC1A5047FA00D6CC43 /* WHSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSearchRequest.h; sourceTree = "<group>"; };
+		596CB0CD1A5047FA00D6CC43 /* WHSearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSearchRequest.m; sourceTree = "<group>"; };
+		596CB0CF1A5048EC00D6CC43 /* WHSearchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSearchResponse.h; sourceTree = "<group>"; };
+		596CB0D01A5048EC00D6CC43 /* WHSearchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSearchResponse.m; sourceTree = "<group>"; };
 		59F6B8FE1A50314C00CB458F /* EXPMatchers+containAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+containAll.h"; sourceTree = "<group>"; };
 		59F6B8FF1A50314C00CB458F /* EXPMatchers+containAll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+containAll.m"; sourceTree = "<group>"; };
 		59F6B9011A50314C00CB458F /* WHLoginForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLoginForm.h; sourceTree = "<group>"; };
@@ -121,6 +132,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		28D1F62E89604804F44DC204 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				596CB0CC1A5047FA00D6CC43 /* WHSearchRequest.h */,
+				596CB0CD1A5047FA00D6CC43 /* WHSearchRequest.m */,
+				596CB0CF1A5048EC00D6CC43 /* WHSearchResponse.h */,
+				596CB0D01A5048EC00D6CC43 /* WHSearchResponse.m */,
+				28D1F271F15950EFA8F0CD79 /* WHSearchResult.h */,
+				28D1F31875C3DECD28575686 /* WHSearchResult.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		59F6B8FD1A50314C00CB458F /* Expecta */ = {
 			isa = PBXGroup;
 			children = (
@@ -150,12 +174,12 @@
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
-				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
-				6003F593195388D20070C39A /* WebHere */,
-				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
-				6003F58B195388D20070C39A /* Products */,
 				F5F6DBFBF4441C732AD83CE7 /* Pods */,
+				60FF7A9C1954A5C5007DD14C /* Podspec Metadata */,
+				6003F58B195388D20070C39A /* Products */,
+				6003F5B5195388D20070C39A /* Tests */,
+				6003F593195388D20070C39A /* WebHere */,
 			);
 			sourceTree = "<group>";
 		};
@@ -191,6 +215,7 @@
 				6003F5A6195388D20070C39A /* WHViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
+				28D1F62E89604804F44DC204 /* Model */,
 			);
 			path = WebHere;
 			sourceTree = "<group>";
@@ -218,6 +243,7 @@
 				59F6B90F1A50314C00CB458F /* WHObjectSpec.m */,
 				59F6B9101A50314C00CB458F /* WHWebsiteSpec.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
+				28D1F924AA3190205A3B913E /* response.xml */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -345,6 +371,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
+				28D1FE69B5DBDD924C75D6B9 /* response.xml in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,9 +445,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				596CB0CE1A5047FA00D6CC43 /* WHSearchRequest.m in Sources */,
 				6003F59E195388D20070C39A /* WHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WHViewController.m in Sources */,
+				596CB0D11A5048EC00D6CC43 /* WHSearchResponse.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				28D1FFD6C86AFA9792EDE80C /* WHSearchResult.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

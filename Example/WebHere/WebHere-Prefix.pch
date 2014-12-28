@@ -13,4 +13,6 @@
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <WebHere/WebHere.h>
+    #import <AFNetworking/AFNetworking.h>
 #endif
