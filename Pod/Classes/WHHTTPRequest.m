@@ -27,6 +27,8 @@
 #import "WHHTTPRequest.h"
 #import "NSObject+Runtime.h"
 
+NSString *const kWHHTTPRequestRetryCount = @"kWHHTTPRequestRetryCount";
+
 @interface WHHTTPRequest () {
 @protected
     NSMutableDictionary *_queryParameters;
@@ -42,6 +44,14 @@
 @synthesize queryParameters = _queryParameters;
 @synthesize alternativeTargets = _alternativeTargets;
 
+- (NSInteger)retryCount {
+    return [_userInfo[kWHHTTPRequestRetryCount] integerValue];
+}
+
+- (void)setRetryCount:(NSInteger)retryCount {
+    _userInfo[kWHHTTPRequestRetryCount] = @(retryCount);
+}
+
 - (instancetype)initWithPath:(NSString *)path target:(Class <WHObject>)target {
     NSParameterAssert(path);
     NSParameterAssert(target);
@@ -55,6 +65,7 @@
         _alternativeTargets = [@[] mutableCopy];
         _queryParameters = [@{} mutableCopy];
         _userInfo = [@{} mutableCopy];
+        self.retryCount = 0;
     }
     return self;
 }

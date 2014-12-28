@@ -7,35 +7,33 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1C5612C7DF1C02C959BD2A01 /* libPods-WebHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B6423E6CA46E7B1F5D6D8655 /* libPods-WebHere.a */; };
-		28D1FF7A9D138C0A19BA6B4F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28D1F9A5138838771CEE9FE0 /* Main.storyboard */; };
-		597282F21A41F22A00A63448 /* WHGoogleSearchPage.m in Sources */ = {isa = PBXBuildFile; fileRef = 597282F11A41F22A00A63448 /* WHGoogleSearchPage.m */; };
-		597282F71A41F28C00A63448 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 597282F31A41F28C00A63448 /* LaunchScreen.xib */; };
-		59FB54041A41CD1B00B88276 /* EXPMatchers+containAll.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB53F21A41CD1B00B88276 /* EXPMatchers+containAll.m */; };
-		59FB54051A41CD1B00B88276 /* WHLoginForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB53F51A41CD1B00B88276 /* WHLoginForm.m */; };
-		59FB54061A41CD1B00B88276 /* WHNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB53F71A41CD1B00B88276 /* WHNSObject.m */; };
-		59FB54071A41CD1B00B88276 /* WHPerson+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB53F91A41CD1B00B88276 /* WHPerson+HTML.m */; };
-		59FB54081A41CD1B00B88276 /* WHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB53FB1A41CD1B00B88276 /* WHPerson.m */; };
-		59FB54091A41CD1B00B88276 /* WHPersonQueryForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB53FD1A41CD1B00B88276 /* WHPersonQueryForm.m */; };
-		59FB540A1A41CD1B00B88276 /* NSObject_RuntimeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB53FE1A41CD1B00B88276 /* NSObject_RuntimeSpec.m */; };
-		59FB540B1A41CD1B00B88276 /* WHForm_HTMLSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB53FF1A41CD1B00B88276 /* WHForm_HTMLSpec.m */; };
-		59FB540C1A41CD1B00B88276 /* WHHTTPRequestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB54001A41CD1B00B88276 /* WHHTTPRequestSpec.m */; };
-		59FB540D1A41CD1B00B88276 /* WHLink_HTMLSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB54011A41CD1B00B88276 /* WHLink_HTMLSpec.m */; };
-		59FB540E1A41CD1B00B88276 /* WHObjectSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB54021A41CD1B00B88276 /* WHObjectSpec.m */; };
-		59FB540F1A41CD1B00B88276 /* WHWebsiteSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 59FB54031A41CD1B00B88276 /* WHWebsiteSpec.m */; };
+		59F6B9111A50314C00CB458F /* EXPMatchers+containAll.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B8FF1A50314C00CB458F /* EXPMatchers+containAll.m */; };
+		59F6B9121A50314C00CB458F /* WHLoginForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B9021A50314C00CB458F /* WHLoginForm.m */; };
+		59F6B9131A50314C00CB458F /* WHNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B9041A50314C00CB458F /* WHNSObject.m */; };
+		59F6B9141A50314C00CB458F /* WHPerson+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B9061A50314C00CB458F /* WHPerson+HTML.m */; };
+		59F6B9151A50314C00CB458F /* WHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B9081A50314C00CB458F /* WHPerson.m */; };
+		59F6B9161A50314C00CB458F /* WHPersonQueryForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B90A1A50314C00CB458F /* WHPersonQueryForm.m */; };
+		59F6B9171A50314C00CB458F /* NSObject_RuntimeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B90B1A50314C00CB458F /* NSObject_RuntimeSpec.m */; };
+		59F6B9181A50314C00CB458F /* WHForm_HTMLSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B90C1A50314C00CB458F /* WHForm_HTMLSpec.m */; };
+		59F6B9191A50314C00CB458F /* WHHTTPRequestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B90D1A50314C00CB458F /* WHHTTPRequestSpec.m */; };
+		59F6B91A1A50314C00CB458F /* WHLink_HTMLSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B90E1A50314C00CB458F /* WHLink_HTMLSpec.m */; };
+		59F6B91B1A50314C00CB458F /* WHObjectSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B90F1A50314C00CB458F /* WHObjectSpec.m */; };
+		59F6B91C1A50314C00CB458F /* WHWebsiteSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B9101A50314C00CB458F /* WHWebsiteSpec.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* WHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* WHAppDelegate.m */; };
+		6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6003F59F195388D20070C39A /* Main_iPhone.storyboard */; };
 		6003F5A7195388D20070C39A /* WHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* WHViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		758D4C0121E0CD658DDB1A96 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 021762FCAD079C2F69589CC9 /* libPods-Tests.a */; };
+		9EB04A36EE4F42929A9814BD /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F94BD6554D93313B1B6570AB /* libPods-Tests.a */; };
+		BB0707D5452A5B2466AA03A9 /* libPods-WebHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C4D07B87508B7419213E3D /* libPods-WebHere.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,34 +47,27 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		021762FCAD079C2F69589CC9 /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		07EA6F4C72262DA4945EDAFA /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		28D1F9A5138838771CEE9FE0 /* Main.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
-		4A6BAF915B2C0EC75A583954 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		504C13AC9AC1C4725159AA7A /* Pods-WebHere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebHere/Pods-WebHere.debug.xcconfig"; sourceTree = "<group>"; };
-		564C6FBA66341C591A869B26 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
-		595BC3461A4368EF006E3ED9 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
-		597282F01A41F22A00A63448 /* WHGoogleSearchPage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHGoogleSearchPage.h; sourceTree = "<group>"; };
-		597282F11A41F22A00A63448 /* WHGoogleSearchPage.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHGoogleSearchPage.m; sourceTree = "<group>"; };
-		597282F41A41F28C00A63448 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		59FB53F11A41CD1B00B88276 /* EXPMatchers+containAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+containAll.h"; sourceTree = "<group>"; };
-		59FB53F21A41CD1B00B88276 /* EXPMatchers+containAll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+containAll.m"; sourceTree = "<group>"; };
-		59FB53F41A41CD1B00B88276 /* WHLoginForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLoginForm.h; sourceTree = "<group>"; };
-		59FB53F51A41CD1B00B88276 /* WHLoginForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLoginForm.m; sourceTree = "<group>"; };
-		59FB53F61A41CD1B00B88276 /* WHNSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHNSObject.h; sourceTree = "<group>"; };
-		59FB53F71A41CD1B00B88276 /* WHNSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHNSObject.m; sourceTree = "<group>"; };
-		59FB53F81A41CD1B00B88276 /* WHPerson+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WHPerson+HTML.h"; sourceTree = "<group>"; };
-		59FB53F91A41CD1B00B88276 /* WHPerson+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WHPerson+HTML.m"; sourceTree = "<group>"; };
-		59FB53FA1A41CD1B00B88276 /* WHPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPerson.h; sourceTree = "<group>"; };
-		59FB53FB1A41CD1B00B88276 /* WHPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPerson.m; sourceTree = "<group>"; };
-		59FB53FC1A41CD1B00B88276 /* WHPersonQueryForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPersonQueryForm.h; sourceTree = "<group>"; };
-		59FB53FD1A41CD1B00B88276 /* WHPersonQueryForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPersonQueryForm.m; sourceTree = "<group>"; };
-		59FB53FE1A41CD1B00B88276 /* NSObject_RuntimeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject_RuntimeSpec.m; sourceTree = "<group>"; };
-		59FB53FF1A41CD1B00B88276 /* WHForm_HTMLSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHForm_HTMLSpec.m; sourceTree = "<group>"; };
-		59FB54001A41CD1B00B88276 /* WHHTTPRequestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHHTTPRequestSpec.m; sourceTree = "<group>"; };
-		59FB54011A41CD1B00B88276 /* WHLink_HTMLSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLink_HTMLSpec.m; sourceTree = "<group>"; };
-		59FB54021A41CD1B00B88276 /* WHObjectSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHObjectSpec.m; sourceTree = "<group>"; };
-		59FB54031A41CD1B00B88276 /* WHWebsiteSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHWebsiteSpec.m; sourceTree = "<group>"; };
+		0AC8D84B99ABBD8F04F10FD6 /* Pods-Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		36487D02D04E9750642ECF17 /* Pods-WebHere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebHere/Pods-WebHere.debug.xcconfig"; sourceTree = "<group>"; };
+		46C4D07B87508B7419213E3D /* libPods-WebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		59F6B8FE1A50314C00CB458F /* EXPMatchers+containAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+containAll.h"; sourceTree = "<group>"; };
+		59F6B8FF1A50314C00CB458F /* EXPMatchers+containAll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+containAll.m"; sourceTree = "<group>"; };
+		59F6B9011A50314C00CB458F /* WHLoginForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLoginForm.h; sourceTree = "<group>"; };
+		59F6B9021A50314C00CB458F /* WHLoginForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLoginForm.m; sourceTree = "<group>"; };
+		59F6B9031A50314C00CB458F /* WHNSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHNSObject.h; sourceTree = "<group>"; };
+		59F6B9041A50314C00CB458F /* WHNSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHNSObject.m; sourceTree = "<group>"; };
+		59F6B9051A50314C00CB458F /* WHPerson+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WHPerson+HTML.h"; sourceTree = "<group>"; };
+		59F6B9061A50314C00CB458F /* WHPerson+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WHPerson+HTML.m"; sourceTree = "<group>"; };
+		59F6B9071A50314C00CB458F /* WHPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPerson.h; sourceTree = "<group>"; };
+		59F6B9081A50314C00CB458F /* WHPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPerson.m; sourceTree = "<group>"; };
+		59F6B9091A50314C00CB458F /* WHPersonQueryForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPersonQueryForm.h; sourceTree = "<group>"; };
+		59F6B90A1A50314C00CB458F /* WHPersonQueryForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPersonQueryForm.m; sourceTree = "<group>"; };
+		59F6B90B1A50314C00CB458F /* NSObject_RuntimeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject_RuntimeSpec.m; sourceTree = "<group>"; };
+		59F6B90C1A50314C00CB458F /* WHForm_HTMLSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHForm_HTMLSpec.m; sourceTree = "<group>"; };
+		59F6B90D1A50314C00CB458F /* WHHTTPRequestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHHTTPRequestSpec.m; sourceTree = "<group>"; };
+		59F6B90E1A50314C00CB458F /* WHLink_HTMLSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLink_HTMLSpec.m; sourceTree = "<group>"; };
+		59F6B90F1A50314C00CB458F /* WHObjectSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHObjectSpec.m; sourceTree = "<group>"; };
+		59F6B9101A50314C00CB458F /* WHWebsiteSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHWebsiteSpec.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WebHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -87,6 +78,7 @@
 		6003F59B195388D20070C39A /* WebHere-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebHere-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* WHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* WHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHAppDelegate.m; sourceTree = "<group>"; };
+		6003F5A0195388D20070C39A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* WHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WHViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* WHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -95,10 +87,12 @@
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
 		6003F5B9195388D20070C39A /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
-		9CCC2E65925B10F27A38A5F2 /* Pods-WebHere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebHere/Pods-WebHere.release.xcconfig"; sourceTree = "<group>"; };
-		A1C34A2DDF4908654AA5DBF6 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		B6423E6CA46E7B1F5D6D8655 /* libPods-WebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		CD985678015CFADCF1D38F43 /* WebHere.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WebHere.podspec; path = ../WebHere.podspec; sourceTree = "<group>"; };
+		62FE8893108E7AA66FDC3A61 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		7DED6213FE3907EA7A76BAD5 /* Pods-Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig"; sourceTree = "<group>"; };
+		8514D1632A333CD01A8990F8 /* WebHere.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = WebHere.podspec; path = ../WebHere.podspec; sourceTree = "<group>"; };
+		B557CC41D4BE78DE7693BCCF /* Pods-WebHere.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere.release.xcconfig"; path = "Pods/Target Support Files/Pods-WebHere/Pods-WebHere.release.xcconfig"; sourceTree = "<group>"; };
+		F38A674ED1D7648BAF586755 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		F94BD6554D93313B1B6570AB /* libPods-Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,7 +103,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				1C5612C7DF1C02C959BD2A01 /* libPods-WebHere.a in Frameworks */,
+				BB0707D5452A5B2466AA03A9 /* libPods-WebHere.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -120,35 +114,35 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				758D4C0121E0CD658DDB1A96 /* libPods-Tests.a in Frameworks */,
+				9EB04A36EE4F42929A9814BD /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		59FB53F01A41CD1B00B88276 /* Expecta */ = {
+		59F6B8FD1A50314C00CB458F /* Expecta */ = {
 			isa = PBXGroup;
 			children = (
-				59FB53F11A41CD1B00B88276 /* EXPMatchers+containAll.h */,
-				59FB53F21A41CD1B00B88276 /* EXPMatchers+containAll.m */,
+				59F6B8FE1A50314C00CB458F /* EXPMatchers+containAll.h */,
+				59F6B8FF1A50314C00CB458F /* EXPMatchers+containAll.m */,
 			);
 			path = Expecta;
 			sourceTree = "<group>";
 		};
-		59FB53F31A41CD1B00B88276 /* Fixtures */ = {
+		59F6B9001A50314C00CB458F /* Fixtures */ = {
 			isa = PBXGroup;
 			children = (
-				59FB53F41A41CD1B00B88276 /* WHLoginForm.h */,
-				59FB53F51A41CD1B00B88276 /* WHLoginForm.m */,
-				59FB53F61A41CD1B00B88276 /* WHNSObject.h */,
-				59FB53F71A41CD1B00B88276 /* WHNSObject.m */,
-				59FB53F81A41CD1B00B88276 /* WHPerson+HTML.h */,
-				59FB53F91A41CD1B00B88276 /* WHPerson+HTML.m */,
-				59FB53FA1A41CD1B00B88276 /* WHPerson.h */,
-				59FB53FB1A41CD1B00B88276 /* WHPerson.m */,
-				59FB53FC1A41CD1B00B88276 /* WHPersonQueryForm.h */,
-				59FB53FD1A41CD1B00B88276 /* WHPersonQueryForm.m */,
+				59F6B9011A50314C00CB458F /* WHLoginForm.h */,
+				59F6B9021A50314C00CB458F /* WHLoginForm.m */,
+				59F6B9031A50314C00CB458F /* WHNSObject.h */,
+				59F6B9041A50314C00CB458F /* WHNSObject.m */,
+				59F6B9051A50314C00CB458F /* WHPerson+HTML.h */,
+				59F6B9061A50314C00CB458F /* WHPerson+HTML.m */,
+				59F6B9071A50314C00CB458F /* WHPerson.h */,
+				59F6B9081A50314C00CB458F /* WHPerson.m */,
+				59F6B9091A50314C00CB458F /* WHPersonQueryForm.h */,
+				59F6B90A1A50314C00CB458F /* WHPersonQueryForm.m */,
 			);
 			path = Fixtures;
 			sourceTree = "<group>";
@@ -161,7 +155,7 @@
 				6003F5B5195388D20070C39A /* Tests */,
 				6003F58C195388D20070C39A /* Frameworks */,
 				6003F58B195388D20070C39A /* Products */,
-				AFA7D8B33E735B334EADACC8 /* Pods */,
+				F5F6DBFBF4441C732AD83CE7 /* Pods */,
 			);
 			sourceTree = "<group>";
 		};
@@ -181,8 +175,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				021762FCAD079C2F69589CC9 /* libPods-Tests.a */,
-				B6423E6CA46E7B1F5D6D8655 /* libPods-WebHere.a */,
+				F94BD6554D93313B1B6570AB /* libPods-Tests.a */,
+				46C4D07B87508B7419213E3D /* libPods-WebHere.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -190,16 +184,13 @@
 		6003F593195388D20070C39A /* WebHere */ = {
 			isa = PBXGroup;
 			children = (
-				597282F31A41F28C00A63448 /* LaunchScreen.xib */,
-				597282F01A41F22A00A63448 /* WHGoogleSearchPage.h */,
-				597282F11A41F22A00A63448 /* WHGoogleSearchPage.m */,
 				6003F59C195388D20070C39A /* WHAppDelegate.h */,
 				6003F59D195388D20070C39A /* WHAppDelegate.m */,
+				6003F59F195388D20070C39A /* Main_iPhone.storyboard */,
 				6003F5A5195388D20070C39A /* WHViewController.h */,
 				6003F5A6195388D20070C39A /* WHViewController.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
-				28D1F9A5138838771CEE9FE0 /* Main.storyboard */,
 			);
 			path = WebHere;
 			sourceTree = "<group>";
@@ -218,14 +209,14 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				59FB53F01A41CD1B00B88276 /* Expecta */,
-				59FB53F31A41CD1B00B88276 /* Fixtures */,
-				59FB53FE1A41CD1B00B88276 /* NSObject_RuntimeSpec.m */,
-				59FB53FF1A41CD1B00B88276 /* WHForm_HTMLSpec.m */,
-				59FB54001A41CD1B00B88276 /* WHHTTPRequestSpec.m */,
-				59FB54011A41CD1B00B88276 /* WHLink_HTMLSpec.m */,
-				59FB54021A41CD1B00B88276 /* WHObjectSpec.m */,
-				59FB54031A41CD1B00B88276 /* WHWebsiteSpec.m */,
+				59F6B8FD1A50314C00CB458F /* Expecta */,
+				59F6B9001A50314C00CB458F /* Fixtures */,
+				59F6B90B1A50314C00CB458F /* NSObject_RuntimeSpec.m */,
+				59F6B90C1A50314C00CB458F /* WHForm_HTMLSpec.m */,
+				59F6B90D1A50314C00CB458F /* WHHTTPRequestSpec.m */,
+				59F6B90E1A50314C00CB458F /* WHLink_HTMLSpec.m */,
+				59F6B90F1A50314C00CB458F /* WHObjectSpec.m */,
+				59F6B9101A50314C00CB458F /* WHWebsiteSpec.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -244,21 +235,20 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
-				595BC3461A4368EF006E3ED9 /* .travis.yml */,
-				CD985678015CFADCF1D38F43 /* WebHere.podspec */,
-				A1C34A2DDF4908654AA5DBF6 /* README.md */,
-				07EA6F4C72262DA4945EDAFA /* LICENSE */,
+				8514D1632A333CD01A8990F8 /* WebHere.podspec */,
+				62FE8893108E7AA66FDC3A61 /* README.md */,
+				F38A674ED1D7648BAF586755 /* LICENSE */,
 			);
 			name = "Podspec Metadata";
 			sourceTree = "<group>";
 		};
-		AFA7D8B33E735B334EADACC8 /* Pods */ = {
+		F5F6DBFBF4441C732AD83CE7 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4A6BAF915B2C0EC75A583954 /* Pods-Tests.debug.xcconfig */,
-				564C6FBA66341C591A869B26 /* Pods-Tests.release.xcconfig */,
-				504C13AC9AC1C4725159AA7A /* Pods-WebHere.debug.xcconfig */,
-				9CCC2E65925B10F27A38A5F2 /* Pods-WebHere.release.xcconfig */,
+				0AC8D84B99ABBD8F04F10FD6 /* Pods-Tests.debug.xcconfig */,
+				7DED6213FE3907EA7A76BAD5 /* Pods-Tests.release.xcconfig */,
+				36487D02D04E9750642ECF17 /* Pods-WebHere.debug.xcconfig */,
+				B557CC41D4BE78DE7693BCCF /* Pods-WebHere.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -270,11 +260,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5BF195388D20070C39A /* Build configuration list for PBXNativeTarget "WebHere" */;
 			buildPhases = (
-				A2E25575AF78E300317182D2 /* Check Pods Manifest.lock */,
+				BC361D80053E6E9B3086E296 /* Check Pods Manifest.lock */,
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				704E4887C2004302F1E9A6D7 /* Copy Pods Resources */,
+				9412C76E8FE1A6A9FB92CC35 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -289,11 +279,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 6003F5C2195388D20070C39A /* Build configuration list for PBXNativeTarget "Tests" */;
 			buildPhases = (
-				5791107002C91A6F8C974363 /* Check Pods Manifest.lock */,
+				1DB0A3C5C795D0DBD59A86D6 /* Check Pods Manifest.lock */,
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				075A92A8B85D844D4BFD6B41 /* Copy Pods Resources */,
+				2708ABB0EEE7EA1D22D08100 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -345,9 +335,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
-				597282F71A41F28C00A63448 /* LaunchScreen.xib in Resources */,
+				6003F5A1195388D20070C39A /* Main_iPhone.storyboard in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
-				28D1FF7A9D138C0A19BA6B4F /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -362,22 +351,7 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		075A92A8B85D844D4BFD6B41 /* Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		5791107002C91A6F8C974363 /* Check Pods Manifest.lock */ = {
+		1DB0A3C5C795D0DBD59A86D6 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -392,7 +366,22 @@
 			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
-		704E4887C2004302F1E9A6D7 /* Copy Pods Resources */ = {
+		2708ABB0EEE7EA1D22D08100 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9412C76E8FE1A6A9FB92CC35 /* Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -407,7 +396,7 @@
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WebHere/Pods-WebHere-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A2E25575AF78E300317182D2 /* Check Pods Manifest.lock */ = {
+		BC361D80053E6E9B3086E296 /* Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -431,7 +420,6 @@
 			files = (
 				6003F59E195388D20070C39A /* WHAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* WHViewController.m in Sources */,
-				597282F21A41F22A00A63448 /* WHGoogleSearchPage.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -440,18 +428,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				59FB540E1A41CD1B00B88276 /* WHObjectSpec.m in Sources */,
-				59FB540C1A41CD1B00B88276 /* WHHTTPRequestSpec.m in Sources */,
-				59FB54091A41CD1B00B88276 /* WHPersonQueryForm.m in Sources */,
-				59FB540D1A41CD1B00B88276 /* WHLink_HTMLSpec.m in Sources */,
-				59FB54071A41CD1B00B88276 /* WHPerson+HTML.m in Sources */,
-				59FB540A1A41CD1B00B88276 /* NSObject_RuntimeSpec.m in Sources */,
-				59FB54051A41CD1B00B88276 /* WHLoginForm.m in Sources */,
-				59FB54041A41CD1B00B88276 /* EXPMatchers+containAll.m in Sources */,
-				59FB54081A41CD1B00B88276 /* WHPerson.m in Sources */,
-				59FB540B1A41CD1B00B88276 /* WHForm_HTMLSpec.m in Sources */,
-				59FB54061A41CD1B00B88276 /* WHNSObject.m in Sources */,
-				59FB540F1A41CD1B00B88276 /* WHWebsiteSpec.m in Sources */,
+				59F6B9141A50314C00CB458F /* WHPerson+HTML.m in Sources */,
+				59F6B9161A50314C00CB458F /* WHPersonQueryForm.m in Sources */,
+				59F6B9181A50314C00CB458F /* WHForm_HTMLSpec.m in Sources */,
+				59F6B91A1A50314C00CB458F /* WHLink_HTMLSpec.m in Sources */,
+				59F6B9151A50314C00CB458F /* WHPerson.m in Sources */,
+				59F6B91C1A50314C00CB458F /* WHWebsiteSpec.m in Sources */,
+				59F6B91B1A50314C00CB458F /* WHObjectSpec.m in Sources */,
+				59F6B9191A50314C00CB458F /* WHHTTPRequestSpec.m in Sources */,
+				59F6B9111A50314C00CB458F /* EXPMatchers+containAll.m in Sources */,
+				59F6B9131A50314C00CB458F /* WHNSObject.m in Sources */,
+				59F6B9121A50314C00CB458F /* WHLoginForm.m in Sources */,
+				59F6B9171A50314C00CB458F /* NSObject_RuntimeSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,20 +454,20 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		597282F31A41F28C00A63448 /* LaunchScreen.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				597282F41A41F28C00A63448 /* Base */,
-			);
-			name = LaunchScreen.xib;
-			sourceTree = "<group>";
-		};
 		6003F596195388D20070C39A /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
 			children = (
 				6003F597195388D20070C39A /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6003F59F195388D20070C39A /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6003F5A0195388D20070C39A /* Base */,
+			);
+			name = Main_iPhone.storyboard;
 			sourceTree = "<group>";
 		};
 		6003F5B8195388D20070C39A /* InfoPlist.strings */ = {
@@ -567,11 +555,10 @@
 		};
 		6003F5C0195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 504C13AC9AC1C4725159AA7A /* Pods-WebHere.debug.xcconfig */;
+			baseConfigurationReference = 36487D02D04E9750642ECF17 /* Pods-WebHere.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				INFOPLIST_FILE = "WebHere/WebHere-Info.plist";
@@ -583,11 +570,10 @@
 		};
 		6003F5C1195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9CCC2E65925B10F27A38A5F2 /* Pods-WebHere.release.xcconfig */;
+			baseConfigurationReference = B557CC41D4BE78DE7693BCCF /* Pods-WebHere.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
-				CODE_SIGN_IDENTITY = "iPhone Developer";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				INFOPLIST_FILE = "WebHere/WebHere-Info.plist";
@@ -599,7 +585,7 @@
 		};
 		6003F5C3195388D20070C39A /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4A6BAF915B2C0EC75A583954 /* Pods-Tests.debug.xcconfig */;
+			baseConfigurationReference = 0AC8D84B99ABBD8F04F10FD6 /* Pods-Tests.debug.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebHere.app/WebHere";
 				FRAMEWORK_SEARCH_PATHS = (
@@ -622,7 +608,7 @@
 		};
 		6003F5C4195388D20070C39A /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 564C6FBA66341C591A869B26 /* Pods-Tests.release.xcconfig */;
+			baseConfigurationReference = 7DED6213FE3907EA7A76BAD5 /* Pods-Tests.release.xcconfig */;
 			buildSettings = {
 				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/WebHere.app/WebHere";
 				FRAMEWORK_SEARCH_PATHS = (

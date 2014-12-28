@@ -89,7 +89,7 @@ SpecBegin(WHWebsite)
                         .withBody(nil);
 
                 WHLink *personLink = [WHLink linkWithPath:@"/person" target:[WHPerson class]];
-                __block WHPerson *person = nil;
+                __block WHPerson *person = [WHPerson new];
 
                 [website send:personLink
                       success:^(WHHTTPRequest *request, id <WHObject> object) {

@@ -54,7 +54,6 @@ SpecBegin(WHHTTPRequest)
                     expect(request.queryParameters).notTo.beNil;
                     expect(request.queryParameters).to.haveCountOf(0);
                     expect(request.userInfo).notTo.beNil;
-                    expect(request.userInfo).to.haveCountOf(0);
                 });
 
                 it(@"succeeds when query parameters are provided", ^{

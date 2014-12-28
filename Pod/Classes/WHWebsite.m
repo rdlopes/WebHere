@@ -139,7 +139,6 @@ NSInteger const WHWebsiteObjectBuildingFailureErrorCode = -3000;
      failure:(void (^)(WHHTTPRequest *sentRequestOnError, NSError *error))failure {
 
     NSError *serializationError = nil;
-    NSInteger retryCount = request.retryCount;
     NSDictionary *queryParameters =
             request.queryParameters.count ? request.queryParameters : nil;
     self.sessionManager.requestSerializer.stringEncoding = request.encoding;
@@ -168,9 +167,9 @@ NSInteger const WHWebsiteObjectBuildingFailureErrorCode = -3000;
               completionHandler:^(NSURLResponse *response, id responseObject,
                       NSError *error) {
                   if (error) {
-                      if (retryCount < self.numberOfRetries) {
+                      if (request.retryCount < self.numberOfRetries) {
                           // Resend
-                          request.retryCount++;
+                          request.retryCount = request.retryCount + 1;
                           [self send:request success:success failure:failure];
                       } else {
                           // Report the error
