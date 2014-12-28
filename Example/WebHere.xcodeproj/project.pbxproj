@@ -11,6 +11,7 @@
 		28D1FFD6C86AFA9792EDE80C /* WHSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D1F31875C3DECD28575686 /* WHSearchResult.m */; };
 		596CB0CE1A5047FA00D6CC43 /* WHSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 596CB0CD1A5047FA00D6CC43 /* WHSearchRequest.m */; };
 		596CB0D11A5048EC00D6CC43 /* WHSearchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 596CB0D01A5048EC00D6CC43 /* WHSearchResponse.m */; };
+		598150811A50C1AB00354DE8 /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 598150801A50C1AB00354DE8 /* libPods-Tests.a */; };
 		59F6B9111A50314C00CB458F /* EXPMatchers+containAll.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B8FF1A50314C00CB458F /* EXPMatchers+containAll.m */; };
 		59F6B9121A50314C00CB458F /* WHLoginForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B9021A50314C00CB458F /* WHLoginForm.m */; };
 		59F6B9131A50314C00CB458F /* WHNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 59F6B9041A50314C00CB458F /* WHNSObject.m */; };
@@ -36,12 +37,11 @@
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5B8195388D20070C39A /* InfoPlist.strings */; };
-		9EB04A36EE4F42929A9814BD /* libPods-Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F94BD6554D93313B1B6570AB /* libPods-Tests.a */; };
 		BB0707D5452A5B2466AA03A9 /* libPods-WebHere.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46C4D07B87508B7419213E3D /* libPods-WebHere.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		6003F5B3195388D20070C39A /* PBXContainerItemProxy */ = {
+		5913BBD81A50C096002B4132 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 6003F582195388D10070C39A /* Project object */;
 			proxyType = 1;
@@ -57,10 +57,12 @@
 		28D1F924AA3190205A3B913E /* response.xml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml; path = response.xml; sourceTree = "<group>"; };
 		36487D02D04E9750642ECF17 /* Pods-WebHere.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebHere/Pods-WebHere.debug.xcconfig"; sourceTree = "<group>"; };
 		46C4D07B87508B7419213E3D /* libPods-WebHere.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-WebHere.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		5913BBD71A50BD4A002B4132 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = text; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		596CB0CC1A5047FA00D6CC43 /* WHSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSearchRequest.h; sourceTree = "<group>"; };
 		596CB0CD1A5047FA00D6CC43 /* WHSearchRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSearchRequest.m; sourceTree = "<group>"; };
 		596CB0CF1A5048EC00D6CC43 /* WHSearchResponse.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSearchResponse.h; sourceTree = "<group>"; };
 		596CB0D01A5048EC00D6CC43 /* WHSearchResponse.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSearchResponse.m; sourceTree = "<group>"; };
+		598150801A50C1AB00354DE8 /* libPods-Tests.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = "libPods-Tests.a"; path = "Pods/build/Debug-iphoneos/libPods-Tests.a"; sourceTree = "<group>"; };
 		59F6B8FE1A50314C00CB458F /* EXPMatchers+containAll.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EXPMatchers+containAll.h"; sourceTree = "<group>"; };
 		59F6B8FF1A50314C00CB458F /* EXPMatchers+containAll.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EXPMatchers+containAll.m"; sourceTree = "<group>"; };
 		59F6B9011A50314C00CB458F /* WHLoginForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLoginForm.h; sourceTree = "<group>"; };
@@ -122,10 +124,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				598150811A50C1AB00354DE8 /* libPods-Tests.a in Frameworks */,
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				9EB04A36EE4F42929A9814BD /* libPods-Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -195,6 +197,7 @@
 		6003F58C195388D20070C39A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				598150801A50C1AB00354DE8 /* libPods-Tests.a */,
 				6003F58D195388D20070C39A /* Foundation.framework */,
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
@@ -261,6 +264,7 @@
 		60FF7A9C1954A5C5007DD14C /* Podspec Metadata */ = {
 			isa = PBXGroup;
 			children = (
+				5913BBD71A50BD4A002B4132 /* .travis.yml */,
 				8514D1632A333CD01A8990F8 /* WebHere.podspec */,
 				62FE8893108E7AA66FDC3A61 /* README.md */,
 				F38A674ED1D7648BAF586755 /* LICENSE */,
@@ -314,7 +318,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				6003F5B4195388D20070C39A /* PBXTargetDependency */,
+				5913BBD91A50C096002B4132 /* PBXTargetDependency */,
 			);
 			name = Tests;
 			productName = WebHereTests;
@@ -476,10 +480,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		6003F5B4195388D20070C39A /* PBXTargetDependency */ = {
+		5913BBD91A50C096002B4132 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 6003F589195388D20070C39A /* WebHere */;
-			targetProxy = 6003F5B3195388D20070C39A /* PBXContainerItemProxy */;
+			targetProxy = 5913BBD81A50C096002B4132 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -629,7 +633,36 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/Expecta\"",
+					"\"${PODS_ROOT}/Headers/Public/GDataXML-HTML\"",
+					"\"${PODS_ROOT}/Headers/Public/Nocilla\"",
+					"\"${PODS_ROOT}/Headers/Public/Specta\"",
+					"\"${PODS_ROOT}/Headers/Public/WebHere\"",
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-Tests-Expecta\"",
+					"-l\"Pods-Tests-Nocilla\"",
+					"-l\"Pods-Tests-Specta\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"XCTest\"",
+					"$(inherited)",
+					"-lxml2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;
@@ -648,7 +681,36 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/Expecta\"",
+					"\"${PODS_ROOT}/Headers/Public/GDataXML-HTML\"",
+					"\"${PODS_ROOT}/Headers/Public/Nocilla\"",
+					"\"${PODS_ROOT}/Headers/Public/Specta\"",
+					"\"${PODS_ROOT}/Headers/Public/WebHere\"",
+					"$(inherited)",
+					"$(SDKROOT)/usr/include/libxml2",
+				);
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Pods/build/Debug-iphoneos",
+				);
+				OTHER_LDFLAGS = (
+					"-ObjC",
+					"-l\"Pods-Tests-Expecta\"",
+					"-l\"Pods-Tests-Nocilla\"",
+					"-l\"Pods-Tests-Specta\"",
+					"-framework",
+					"\"CFNetwork\"",
+					"-framework",
+					"\"Foundation\"",
+					"-framework",
+					"\"XCTest\"",
+					"$(inherited)",
+					"-lxml2",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUNDLE_LOADER)";
 				WRAPPER_EXTENSION = xctest;

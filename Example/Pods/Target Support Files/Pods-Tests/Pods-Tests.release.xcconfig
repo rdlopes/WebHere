@@ -1,7 +1,7 @@
 FRAMEWORK_SEARCH_PATHS = $(inherited) $(DEVELOPER_FRAMEWORKS_DIR) "$(PLATFORM_DIR)/Developer/Library/Frameworks" "$(DEVELOPER_DIR)/Platforms/iPhoneSimulator.platform/Developer/Library/Frameworks" "$(SDKROOT)/Developer/Library/Frameworks"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Expecta" "${PODS_ROOT}/Headers/Public/GDataXML-HTML" "${PODS_ROOT}/Headers/Public/Nocilla" "${PODS_ROOT}/Headers/Public/Specta" "${PODS_ROOT}/Headers/Public/WebHere" $(SDKROOT)/usr/include/libxml2
+HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/AFNetworking" "${PODS_ROOT}/Headers/Public/Expecta" "${PODS_ROOT}/Headers/Public/GDataXML-HTML" "${PODS_ROOT}/Headers/Public/Nocilla" "${PODS_ROOT}/Headers/Public/Specta" "${PODS_ROOT}/Headers/Public/WebHere"
 OTHER_CFLAGS = $(inherited) -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/AFNetworking" -isystem "${PODS_ROOT}/Headers/Public/Expecta" -isystem "${PODS_ROOT}/Headers/Public/GDataXML-HTML" -isystem "${PODS_ROOT}/Headers/Public/Nocilla" -isystem "${PODS_ROOT}/Headers/Public/Specta" -isystem "${PODS_ROOT}/Headers/Public/WebHere"
-OTHER_LDFLAGS = -ObjC -l"Pods-Tests-AFNetworking" -l"Pods-Tests-Expecta" -l"Pods-Tests-GDataXML-HTML" -l"Pods-Tests-Nocilla" -l"Pods-Tests-Specta" -l"Pods-Tests-WebHere" -l"xml2" -framework "CFNetwork" -framework "CoreGraphics" -framework "Foundation" -framework "MobileCoreServices" -framework "Security" -framework "SystemConfiguration" -framework "XCTest"
+OTHER_LDFLAGS = -ObjC -l"Pods-Tests-Expecta" -l"Pods-Tests-Nocilla" -l"Pods-Tests-Specta" -framework "CFNetwork" -framework "Foundation" -framework "XCTest"
 OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
 PODS_ROOT = ${SRCROOT}/Pods

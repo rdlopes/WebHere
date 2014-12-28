@@ -88,6 +88,8 @@
     return cell;
 }
 
+#pragma mark - UISearchBarDelegate
+
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
     self.searchRequest.queryParameters[@"q"] = searchText;
     [self fetchResults];
