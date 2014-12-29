@@ -4,12 +4,11 @@ before_install:
 - cd Example
 - gem install cocoapods --no-rdoc --no-ri --no-document --quiet
 - pod install
-- KEY_CHAIN=ios-build.keychain
+- KEY_CHAIN=osx-build.keychain
 - security create-keychain -p travis $KEY_CHAIN
 - security default-keychain -s $KEY_CHAIN
 - security unlock-keychain -p travis $KEY_CHAIN
 - security set-keychain-settings -t 3600 -u $KEY_CHAIN
 
-xcode_sdk: iphonesimulator
 xcode_workspace: WebHere.xcworkspace
-xcode_scheme: Tests
+xcode_scheme: libWebHere
