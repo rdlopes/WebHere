@@ -2,39 +2,40 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5371a47f-fed6-481f-8a34-5b2cd14314c3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libWebHereTests/Info.plist" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libWebHere/libWebHere.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libWebHere/libWebHere.m" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/runConfigurations/AllTests.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-Expecta/Pods-Tests-Expecta-Private.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-Expecta/Pods-Tests-Expecta-dummy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-Expecta/Pods-Tests-Expecta-prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-Expecta/Pods-Tests-Expecta.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-Nocilla/Pods-Tests-Nocilla-Private.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-Nocilla/Pods-Tests-Nocilla-dummy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-Nocilla/Pods-Tests-Nocilla-prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-Nocilla/Pods-Tests-Nocilla.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-Specta/Pods-Tests-Specta-Private.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-Specta/Pods-Tests-Specta-dummy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-Specta/Pods-Tests-Specta-prefix.pch" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests-Specta/Pods-Tests-Specta.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-acknowledgements.markdown" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-acknowledgements.plist" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-dummy.m" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-environment.h" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests-resources.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests.debug.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-Tests/Pods-Tests.release.xcconfig" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/WebHere.xcodeproj/xcshareddata/xcschemes/AllTests.xcscheme" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../.travis.yml" afterPath="$PROJECT_DIR$/../.travis.yml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Podfile" afterPath="$PROJECT_DIR$/Podfile" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere-AFNetworking/Pods-WebHere-AFNetworking-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere-AFNetworking/Pods-WebHere-AFNetworking-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere-GDataXML-HTML/Pods-WebHere-GDataXML-HTML-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere-GDataXML-HTML/Pods-WebHere-GDataXML-HTML-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere-WebHere/Pods-WebHere-WebHere-Private.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere-WebHere/Pods-WebHere-WebHere-Private.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere/Pods-WebHere.debug.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere/Pods-WebHere.debug.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere/Pods-WebHere.release.xcconfig" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere/Pods-WebHere.release.xcconfig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebHere.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/WebHere.xcodeproj/project.pbxproj" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-AFNetworking/Pods-libWebHereTests-AFNetworking-Private.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-AFNetworking/Pods-libWebHereTests-AFNetworking-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-AFNetworking/Pods-libWebHereTests-AFNetworking-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-AFNetworking/Pods-libWebHereTests-AFNetworking.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-Expecta/Pods-libWebHereTests-Expecta-Private.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-Expecta/Pods-libWebHereTests-Expecta-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-Expecta/Pods-libWebHereTests-Expecta-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-Expecta/Pods-libWebHereTests-Expecta.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-GDataXML-HTML/Pods-libWebHereTests-GDataXML-HTML-Private.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-GDataXML-HTML/Pods-libWebHereTests-GDataXML-HTML-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-GDataXML-HTML/Pods-libWebHereTests-GDataXML-HTML-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-GDataXML-HTML/Pods-libWebHereTests-GDataXML-HTML.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-Nocilla/Pods-libWebHereTests-Nocilla-Private.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-Nocilla/Pods-libWebHereTests-Nocilla-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-Nocilla/Pods-libWebHereTests-Nocilla-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-Nocilla/Pods-libWebHereTests-Nocilla.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-Specta/Pods-libWebHereTests-Specta-Private.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-Specta/Pods-libWebHereTests-Specta-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-Specta/Pods-libWebHereTests-Specta-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-Specta/Pods-libWebHereTests-Specta.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-WebHere/Pods-libWebHereTests-WebHere-Private.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-WebHere/Pods-libWebHereTests-WebHere-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-WebHere/Pods-libWebHereTests-WebHere-prefix.pch" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests-WebHere/Pods-libWebHereTests-WebHere.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests/Pods-libWebHereTests-acknowledgements.markdown" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests/Pods-libWebHereTests-acknowledgements.plist" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests/Pods-libWebHereTests-dummy.m" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests/Pods-libWebHereTests-environment.h" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests/Pods-libWebHereTests-resources.sh" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests/Pods-libWebHereTests.debug.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-libWebHereTests/Pods-libWebHereTests.release.xcconfig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebHere.xcworkspace/xcshareddata/WorkspaceSettings.xcsettings" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebHere.xcodeproj/xcshareddata/xcschemes/libWebHere.xcscheme" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/runConfigurations/libWebHere.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="Example.iws" />
@@ -298,7 +299,13 @@
       <option name="project" value="LOCAL" />
       <updated>1419809031753</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Cahnged travis config">
+      <created>1419812193075</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1419812193075</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -307,7 +314,7 @@
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32928178" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.319337" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="true" content_ui="tabs" />
@@ -316,8 +323,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39911798" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2039072" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3071823" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2039072" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3071823" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39005524" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
