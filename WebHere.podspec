@@ -14,19 +14,13 @@ s.license          = 'MIT'
 s.author           = { "Rui Lopes" => "rui.d.lopes@me.com" }
 s.source           = { :git => "https://github.com/rdlopes/WebHere.git", :tag => s.version.to_s }
 
-s.ios.platform     = '6.1'
-s.osx.platform     = '10.8'
 s.ios.deployment_target = '6.1'
 s.osx.deployment_target = '10.8'
 s.requires_arc = true
 
-s.source_files = 'Pod/Classes'
+s.source_files = 'Pod/Classes/**/*'
 
 s.dependency 'AFNetworking'
 s.dependency 'GDataXML-HTML'
-
-s.libraries = 'xml2'
-
-s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(SDKROOT)/usr/include/libxml2' }
 
 end
