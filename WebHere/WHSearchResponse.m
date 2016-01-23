@@ -25,18 +25,20 @@
 
 
 - (void)buildFromHTML:(GDataXMLDocument *)html fromRequest:(WHHTTPRequest *)request error:(NSError **)error {
-    NSArray *webResults = [html nodesForXPath:@"//*[@class='web_result']" error:error];
+    NSArray *webResults = [html nodesForXPath:@"//div[@id='ires']//div[@class='g']" error:error];
 
     for (GDataXMLNode *webResultNode in webResults) {
 
-        GDataXMLNode *linkNode = [webResultNode firstNodeForXPath:@"./div[1]/a" error:error];
-        GDataXMLNode *detailsNode = [webResultNode firstNodeForXPath:@"./div[2]" error:error];
+        GDataXMLNode *linkNode = [webResultNode firstNodeForXPath:@".//h3/a" error:error];
+        GDataXMLNode *detailsNode = [webResultNode firstNodeForXPath:@".//div[@class='s']/span" error:error];
 
 
         WHSearchResult *searchResult = [[WHSearchResult alloc] initWithNode:linkNode
                                                                 fromRequest:request
                                                                       error:error];
+
         searchResult.details = [detailsNode.stringValue stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+
         [self.searchResults addObject:searchResult];
     }
 }
