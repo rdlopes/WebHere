@@ -2,8 +2,6 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/Scripts/certs/apple.cer" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Scripts/build.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHere/AppDelegate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHere/main.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHere/Info.plist" isTestSource="false" />
