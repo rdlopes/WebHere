@@ -54,7 +54,9 @@
 #pragma mark - UITableViewDataSource
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
-    return self.searchResponse.searchResults.count;
+    return self.searchResponse != nil
+    ? self.searchResponse.searchResults.count
+    : 0;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
@@ -86,9 +88,16 @@
 #pragma mark - UISearchBarDelegate
 
 - (void)searchBar:(UISearchBar *)searchBar textDidChange:(NSString *)searchText {
-    self.searchRequest.queryParameters[@"q"] = searchText;
+    if (searchText.length > 2) {
+        self.searchRequest = [[WHSearchRequest alloc] init];
+        self.searchRequest.queryParameters[@"q"] = searchText;
+        [self fetchResults];
 
-    if (searchText.length > 2) [self fetchResults];
+    } else {
+        self.searchResponse = nil;
+        [self.tableView reloadData];
+    }
+
 }
 
 @end
