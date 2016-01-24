@@ -279,6 +279,7 @@
 		194F9594E8065F5FC72DC1BCA2B3453D /* Nocilla-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Nocilla-prefix.pch"; sourceTree = "<group>"; };
 		19B302905BDE40E81AD994623B343031 /* Nocilla.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Nocilla.h; path = Nocilla/Nocilla.h; sourceTree = "<group>"; };
 		1B0342BBA3CBA5014027B37528A14E0D /* GDataXML-HTML.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "GDataXML-HTML.xcconfig"; sourceTree = "<group>"; };
+		1BA867E252C24E9C3D889CF2 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		1BA868379EC027BA4818FA73 /* WebHere.podspec */ = {isa = PBXFileReference; lastKnownFileType = file.podspec; name = WebHere.podspec; path = ../WebHere.podspec; sourceTree = "<group>"; };
 		1CB0F7279274DBD99CA16FD8FF38E221 /* EXPMatchers+match.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "EXPMatchers+match.h"; path = "Expecta/Matchers/EXPMatchers+match.h"; sourceTree = "<group>"; };
 		1D9A8B0DAEE7AFD051C9A1BA6E3D9742 /* EXPMatchers+contain.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+contain.m"; path = "Expecta/Matchers/EXPMatchers+contain.m"; sourceTree = "<group>"; };
@@ -661,6 +662,7 @@
 				6E3CC88F7717093BB98CAB95BAA26F78 /* Products */,
 				248CEF58CF944CC6B3B0C9EEF9599253 /* Targets Support Files */,
 				1BA868379EC027BA4818FA73 /* WebHere.podspec */,
+				1BA867E252C24E9C3D889CF2 /* .travis.yml */,
 			);
 			sourceTree = "<group>";
 		};
