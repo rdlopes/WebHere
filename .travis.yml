@@ -8,5 +8,9 @@ xcode_sdk: iphonesimulator
 xcode_workspace: WebHere.xcworkspace
 xcode_scheme: AllTests
 
-before_install: Scripts/build.sh
+before_install:
+  - chmod +x Scripts/build.sh
+
+install: Scripts/build.sh
+
 
