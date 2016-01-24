@@ -236,36 +236,36 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHere.podspec" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Source/NSObject+Runtime.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Source/WHHTMLResponseSerializer.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Source/WHWebsite.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Source/WHHTTPRequest+HTML.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Source/WHObject.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Source/WHHTTPRequest+Internal.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Source/WebHere.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Source/WHHTTPRequest.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Source/WHHTTPRequest+HTML.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Source/WHHTMLResponseSerializer.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Source/NSObject+Runtime.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Source/WebHere.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Source/WHHTTPRequest.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Source/WHHTMLResponseSerializer.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Source/WHHTMLResponseSerializer.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Source/WHWebsite.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Source/NSObject+Runtime.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/WebHereTests/WHHTTPRequestSpec.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHereTests/NSObject_RuntimeSpec.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHereTests/WHObjectSpec.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/WebHereTests/WHLink_HTMLSpec.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/WebHereTests/WHForm_HTMLSpec.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Fixtures/WHPersonQueryForm.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Fixtures/WHLoginForm.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Fixtures/WHLoginForm.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Fixtures/WHPerson.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Fixtures/WHPersonQueryForm.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Fixtures/WHPerson+HTML.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Fixtures/WHPerson.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Fixtures/WHPerson.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Fixtures/WHNSObject.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Fixtures/WHPerson+HTML.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Fixtures/WHPerson.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Fixtures/WHLoginForm.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Fixtures/WHNSObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WebHereTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WebHereTests/WHLink_HTMLSpec.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WebHereTests/WHHTTPRequestSpec.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/WebHereTests/WHForm_HTMLSpec.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHereTests/WHWebsiteSpec.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHereTests/WebHereTests.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/WebHereTests/response.html" isTestSource="false" />
