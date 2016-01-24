@@ -5,5 +5,5 @@
 language: objective-c
 osx_image: xcode7.2
 xcode_workspace: WebHere.xcworkspace
-xcode_scheme: WebHere
+xcode_scheme: AllTests
 
