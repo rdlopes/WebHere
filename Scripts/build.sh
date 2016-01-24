@@ -1,5 +1,3 @@
-#!/usr/bin/env bash
-
 KEY_CHAIN=ios-build.keychain
 security create-keychain -p travis $KEY_CHAIN
 # Make the keychain the default so identities are found
