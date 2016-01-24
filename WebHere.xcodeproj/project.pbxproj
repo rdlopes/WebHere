@@ -49,6 +49,7 @@
 
 /* Begin PBXFileReference section */
 		1BA86A65CD90A2185D1052FF /* apple.cer */ = {isa = PBXFileReference; lastKnownFileType = file.cer; path = apple.cer; sourceTree = "<group>"; };
+		1BA86D79B6E9901EBB560704 /* build.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build.sh; sourceTree = "<group>"; };
 		B3038DCA1C504BC1007416CA /* WebHere.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebHere.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3038DCE1C504BC1007416CA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B3038DD01C504BC1007416CA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -147,6 +148,7 @@
 			isa = PBXGroup;
 			children = (
 				1BA864BE8B5C07C98389F6CC /* certs */,
+				1BA86D79B6E9901EBB560704 /* build.sh */,
 			);
 			path = Scripts;
 			sourceTree = "<group>";
