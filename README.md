@@ -48,9 +48,9 @@ you must add the following projects along with WebHere:
 * [AFNetworking](https://github.com/AFNetworking/AFNetworking) for network operations
 * [GDataXML-HTML](https://github.com/graetzer/GDataXML-HTML) for XPath extraction
 
-## Installation (_Work In Progress_)
+## Installation
 
-WebHere _will be_ available through [CocoaPods](http://cocoapods.org). To install
+WebHere is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
     pod "WebHere"

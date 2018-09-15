@@ -14,11 +14,11 @@ s.license          = 'MIT'
 s.author           = { "Rui Lopes" => "rui.d.lopes@me.com" }
 s.source           = { :git => "https://github.com/rdlopes/WebHere.git", :tag => s.version.to_s }
 
-s.ios.deployment_target = '6.1'
-s.osx.deployment_target = '10.8'
+s.ios.deployment_target = '8.0'
+s.osx.deployment_target = '10.10'
 s.requires_arc = true
 
-s.source_files = 'Pod/Classes/**/*'
+s.source_files = 'WebHere/Classes/**/*'
 
 s.dependency 'AFNetworking'
 s.dependency 'GDataXML-HTML'

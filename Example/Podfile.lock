@@ -1,0 +1,53 @@
+PODS:
+  - AFNetworking (3.2.1):
+    - AFNetworking/NSURLSession (= 3.2.1)
+    - AFNetworking/Reachability (= 3.2.1)
+    - AFNetworking/Security (= 3.2.1)
+    - AFNetworking/Serialization (= 3.2.1)
+    - AFNetworking/UIKit (= 3.2.1)
+  - AFNetworking/NSURLSession (3.2.1):
+    - AFNetworking/Reachability
+    - AFNetworking/Security
+    - AFNetworking/Serialization
+  - AFNetworking/Reachability (3.2.1)
+  - AFNetworking/Security (3.2.1)
+  - AFNetworking/Serialization (3.2.1)
+  - AFNetworking/UIKit (3.2.1):
+    - AFNetworking/NSURLSession
+  - Expecta (1.0.6)
+  - GDataXML-HTML (1.4.1)
+  - Nocilla (0.11.0)
+  - Specta (1.0.7)
+  - WebHere (0.2.0):
+    - AFNetworking
+    - GDataXML-HTML
+
+DEPENDENCIES:
+  - Expecta
+  - Nocilla
+  - Specta
+  - WebHere (from `../`)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - AFNetworking
+    - Expecta
+    - GDataXML-HTML
+    - Nocilla
+    - Specta
+
+EXTERNAL SOURCES:
+  WebHere:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  AFNetworking: b6f891fdfaed196b46c7a83cf209e09697b94057
+  Expecta: 3b6bd90a64b9a1dcb0b70aa0e10a7f8f631667d5
+  GDataXML-HTML: a4f11079b48d9fe96ff1fe478943a317185227e2
+  Nocilla: 7af7a386071150cc8aa5da4da97d060f049dd61c
+  Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
+  WebHere: 0256fc7ab5ce8126bd0aa09903858f511e2cb82c
+
+PODFILE CHECKSUM: e24ee0dc03fba5e2042480d42642d219ab224480
+
+COCOAPODS: 1.5.3

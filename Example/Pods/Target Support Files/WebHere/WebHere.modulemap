@@ -1,0 +1,6 @@
+framework module WebHere {
+  umbrella header "WebHere-umbrella.h"
+
+  export *
+  module * { export * }
+}
