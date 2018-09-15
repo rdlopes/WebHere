@@ -54,6 +54,7 @@
 		0F4025663ADD85EDC7452C5D /* Pods_WebHere_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebHere_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		155B39881D40A5FB1DCC694A /* Pods_WebHere_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WebHere_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		15A97376AD84AA892F54326C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		28D1FBDAF908E03C5316EF26 /* soner-project.properties */ = {isa = PBXFileReference; lastKnownFileType = file.properties; name = "soner-project.properties"; path = "../soner-project.properties"; sourceTree = "<group>"; };
 		28D1FC834A7552C0E3077602 /* .travis.yml */ = {isa = PBXFileReference; lastKnownFileType = file.yml; name = .travis.yml; path = ../.travis.yml; sourceTree = "<group>"; };
 		3D4C0AA97E4D968C31BE1938 /* Pods-WebHere_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebHere_Example/Pods-WebHere_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		418707456D6147989CBBA255 /* Pods-WebHere_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WebHere_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WebHere_Tests/Pods-WebHere_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -161,6 +162,7 @@
 				6003F58B195388D20070C39A /* Products */,
 				DED5530AF2FBD5DA08586917 /* Pods */,
 				28D1FC834A7552C0E3077602 /* .travis.yml */,
+				28D1FBDAF908E03C5316EF26 /* soner-project.properties */,
 			);
 			sourceTree = "<group>";
 		};
