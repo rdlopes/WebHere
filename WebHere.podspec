@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'WebHere'
-s.version          = '0.3.6'
+s.version          = '0.3.7'
 s.summary          = 'HTML scraping for Objective-C.'
 s.description      = <<-DESC
 WebHere is an Objective-C framework for web scraping,
