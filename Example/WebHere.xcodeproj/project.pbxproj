@@ -10,14 +10,18 @@
 		590BEF17214CEAF800587D40 /* WHSearchResponse.m in Sources */ = {isa = PBXBuildFile; fileRef = 590BEF0D214CEAF700587D40 /* WHSearchResponse.m */; };
 		590BEF18214CEAF800587D40 /* WHSearchRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 590BEF0E214CEAF700587D40 /* WHSearchRequest.m */; };
 		590BEF1B214CEAF800587D40 /* WHSearchResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 590BEF12214CEAF800587D40 /* WHSearchResult.m */; };
-		590BEF25214CEBEA00587D40 /* WHLink_HTMLSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 590BEF1C214CEBEA00587D40 /* WHLink_HTMLSpec.m */; };
-		590BEF26214CEBEA00587D40 /* WHObjectSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 590BEF1D214CEBEA00587D40 /* WHObjectSpec.m */; };
-		590BEF27214CEBEA00587D40 /* Fixtures in Resources */ = {isa = PBXBuildFile; fileRef = 590BEF1E214CEBEA00587D40 /* Fixtures */; };
-		590BEF28214CEBEA00587D40 /* WHForm_HTMLSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 590BEF1F214CEBEA00587D40 /* WHForm_HTMLSpec.m */; };
-		590BEF29214CEBEA00587D40 /* response.html in Resources */ = {isa = PBXBuildFile; fileRef = 590BEF20214CEBEA00587D40 /* response.html */; };
-		590BEF2A214CEBEA00587D40 /* WHWebsiteSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 590BEF22214CEBEA00587D40 /* WHWebsiteSpec.m */; };
-		590BEF2B214CEBEA00587D40 /* WHHTTPRequestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 590BEF23214CEBEA00587D40 /* WHHTTPRequestSpec.m */; };
-		590BEF2C214CEBEA00587D40 /* NSObject_RuntimeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 590BEF24214CEBEA00587D40 /* NSObject_RuntimeSpec.m */; };
+		591BD84C214CFF0600DCE0D7 /* WHLink_HTMLSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 591BD843214CFF0500DCE0D7 /* WHLink_HTMLSpec.m */; };
+		591BD84D214CFF0600DCE0D7 /* WHObjectSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 591BD844214CFF0500DCE0D7 /* WHObjectSpec.m */; };
+		591BD84F214CFF0600DCE0D7 /* WHForm_HTMLSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 591BD846214CFF0600DCE0D7 /* WHForm_HTMLSpec.m */; };
+		591BD850214CFF0600DCE0D7 /* response.html in Resources */ = {isa = PBXBuildFile; fileRef = 591BD847214CFF0600DCE0D7 /* response.html */; };
+		591BD851214CFF0600DCE0D7 /* WHWebsiteSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 591BD849214CFF0600DCE0D7 /* WHWebsiteSpec.m */; };
+		591BD852214CFF0600DCE0D7 /* WHHTTPRequestSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 591BD84A214CFF0600DCE0D7 /* WHHTTPRequestSpec.m */; };
+		591BD853214CFF0600DCE0D7 /* NSObject_RuntimeSpec.m in Sources */ = {isa = PBXBuildFile; fileRef = 591BD84B214CFF0600DCE0D7 /* NSObject_RuntimeSpec.m */; };
+		59722342214D03750046FF8B /* WHPerson+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 59722339214D03740046FF8B /* WHPerson+HTML.m */; };
+		59722343214D03750046FF8B /* WHPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = 5972233A214D03740046FF8B /* WHPerson.m */; };
+		59722344214D03750046FF8B /* WHNSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 5972233E214D03750046FF8B /* WHNSObject.m */; };
+		59722345214D03750046FF8B /* WHLoginForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 5972233F214D03750046FF8B /* WHLoginForm.m */; };
+		59722346214D03750046FF8B /* WHPersonQueryForm.m in Sources */ = {isa = PBXBuildFile; fileRef = 59722341214D03750046FF8B /* WHPersonQueryForm.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -59,15 +63,24 @@
 		590BEF12214CEAF800587D40 /* WHSearchResult.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHSearchResult.m; sourceTree = "<group>"; };
 		590BEF15214CEAF800587D40 /* WHSearchRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSearchRequest.h; sourceTree = "<group>"; };
 		590BEF16214CEAF800587D40 /* WHSearchResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHSearchResult.h; sourceTree = "<group>"; };
-		590BEF1C214CEBEA00587D40 /* WHLink_HTMLSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLink_HTMLSpec.m; sourceTree = "<group>"; };
-		590BEF1D214CEBEA00587D40 /* WHObjectSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHObjectSpec.m; sourceTree = "<group>"; };
-		590BEF1E214CEBEA00587D40 /* Fixtures */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Fixtures; sourceTree = "<group>"; };
-		590BEF1F214CEBEA00587D40 /* WHForm_HTMLSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHForm_HTMLSpec.m; sourceTree = "<group>"; };
-		590BEF20214CEBEA00587D40 /* response.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = response.html; sourceTree = "<group>"; };
-		590BEF21214CEBEA00587D40 /* WebHereTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebHereTests.h; sourceTree = "<group>"; };
-		590BEF22214CEBEA00587D40 /* WHWebsiteSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHWebsiteSpec.m; sourceTree = "<group>"; };
-		590BEF23214CEBEA00587D40 /* WHHTTPRequestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHHTTPRequestSpec.m; sourceTree = "<group>"; };
-		590BEF24214CEBEA00587D40 /* NSObject_RuntimeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject_RuntimeSpec.m; sourceTree = "<group>"; };
+		591BD843214CFF0500DCE0D7 /* WHLink_HTMLSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLink_HTMLSpec.m; sourceTree = "<group>"; };
+		591BD844214CFF0500DCE0D7 /* WHObjectSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHObjectSpec.m; sourceTree = "<group>"; };
+		591BD846214CFF0600DCE0D7 /* WHForm_HTMLSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHForm_HTMLSpec.m; sourceTree = "<group>"; };
+		591BD847214CFF0600DCE0D7 /* response.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = response.html; sourceTree = "<group>"; };
+		591BD848214CFF0600DCE0D7 /* WebHereTests.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebHereTests.h; sourceTree = "<group>"; };
+		591BD849214CFF0600DCE0D7 /* WHWebsiteSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHWebsiteSpec.m; sourceTree = "<group>"; };
+		591BD84A214CFF0600DCE0D7 /* WHHTTPRequestSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHHTTPRequestSpec.m; sourceTree = "<group>"; };
+		591BD84B214CFF0600DCE0D7 /* NSObject_RuntimeSpec.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSObject_RuntimeSpec.m; sourceTree = "<group>"; };
+		59722338214D03740046FF8B /* WHLoginForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHLoginForm.h; sourceTree = "<group>"; };
+		59722339214D03740046FF8B /* WHPerson+HTML.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "WHPerson+HTML.m"; sourceTree = "<group>"; };
+		5972233A214D03740046FF8B /* WHPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPerson.m; sourceTree = "<group>"; };
+		5972233B214D03740046FF8B /* WHPerson+HTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "WHPerson+HTML.h"; sourceTree = "<group>"; };
+		5972233C214D03750046FF8B /* WHPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPerson.h; sourceTree = "<group>"; };
+		5972233D214D03750046FF8B /* WHNSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHNSObject.h; sourceTree = "<group>"; };
+		5972233E214D03750046FF8B /* WHNSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHNSObject.m; sourceTree = "<group>"; };
+		5972233F214D03750046FF8B /* WHLoginForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHLoginForm.m; sourceTree = "<group>"; };
+		59722340214D03750046FF8B /* WHPersonQueryForm.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHPersonQueryForm.h; sourceTree = "<group>"; };
+		59722341214D03750046FF8B /* WHPersonQueryForm.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHPersonQueryForm.m; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* WebHere_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebHere_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +132,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		59722349214D046A0046FF8B /* Fixtures */ = {
+			isa = PBXGroup;
+			children = (
+				5972233D214D03750046FF8B /* WHNSObject.h */,
+				5972233E214D03750046FF8B /* WHNSObject.m */,
+				5972233C214D03750046FF8B /* WHPerson.h */,
+				5972233A214D03740046FF8B /* WHPerson.m */,
+				5972233B214D03740046FF8B /* WHPerson+HTML.h */,
+				59722339214D03740046FF8B /* WHPerson+HTML.m */,
+				59722340214D03750046FF8B /* WHPersonQueryForm.h */,
+				59722341214D03750046FF8B /* WHPersonQueryForm.m */,
+				591BD847214CFF0600DCE0D7 /* response.html */,
+				59722338214D03740046FF8B /* WHLoginForm.h */,
+				5972233F214D03750046FF8B /* WHLoginForm.m */,
+			);
+			path = Fixtures;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -156,17 +187,17 @@
 		6003F593195388D20070C39A /* Example for WebHere */ = {
 			isa = PBXGroup;
 			children = (
+				6003F59C195388D20070C39A /* WHAppDelegate.h */,
+				6003F59D195388D20070C39A /* WHAppDelegate.m */,
+				6003F5A5195388D20070C39A /* WHViewController.h */,
+				6003F5A6195388D20070C39A /* WHViewController.m */,
 				590BEF15214CEAF800587D40 /* WHSearchRequest.h */,
 				590BEF0E214CEAF700587D40 /* WHSearchRequest.m */,
 				590BEF10214CEAF700587D40 /* WHSearchResponse.h */,
 				590BEF0D214CEAF700587D40 /* WHSearchResponse.m */,
 				590BEF16214CEAF800587D40 /* WHSearchResult.h */,
 				590BEF12214CEAF800587D40 /* WHSearchResult.m */,
-				6003F59C195388D20070C39A /* WHAppDelegate.h */,
-				6003F59D195388D20070C39A /* WHAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* WHViewController.h */,
-				6003F5A6195388D20070C39A /* WHViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -189,15 +220,14 @@
 		6003F5B5195388D20070C39A /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				590BEF1E214CEBEA00587D40 /* Fixtures */,
-				590BEF24214CEBEA00587D40 /* NSObject_RuntimeSpec.m */,
-				590BEF20214CEBEA00587D40 /* response.html */,
-				590BEF21214CEBEA00587D40 /* WebHereTests.h */,
-				590BEF1F214CEBEA00587D40 /* WHForm_HTMLSpec.m */,
-				590BEF23214CEBEA00587D40 /* WHHTTPRequestSpec.m */,
-				590BEF1C214CEBEA00587D40 /* WHLink_HTMLSpec.m */,
-				590BEF1D214CEBEA00587D40 /* WHObjectSpec.m */,
-				590BEF22214CEBEA00587D40 /* WHWebsiteSpec.m */,
+				591BD848214CFF0600DCE0D7 /* WebHereTests.h */,
+				59722349214D046A0046FF8B /* Fixtures */,
+				591BD84B214CFF0600DCE0D7 /* NSObject_RuntimeSpec.m */,
+				591BD846214CFF0600DCE0D7 /* WHForm_HTMLSpec.m */,
+				591BD84A214CFF0600DCE0D7 /* WHHTTPRequestSpec.m */,
+				591BD843214CFF0500DCE0D7 /* WHLink_HTMLSpec.m */,
+				591BD844214CFF0500DCE0D7 /* WHObjectSpec.m */,
+				591BD849214CFF0600DCE0D7 /* WHWebsiteSpec.m */,
 				6003F5B6195388D20070C39A /* Supporting Files */,
 			);
 			path = Tests;
@@ -286,6 +316,9 @@
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = rdlopes;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = HHLK3QC53V;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -326,8 +359,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				590BEF27214CEBEA00587D40 /* Fixtures in Resources */,
-				590BEF29214CEBEA00587D40 /* response.html in Resources */,
+				591BD850214CFF0600DCE0D7 /* response.html in Resources */,
 				6003F5BA195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -423,11 +455,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				6003F59E195388D20070C39A /* WHAppDelegate.m in Sources */,
+				6003F5A7195388D20070C39A /* WHViewController.m in Sources */,
 				590BEF18214CEAF800587D40 /* WHSearchRequest.m in Sources */,
 				590BEF17214CEAF800587D40 /* WHSearchResponse.m in Sources */,
-				6003F5A7195388D20070C39A /* WHViewController.m in Sources */,
-				6003F59A195388D20070C39A /* main.m in Sources */,
 				590BEF1B214CEAF800587D40 /* WHSearchResult.m in Sources */,
+				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,12 +467,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				590BEF2B214CEBEA00587D40 /* WHHTTPRequestSpec.m in Sources */,
-				590BEF26214CEBEA00587D40 /* WHObjectSpec.m in Sources */,
-				590BEF25214CEBEA00587D40 /* WHLink_HTMLSpec.m in Sources */,
-				590BEF28214CEBEA00587D40 /* WHForm_HTMLSpec.m in Sources */,
-				590BEF2A214CEBEA00587D40 /* WHWebsiteSpec.m in Sources */,
-				590BEF2C214CEBEA00587D40 /* NSObject_RuntimeSpec.m in Sources */,
+				59722342214D03750046FF8B /* WHPerson+HTML.m in Sources */,
+				591BD852214CFF0600DCE0D7 /* WHHTTPRequestSpec.m in Sources */,
+				59722346214D03750046FF8B /* WHPersonQueryForm.m in Sources */,
+				59722344214D03750046FF8B /* WHNSObject.m in Sources */,
+				591BD84D214CFF0600DCE0D7 /* WHObjectSpec.m in Sources */,
+				59722345214D03750046FF8B /* WHLoginForm.m in Sources */,
+				59722343214D03750046FF8B /* WHPerson.m in Sources */,
+				591BD84C214CFF0600DCE0D7 /* WHLink_HTMLSpec.m in Sources */,
+				591BD84F214CFF0600DCE0D7 /* WHForm_HTMLSpec.m in Sources */,
+				591BD851214CFF0600DCE0D7 /* WHWebsiteSpec.m in Sources */,
+				591BD853214CFF0600DCE0D7 /* NSObject_RuntimeSpec.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +566,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -575,6 +613,7 @@
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
@@ -586,6 +625,7 @@
 			baseConfigurationReference = 3D4C0AA97E4D968C31BE1938 /* Pods-WebHere_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HHLK3QC53V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				INFOPLIST_FILE = "WebHere/WebHere-Info.plist";
@@ -601,6 +641,7 @@
 			baseConfigurationReference = 54360E11C92AB3FAAFCAF03C /* Pods-WebHere_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = HHLK3QC53V;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "WebHere/WebHere-Prefix.pch";
 				INFOPLIST_FILE = "WebHere/WebHere-Info.plist";
