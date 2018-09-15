@@ -350,6 +350,7 @@
 		25D1AD1FB6F900525C3CBACEB332B3AA /* EXPMatchers.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = EXPMatchers.h; path = Expecta/Matchers/EXPMatchers.h; sourceTree = "<group>"; };
 		26C3A632AA5F0E277296CF4942555512 /* EXPMatchers+conformTo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "EXPMatchers+conformTo.m"; path = "Expecta/Matchers/EXPMatchers+conformTo.m"; sourceTree = "<group>"; };
 		27046E4BC1D3CB7578FE73E9C814676C /* NSData+Nocilla.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Nocilla.m"; path = "Nocilla/Categories/NSData+Nocilla.m"; sourceTree = "<group>"; };
+		28D1F989B0944419B4D38DA4 /* Podfile.lock */ = {isa = PBXFileReference; lastKnownFileType = file.lock; name = Podfile.lock; path = ../Podfile.lock; sourceTree = "<group>"; };
 		2C07A82D308AFAD8336699BCF1221746 /* SpectaTypes.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SpectaTypes.h; path = Specta/Specta/SpectaTypes.h; sourceTree = "<group>"; };
 		2C743B3D9008B8A305AA7245DE5F49D2 /* LSNSURLSessionHook.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = LSNSURLSessionHook.m; path = Nocilla/Hooks/NSURLSession/LSNSURLSessionHook.m; sourceTree = "<group>"; };
 		2DD82746570E850EE2F2DE7628B3D071 /* EXPMatcherHelpers.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = EXPMatcherHelpers.m; path = Expecta/Matchers/EXPMatcherHelpers.m; sourceTree = "<group>"; };
@@ -957,6 +958,7 @@
 				2EC6D5714C4E9CF1068C8DC40AB44163 /* Pods */,
 				C1F33CACB0B84D153D6E01352905F7A5 /* Products */,
 				36584EEF8A746F5E7CF8F00C23353348 /* Targets Support Files */,
+				28D1F989B0944419B4D38DA4 /* Podfile.lock */,
 			);
 			sourceTree = "<group>";
 		};

@@ -18,7 +18,7 @@ PODS:
   - GDataXML-HTML (1.4.1)
   - Nocilla (0.11.0)
   - Specta (1.0.7)
-  - WebHere (0.3.0):
+  - WebHere (0.3.1):
     - AFNetworking (= 3.0.4)
     - GDataXML-HTML
 
@@ -46,7 +46,7 @@ SPEC CHECKSUMS:
   GDataXML-HTML: a4f11079b48d9fe96ff1fe478943a317185227e2
   Nocilla: 7af7a386071150cc8aa5da4da97d060f049dd61c
   Specta: 3e1bd89c3517421982dc4d1c992503e48bd5fe66
-  WebHere: fab29740646964c5acd407d5df4441bd5bf77883
+  WebHere: bc3fe486c2055228fecbdf10b960d21a51905f92
 
 PODFILE CHECKSUM: ae9ac1dc8cc7faa2e0525954dfb1fe1e949ad93d
 
