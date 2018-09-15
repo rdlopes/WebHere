@@ -80,18 +80,12 @@ NSInteger const WHWebsiteObjectBuildingFailureErrorCode = -3000;
                 [[AFHTTPSessionManager alloc] initWithBaseURL:baseURL
                                          sessionConfiguration:configuration];
 
-        // FIXME - As of XCode 6, it's the only way to deal with security with
         // AFNetworking
-        AFSecurityPolicy *securityPolicy =
-                [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
+        AFSecurityPolicy *securityPolicy = [AFSecurityPolicy policyWithPinningMode:AFSSLPinningModeNone];
         securityPolicy.allowInvalidCertificates = YES;
         self.sessionManager.securityPolicy = securityPolicy;
-        // FIXME
-
-        self.sessionManager.responseSerializer =
-                [WHHTMLResponseSerializer serializer];
-        self.sessionManager.requestSerializer.timeoutInterval =
-                kWHWebsiteDefaultTimeInterval;
+        self.sessionManager.responseSerializer = [WHHTMLResponseSerializer serializer];
+        self.sessionManager.requestSerializer.timeoutInterval = kWHWebsiteDefaultTimeInterval;
         self.numberOfRetries = kWHWebsiteDefaultNumberOfRetries;
 
         if (self.sessionManager == nil) {
@@ -156,8 +150,9 @@ NSInteger const WHWebsiteObjectBuildingFailureErrorCode = -3000;
     __block NSURLSessionDataTask *dataTask = nil;
     dataTask = [_sessionManager
             dataTaskWithRequest:mutableURLRequest
-              completionHandler:^(NSURLResponse *response, id responseObject,
-                      NSError *error) {
+                 uploadProgress:nil
+               downloadProgress:nil
+              completionHandler:^(NSURLResponse *response, id responseObject, NSError *error) {
                   if (error) {
                       if (request.retryCount < self.numberOfRetries) {
                           // Resend
@@ -205,7 +200,7 @@ NSInteger const WHWebsiteObjectBuildingFailureErrorCode = -3000;
                               success(request, object);
                           } else if (failure) {
                               NSLog(@"Failure from HTML %@",
-                                    ((GDataXMLDocument *) responseObject).rootElement.XMLString);
+                                      ((GDataXMLDocument *) responseObject).rootElement.XMLString);
                               NSDictionary *userInfo = @{
                                       NSLocalizedFailureReasonErrorKey : @"Object cannot be built"
                               };

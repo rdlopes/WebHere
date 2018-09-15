@@ -39,7 +39,7 @@
     return [self initWithPath:@"" target:target];
 }
 
-- (instancetype)initWithHTML:(GDataXMLDocument *)html atXPath:(NSString *)xpath fromRequest:(WHHTTPRequest *)request target:(Class <WHObject>)target error:(NSError **)error {
+- (instancetype)initWithHTML:(GDataXMLDocument *)html atXPath:(NSString *)xpath fromRequest:(WHHTTPRequest *)request target:(Class)target error:(NSError **)error {
     return [self initWithNode:[html firstNodeForXPath:xpath error:error] fromRequest:request target:target error:error];
 }
 
@@ -55,7 +55,7 @@
     return [[self alloc] initWithHTML:html atXPath:xpath fromRequest:request target:target error:error];
 }
 
-+ (instancetype)linkWithNode:(GDataXMLNode *)node fromRequest:(WHHTTPRequest *)request target:(Class <WHObject>)target error:(NSError **)error {
++ (instancetype)linkWithNode:(GDataXMLNode *)node fromRequest:(WHHTTPRequest *)request target:(Class)target error:(NSError **)error {
     return [[self alloc] initWithNode:node fromRequest:request target:target error:error];
 }
 
