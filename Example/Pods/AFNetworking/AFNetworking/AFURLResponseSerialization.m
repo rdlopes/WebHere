@@ -1,5 +1,5 @@
 // AFURLResponseSerialization.m
-// Copyright (c) 2011–2016 Alamofire Software Foundation ( http://alamofire.org/ )
+// Copyright (c) 2011–2015 Alamofire Software Foundation (http://alamofire.org/)
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -97,6 +97,8 @@ static id AFJSONObjectByRemovingKeysWithNullValues(id JSONObject, NSJSONReadingO
         return nil;
     }
 
+    self.stringEncoding = NSUTF8StringEncoding;
+
     self.acceptableStatusCodes = [NSIndexSet indexSetWithIndexesInRange:NSMakeRange(200, 100)];
     self.acceptableContentTypes = nil;
 
@@ -113,9 +115,7 @@ static id AFJSONObjectByRemovingKeysWithNullValues(id JSONObject, NSJSONReadingO
     NSError *validationError = nil;
 
     if (response && [response isKindOfClass:[NSHTTPURLResponse class]]) {
-        if (self.acceptableContentTypes && ![self.acceptableContentTypes containsObject:[response MIMEType]] &&
-            !([response MIMEType] == nil && [data length] == 0)) {
-
+        if (self.acceptableContentTypes && ![self.acceptableContentTypes containsObject:[response MIMEType]]) {
             if ([data length] > 0 && [response URL]) {
                 NSMutableDictionary *mutableUserInfo = [@{
                                                           NSLocalizedDescriptionKey: [NSString stringWithFormat:NSLocalizedStringFromTable(@"Request failed: unacceptable content-type: %@", @"AFNetworking", nil), [response MIMEType]],
@@ -242,26 +242,46 @@ static id AFJSONObjectByRemovingKeysWithNullValues(id JSONObject, NSJSONReadingO
 
     // Workaround for behavior of Rails to return a single space for `head :ok` (a workaround for a bug in Safari), which is not interpreted as valid input by NSJSONSerialization.
     // See https://github.com/rails/rails/issues/1742
-    BOOL isSpace = [data isEqualToData:[NSData dataWithBytes:" " length:1]];
-    
-    if (data.length == 0 || isSpace) {
-        return nil;
-    }
-    
-    NSError *serializationError = nil;
-    
-    id responseObject = [NSJSONSerialization JSONObjectWithData:data options:self.readingOptions error:&serializationError];
-
-    if (!responseObject)
-    {
-        if (error) {
-            *error = AFErrorWithUnderlyingError(serializationError, *error);
+    NSStringEncoding stringEncoding = self.stringEncoding;
+    if (response.textEncodingName) {
+        CFStringEncoding encoding = CFStringConvertIANACharSetNameToEncoding((CFStringRef)response.textEncodingName);
+        if (encoding != kCFStringEncodingInvalidId) {
+            stringEncoding = CFStringConvertEncodingToNSStringEncoding(encoding);
         }
-        return nil;
     }
-    
-    if (self.removesKeysWithNullValues) {
-        return AFJSONObjectByRemovingKeysWithNullValues(responseObject, self.readingOptions);
+
+    id responseObject = nil;
+    NSError *serializationError = nil;
+    @autoreleasepool {
+        NSString *responseString = [[NSString alloc] initWithData:data encoding:stringEncoding];
+        if (responseString && ![responseString isEqualToString:@" "]) {
+            // Workaround for a bug in NSJSONSerialization when Unicode character escape codes are used instead of the actual character
+            // See http://stackoverflow.com/a/12843465/157142
+            data = [responseString dataUsingEncoding:NSUTF8StringEncoding];
+
+            if (data) {
+                if ([data length] > 0) {
+                    responseObject = [NSJSONSerialization JSONObjectWithData:data options:self.readingOptions error:&serializationError];
+                } else {
+                    return nil;
+                }
+            } else {
+                NSDictionary *userInfo = @{
+                                           NSLocalizedDescriptionKey: NSLocalizedStringFromTable(@"Data failed decoding as a UTF-8 string", @"AFNetworking", nil),
+                                           NSLocalizedFailureReasonErrorKey: [NSString stringWithFormat:NSLocalizedStringFromTable(@"Could not decode string: %@", @"AFNetworking", nil), responseString]
+                                           };
+
+                serializationError = [NSError errorWithDomain:AFURLResponseSerializationErrorDomain code:NSURLErrorCannotDecodeContentData userInfo:userInfo];
+            }
+        }
+    }
+
+    if (self.removesKeysWithNullValues && responseObject) {
+        responseObject = AFJSONObjectByRemovingKeysWithNullValues(responseObject, self.readingOptions);
+    }
+
+    if (error) {
+        *error = AFErrorWithUnderlyingError(serializationError, *error);
     }
 
     return responseObject;
@@ -291,7 +311,7 @@ static id AFJSONObjectByRemovingKeysWithNullValues(id JSONObject, NSJSONReadingO
 #pragma mark - NSCopying
 
 - (instancetype)copyWithZone:(NSZone *)zone {
-    AFJSONResponseSerializer *serializer = [super copyWithZone:zone];
+    AFJSONResponseSerializer *serializer = [[[self class] allocWithZone:zone] init];
     serializer.readingOptions = self.readingOptions;
     serializer.removesKeysWithNullValues = self.removesKeysWithNullValues;
 
@@ -381,14 +401,10 @@ static id AFJSONObjectByRemovingKeysWithNullValues(id JSONObject, NSJSONReadingO
     NSError *serializationError = nil;
     NSXMLDocument *document = [[NSXMLDocument alloc] initWithData:data options:self.options error:&serializationError];
 
-    if (!document)
-    {
-        if (error) {
-            *error = AFErrorWithUnderlyingError(serializationError, *error);
-        }
-        return nil;
+    if (error) {
+        *error = AFErrorWithUnderlyingError(serializationError, *error);
     }
-    
+
     return document;
 }
 
@@ -414,7 +430,7 @@ static id AFJSONObjectByRemovingKeysWithNullValues(id JSONObject, NSJSONReadingO
 #pragma mark - NSCopying
 
 - (instancetype)copyWithZone:(NSZone *)zone {
-    AFXMLDocumentResponseSerializer *serializer = [super copyWithZone:zone];
+    AFXMLDocumentResponseSerializer *serializer = [[[self class] allocWithZone:zone] init];
     serializer.options = self.options;
 
     return serializer;
@@ -465,20 +481,15 @@ static id AFJSONObjectByRemovingKeysWithNullValues(id JSONObject, NSJSONReadingO
         }
     }
 
-    if (!data) {
-        return nil;
-    }
-    
+    id responseObject;
     NSError *serializationError = nil;
-    
-    id responseObject = [NSPropertyListSerialization propertyListWithData:data options:self.readOptions format:NULL error:&serializationError];
-    
-    if (!responseObject)
-    {
-        if (error) {
-            *error = AFErrorWithUnderlyingError(serializationError, *error);
-        }
-        return nil;
+
+    if (data) {
+        responseObject = [NSPropertyListSerialization propertyListWithData:data options:self.readOptions format:NULL error:&serializationError];
+    }
+
+    if (error) {
+        *error = AFErrorWithUnderlyingError(serializationError, *error);
     }
 
     return responseObject;
@@ -508,7 +519,7 @@ static id AFJSONObjectByRemovingKeysWithNullValues(id JSONObject, NSJSONReadingO
 #pragma mark - NSCopying
 
 - (instancetype)copyWithZone:(NSZone *)zone {
-    AFPropertyListResponseSerializer *serializer = [super copyWithZone:zone];
+    AFPropertyListResponseSerializer *serializer = [[[self class] allocWithZone:zone] init];
     serializer.format = self.format;
     serializer.readOptions = self.readOptions;
 
@@ -734,7 +745,7 @@ static UIImage * AFInflatedImageFromResponseWithDataAtScale(NSHTTPURLResponse *r
 #pragma mark - NSCopying
 
 - (instancetype)copyWithZone:(NSZone *)zone {
-    AFImageResponseSerializer *serializer = [super copyWithZone:zone];
+    AFImageResponseSerializer *serializer = [[[self class] allocWithZone:zone] init];
 
 #if TARGET_OS_IOS || TARGET_OS_TV || TARGET_OS_WATCH
     serializer.imageScale = self.imageScale;
@@ -808,7 +819,7 @@ static UIImage * AFInflatedImageFromResponseWithDataAtScale(NSHTTPURLResponse *r
 #pragma mark - NSCopying
 
 - (instancetype)copyWithZone:(NSZone *)zone {
-    AFCompoundResponseSerializer *serializer = [super copyWithZone:zone];
+    AFCompoundResponseSerializer *serializer = [[[self class] allocWithZone:zone] init];
     serializer.responseSerializers = self.responseSerializers;
 
     return serializer;

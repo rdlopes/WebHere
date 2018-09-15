@@ -1696,7 +1696,7 @@
             var cb = mdom.getElem('clrbtn');
             var mib = mdom.getElem('mib');
             var tsf = mdom.getElem('tsf');
-            var mor = mdom.getElem('mor')
+            var mor = mdom.getElem('mor');
             cb.addEventListener("click", function () {
                 cb.style.display = 'none';
                 mib.value = '';
@@ -1712,7 +1712,7 @@
                 else {
                     cb.style.display = 'block';
                 }
-            }
+            };
             mib.addEventListener("input", mibHandler, false);
             mib.addEventListener("focus", function () {
                 tsf.className = 'msfe';

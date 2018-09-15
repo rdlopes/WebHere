@@ -10,11 +10,10 @@
 #define WebHereTests_h
 
 #define EXP_SHORTHAND
-#import <Specta/Specta.h>
-#import <Expecta/Expecta.h>
 
-#import <Nocilla/Nocilla.h>
-
-#import "WebHere.h"
+@import Specta;
+@import Expecta;
+@import Nocilla;
+@import WebHere;
 
 #endif /* WebHereTests_h */
