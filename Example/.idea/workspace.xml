@@ -1,10 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58f9b57a-2e21-434c-af25-c215f1b4ccf6" name="WebHere-7 Promote WebHere to be a pod" comment="Updating pod version to 0.3.0">
-      <change beforePath="$PROJECT_DIR$/../.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.travis.yml" afterDir="false" />
+    <list default="true" id="58f9b57a-2e21-434c-af25-c215f1b4ccf6" name="WebHere-7 Promote WebHere to be a pod" comment="Changed Travis configuration">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebHere.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebHere.xcodeproj/project.pbxproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/WebHere.podspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Local Podspecs/WebHere.podspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/Info.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Example/Pods-WebHere_Example-acknowledgements.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Example/Pods-WebHere_Example-acknowledgements.plist" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/WebHere/Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Target Support Files/WebHere/Info.plist" afterDir="false" />
     </list>
     <list id="3a8ff6d2-15ee-455a-8f07-6e11d5f821ff" name="Default Changelist" comment="" />
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/WebHere-awprzqoejxtmfudjzfusvfcevjqb/" />
@@ -60,14 +64,14 @@
           <entry key="h" value="46" />
           <entry key="m" value="27" />
           <entry key="podspec" value="27" />
-          <entry key="txt" value="64" />
+          <entry key="txt" value="92" />
           <entry key="yml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="ObjectiveC" value="73" />
-          <entry key="PLAIN_TEXT" value="91" />
+          <entry key="PLAIN_TEXT" value="119" />
           <entry key="Podfile" value="26" />
           <entry key="YAML" value="17" />
         </counts>
@@ -91,8 +95,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            <state relative-caret-position="195">
+              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -105,6 +109,9 @@
       <map>
         <entry key="$PROJECT_DIR$/.." value="master" />
       </map>
+    </option>
+    <option name="PUSH_TAGS">
+      <GitPushTagMode />
     </option>
   </component>
   <component name="IdeDocumentHistory">
@@ -137,8 +144,8 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="143" />
-    <option name="y" value="25" />
+    <option name="x" value="156" />
+    <option name="y" value="98" />
     <option name="width" value="1342" />
     <option name="height" value="856" />
   </component>
@@ -234,7 +241,7 @@
       <workItem from="1537004596628" duration="1188000" />
       <workItem from="1537005861722" duration="801000" />
       <workItem from="1537006921076" duration="508000" />
-      <workItem from="1537007969175" duration="249000" />
+      <workItem from="1537007969175" duration="591000" />
     </task>
     <task id="LOCAL-00002" summary="Updating pod version to 0.3.0">
       <created>1537007371114</created>
@@ -243,7 +250,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537007371114</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Changed Travis configuration">
+      <created>1537008238210</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1537008238210</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
     <servers>
@@ -288,7 +302,7 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="6472000" />
+    <option name="totallyTimeSpent" value="6814000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -300,15 +314,14 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="143" y="25" width="1342" height="856" extended-state="0" />
-    <editor active="true" />
+    <frame x="156" y="98" width="1342" height="856" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.18846154" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.15769231" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49928674" weight="0.328877" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.49928674" visible="true" weight="0.47058824" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5007133" side_tool="true" weight="0.40295118" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -338,7 +351,8 @@
     <MESSAGE value="Ported files from old project" />
     <MESSAGE value="WebHere-7 Promote WebHere to be a pod" />
     <MESSAGE value="Updating pod version to 0.3.0" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updating pod version to 0.3.0" />
+    <MESSAGE value="Changed Travis configuration" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed Travis configuration" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -580,8 +594,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+        <state relative-caret-position="195">
+          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
         </state>
       </provider>
     </entry>

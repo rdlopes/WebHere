@@ -1,6 +1,6 @@
 {
   "name": "WebHere",
-  "version": "0.2.0",
+  "version": "0.3.0",
   "summary": "HTML scraping for Objective-C.",
   "description": "WebHere is an Objective-C framework for web scraping,\npackaged for iOS 8+ and OSX 10.10+ platforms.\n\nBriefly put, web scraping is parsing of a website and extraction\nof data from the HTML pages contained in it.",
   "homepage": "https://github.com/rdlopes/WebHere",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/rdlopes/WebHere.git",
-    "tag": "0.2.0"
+    "tag": "0.3.0"
   },
   "platforms": {
     "ios": "8.0",
