@@ -1,0 +1,6 @@
+framework module GDataXML_HTML {
+  umbrella header "GDataXML-HTML-umbrella.h"
+
+  export *
+  module * { export * }
+}

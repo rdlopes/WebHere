@@ -1,0 +1,17 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+use_frameworks!
+
+platform :ios, '8.0'
+
+target 'WebHere_Example' do
+  pod 'WebHere', :path => '../'
+
+  target 'WebHere_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+    pod 'Expecta'
+    pod 'Nocilla'
+  end
+end
