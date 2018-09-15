@@ -1,10 +1,5 @@
-//
-//  WHViewController.h
-//  WebHere
-//
-// Created by Rui Lopes on 06/10/2014.
-//
-// Copyright (c) 2013 Rui D Lopes
+// AFCompatibilityMacros.h
+// Copyright (c) 2011–2016 Alamofire Software Foundation ( http://alamofire.org/ )
 //
 // Permission is hereby granted, free of charge, to any person obtaining a copy
 // of this software and associated documentation files (the "Software"), to deal
@@ -23,16 +18,20 @@
 // LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
-//
 
-@import UIKit;
+#ifndef AFCompatibilityMacros_h
+#define AFCompatibilityMacros_h
 
-@class WHSearchRequest;
-@class WHSearchResponse;
+#ifdef API_UNAVAILABLE
+    #define AF_API_UNAVAILABLE(x) API_UNAVAILABLE(x)
+#else
+    #define AF_API_UNAVAILABLE(x)
+#endif // API_UNAVAILABLE
 
-@interface WHViewController : UITableViewController
+#if __has_warning("-Wunguarded-availability-new")
+    #define AF_CAN_USE_AT_AVAILABLE 1
+#else
+    #define AF_CAN_USE_AT_AVAILABLE 0
+#endif
 
-@property(strong, nonatomic) WHSearchRequest *searchRequest;
-@property(strong, nonatomic) WHSearchResponse *searchResponse;
-
-@end
+#endif /* AFCompatibilityMacros_h */
