@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58f9b57a-2e21-434c-af25-c215f1b4ccf6" name="WebHere-7 Promote WebHere to be a pod" comment="removing useless properties in Travis">
+    <list default="true" id="58f9b57a-2e21-434c-af25-c215f1b4ccf6" name="WebHere-7 Promote WebHere to be a pod" comment="adding osx_image to Travis">
       <change beforePath="$PROJECT_DIR$/../.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.travis.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -18,13 +18,14 @@
     <session id="-1673677126">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="13" />
+          <entry key="project.closed" value="14" />
           <entry key="project.open.time.1" value="2" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="5" />
-          <entry key="project.opened" value="14" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -61,16 +62,16 @@
           <entry key="h" value="46" />
           <entry key="m" value="27" />
           <entry key="podspec" value="37" />
-          <entry key="txt" value="379" />
-          <entry key="yml" value="72" />
+          <entry key="txt" value="405" />
+          <entry key="yml" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="ObjectiveC" value="73" />
-          <entry key="PLAIN_TEXT" value="416" />
+          <entry key="PLAIN_TEXT" value="442" />
           <entry key="Podfile" value="26" />
-          <entry key="YAML" value="72" />
+          <entry key="YAML" value="88" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.appcode.reveal" />
@@ -92,8 +93,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/../.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+            <state relative-caret-position="113">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -154,7 +155,6 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -166,6 +166,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -173,7 +174,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="tasks.timeTracking" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="settings.editor.splitter.proportion" value="0.2826087" />
   </component>
   <component name="RunDashboard">
@@ -234,7 +235,8 @@
       <workItem from="1537005861722" duration="801000" />
       <workItem from="1537006921076" duration="508000" />
       <workItem from="1537007969175" duration="2081000" />
-      <workItem from="1537011706560" duration="740000" />
+      <workItem from="1537011706560" duration="794000" />
+      <workItem from="1537012679091" duration="431000" />
     </task>
     <task id="LOCAL-00002" summary="Updating pod version to 0.3.0">
       <created>1537007371114</created>
@@ -320,7 +322,14 @@
       <option name="project" value="LOCAL" />
       <updated>1537012361424</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="adding osx_image to Travis">
+      <created>1537012616800</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1537012616800</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
     <servers>
@@ -365,7 +374,7 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="9275000" />
+    <option name="totallyTimeSpent" value="9637000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -382,10 +391,10 @@
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.24255952" />
+      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.24627976" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4983471" visible="true" weight="0.3112676" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.4983471" visible="true" weight="0.48450705" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5016529" side_tool="true" weight="0.4932845" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -426,7 +435,8 @@
     <MESSAGE value="changed xcode build on Travis" />
     <MESSAGE value="updating osx image on Travis" />
     <MESSAGE value="removing useless properties in Travis" />
-    <option name="LAST_COMMIT_MESSAGE" value="removing useless properties in Travis" />
+    <MESSAGE value="adding osx_image to Travis" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding osx_image to Travis" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -671,8 +681,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/../.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="19" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+        <state relative-caret-position="75">
+          <caret line="5" column="14" selection-start-line="5" selection-start-column="14" selection-end-line="5" selection-end-column="14" />
         </state>
       </provider>
     </entry>
