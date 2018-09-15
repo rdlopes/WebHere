@@ -100,7 +100,7 @@ static BOOL WHErrorOrUnderlyingErrorHasCodeInDomain(NSError *error,
         }
     }
 
-    NSStringEncoding stringEncoding = self.stringEncoding;
+    NSStringEncoding stringEncoding = NSUTF8StringEncoding;
     if (response.textEncodingName) {
         CFStringEncoding encoding = CFStringConvertIANACharSetNameToEncoding((__bridge CFStringRef) response.textEncodingName);
         if (encoding != kCFStringEncodingInvalidId) {

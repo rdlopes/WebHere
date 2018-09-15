@@ -55,14 +55,12 @@
 
 + (NSSet *)subclassesNames {
     int count;
-    Class *classes = NULL;
 
-    classes = NULL;
     count = objc_getClassList(NULL, 0);
 
     NSMutableSet *classesSet = [NSMutableSet setWithCapacity:(NSUInteger) count];
     if (count > 0) {
-        classes = (__unsafe_unretained Class *) malloc(sizeof(Class) * count);
+        Class *classes = (__unsafe_unretained Class *) malloc(sizeof(Class) * count);
         count = objc_getClassList(classes, count);
 
         for (int i = 0; i < count; i++) {

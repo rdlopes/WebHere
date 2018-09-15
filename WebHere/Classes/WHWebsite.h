@@ -41,8 +41,6 @@ FOUNDATION_EXPORT NSInteger const kWHWebsiteDefaultNumberOfRetries;
 
 @property(nonatomic, assign) NSStringEncoding requestEncoding;
 
-@property(nonatomic, assign) NSStringEncoding responseEncoding;
-
 @property(nonatomic, assign) NSTimeInterval timeoutInterval;
 
 @property(nonatomic, assign) NSInteger numberOfRetries;

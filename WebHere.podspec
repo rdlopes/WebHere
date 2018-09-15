@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
 s.name             = 'WebHere'
-s.version          = '0.3.8'
+s.version          = '0.4.0'
 s.summary          = 'HTML scraping for Objective-C.'
 s.description      = <<-DESC
 WebHere is an Objective-C framework for web scraping,
@@ -20,7 +20,7 @@ s.requires_arc = true
 
 s.source_files = 'WebHere/Classes/**/*'
 
-s.dependency 'AFNetworking', '= 3.0.4'
-s.dependency 'GDataXML-HTML', '= 1.4.1'
+s.dependency 'AFNetworking'
+s.dependency 'GDataXML-HTML'
 
 end

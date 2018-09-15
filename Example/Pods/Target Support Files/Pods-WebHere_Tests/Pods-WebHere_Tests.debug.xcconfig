@@ -1,9 +1,8 @@
-FRAMEWORK_SEARCH_PATHS = $(inherited) $(PLATFORM_DIR)/Developer/Library/Frameworks "${PODS_CONFIGURATION_BUILD_DIR}/Expecta" "${PODS_CONFIGURATION_BUILD_DIR}/Nocilla" "${PODS_CONFIGURATION_BUILD_DIR}/Specta" "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/GDataXML-HTML" "${PODS_CONFIGURATION_BUILD_DIR}/WebHere"
+FRAMEWORK_SEARCH_PATHS = $(inherited) "$(PLATFORM_DIR)/Developer/Library/Frameworks" "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking" "${PODS_CONFIGURATION_BUILD_DIR}/Expecta" "${PODS_CONFIGURATION_BUILD_DIR}/GDataXML-HTML" "${PODS_CONFIGURATION_BUILD_DIR}/Nocilla" "${PODS_CONFIGURATION_BUILD_DIR}/Specta" "${PODS_CONFIGURATION_BUILD_DIR}/WebHere"
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
-HEADER_SEARCH_PATHS = $(inherited) $(SDKROOT)/usr/include/libxml2
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
-OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Expecta/Expecta.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Nocilla/Nocilla.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Specta/Specta.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/GDataXML-HTML/GDataXML_HTML.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/WebHere/WebHere.framework/Headers"
-OTHER_LDFLAGS = $(inherited) -framework "Expecta" -framework "Nocilla" -framework "Specta"
+OTHER_CFLAGS = $(inherited) -iquote "${PODS_CONFIGURATION_BUILD_DIR}/AFNetworking/AFNetworking.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Expecta/Expecta.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/GDataXML-HTML/GDataXML_HTML.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Nocilla/Nocilla.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/Specta/Specta.framework/Headers" -iquote "${PODS_CONFIGURATION_BUILD_DIR}/WebHere/WebHere.framework/Headers"
+OTHER_LDFLAGS = $(inherited) -l"xml2" -framework "AFNetworking" -framework "CFNetwork" -framework "CoreGraphics" -framework "Expecta" -framework "Foundation" -framework "GDataXML_HTML" -framework "MobileCoreServices" -framework "Nocilla" -framework "Security" -framework "Specta" -framework "SystemConfiguration" -framework "WebHere" -framework "XCTest"
 PODS_BUILD_DIR = ${BUILD_DIR}
 PODS_CONFIGURATION_BUILD_DIR = ${PODS_BUILD_DIR}/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)
 PODS_PODFILE_DIR_PATH = ${SRCROOT}/.
