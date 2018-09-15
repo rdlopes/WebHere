@@ -13,4 +13,7 @@
 
 @interface WHViewController : UITableViewController
 
+@property(strong, nonatomic) WHSearchRequest *searchRequest;
+@property(strong, nonatomic) WHSearchResponse *searchResponse;
+
 @end

@@ -28,7 +28,7 @@
 #import "WHHTTPRequest+HTML.h"
 #import "WHHTTPRequest+Internal.h"
 #import "NSObject+Runtime.h"
-#import <GDataXML-HTML/GDataXMLNode.h>
+#import "GDataXMLNode.h"
 
 @implementation WHHTTPRequest (HTML)
 

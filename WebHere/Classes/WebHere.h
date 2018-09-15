@@ -29,7 +29,7 @@
 
 #import <Foundation/Foundation.h>
 #import <AFNetworking/AFNetworking.h>
-#import <GDataXML-HTML/GDataXMLNode.h>
+#import <GDataXML_HTML/GDataXMLNode.h>
 
 #import "NSObject+Runtime.h"
 

@@ -24,7 +24,7 @@
 // OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 // THE SOFTWARE.
 
-#import <GDataXML-HTML/GdataXMLNode.h>
+#import "GDataXMLNode.h"
 #import "WHPerson+HTML.h"
 
 @interface WHPerson ()

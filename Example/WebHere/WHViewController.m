@@ -6,13 +6,13 @@
 //  Copyright (c) 2018 rdlopes. All rights reserved.
 //
 
-#import "ViewController.h"
+#import "WHViewController.h"
 #import "WHSearchResponse.h"
 #import "WHSearchRequest.h"
 #import "WHSearchResult.h"
 #import "UIImageView+AFNetworking.h"
 
-@interface ViewController () <UISearchBarDelegate>
+@interface WHViewController () <UISearchBarDelegate>
 
 @property(weak, nonatomic) IBOutlet UISearchBar *searchBar;
 
@@ -22,7 +22,7 @@
 
 @end
 
-@implementation ViewController
+@implementation WHViewController
 
 - (void)fetchResults {
     [self.googleWebsite send:self.searchRequest

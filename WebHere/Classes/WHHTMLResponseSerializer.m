@@ -25,7 +25,7 @@
 // THE SOFTWARE.
 
 #import "WHHTMLResponseSerializer.h"
-#import <GDataXML-HTML/GDataXMLNode.h>
+#import "GDataXMLNode.h"
 
 static NSError *WHErrorWithUnderlyingError(NSError *error,
         NSError *underlyingError) {
