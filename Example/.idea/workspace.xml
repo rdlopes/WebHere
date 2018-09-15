@@ -1,265 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58f9b57a-2e21-434c-af25-c215f1b4ccf6" name="WebHere-7 Promote WebHere to be a pod" comment="Updated pods">
-      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFHTTPSessionManager.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworkReachabilityManager.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFNetworking.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFSecurityPolicy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLRequestSerialization.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLResponseSerialization.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/AFNetworking/AFURLSessionManager.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFAutoPurgingImageCache.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFImageDownloader.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/AFNetworkActivityIndicatorManager.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIActivityIndicatorView+AFNetworking.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIButton+AFNetworking.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImage+AFNetworking.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIImageView+AFNetworking.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIKit+AFNetworking.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIProgressView+AFNetworking.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIRefreshControl+AFNetworking.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/AFNetworking/UIKit+AFNetworking/UIWebView+AFNetworking.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPBlockDefinedMatcher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPBlockDefinedMatcher.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPDefines.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPDoubleTuple.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPDoubleTuple.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPExpect.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPExpect.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPFloatTuple.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPFloatTuple.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPMatcher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPUnsupportedObject.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/EXPUnsupportedObject.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Expecta.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/ExpectaObject.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/ExpectaObject.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/ExpectaSupport.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/ExpectaSupport.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatcherHelpers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatcherHelpers.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beCloseTo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beCloseTo.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beFalsy.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beFalsy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThan.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThan.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beGreaterThanOrEqualTo.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beIdenticalTo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beIdenticalTo.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInTheRangeOf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInTheRangeOf.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInstanceOf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beInstanceOf.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beKindOf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beKindOf.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThan.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThan.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beLessThanOrEqualTo.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beNil.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beNil.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSubclassOf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSubclassOf.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSupersetOf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beSupersetOf.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beTruthy.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beTruthy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beginWith.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+beginWith.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+conformTo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+conformTo.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+contain.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+contain.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+endWith.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+endWith.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+equal.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+equal.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+haveCountOf.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+haveCountOf.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+match.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+match.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+postNotification.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+postNotification.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raise.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raise.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raiseWithReason.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+raiseWithReason.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+respondTo.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers+respondTo.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/Matchers/EXPMatchers.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/NSObject+Expecta.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/NSValue+Expecta.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/Expecta/NSValue+Expecta.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Expecta/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GDataXML-HTML/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GDataXML-HTML/Pod/Classes/GDataXMLNode.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GDataXML-HTML/Pod/Classes/GDataXMLNode.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/GDataXML-HTML/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Local Podspecs/WebHere.podspec.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Categories/NSData+Nocilla.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Categories/NSData+Nocilla.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Categories/NSString+Nocilla.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Categories/NSString+Nocilla.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/DSL/LSHTTPRequestDSLRepresentation.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/DSL/LSHTTPRequestDSLRepresentation.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/DSL/LSStubRequestDSL.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/DSL/LSStubRequestDSL.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/DSL/LSStubResponseDSL.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/DSL/LSStubResponseDSL.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Diff/LSHTTPRequestDiff.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Diff/LSHTTPRequestDiff.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/ASIHTTPRequest/ASIHTTPRequestStub.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/ASIHTTPRequest/ASIHTTPRequestStub.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/ASIHTTPRequest/LSASIHTTPRequestAdapter.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/ASIHTTPRequest/LSASIHTTPRequestAdapter.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/ASIHTTPRequest/LSASIHTTPRequestHook.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/ASIHTTPRequest/LSASIHTTPRequestHook.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/LSHTTPClientHook.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/LSHTTPClientHook.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/NSURLRequest/LSHTTPStubURLProtocol.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/NSURLRequest/LSHTTPStubURLProtocol.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/NSURLRequest/LSNSURLHook.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/NSURLRequest/LSNSURLHook.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/NSURLRequest/NSURLRequest+DSL.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/NSURLRequest/NSURLRequest+DSL.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/NSURLRequest/NSURLRequest+LSHTTPRequest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/NSURLRequest/NSURLRequest+LSHTTPRequest.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/NSURLSession/LSNSURLSessionHook.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Hooks/NSURLSession/LSNSURLSessionHook.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/LSNocilla.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/LSNocilla.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/LSDataMatcher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/LSDataMatcher.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/LSMatcheable.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/LSMatcher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/LSMatcher.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/LSRegexMatcher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/LSRegexMatcher.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/LSStringMatcher.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/LSStringMatcher.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/NSData+Matcheable.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/NSData+Matcheable.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/NSRegularExpression+Matcheable.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/NSRegularExpression+Matcheable.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/NSString+Matcheable.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Matchers/NSString+Matcheable.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Model/LSHTTPBody.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Model/LSHTTPRequest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Model/LSHTTPResponse.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Nocilla.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Stubs/LSStubRequest.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Stubs/LSStubRequest.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Stubs/LSStubResponse.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/Nocilla/Stubs/LSStubResponse.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Nocilla/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Pods.xcodeproj/project.pbxproj" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/LICENSE" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/README.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTCallSite.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTCallSite.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTCompiledExample.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTCompiledExample.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTExample.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTExample.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTExampleGroup.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTExampleGroup.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTExcludeGlobalBeforeAfterEach.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTGlobalBeforeAfterEach.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTSharedExampleGroups.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTSharedExampleGroups.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTSpec.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTSpec.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTTestSuite.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SPTTestSuite.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/Specta.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SpectaDSL.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SpectaDSL.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SpectaTypes.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SpectaUtility.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/SpectaUtility.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/XCTest+Private.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/XCTestCase+Specta.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Specta/Specta/Specta/XCTestCase+Specta.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/AFNetworking.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/AFNetworking/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Expecta-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Expecta-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Expecta-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Expecta.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Expecta.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Expecta/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GDataXML-HTML/GDataXML-HTML-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GDataXML-HTML/GDataXML-HTML-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GDataXML-HTML/GDataXML-HTML-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GDataXML-HTML/GDataXML-HTML.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GDataXML-HTML/GDataXML-HTML.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/GDataXML-HTML/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Nocilla/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Nocilla/Nocilla-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Nocilla/Nocilla-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Nocilla/Nocilla-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Nocilla/Nocilla.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Nocilla/Nocilla.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Example/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Example/Pods-WebHere_Example-acknowledgements.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Example/Pods-WebHere_Example-acknowledgements.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Example/Pods-WebHere_Example-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Example/Pods-WebHere_Example-frameworks.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Example/Pods-WebHere_Example-resources.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Example/Pods-WebHere_Example-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Example/Pods-WebHere_Example.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Example/Pods-WebHere_Example.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Example/Pods-WebHere_Example.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Tests/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Tests/Pods-WebHere_Tests-acknowledgements.markdown" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Tests/Pods-WebHere_Tests-acknowledgements.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Tests/Pods-WebHere_Tests-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Tests/Pods-WebHere_Tests-frameworks.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Tests/Pods-WebHere_Tests-resources.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Tests/Pods-WebHere_Tests-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Tests/Pods-WebHere_Tests.debug.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Tests/Pods-WebHere_Tests.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Pods-WebHere_Tests/Pods-WebHere_Tests.release.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Specta-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Specta-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Specta-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Specta.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/Specta/Specta.xcconfig" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/WebHere/Info.plist" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/WebHere/WebHere-dummy.m" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/WebHere/WebHere-prefix.pch" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/WebHere/WebHere-umbrella.h" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/WebHere/WebHere.modulemap" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Target Support Files/WebHere/WebHere.xcconfig" beforeDir="false" />
+    <list default="true" id="58f9b57a-2e21-434c-af25-c215f1b4ccf6" name="WebHere-7 Promote WebHere to be a pod" comment="Removed cache management in Travis">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <list id="3a8ff6d2-15ee-455a-8f07-6e11d5f821ff" name="Default Changelist" comment="" />
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/WebHere-awprzqoejxtmfudjzfusvfcevjqb/" />
@@ -285,28 +28,29 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="Podfile" value="5" />
-          <entry key="Project Settings" value="1" />
+          <entry key="Project Settings" value="2" />
           <entry key="h" value="39" />
+          <entry key="lock" value="1" />
           <entry key="m" value="33" />
           <entry key="pch" value="1" />
-          <entry key="podspec" value="7" />
+          <entry key="podspec" value="8" />
           <entry key="xcconfig" value="1" />
-          <entry key="yml" value="1" />
+          <entry key="yml" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="ObjectiveC" value="73" />
-          <entry key="PLAIN_TEXT" value="7" />
+          <entry key="PLAIN_TEXT" value="9" />
           <entry key="Podfile" value="5" />
-          <entry key="XcodeWorkspace" value="1" />
-          <entry key="YAML" value="1" />
+          <entry key="XcodeWorkspace" value="2" />
+          <entry key="YAML" value="2" />
           <entry key="xconfig" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.appcode.build">
         <counts>
-          <entry key="buildservice" value="31" />
+          <entry key="buildservice" value="32" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
@@ -314,17 +58,17 @@
           <entry key="Podfile" value="26" />
           <entry key="h" value="46" />
           <entry key="m" value="27" />
-          <entry key="podspec" value="28" />
-          <entry key="txt" value="104" />
-          <entry key="yml" value="17" />
+          <entry key="podspec" value="35" />
+          <entry key="txt" value="190" />
+          <entry key="yml" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="ObjectiveC" value="73" />
-          <entry key="PLAIN_TEXT" value="132" />
+          <entry key="PLAIN_TEXT" value="225" />
           <entry key="Podfile" value="26" />
-          <entry key="YAML" value="17" />
+          <entry key="YAML" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.appcode.reveal" />
@@ -343,22 +87,27 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../.travis.yml">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../WebHere.podspec">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="195">
-              <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+            <state relative-caret-position="30">
+              <caret line="2" column="27" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../WebHere.podspec">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/../.travis.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+            <state relative-caret-position="255">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="appcode.project-settings://76ce9394">
+          <provider selected="true" editor-type-id="AppCode.ProjectSettings" />
         </entry>
       </file>
     </leaf>
@@ -392,8 +141,8 @@
         <option value="$PROJECT_DIR$/../WebHere/Classes/WebHere.h" />
         <option value="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.m" />
         <option value="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.h" />
-        <option value="$PROJECT_DIR$/../.travis.yml" />
         <option value="$PROJECT_DIR$/../WebHere.podspec" />
+        <option value="$PROJECT_DIR$/../.travis.yml" />
       </list>
     </option>
   </component>
@@ -404,10 +153,9 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="49" />
-    <option name="y" value="45" />
-    <option name="width" value="1252" />
-    <option name="height" value="999" />
+    <option name="y" value="123" />
+    <option name="width" value="1306" />
+    <option name="height" value="927" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -502,7 +250,7 @@
       <workItem from="1537004596628" duration="1188000" />
       <workItem from="1537005861722" duration="801000" />
       <workItem from="1537006921076" duration="508000" />
-      <workItem from="1537007969175" duration="845000" />
+      <workItem from="1537007969175" duration="1433000" />
     </task>
     <task id="LOCAL-00002" summary="Updating pod version to 0.3.0">
       <created>1537007371114</created>
@@ -525,7 +273,28 @@
       <option name="project" value="LOCAL" />
       <updated>1537008607741</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Fixing pods versions">
+      <created>1537009023505</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1537009023505</updated>
+    </task>
+    <task id="LOCAL-00006" summary="pods versions need to be set exactly">
+      <created>1537009267938</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1537009267938</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Removed cache management in Travis">
+      <created>1537009369983</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1537009369983</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
     <servers>
@@ -570,7 +339,7 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="7068000" />
+    <option name="totallyTimeSpent" value="7656000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -582,16 +351,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="156" y="98" width="1342" height="856" extended-state="0" />
+    <frame x="0" y="313" width="1306" height="737" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.20538461" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.27294305" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49928674" visible="true" weight="0.32352942" />
-      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5007133" side_tool="true" weight="0.40295118" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4983471" visible="true" weight="0.4054054" />
+      <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5016529" side_tool="true" weight="0.49382716" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Run" order="6" weight="0.46657753" />
@@ -600,7 +369,7 @@
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3291714" />
       <window_info anchor="bottom" id="Time Tracking" order="11" side_tool="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.5093583" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32164633" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="right" id="Structure" order="1" weight="0.21477428" />
       <window_info anchor="right" id="Database" order="2" />
@@ -622,7 +391,10 @@
     <MESSAGE value="Updating pod version to 0.3.0" />
     <MESSAGE value="Changed Travis configuration" />
     <MESSAGE value="Updated pods" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated pods" />
+    <MESSAGE value="Fixing pods versions" />
+    <MESSAGE value="pods versions need to be set exactly" />
+    <MESSAGE value="Removed cache management in Travis" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed cache management in Travis" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -739,9 +511,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="appcode.project-settings://76ce9394">
-      <provider selected="true" editor-type-id="AppCode.ProjectSettings" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/WebHereTests.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
@@ -855,17 +624,23 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Podfile.lock">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="appcode.project-settings://76ce9394">
+      <provider selected="true" editor-type-id="AppCode.ProjectSettings" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/../.travis.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="255">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../WebHere.podspec">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        <state relative-caret-position="30">
+          <caret line="2" column="27" selection-start-line="2" selection-start-column="22" selection-end-line="2" selection-end-column="27" />
         </state>
       </provider>
     </entry>
