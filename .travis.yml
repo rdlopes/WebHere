@@ -13,6 +13,12 @@ xcode_scheme: WebHere-Example
 cache: cocoapods
 podfile: Example/Podfile
 
+addons:
+  sonarcloud:
+    organization: "rdlopes-github"
+    token:
+      secure: "Rqx8dYUhmar2DvMc14Y32VMYACv8M/DIs+X4RYcFRdAUXzSmH9v7XZPC5ETn2lIL5j+DMbrRXCSjKP5yrQCpwy1slWDadIzf3WbilsDqhXu/li8Wp0jjUJ7ENv5gctiQub5rTClqioZyp8oZ+qr4ilWnR7V53A48bxEWpFg00Hw="
+
 before_install:
 - gem install cocoapods # Since Travis is not always on latest version
 - pod repo update
