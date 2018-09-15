@@ -6,9 +6,6 @@ language: objective-c
 osx_image: xcode9.4
 
 xcode_sdk: iphonesimulator11.4
-xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
-xcode_workspace: Example/WebHere.xcworkspace
-xcode_scheme: WebHere-Example
 
 cache: cocoapods
 podfile: Example/Podfile
