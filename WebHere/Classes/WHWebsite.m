@@ -62,14 +62,6 @@ NSInteger const WHWebsiteObjectBuildingFailureErrorCode = -3000;
     _sessionManager.requestSerializer.stringEncoding = requestEncoding;
 }
 
-- (NSStringEncoding)responseEncoding {
-    return _sessionManager.responseSerializer.stringEncoding;
-}
-
-- (void)setResponseEncoding:(NSStringEncoding)responseEncoding {
-    _sessionManager.responseSerializer.stringEncoding = responseEncoding;
-}
-
 - (NSTimeInterval)timeoutInterval {
     return _sessionManager.requestSerializer.timeoutInterval;
 }

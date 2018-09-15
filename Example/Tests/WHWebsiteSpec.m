@@ -45,7 +45,6 @@ SpecBegin(WHWebsite)
                 expect(website.numberOfRetries).to.equal(kWHWebsiteDefaultNumberOfRetries);
                 expect(website.timeoutInterval).to.equal(kWHWebsiteDefaultTimeInterval);
                 expect(website.requestEncoding).to.equal(NSUTF8StringEncoding);
-                expect(website.responseEncoding).to.equal(NSUTF8StringEncoding);
             });
         });
 

@@ -20,7 +20,7 @@ s.requires_arc = true
 
 s.source_files = 'WebHere/Classes/**/*'
 
-s.dependency 'AFNetworking', '= 3.0.4'
-s.dependency 'GDataXML-HTML', '= 1.4.1'
+s.dependency 'AFNetworking'
+s.dependency 'GDataXML-HTML'
 
 end

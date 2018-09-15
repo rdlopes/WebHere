@@ -34,7 +34,7 @@
 
 - (instancetype)initWithNode:(GDataXMLNode *)node
                  fromRequest:(WHHTTPRequest *)request
-                      target:(Class <WHObject>)target
+                      target:(Class)target
                        error:(NSError **)error {
     return [self initWithPath:@"" target:target];
 }
@@ -50,7 +50,7 @@
 + (instancetype)linkWithHTML:(GDataXMLDocument *)html
                      atXPath:(NSString *)xpath
                  fromRequest:(WHHTTPRequest *)request
-                      target:(Class <WHObject>)target
+                      target:(Class)target
                        error:(NSError **)error {
     return [[self alloc] initWithHTML:html atXPath:xpath fromRequest:request target:target error:error];
 }
@@ -61,7 +61,7 @@
 
 - (instancetype)initWithNode:(GDataXMLNode *)node
                  fromRequest:(WHHTTPRequest *)request
-                      target:(Class <WHObject>)target
+                      target:(Class)target
                        error:(NSError **)error {
 
     self = [super initWithNode:node
@@ -99,7 +99,7 @@
 
 - (instancetype)initWithNode:(GDataXMLNode *)node
                  fromRequest:(WHHTTPRequest *)request
-                      target:(Class <WHObject>)target
+                      target:(Class)target
                        error:(NSError **)error {
 
     self = [super initWithNode:node
@@ -163,12 +163,12 @@
 + (instancetype)formWithHTML:(GDataXMLDocument *)html
                      atXPath:(NSString *)xpath
                  fromRequest:(WHHTTPRequest *)request
-                      target:(Class <WHObject>)target
+                      target:(Class)target
                        error:(NSError **)error {
     return [[self alloc] initWithHTML:html atXPath:xpath fromRequest:request target:target error:error];
 }
 
-+ (instancetype)formWithNode:(GDataXMLNode *)node fromRequest:(WHHTTPRequest *)request target:(Class <WHObject>)target error:(NSError **)error {
++ (instancetype)formWithNode:(GDataXMLNode *)node fromRequest:(WHHTTPRequest *)request target:(Class)target error:(NSError **)error {
     return [[self alloc] initWithNode:node fromRequest:request target:target error:error];
 }
 
