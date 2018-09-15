@@ -1,6 +1,7 @@
 # WebHere
 
 [![CI Status](http://img.shields.io/travis/rdlopes/WebHere.svg?style=flat)](https://travis-ci.org/rdlopes/WebHere)
+[![codecov](https://codecov.io/gh/rdlopes/WebHere/branch/master/graph/badge.svg)](https://codecov.io/gh/rdlopes/WebHere)
 [![Version](https://img.shields.io/cocoapods/v/WebHere.svg?style=flat)](http://cocoadocs.org/docsets/WebHere)
 [![License](https://img.shields.io/cocoapods/l/WebHere.svg?style=flat)](http://cocoadocs.org/docsets/WebHere)
 [![Platform](https://img.shields.io/cocoapods/p/WebHere.svg?style=flat)](http://cocoadocs.org/docsets/WebHere)

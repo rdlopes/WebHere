@@ -1,22 +1,21 @@
-# references:
-# * https://www.objc.io/issues/6-build-tools/travis-ci/
-# * https://github.com/supermarin/xcpretty#usage
-
 language: objective-c
 osx_image: xcode9.4
 xcode_sdk: iphonesimulator11.4
-xcode_destination: platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)
-xcode_workspace: Example/WebHere.xcworkspace
-xcode_scheme: WebHere-Example
-
 cache: cocoapods
 podfile: Example/Podfile
-
+addons:
+  sonarcloud:
+    organization: rdlopes-github
+    token:
+      secure: Rqx8dYUhmar2DvMc14Y32VMYACv8M/DIs+X4RYcFRdAUXzSmH9v7XZPC5ETn2lIL5j+DMbrRXCSjKP5yrQCpwy1slWDadIzf3WbilsDqhXu/li8Wp0jjUJ7ENv5gctiQub5rTClqioZyp8oZ+qr4ilWnR7V53A48bxEWpFg00Hw=
 before_install:
-- gem install cocoapods # Since Travis is not always on latest version
+- gem install cocoapods
 - pod repo update
 - pod install --project-directory=Example
-
+script:
+- xcodebuild test -enableCodeCoverage YES \ -workspace Example/WebHere.xcworkspace
+  \ -scheme AllTests -sdk iphonesimulator11.4 \ -destination 'platform=iOS Simulator,OS=10.1,name=iPad
+  Pro (9.7-inch)' | xcpretty
 after_success:
+- bash <(curl -s https://codecov.io/bash)
 - pod lib lint --allow-warnings
-- pod spec lint WebHere.podspec --allow-warnings
