@@ -19,8 +19,10 @@ before_install:
 - pod install --project-directory=Example
 
 script:
-- set -o pipefail
-- xcodebuild test -enableCodeCoverage YES -workspace Example/WebHere.xcworkspace -scheme WebHere-Example -sdk iphonesimulator11.4 ONLY_ACTIVE_ARCH=NO | xcpretty
+- xcodebuild test -enableCodeCoverage YES \
+  -workspace Example/WebHere.xcworkspace \
+  -scheme AllTests -sdk iphonesimulator11.4 \
+  -destination 'platform=iOS Simulator,OS=10.1,name=iPad Pro (9.7-inch)' | xcpretty
 
 after_success:
 - bash <(curl -s https://codecov.io/bash)
