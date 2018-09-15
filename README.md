@@ -63,7 +63,7 @@ Rui Lopes, rui.d.lopes@me.com
 
 ## License
 
-WebHere is available under the MIT license. See the LICENSE file for more info.
+WebHere is available under the MIT license. See the [LICENSE](LICENSE) file for more info.
 
 ## Testing
 
