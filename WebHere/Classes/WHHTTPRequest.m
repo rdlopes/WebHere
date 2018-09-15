@@ -52,7 +52,7 @@ NSString *const kWHHTTPRequestRetryCount = @"kWHHTTPRequestRetryCount";
     _userInfo[kWHHTTPRequestRetryCount] = @(retryCount);
 }
 
-- (instancetype)initWithPath:(NSString *)path target:(Class)target {
+- (instancetype)initWithPath:(NSString *)path target:(Class<WHObject>)target {
     NSParameterAssert(path);
     NSParameterAssert(target);
 
@@ -91,11 +91,11 @@ NSString *const kWHHTTPRequestRetryCount = @"kWHHTTPRequestRetryCount";
     if (self.queryParameters.count > 0) {
         description = [description stringByAppendingString:@" ("];
         [[self.queryParameters allKeys]
-                               enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
-                                   description = [description
-                                           stringByAppendingFormat:@"%@=%@;", obj,
-                                                                   (self.queryParameters)[obj]];
-                               }];
+                enumerateObjectsUsingBlock:^(id obj, NSUInteger idx, BOOL *stop) {
+                    description = [description
+                            stringByAppendingFormat:@"%@=%@;", obj,
+                                                    (self.queryParameters)[obj]];
+                }];
         description = [description stringByAppendingString:@")]"];
     }
     return description;
@@ -105,7 +105,7 @@ NSString *const kWHHTTPRequestRetryCount = @"kWHHTTPRequestRetryCount";
 
 @implementation WHLink
 
-+ (instancetype)linkWithPath:(NSString *)path target:(Class)target {
++ (instancetype)linkWithPath:(NSString *)path target:(Class<WHObject>)target {
     WHLink *link = [[self alloc] initWithPath:path target:target];
     return link;
 }
@@ -114,7 +114,7 @@ NSString *const kWHHTTPRequestRetryCount = @"kWHHTTPRequestRetryCount";
 
 @implementation WHForm
 
-+ (instancetype)formWithPath:(NSString *)path target:(Class)target {
++ (instancetype)formWithPath:(NSString *)path target:(Class<WHObject>)target {
     WHForm *form = [[self alloc] initWithPath:path target:target];
     if (form) {
         form.HTTPMethod = @"POST";
