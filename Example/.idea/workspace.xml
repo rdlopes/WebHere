@@ -1,15 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="58f9b57a-2e21-434c-af25-c215f1b4ccf6" name="WebHere-7 Promote WebHere to be a pod" comment="Updating pod version to 0.3.0" />
-    <list id="3a8ff6d2-15ee-455a-8f07-6e11d5f821ff" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Podfile" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Podfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Podfile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pods/Manifest.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Pods/Manifest.lock" afterDir="false" />
+    <list default="true" id="58f9b57a-2e21-434c-af25-c215f1b4ccf6" name="WebHere-7 Promote WebHere to be a pod" comment="Updating pod version to 0.3.0">
+      <change beforePath="$PROJECT_DIR$/../.travis.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.travis.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/WebHere.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebHere.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebHere/Base.lproj/Main.storyboard" beforeDir="false" afterPath="$PROJECT_DIR$/WebHere/Base.lproj/Main.storyboard" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebHere/WebHere-Info.plist" beforeDir="false" afterPath="$PROJECT_DIR$/WebHere/WebHere-Info.plist" afterDir="false" />
     </list>
+    <list id="3a8ff6d2-15ee-455a-8f07-6e11d5f821ff" name="Default Changelist" comment="" />
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/WebHere-awprzqoejxtmfudjzfusvfcevjqb/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -24,10 +21,10 @@
         <counts>
           <entry key="project.closed" value="12" />
           <entry key="project.open.time.1" value="2" />
-          <entry key="project.open.time.4" value="1" />
+          <entry key="project.open.time.4" value="2" />
           <entry key="project.open.time.5" value="4" />
           <entry key="project.open.time.6" value="5" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.opened" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -39,6 +36,7 @@
           <entry key="pch" value="1" />
           <entry key="podspec" value="6" />
           <entry key="xcconfig" value="1" />
+          <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
@@ -47,6 +45,7 @@
           <entry key="PLAIN_TEXT" value="6" />
           <entry key="Podfile" value="5" />
           <entry key="XcodeWorkspace" value="1" />
+          <entry key="YAML" value="1" />
           <entry key="xconfig" value="1" />
         </counts>
       </usages-collector>
@@ -62,6 +61,7 @@
           <entry key="m" value="27" />
           <entry key="podspec" value="27" />
           <entry key="txt" value="64" />
+          <entry key="yml" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
@@ -69,6 +69,7 @@
           <entry key="ObjectiveC" value="73" />
           <entry key="PLAIN_TEXT" value="91" />
           <entry key="Podfile" value="26" />
+          <entry key="YAML" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.appcode.reveal" />
@@ -86,7 +87,17 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/../.travis.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="240">
+              <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -115,6 +126,7 @@
         <option value="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.m" />
         <option value="$PROJECT_DIR$/../WebHere.podspec" />
         <option value="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.h" />
+        <option value="$PROJECT_DIR$/../.travis.yml" />
       </list>
     </option>
   </component>
@@ -138,6 +150,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -149,20 +162,15 @@
               <item name="" type="efc3779f:XcodeRootNode" />
               <item name="WebHere" type="1d218c8b:XcodeProjectNode" />
             </path>
-            <path>
-              <item name="" type="efc3779f:XcodeRootNode" />
-              <item name="WebHere" type="1d218c8b:XcodeProjectNode" />
-              <item name="Podspec Metadata" type="fcab9f18:XcodeViewNode" />
-            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="OBJC.PRESERVED_TARGET_SELECTION" value="" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
@@ -180,17 +188,6 @@
         </RuleState>
       </list>
     </option>
-  </component>
-  <component name="RunManager" selected="XCTest.WebHereTests">
-    <configuration name="WebHereTests" type="OCUnitRunConfiguration" factoryName="XCTest/Kiwi" PASS_PARENT_ENVS_2="true" PROJECT_NAME="WebHere" TARGET_NAME="WebHere_Tests" CONFIG_NAME="Debug" SCHEME_NAME="WebHereTests" IS_LOCATION_SIMULATION_ALLOWED="true" LOCATION_SCENARIO_ID="com.apple.dt.IDEFoundation.CurrentLocationScenarioIdentifier" LOCATION_SCENARIO_TYPE="1" TEST_MODE="SUITE_TEST" XCODE_SKIPPED_TESTS_HASH_CODE="0">
-      <method v="2">
-        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
-      </method>
-    </configuration>
-    <list>
-      <item itemvalue="Application.WebHere-Example" />
-      <item itemvalue="XCTest.WebHereTests" />
-    </list>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -237,6 +234,7 @@
       <workItem from="1537004596628" duration="1188000" />
       <workItem from="1537005861722" duration="801000" />
       <workItem from="1537006921076" duration="508000" />
+      <workItem from="1537007969175" duration="249000" />
     </task>
     <task id="LOCAL-00002" summary="Updating pod version to 0.3.0">
       <created>1537007371114</created>
@@ -290,7 +288,7 @@
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="6223000" />
+    <option name="totallyTimeSpent" value="6472000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -303,10 +301,11 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="143" y="25" width="1342" height="856" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.18615384" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.18846154" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.49928674" weight="0.328877" />
@@ -510,9 +509,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
           <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-          <folding>
-            <element signature="e#1187#1211#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -520,9 +516,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-          <folding>
-            <element signature="e#1198#1222#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -533,9 +526,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="270">
           <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-          <folding>
-            <element signature="e#139#166#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -578,9 +568,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="111">
           <caret line="54" column="49" lean-forward="true" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
-          <folding>
-            <element signature="e#1186#1211#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -588,6 +575,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-71">
           <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../.travis.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
         </state>
       </provider>
     </entry>
