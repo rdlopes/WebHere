@@ -17,6 +17,6 @@ before_install:
 - pod repo update
 - pod install --project-directory=Example
 
-after_install:
+after_success:
 - pod lib lint --allow-warnings
 - pod spec lint WebHere.podspec --allow-warnings
