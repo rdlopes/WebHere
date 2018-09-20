@@ -36,8 +36,8 @@
 
  ## Subclassing notes
 
- It is rarely used as is, rather you would create a WHLink describing a link (the <a> tag in HTML) of a WHForm
- (the <form> tag) that would hold the properties for an HTTP request.
+ It is rarely used as is, rather you would create a WHLink describing a link (the *a* tag in HTML) of a WHForm
+ (the *form* tag) that would hold the properties for an HTTP request.
 
  For instance, consider Google's web site. Imagine you're interested in scraping the search page (not the query results,
  just the first page), you would create a link of the form:
@@ -122,17 +122,17 @@
 @end
 
 /**
- WHLink represents an <a> tag, which is an HTTP request in the form of a GET/POST method
+ WHLink represents an *a* tag, which is an HTTP request in the form of a GET/POST method
  */
 @interface WHLink : WHHTTPRequest
 
 /**
- the text label contained in this <a> tag
+ the text label contained in this *a* tag
  */
 @property(nonatomic, strong) NSString *label;
 
 /**
- the image contained in this <a> tag, if applicable
+ the image contained in this *a* tag, if applicable
  */
 @property(nonatomic, strong) NSString *imagePath;
 
@@ -147,7 +147,7 @@
 @end
 
 /**
- WHForm represents an <form> tag, which is an HTTP request in the form of a GET/POST method
+ WHForm represents a *form* tag, which is an HTTP request in the form of a GET/POST method
  */
 @interface WHForm : WHHTTPRequest
 
