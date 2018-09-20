@@ -65,8 +65,6 @@ SpecBegin(WHWebsite)
             });
 
             it(@"won't map unnmatching targets", ^{
-                NSLog(@"HTML parsed: %@", PERSON_HTML);
-
                 stubRequest(@"GET", @"http://localhost/person")
                         .andReturn(200)
                         .withBody(PERSON_HTML);
@@ -107,7 +105,6 @@ SpecBegin(WHWebsite)
             });
 
             it(@"creates target objects", ^{
-                NSLog(@"HTML parsed: %@", PERSON_HTML);
                 stubRequest(@"GET", @"http://localhost/person")
                         .andReturn(200)
                         .withBody(PERSON_HTML);
@@ -128,7 +125,6 @@ SpecBegin(WHWebsite)
             });
 
             it(@"handles basic authentication", ^{
-                NSLog(@"HTML parsed: %@", PERSON_HTML);
                 stubRequest(@"GET", @"http://localhost/person")
                         .withHeader(@"Authorization", @"Basic dXNlcjA6cGFzc3cwcmQ=")
                         .andReturn(200)
@@ -151,7 +147,6 @@ SpecBegin(WHWebsite)
             });
 
             it(@"handles explicit query parameters", ^{
-                NSLog(@"HTML parsed: %@", PERSON_HTML);
                 stubRequest(@"POST", @"http://localhost/person/query")
                         .withBody(@"fullName=John%20Doe")
                         .andReturn(200)
@@ -176,7 +171,6 @@ SpecBegin(WHWebsite)
             });
 
             it(@"handles query parameters as form properties", ^{
-                NSLog(@"HTML parsed: %@", PERSON_HTML);
                 stubRequest(@"POST", @"http://localhost/person/query")
                         .withBody(@"fullName=John%20Doe")
                         .andReturn(200)
@@ -203,7 +197,6 @@ SpecBegin(WHWebsite)
             });
 
             it(@"can map alternative targets", ^{
-                NSLog(@"HTML parsed: %@", ADMIN_HTML);
                 stubRequest(@"GET", @"http://localhost/person")
                         .andReturn(200)
                         .withBody(ADMIN_HTML);

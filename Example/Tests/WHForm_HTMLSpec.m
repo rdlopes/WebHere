@@ -65,7 +65,6 @@ SpecBegin(WHForm_HTML)
         });
 
         it(@"Maps a form node", ^{
-            NSLog(@"HTML parsed: %@", loginFormHTML);
             html = (GDataXMLDocument *)
                 [[GDataXMLDocument alloc] initWithHTMLString:loginFormHTML
                                                        error:&error];
