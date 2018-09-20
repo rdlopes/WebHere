@@ -31,14 +31,56 @@
 #import <Foundation/Foundation.h>
 #import <objc/runtime.h>
 
+/**
+ `NSObject_Runtime` is a set of extensions on [NSObject] class to allow querying objects for their properties and subclasses.
+ This allows the [WHWebsite] to populate properties of objects referred as targets.
+
+ @warning This class is only for internal use, using it outside WebHere is done at the developer's costs.
+ */
 @interface NSObject (RunTime)
 
+///-------------------------------
+/// @name Properties
+///-------------------------------
+
+/**
+ Queries an object for its declared properties.
+ Notice that properties declared by super classes are ignored.
+ See allPropertiesNames for a full query of the class hierarchy.
+
+ @return a set of strings listing the properties declared by this object.
+ */
 + (NSSet *)propertiesNames;
 
+/**
+ Queries an object for all its properties.
+ Notice that properties declared bby super classes are included in the returned set.
+ See propertiesNames for querying properties declared only by the class of this object.
+
+ @return a [NSSet] of strings listing all properties contained in this object.
+ */
 + (NSSet *)allPropertiesNames;
 
+///-------------------------------
+/// @name Class hierarchy
+///-------------------------------
+
+/**
+ Queries an object's class for all declared subclasses.
+
+ @return a [NSSet] of strings listing all subclasses existing for that object's class.
+ */
 + (NSSet *)subclassesNames;
 
+///-------------------------------
+/// @name Utils
+///-------------------------------
+
+/**
+ Convenient method to debug all object's properties and their values.
+
+ @return an [NSString] serving as a debug string for the object.
+ */
 - (NSString *)fullDescription;
 
 @end

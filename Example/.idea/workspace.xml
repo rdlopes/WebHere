@@ -1,15 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="664f7775-97a5-4a1c-845a-5885c947204e" name="WebHere-10 Add API documentation" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/runConfigurations/WebHere.xml" afterDir="false" />
+    <list default="true" id="664f7775-97a5-4a1c-845a-5885c947204e" name="WebHere-10 Add API documentation" comment="Unsharing WebHere scheme">
+      <change beforePath="$PROJECT_DIR$/../.cocoadocs.yml" beforeDir="false" afterPath="$PROJECT_DIR$/../.cocoadocs.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebHere.xcodeproj/project.pbxproj" beforeDir="false" afterPath="$PROJECT_DIR$/WebHere.xcodeproj/project.pbxproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebHere.xcodeproj/xcshareddata/xcschemes/AllTests.xcscheme" beforeDir="false" afterPath="$PROJECT_DIR$/WebHere.xcodeproj/xcshareddata/xcschemes/AllTests.xcscheme" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../soner-project.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/WHForm_HTMLSpec.m" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/WHForm_HTMLSpec.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/WHLink_HTMLSpec.m" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/WHLink_HTMLSpec.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Tests/WHWebsiteSpec.m" beforeDir="false" afterPath="$PROJECT_DIR$/Tests/WHWebsiteSpec.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebHere/Classes/NSObject+Runtime.h" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHere/Classes/NSObject+Runtime.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebHere/Classes/WHHTMLResponseSerializer.h" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHere/Classes/WHHTMLResponseSerializer.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+HTML.h" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+HTML.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+HTML.m" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+HTML.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+Internal.h" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+Internal.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.h" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.m" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebHere/Classes/WHObject.h" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHere/Classes/WHObject.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebHere/Classes/WHWebsite.h" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHere/Classes/WHWebsite.h" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../WebHere/Classes/WHWebsite.m" beforeDir="false" afterPath="$PROJECT_DIR$/../WebHere/Classes/WHWebsite.m" afterDir="false" />
     </list>
     <list id="3a8ff6d2-15ee-455a-8f07-6e11d5f821ff" name="Default Changelist" comment="" />
     <ignored path="$USER_HOME$/Library/Developer/Xcode/DerivedData/WebHere-awprzqoejxtmfudjzfusvfcevjqb/" />
+    <ignored path="$PROJECT_DIR$/.idea/shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +104,7 @@
     <session id="998773300">
       <usages-collector id="statistics.appcode.build">
         <counts>
-          <entry key="buildservice" value="3" />
+          <entry key="buildservice" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.vcs.git.usages">
@@ -103,60 +114,53 @@
       </usages-collector>
       <usages-collector id="statistics.cidr.testingFrameworks.usages">
         <counts>
-          <entry key="Specta" value="1" />
+          <entry key="Specta" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="h" value="1" />
+          <entry key="h" value="57" />
+          <entry key="m" value="53" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="ObjectiveC" value="1" />
+          <entry key="ObjectiveC" value="110" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="h" value="10367" />
+          <entry key="m" value="61" />
+          <entry key="txt" value="81" />
           <entry key="yml" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
+          <entry key="Doxygen file" value="157" />
+          <entry key="ObjectiveC" value="10271" />
+          <entry key="PLAIN_TEXT" value="81" />
           <entry key="YAML" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.appcode.reveal" />
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="3" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.13" value="1" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../WebHere/Classes/NSObject+Runtime.h">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/../.cocoadocs.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
@@ -175,21 +179,29 @@
         <option value="$PROJECT_DIR$/Podfile" />
         <option value="$USER_HOME$/Library/Developer/Xcode/DerivedData/WebHere-awprzqoejxtmfudjzfusvfcevjqb/Build/Products/Debug-iphoneos/WebHere/WebHere.framework/Headers/WebHere.h" />
         <option value="$PROJECT_DIR$/WebHere/WHSearchRequest.h" />
-        <option value="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+HTML.m" />
         <option value="$PROJECT_DIR$/../WebHere/Classes/WHHTMLResponseSerializer.m" />
-        <option value="$PROJECT_DIR$/Tests/WHForm_HTMLSpec.m" />
         <option value="$PROJECT_DIR$/Tests/WHHTTPRequestSpec.m" />
-        <option value="$PROJECT_DIR$/Tests/WHLink_HTMLSpec.m" />
         <option value="$PROJECT_DIR$/Tests/WHObjectSpec.m" />
-        <option value="$PROJECT_DIR$/Tests/WHWebsiteSpec.m" />
         <option value="$PROJECT_DIR$/Tests/NSObject_RuntimeSpec.m" />
         <option value="$PROJECT_DIR$/Tests/WebHereTests.h" />
         <option value="$PROJECT_DIR$/../WebHere/Classes/WebHere.h" />
-        <option value="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.m" />
-        <option value="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.h" />
         <option value="$PROJECT_DIR$/../WebHere.podspec" />
         <option value="$PROJECT_DIR$/../.travis.yml" />
         <option value="$PROJECT_DIR$/../.cocoadocs.yml" />
+        <option value="$PROJECT_DIR$/../WebHere/Classes/NSObject+Runtime.h" />
+        <option value="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.m" />
+        <option value="$PROJECT_DIR$/WebHere/WHViewController.m" />
+        <option value="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+HTML.m" />
+        <option value="$PROJECT_DIR$/../WebHere/Classes/WHWebsite.m" />
+        <option value="$PROJECT_DIR$/../WebHere/Classes/WHHTMLResponseSerializer.h" />
+        <option value="$PROJECT_DIR$/Tests/WHForm_HTMLSpec.m" />
+        <option value="$PROJECT_DIR$/Tests/WHLink_HTMLSpec.m" />
+        <option value="$PROJECT_DIR$/Tests/WHWebsiteSpec.m" />
+        <option value="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+HTML.h" />
+        <option value="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+Internal.h" />
+        <option value="$PROJECT_DIR$/../WebHere/Classes/WHObject.h" />
+        <option value="$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.h" />
+        <option value="$PROJECT_DIR$/../WebHere/Classes/WHWebsite.h" />
       </list>
     </option>
   </component>
@@ -199,10 +211,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
     <option name="y" value="22" />
-    <option name="width" value="1143" />
-    <option name="height" value="890" />
+    <option name="width" value="1701" />
+    <option name="height" value="1282" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -212,24 +225,44 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Cidr.FilesView" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+              <item name="Development Pods" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="Pods" type="1d218c8b:XcodeProjectNode" />
+              <item name="Development Pods" type="fcab9f18:XcodeViewNode" />
+              <item name="WebHere" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
               <item name="WebHere" type="1d218c8b:XcodeProjectNode" />
             </path>
             <path>
               <item name="" type="efc3779f:XcodeRootNode" />
               <item name="WebHere" type="1d218c8b:XcodeProjectNode" />
-              <item name="Podspec Metadata" type="fcab9f18:XcodeViewNode" />
+              <item name="Example for WebHere" type="fcab9f18:XcodeViewNode" />
+            </path>
+            <path>
+              <item name="" type="efc3779f:XcodeRootNode" />
+              <item name="WebHere" type="1d218c8b:XcodeProjectNode" />
+              <item name="Tests" type="fcab9f18:XcodeViewNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,7 +270,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.smartKeys" />
     <property name="settings.editor.splitter.proportion" value="0.2826087" />
   </component>
   <component name="RunDashboard">
@@ -256,7 +289,6 @@
     <list>
       <item itemvalue="Application.WebHere-Example" />
       <item itemvalue="XCTest.AllTests" />
-      <item itemvalue="Application.WebHere" />
     </list>
   </component>
   <component name="SvnConfiguration">
@@ -286,9 +318,8 @@
       <option name="project" value="LOCAL" />
       <updated>1536997039707</updated>
     </task>
-    <task active="true" id="WebHere-7" summary="Promote WebHere to be a pod">
+    <task id="WebHere-7" summary="Promote WebHere to be a pod">
       <branch name="WebHere-7" repository="$PROJECT_DIR$/.." />
-      <changelist id="" name="WebHere-7 Promote WebHere to be a pod" comment="" />
       <created>1536737119000</created>
       <option name="issue" value="true" />
       <url>https://github.com/rdlopes/WebHere/issues/7</url>
@@ -425,8 +456,33 @@
       <option name="type" value="BUG" />
       <updated>1537378328217</updated>
       <workItem from="1537378328731" duration="2664000" />
+      <workItem from="1537381555230" duration="646000" />
+      <workItem from="1537382255365" duration="3781000" />
+      <workItem from="1537387285799" duration="4179000" />
+      <workItem from="1537402631356" duration="3953000" />
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Added cocoadocs settings file">
+      <created>1537381645170</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1537381645171</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Removed trace of old schemes">
+      <created>1537381659241</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1537381659241</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Unsharing WebHere scheme">
+      <created>1537381820566</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1537381820566</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <option name="createBranch" value="false" />
     <option name="useBranch" value="true" />
     <servers>
@@ -438,15 +494,6 @@
     </servers>
   </component>
   <component name="TestHistory">
-    <history-entry file="WebHereTests - 2018.09.15 at 11h 37m 03s.xml">
-      <configuration name="WebHereTests" configurationId="OCUnitRunConfiguration" />
-    </history-entry>
-    <history-entry file="WebHereTests - 2018.09.15 at 11h 49m 18s.xml">
-      <configuration name="WebHereTests" configurationId="OCUnitRunConfiguration" />
-    </history-entry>
-    <history-entry file="WebHereTests - 2018.09.15 at 11h 50m 18s.xml">
-      <configuration name="WebHereTests" configurationId="OCUnitRunConfiguration" />
-    </history-entry>
     <history-entry file="WebHereTests - 2018.09.15 at 11h 57m 18s.xml">
       <configuration name="WebHereTests" configurationId="OCUnitRunConfiguration" />
     </history-entry>
@@ -468,10 +515,19 @@
     <history-entry file="AllTests - 2018.09.19 at 19h 34m 03s.xml">
       <configuration name="AllTests" configurationId="OCUnitRunConfiguration" />
     </history-entry>
+    <history-entry file="AllTests - 2018.09.19 at 22h 00m 02s.xml">
+      <configuration name="AllTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="AllTests - 2018.09.20 at 02h 39m 26s.xml">
+      <configuration name="AllTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
+    <history-entry file="AllTests - 2018.09.20 at 02h 41m 00s.xml">
+      <configuration name="AllTests" configurationId="OCUnitRunConfiguration" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
     <option name="enabled" value="true" />
-    <option name="totallyTimeSpent" value="14295000" />
+    <option name="totallyTimeSpent" value="26854000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -483,25 +539,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1143" height="890" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="22" width="1701" height="1282" extended-state="0" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="Favorites" order="1" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="2" visible="true" weight="0.27520436" />
+      <window_info active="true" content_ui="combo" id="Project" order="2" visible="true" weight="0.18264015" />
       <window_info anchor="bottom" id="Database Changes" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="1" show_stripe_button="false" sideWeight="0.49808136" weight="0.28435373" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="2" sideWeight="0.4983471" visible="true" weight="0.36061382" />
+      <window_info anchor="bottom" id="Terminal" order="2" sideWeight="0.4983471" weight="0.35964912" />
       <window_info anchor="bottom" id="Event Log" order="3" sideWeight="0.5019187" side_tool="true" weight="0.41666666" />
       <window_info anchor="bottom" id="Message" order="4" />
-      <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49808136" weight="0.35041717" />
+      <window_info anchor="bottom" id="Find" order="5" weight="0.30332923" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.49808136" visible="true" weight="0.32941177" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.33825198" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" weight="0.3291714" />
       <window_info anchor="bottom" id="Time Tracking" order="11" side_tool="true" weight="0.32891566" />
-      <window_info anchor="bottom" id="Messages" order="12" weight="0.32108843" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3210084" />
       <window_info anchor="right" id="Palette&#9;" order="0" />
       <window_info anchor="right" id="Structure" order="1" weight="0.21477428" />
       <window_info anchor="right" id="Database" order="2" />
@@ -536,7 +591,10 @@
     <MESSAGE value="adding osx_image to Travis" />
     <MESSAGE value="changed versions" />
     <MESSAGE value="lets try something else" />
-    <option name="LAST_COMMIT_MESSAGE" value="lets try something else" />
+    <MESSAGE value="Added cocoadocs settings file" />
+    <MESSAGE value="Removed trace of old schemes" />
+    <MESSAGE value="Unsharing WebHere scheme" />
+    <option name="LAST_COMMIT_MESSAGE" value="Unsharing WebHere scheme" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -558,65 +616,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebHere/WHSearchResult.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-198" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebHere/WHViewController.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebHere/WHViewController.m">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebHere/WHAppDelegate.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebHere/WHAppDelegate.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="64">
-          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/NSObject+Runtime.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488" />
-      </provider>
-    </entry>
     <entry file="file://$USER_HOME$/Library/Developer/Xcode/DerivedData/WebHere-awprzqoejxtmfudjzfusvfcevjqb/Build/Products/Debug-iphoneos/GDataXML-HTML/GDataXML_HTML.framework/Headers/GDataXML-HTML-umbrella.h">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHHTMLResponseSerializer.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="28" selection-start-line="28" selection-end-line="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+HTML.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="271">
-          <caret line="38" column="49" lean-forward="true" selection-start-line="38" selection-start-column="49" selection-end-line="38" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebHere/WHSearchRequest.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebHere/WHSearchResult.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebHere/WHSearchResponse.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="14" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$USER_HOME$/Library/Developer/Xcode/DerivedData/WebHere-awprzqoejxtmfudjzfusvfcevjqb/Build/Products/Debug-iphoneos/WebHere/WebHere.framework/Headers/WebHere.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -625,101 +626,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/WHForm_HTMLSpec.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="9" selection-start-line="29" selection-start-column="9" selection-end-line="29" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/WHHTTPRequestSpec.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="30" column="9" selection-start-line="30" selection-start-column="9" selection-end-line="30" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/WHLink_HTMLSpec.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/WHObjectSpec.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/WebHereTests.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebHere/WHSearchResponse.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" selection-start-line="9" selection-start-column="26" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHWebsite.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="42" selection-start-line="42" selection-end-line="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WebHere.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="31" column="38" selection-start-line="31" selection-start-column="38" selection-end-line="31" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHWebsite.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="495">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+Internal.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+HTML.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHHTMLResponseSerializer.h">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/WHWebsiteSpec.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="49" column="11" selection-start-line="49" selection-start-column="11" selection-end-line="49" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Tests/NSObject_RuntimeSpec.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Tests/Fixtures/WHNSObject.h">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebHere/WHSearchRequest.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="18" column="44" selection-start-line="18" selection-start-column="44" selection-end-line="18" selection-end-column="44" />
-        </state>
-      </provider>
     </entry>
     <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSException.h">
       <provider selected="true" editor-type-id="text-editor">
@@ -732,27 +640,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHObject.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="10" selection-start-line="35" selection-start-column="10" selection-end-line="35" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.m">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="111">
-          <caret line="54" column="49" lean-forward="true" selection-start-line="54" selection-start-column="49" selection-end-line="54" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-71">
-          <caret line="46" column="62" selection-start-line="46" selection-start-column="62" selection-end-line="46" selection-end-column="62" />
         </state>
       </provider>
     </entry>
@@ -783,17 +670,259 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/NSObject+Runtime.h">
+    <entry file="file://$PROJECT_DIR$/../.cocoadocs.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="32" lean-forward="true" selection-start-line="32" selection-end-line="32" />
+        <state relative-caret-position="105">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../.cocoadocs.yml">
+    <entry file="file://$PROJECT_DIR$/WebHere/WHAppDelegate.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="25" lean-forward="true" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+        <state relative-caret-position="465">
+          <caret line="31" column="47" selection-start-line="31" selection-start-column="47" selection-end-line="31" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebHere/WHAppDelegate.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-74">
+          <caret line="16" column="1" lean-forward="true" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSIndexPath.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="49">
+          <caret line="14" column="6" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebHere/WHSearchResult.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="32" column="25" selection-start-line="32" selection-start-column="25" selection-end-line="32" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebHere/WHSearchResult.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="32" column="17" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHHTMLResponseSerializer.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="87" column="32" selection-start-line="87" selection-start-column="32" selection-end-line="87" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebHere/WHSearchRequest.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="555">
+          <caret line="37" column="40" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebHere/WHViewController.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="34" column="52" selection-start-line="34" selection-start-column="52" selection-end-line="34" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/NSObject_RuntimeSpec.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="30" column="27" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/WebHereTests.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/WHHTTPRequestSpec.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1047">
+          <caret line="32" column="24" selection-start-line="32" selection-start-column="24" selection-end-line="32" selection-end-column="24" />
+          <folding>
+            <element signature="e#1189#1213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/WHObjectSpec.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-466">
+          <caret line="33" lean-forward="true" selection-start-line="33" selection-end-line="33" />
+          <folding>
+            <element signature="e#1186#1210#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/Fixtures/WHPerson.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="25" column="23" selection-start-line="25" selection-start-column="23" selection-end-line="25" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/WHWebsiteSpec.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="248" selection-start-line="248" selection-end-line="248" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/WHForm_HTMLSpec.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="466">
+          <caret line="72" column="24" selection-start-line="68" selection-end-line="77" />
+          <folding>
+            <element signature="e#1189#1213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Tests/WHLink_HTMLSpec.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="393">
+          <caret line="89" selection-start-line="89" selection-end-line="90" />
+          <folding>
+            <element signature="e#1189#1213#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebHere/WHSearchRequest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebHere/WHViewController.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="55" selection-start-line="46" selection-end-line="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebHere/WHSearchResponse.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebHere/WHSearchResponse.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="631">
+          <caret line="63" selection-start-line="45" selection-end-line="63" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/NSObject+Runtime.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="31">
+          <caret line="45" column="3" selection-start-line="45" selection-start-column="3" selection-end-line="45" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WebHere.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="27" column="17" selection-start-line="27" selection-start-column="17" selection-end-line="27" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/NSObject+Runtime.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="548">
+          <caret line="85" column="14" selection-start-line="85" selection-start-column="14" selection-end-line="85" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHHTMLResponseSerializer.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="3" lean-forward="true" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+HTML.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1500">
+          <caret line="53" column="30" selection-start-line="53" selection-start-column="30" selection-end-line="53" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+HTML.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="34" column="21" selection-start-line="34" selection-start-column="21" selection-end-line="34" selection-end-column="21" />
+          <folding>
+            <element signature="e#1194#1224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest+Internal.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHObject.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="40" lean-forward="true" selection-start-line="40" selection-end-line="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="910">
+          <caret line="121" column="16" selection-start-line="121" selection-start-column="16" selection-end-line="121" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHHTTPRequest.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="151" selection-start-line="148" selection-end-line="151" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="62" column="19" selection-start-line="62" selection-start-column="19" selection-end-line="62" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHWebsite.h">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="158" column="16" lean-forward="true" selection-start-line="158" selection-start-column="16" selection-end-line="158" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../WebHere/Classes/WHWebsite.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="137" column="29" lean-forward="true" selection-start-line="137" selection-start-column="29" selection-end-line="137" selection-end-column="29" />
+          <folding>
+            <element signature="e#1183#1217#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

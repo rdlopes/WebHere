@@ -84,6 +84,7 @@ SpecBegin(WHLink_HTML)
         });
 
         it(@"Maps link with anchor and image", ^{
+            NSLog(@"HTML parsed: %@", personAnchorWithAllAttributes);
             html = (GDataXMLDocument *)[[GDataXMLDocument alloc] initWithHTMLString:personAnchorWithAllAttributes error:&error];
             expect(error).to.beNil();
             link = [WHLink linkWithHTML:html atXPath:@"//a" fromRequest:nil target:[WHPerson class] error:&error];
@@ -94,6 +95,7 @@ SpecBegin(WHLink_HTML)
         });
         
         it(@"Maps link with naked anchor", ^{
+            NSLog(@"HTML parsed: %@", personAnchorWithText);
             html = (GDataXMLDocument *)[[GDataXMLDocument alloc] initWithHTMLString:personAnchorWithText error:&error];
             expect(error).to.beNil();
             link = [WHLink linkWithHTML:html atXPath:@"//a" fromRequest:nil target:[WHPerson class] error:&error];
@@ -104,6 +106,7 @@ SpecBegin(WHLink_HTML)
         });
         
         it(@"Sets link label from text", ^{
+            NSLog(@"HTML parsed: %@", personAnchorWithText);
             html = (GDataXMLDocument *) [[GDataXMLDocument alloc] initWithHTMLString:personAnchorWithText error:&error];
             expect(error).to.beNil();
             link = [WHLink linkWithHTML:html atXPath:@"//a" fromRequest:nil target:[WHPerson class] error:&error];
@@ -112,6 +115,7 @@ SpecBegin(WHLink_HTML)
         });
         
         it(@"Sets link label from title", ^{
+            NSLog(@"HTML parsed: %@", personAnchorWithTitle);
             html = (GDataXMLDocument *) [[GDataXMLDocument alloc] initWithHTMLString:personAnchorWithTitle error:&error];
             expect(error).to.beNil();
             link = [WHLink linkWithHTML:html atXPath:@"//a" fromRequest:nil target:[WHPerson class] error:&error];
@@ -120,6 +124,7 @@ SpecBegin(WHLink_HTML)
         });
         
         it(@"Sets link label from img alt", ^{
+            NSLog(@"HTML parsed: %@", personAnchorWithImgAlt);
             html = (GDataXMLDocument *) [[GDataXMLDocument alloc] initWithHTMLString:personAnchorWithImgAlt error:&error];
             expect(error).to.beNil();
             link = [WHLink linkWithHTML:html atXPath:@"//a" fromRequest:nil target:[WHPerson class] error:&error];
@@ -128,6 +133,7 @@ SpecBegin(WHLink_HTML)
         });
         
         it(@"Sets link label from text first", ^{
+            NSLog(@"HTML parsed: %@", personAnchorWithAllAttributes);
             html = (GDataXMLDocument *) [[GDataXMLDocument alloc] initWithHTMLString:personAnchorWithAllAttributes error:&error];
             expect(error).to.beNil();
             link = [WHLink linkWithHTML:html atXPath:@"//a" fromRequest:nil target:[WHPerson class] error:&error];
@@ -136,6 +142,7 @@ SpecBegin(WHLink_HTML)
         });
         
         it(@"Sets link label from title first when no text", ^{
+            NSLog(@"HTML parsed: %@", personAnchorWithImgAltAndTitle);
             html = (GDataXMLDocument *) [[GDataXMLDocument alloc] initWithHTMLString:personAnchorWithImgAltAndTitle error:&error];
             expect(error).to.beNil();
             link = [WHLink linkWithHTML:html atXPath:@"//a" fromRequest:nil target:[WHPerson class] error:&error];
