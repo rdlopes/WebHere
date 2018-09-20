@@ -33,12 +33,33 @@
 @class WHHTTPRequest;
 @class GDataXMLDocument;
 
+/**
+ WHObject defines a protocol that needs to be implemented by all possible targets. This defines how an HTML document
+ can be parsed to be turned into a WHObject by parsing its content.
+ */
 @protocol WHObject <NSObject>
 
+/**
+ Tells whether this object can be parsed from the HTML it receives, issued by the passed request.
+
+ @param html the HTML to test
+ @param request the request issued to the website.
+ */
 @optional
 + (BOOL)matches:(GDataXMLDocument *)html
     fromRequest:(WHHTTPRequest *)request;
 
+/**
+ Performs the actual parsing of the HTML document into the final form of this object.
+ A developer needs to implement that method in order to inject the desired properties into its target object.
+ You can use CSS selectors and various parsing methods found in the GDataXML-HTML library.
+
+ @param html the HTML to test
+ @param request the request issued to the website.
+
+ @see [GDataXMLNode](http://cocoadocs.org/docsets/GDataXML-HTML/1.3.0/Classes/GDataXMLNode.html)
+ @see [GDataXMLDocument](http://cocoadocs.org/docsets/GDataXML-HTML/1.3.0/Classes/GDataXMLDocument.html)
+ */
 @required
 - (void)buildFromHTML:(GDataXMLDocument *)html
           fromRequest:(WHHTTPRequest *)request

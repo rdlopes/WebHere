@@ -32,6 +32,9 @@
 #import <Foundation/Foundation.h>
 #import "WHHTTPRequest.h"
 
+/**
+ WHHTTPRequest extension internal to WebHere.
+ */
 @interface WHHTTPRequest (Internal)
 
 @property (nonatomic, weak) NSURLSessionDataTask *dataTask;

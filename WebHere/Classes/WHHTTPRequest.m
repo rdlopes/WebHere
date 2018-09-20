@@ -52,7 +52,7 @@ NSString *const kWHHTTPRequestRetryCount = @"kWHHTTPRequestRetryCount";
     _userInfo[kWHHTTPRequestRetryCount] = @(retryCount);
 }
 
-- (instancetype)initWithPath:(NSString *)path target:(Class)target {
+- (instancetype)initWithPath:(NSString *)path target:(Class<WHObject>)target {
     NSParameterAssert(path);
     NSParameterAssert(target);
 
@@ -71,7 +71,7 @@ NSString *const kWHHTTPRequestRetryCount = @"kWHHTTPRequestRetryCount";
 }
 
 + (instancetype)requestWithPath:(NSString *)path
-                         target:(Class)target {
+                         target:(Class<WHObject>)target {
     return [[self alloc] initWithPath:path target:target];
 }
 
@@ -105,7 +105,7 @@ NSString *const kWHHTTPRequestRetryCount = @"kWHHTTPRequestRetryCount";
 
 @implementation WHLink
 
-+ (instancetype)linkWithPath:(NSString *)path target:(Class)target {
++ (instancetype)linkWithPath:(NSString *)path target:(Class<WHObject>)target {
     WHLink *link = [[self alloc] initWithPath:path target:target];
     return link;
 }
@@ -114,7 +114,7 @@ NSString *const kWHHTTPRequestRetryCount = @"kWHHTTPRequestRetryCount";
 
 @implementation WHForm
 
-+ (instancetype)formWithPath:(NSString *)path target:(Class)target {
++ (instancetype)formWithPath:(NSString *)path target:(Class<WHObject>)target {
     WHForm *form = [[self alloc] initWithPath:path target:target];
     if (form) {
         form.HTTPMethod = @"POST";

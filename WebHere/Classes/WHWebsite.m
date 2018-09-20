@@ -120,8 +120,7 @@ NSInteger const WHWebsiteObjectBuildingFailureErrorCode = -3000;
 }
 
 - (void)send:(WHHTTPRequest *)request
-     success:(void (^)(WHHTTPRequest *sentRequestOnSuccess,
-             id <WHObject> responseObject))success
+     success:(void (^)(WHHTTPRequest *sentRequestOnSuccess, id <WHObject> responseObject))success
      failure:(void (^)(WHHTTPRequest *sentRequestOnError, NSError *error))failure {
 
     NSError *serializationError = nil;

@@ -29,6 +29,12 @@
 
 #import "AFURLResponseSerialization.h"
 
+/**
+ WHHTMLResponseSerializer is the AFNetworking implementation of a response serializer.
+ It's used to receive the HTML response body, parse it and inject the parsed values into the WHObject defined as a target.
+
+ @see [AFHTTPResponseSerializer](http://cocoadocs.org/docsets/AFNetworking/3.1.0/Protocols/AFURLResponseSerialization.html)
+ */
 @interface WHHTMLResponseSerializer : AFHTTPResponseSerializer
 
 @end
